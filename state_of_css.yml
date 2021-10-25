@@ -45,6 +45,11 @@ translations:
     - key: sections.animations_transforms.description
       t: 要素のアニメーションや変形。
 
+    - key: sections.accessibility.title
+      t: Accessibility
+    - key: sections.accessibility.description
+      t: Accessibility features and techniques. 
+
     - key: sections.media_queries.title
       t: メディアクエリー
     - key: sections.media_queries.description
@@ -102,11 +107,6 @@ translations:
     - key: sections.environments.description
       t: どんな環境に向けてCSSを書いているか。
 
-    - key: sections.awards.title
-      t: アワード
-    - key: sections.awards.description
-      t: 今年注目を集めたものに贈られます。
-
     ###########################################################################
     # Options
     ###########################################################################
@@ -153,6 +153,58 @@ translations:
     - key: options.css_for_email.3.short
       t: 専業
 
+    # what do you use CSS for?
+    - key: options.what_do_you_use_css_for.marketing_sites
+      t: Marketing sites & landing pages
+    - key: options.what_do_you_use_css_for.design_systems
+      t: Design systems
+    - key: options.what_do_you_use_css_for.blogs
+      t: Blogs or other text-heavy sites
+    - key: options.what_do_you_use_css_for.web_apps
+      t: Web apps
+    - key: options.what_do_you_use_css_for.mobile_apps
+      t: Mobile apps
+    - key: options.what_do_you_use_css_for.css_art
+      t: CSS art & illustrations
+    - key: options.what_do_you_use_css_for.emails
+      t: Emails
+    - key: options.what_do_you_use_css_for.printed_documents
+      t: Printed documents
+
+    # CSS pain points
+    - key: options.css_pain_points.browser_interoperability
+      t: Browser Compatibility
+    - key: options.css_pain_points.browser_interoperability.description
+      t: Differences between Chrome, Safari, Firefox, etc.
+    - key: options.css_pain_points.interactions
+      t: Interactions
+    - key: options.css_pain_points.interactions.description
+      t: Responding to user input or other events (scroll, hover, etc.). 
+    - key: options.css_pain_points.architecture
+      t: Architecture & Maintenance
+    - key: options.css_pain_points.architecture.description
+      t: File organization, dead code elimination, refactoring, etc.
+    - key: options.css_pain_points.layout_positioning
+      t: Layout & Positioning
+    - key: options.css_pain_points.layout_positioning.description
+      t: Setting up layouts and making sure elements go where you want them to. 
+    - key: options.css_pain_points.scoping_specificity
+      t: Scoping & Specificity
+    - key: options.css_pain_points.scoping_specificity.description
+      t: Dealing with the cascade, overriding styles, etc.
+    - key: options.css_pain_points.responsive_design
+      t: Responsive Design
+    - key: options.css_pain_points.responsive_design.description
+      t: Adapting layouts and designs for different form factors. 
+    - key: options.css_pain_points.form_elements_styling
+      t: Form Elements Styling
+    - key: options.css_pain_points.form_elements_styling.description
+      t: Customizing how form elements look and behave. 
+    - key: options.css_pain_points.performance_issues
+      t: Performance Issues 
+    - key: options.css_pain_points.performance_issues.description
+      t: Dealing with scrolling jank, making animations smoother, etc. 
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -183,6 +235,16 @@ translations:
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
+    - key: features.flexbox_gap
+      t: Gap property for flexbox
+    - key: features.break_rules
+      t: Break rules
+    - key: features.break_rules.description
+      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
+    - key: features.at_container
+      t: Container Queries
+    - key: features.at_container.description
+      t: <code>@container</code> query
 
     # shapes & graphics
     - key: features.shapes
@@ -202,6 +264,20 @@ translations:
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
 
+    - key: features.intrinsic_sizing
+      t: Intrinsic Sizing
+    - key: features.intrinsic_sizing.description
+      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
+    - key: features.repeating_linear_gradient
+      t: <code>repeating-linear-gradient()</code>
+    - key: features.conic_gradient
+      t: <code>conic-gradient()</code>
+    - key: features.color_function
+      t: <code>color()</code>
+
+    - key: features.accent_color
+      t: <code>accent-color</code>
+
     # interactions
     - key: features.scroll_snap
       t: CSS Scroll Snap
@@ -213,6 +289,8 @@ translations:
       t: <code>touch-action</code>
     - key: features.pointer_events
       t: <code>pointer-events</code>
+    - key: features.scroll_timeline
+      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -260,6 +338,24 @@ translations:
     - key: features.color_gamut
       t: <code>color-gamut</code>
 
+    - key: features.prefers_reduced_data
+      t: <code>prefers-reduced-data</code>
+    - key: features.tabindex
+      t: <code>tabindex</code> HTML attribute
+    - key: features.tabindex.description
+      t: <code>&lt;div tabindex="0"&gt;</code>
+
+    - key: features.color_contrast
+      t: <code>color-contrast()</code>
+
+    - key: features.color_scheme
+      t: <code>color-scheme</code>
+
+    - key: features.aria_attributes
+      t: ARIA HTML Attributes
+    - key: features.aria_attributes.description
+      t: <code>role</code>, <code>aria-label</code>, etc.
+
     # other features
     - key: features.variables
       t: CSS Variables (カスタムプロパティ)
@@ -276,11 +372,50 @@ translations:
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, <code>clamp()</code>
 
-    # knowledge score
-    - key: features.knowledge_score
-      t: 知識の度合い
-    - key: features.knowledge_score.description
-      t: アンケートで取り上げたCSSの機能を回答者がどのくらい知っていたか。
+    - key: features.at_property
+      t: Houdini Custom Properties
+    - key: features.at_property.description
+      t: <code>@property</code>
+    - key: features.at_layer
+      t: <code>@layer</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+    - key: features.marker
+      t: <code>::marker</code> pseudo-element
+
+    # missing features
+    - key: features.nesting
+      t: Nesting
+    - key: features.nesting.description
+      t: Being able to nest styles in native CSS. 
+    - key: features.parent_selector
+      t: Parent Selector
+    - key: features.parent_selector.description
+      t: The ability to target a parent element based on its children.
+    - key: features.browser_support
+      t: Browser Support
+    - key: features.browser_support.description
+      t: Better browser support for existing features.
+    - key: features.mixins
+      t: Mixins
+    - key: features.mixins.description
+      t: Group and reuse definitions dynamically.  
+    - key: features.color_functions
+      t: Color Functions
+    - key: features.color_functions.description
+      t: Functions for manipulating color values. 
+    - key: features.container_queries
+      t: Container Queries
+    - key: features.container_queries.description
+      t: Being able to write styles based on the parent container's dimensions.
+    - key: features.scoping
+      t: Scoping
+    - key: features.scoping.description
+      t: The ability to be more specific about where your styles are applied. 
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.subgrid.description
+      t: Nesting deeper-level subgrids into a parent grid. 
       
     ###########################################################################
     # Units & Selectors
@@ -480,6 +615,15 @@ translations:
     - key: environments.form_factors.description
       t: どんなデバイスでテストしているか。
 
+    - key: environments.accessibility_features
+      t: Accessibility Features
+    - key: environments.accessibility_features.description
+      t: Which accessibility features do you usually implement?
+    - key: environments.accessibility_features.others
+      t: Other Accessibility Features
+    - key: environments.accessibility_features.others
+      t: Other accessibility features you usually implement
+
     - key: environments.css_for_print
       t: 印刷用スタイル
     - key: environments.css_for_print.description
@@ -490,10 +634,22 @@ translations:
     - key: environments.css_for_email.description
       t: メール用のCSSを書いているか。
 
+    - key: environments.what_do_you_use_css_for
+      t: What do you mainly use CSS for?
+    - key: environments.what_do_you_use_css_for.description
+      t: What kind of project do you usually use CSS for?
+    - key: environments.what_do_you_use_css_for.others
+      t: Other kinds of projects
+
     - key: charts.axis_legends.css_for_print
       t: 頻度
     - key: charts.axis_legends.css_for_email
       t: 頻度
+
+    - key: tools_others.tool_evaluation
+      t: Library Evaluation
+    - key: tools_others.tool_evaluation.description
+      t: For each matchup, pick the factor you prioritize when evaluating a new library.
 
     ###########################################################################
     # Opinions
@@ -529,6 +685,27 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: 楽しさ
 
+    # Browser interoperability question
+    - key: opinions_others.browser_interoperability_features.others
+      t: Browser Incompatibilities
+    - key: opinions_others.browser_interoperability_features.others.description
+      t: >
+        Are there any CSS features you have difficulties using 
+        because of differences between browsers?
+    # Pain Points
+    - key: opinions.css_pain_points
+      t: CSS Pain Points
+    - key: opinions.css_pain_points.description
+      t: For each matchup, pick the aspect of CSS you struggle with the most.
+
+    - key: opinions_others.css_pain_points.others
+      t: Other CSS Pain Points
+
+    # Missing Features
+    - key: opinions.currently_missing_from_css
+      t: What do you feel is currently missing from CSS?
+    - key: opinions.currently_missing_from_css.description
+      t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
     - key: opinions_others.currently_missing_from_css.others
       t: CSSにいま足りないものは何か。
     - key: opinions_others.currently_missing_from_css.others.description
@@ -547,3 +724,12 @@ translations:
 
     - key: happiness.state_of_css
       t: CSSの現状に満足しているか。
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps
+      t: First Steps With CSS
+    - key: resources.first_steps.description
+      t: When first starting out, how did you initially learn CSS?
