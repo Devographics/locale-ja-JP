@@ -24,9 +24,15 @@ translations:
     - key: general.survey_read_only
       t: >
           アンケートを読み込み専用モードで見ています。
+    - key: general.survey_preview
+      t: >
+          This survey is in preview mode. Its questions are subject to change, and all 
+          inputted data will be deleted when the actual survey starts. 
     - key: general.survey_read_only_back
       t: >
           <a href="{link}">メインページへ戻る</a>。アンケートへの回答や、回答中のアンケートを再開できます。
+    - key: general.take_survey
+      t: Take the {name} {year} survey
 
     # surveys
     - key: general.open_surveys
@@ -35,7 +41,7 @@ translations:
       t: 実施中のアンケートはありません。
     - key: general.closed_surveys
       t: 終了したアンケート
-    - key: general.no_open_surveys
+    - key: general.no_closed_surveys
       t: 終了したアンケートはありません。
     - key: general.preview_surveys
       t: アンケートのプレビュー
@@ -51,6 +57,10 @@ translations:
       t: アンケートの回答をプレビュー »
     - key: general.finish_survey
       t: アンケートを終了する »
+    - key: general.next_section
+      t: Next section
+    - key: general.prev_section
+      t: Previous section
     - key: general.survey_closed
       t: このアンケートは終了しました。
     - key: general.survey_results
@@ -63,6 +73,22 @@ translations:
       t: 翻訳者
     - key: general.translation_help
       t: 翻訳協力
+    - key: general.newly_added
+      t: Newly added this year
+
+    # credits
+    - key: credits.thanks
+      t: Special Thanks
+    - key: credits.accessibility
+      t: Accessibility Consulting
+    - key: credits.survey_design
+      t: Survey Design
+    - key: credits.logo_design
+      t: Logo Design
+
+    # support
+    - key: general.support_from
+      t: With Support From
 
     # footer
     - key: general.privacy_policy
@@ -80,6 +106,14 @@ translations:
           注：すべての質問は任意です。100%にする必要はありません。
     - key: general.data_is_saved
       t: あなたのデータはセクションの移動時に保存されます。
+    - key: general.close_nav
+      t: Close menu
+    - key: general.open_nav
+      t: Open menu
+    - key: general.more_actions
+      t: More actions
+    - key: general.skip_to_content
+      t: Skip to content
 
     # thanks
     - key: general.back
@@ -114,6 +148,8 @@ translations:
     # forms
     - key: forms.select_option
       t: Select option
+    - key: forms.clear_field
+      t: Clear question
 
     # partners
     - key: partners.our_partners
@@ -284,6 +320,24 @@ translations:
       t: 同意する
     - key: options.opinions.4
       t: とても同意する
+
+    # age
+    - key: options.age.range_less_than_10
+      t: Under 10 years old
+    - key: options.age.range_10_18
+      t: 10-18 years old
+    - key: options.age.range_18_24
+      t: 18-24 years old
+    - key: options.age.range_25_34
+      t: 24-34 years old
+    - key: options.age.range_35_44
+      t: 35-44 years old
+    - key: options.age.range_45_54
+      t: 45-54 years old
+    - key: options.age.range_55_64
+      t: 55-64 years old
+    - key: options.age.range_more_than_65
+      t: 65 years or older
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -457,14 +511,18 @@ translations:
       t: 男性
     - key: options.gender.non_binary
       t: ノンバイナリー・サードジェンダー
-    - key: options.gender.prefer_not_to_say
-      t: 答えたくない
+    - key: options.gender.questioning
+      t: Questioning
+    - key: options.gender.not_listed
+      t: Not Listed
 
     # Race & Ethnicity
     - key: options.race_ethnicity.white_european
       t: 白人・ヨーロッパ系
     - key: options.race_ethnicity.south_asian
       t: 東南アジア系
+    - key: options.race_ethnicity.south_east_asian
+      t: South East Asian
     - key: options.race_ethnicity.hispanic_latin
       t: ヒスパニック・ラテン系
     - key: options.race_ethnicity.east_asian
@@ -479,10 +537,31 @@ translations:
       t: バイレイシャル
     - key: options.race_ethnicity.native_american_islander_australian
       t: ネイティブアメリカン、太平洋諸島系、オーストラリア先住民
+    - key: options.race_ethnicity.not_listed
+      t: Not listed
+
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: >
+        Visual impairments (such as: blindness, color blindness, etc.)
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Hearing impairments (such as: deafness, tinnitus, etc.)
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Cognitive impairments (such as: anxiety, dyslexia, etc.)
+    - key: options.disability_status.not_listed
+      t: >
+        Not Listed
 
     # Form Factors
     - key: options.form_factors.desktop
       t: デスクトップ
+    - key: options.form_factors.keyboard_only
+      t: Desktop with keyboard only
     - key: options.form_factors.smartphone
       t: スマートフォン
     - key: options.form_factors.feature_phone
@@ -499,6 +578,10 @@ translations:
       t: スクリーンリーダー
     - key: options.form_factors.print
       t: 印刷
+    - key: options.form_factors.testing_tools
+      t: Testing Tools (Axe, Lighthouse, etc.)
+    - key: options.form_factors.vision_simulator
+      t: Altered Vision Simulator (color blindness, etc.)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
@@ -525,6 +608,118 @@ translations:
       t: エンターテインメント
     - key: options.industry_sector.consulting
       t: コンサルティング・サービス業
+    - key: options.industry_sector.travel
+      t: Travel
+    - key: options.industry_sector.insurance
+      t: Insurance
+    - key: options.industry_sector.logistics
+      t: Logistics
+    - key: options.industry_sector.energy
+      t: Energy
+    - key: options.industry_sector.telecommunications
+      t: Telecommunications
+    - key: options.industry_sector.student
+      t: Student
+    - key: options.industry_sector.hospitality
+      t: Hospitality
+    - key: options.industry_sector.cyber_security
+      t: Cyber Security
+    - key: options.industry_sector.construction
+      t: Construction
+    - key: options.industry_sector.automotive
+      t: Automotive
+    - key: options.industry_sector.agriculture
+      t: Agriculture
+    - key: options.industry_sector.transport
+      t: Transport
+    - key: options.industry_sector.manufacturing
+      t: Manufacturing
+
+    # tool evaluation
+    - key: options.tool_evaluation.learning_curve_documentation
+      t: Documentation
+    - key: options.tool_evaluation.learning_curve_documentation.description
+      t: Is it easy to learn and/or well-documented?
+    - key: options.tool_evaluation.momentum_popularity
+      t: Hype & Momentum
+    - key: options.tool_evaluation.momentum_popularity.description
+      t: Is it currently generating a lot of buzz?
+    - key: options.tool_evaluation.user_base_size
+      t: User Base Size
+    - key: options.tool_evaluation.user_base_size.description
+      t: Is it a well-established option with a long track record?
+    - key: options.tool_evaluation.developer_experience_tooling
+      t: Developer Experience
+    - key: options.tool_evaluation.developer_experience_tooling.description
+      t: Does it have good developer tools, a large plugin ecosystem, etc.?
+    - key: options.tool_evaluation.performance_user_experience
+      t: User Experience
+    - key: options.tool_evaluation.performance_user_experience.description
+      t: Does it help you create smooth, performant user experiences?
+    - key: options.tool_evaluation.creator_team
+      t: Creator & Team
+    - key: options.tool_evaluation.creator_team.description
+      t: Is it backed by a well-known, well-funded, or experienced team?
+    - key: options.tool_evaluation.accessibility_features
+      t: Accessibility Features
+    - key: options.tool_evaluation.accessibility_features.description
+      t: Is it good at creating accessible experiences for all users?
+    - key: options.tool_evaluation.community_inclusivity
+      t: Community & Inclusivity
+    - key: options.tool_evaluation.community_inclusivity.description
+      t: Does it have a welcoming, vibrant community built around it?
+
+
+
+    # accessibility features
+    - key: options.accessibility_features.keyboard_navigation
+      t: Keyboard navigation
+    - key: options.accessibility_features.compliant_contrast
+      t: WCAG-compliant contrast
+    - key: options.accessibility_features.focus_indicators
+      t: Focus indicators
+    - key: options.accessibility_features.skip_to_content_link
+      t: Skip-to-content link
+    - key: options.accessibility_features.color_themes
+      t: Color themes (dark mode, high-contrast mode, etc.)
+    - key: options.accessibility_features.prefers_reduced_motion
+      t: Prefers-reduced-motion
+    - key: options.accessibility_features.alt_text
+      t: Alt texts
+    - key: options.accessibility_features.semantic_markup
+      t: Semantic markup
+    - key: options.accessibility_features.aria_attributes
+      t: ARIA HTML attributes
+
+    # learning methods
+    - key: options.first_steps.books
+      t: Books
+    - key: options.first_steps.videos
+      t: Videos & screencasts
+    - key: options.first_steps.school
+      t: School & higher education
+    - key: options.first_steps.courses_free
+      t: Online courses (free)
+    - key: options.first_steps.courses_paid
+      t: Online courses (paid)
+    - key: options.first_steps.podcasts
+      t: Podcasts
+    - key: options.first_steps.bootcamp
+      t: Coding bootcamp
+    - key: options.first_steps.on_the_job
+      t: On-the-job training
+    - key: options.first_steps.self_directed
+      t: Self-directed learning (Google, Stack Overflow, etc.)
+    - key: options.first_steps.mentoring
+      t: Mentoring
+
+    # degree
+    - key: options.higher_education_degree.no_degree
+      t: No
+    - key: options.higher_education_degree.yes_related
+      t: Yes, in a field related to my current profession
+    - key: options.higher_education_degree.yes_unrelated
+      t: Yes, but in a field unrelated to my current profession
 
     ###########################################################################
     # Tools
@@ -543,6 +738,10 @@ translations:
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
+
+    # age
+    - key: user_info.age
+      t: Age
 
     # years of experience
     - key: user_info.years_of_experience
@@ -589,10 +788,26 @@ translations:
     # gender
     - key: user_info.gender
       t: ジェンダー
+    - key: user_info.gender.description
+      t: >
+        We use this data to help track and improve the survey's representativeness. 
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
       t: 人種・民族
+    - key: user_info.race_ethnicity.description
+      t: >
+        We use this data to help track and improve the survey's representativeness. 
+
+    # disability status
+    - key: user_info.disability_status
+      t: Disability Status
+    - key: user_info.disability_status.description
+      t: >
+        We use this data to help track and improve the survey's accessibility and representativeness. 
+    # disability status (other)
+    - key: user_info.disability_status.others
+      t: Other Disabilities
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
@@ -601,11 +816,21 @@ translations:
       t: メールアドレス
     - key: user_info.country
       t: 居住国・居住地
+
     - key: user_info.github_username
       t: GitHubのユーザー名
     - key: user_info.github_username.description
       t: >
         今後、レポジトリやそのほかの公開情報を組み合わせるため、GitHubのユーザー名を使うかもしれません。
+      
+    - key: user_info.twitter_username
+      t: Your Twitter Username
+    - key: user_info.twitter_username.description
+      t: >
+        We might use Twitter usernames in the future to look at
+        Twitter activity and cross-reference publicly available information
+         (such as the list of people you're following).
+
     - key: user_info.industry_sector
       t: 業種
     - key: user_info.industry_sector.description
@@ -614,6 +839,12 @@ translations:
       t: そのほかの業種
     - key: user_info.industry_sector.others.description
       t: 上記のリストにない場合は、書いてください。
+
+    # degree
+    - key: user_info.higher_education_degree
+      t: Higher Education Degree
+    - key: user_info.higher_education_degree.description
+      t: Do you have a higher education degree?
 
     ###########################################################################
     # Other Tools
@@ -677,6 +908,16 @@ translations:
     # Resources
     ###########################################################################
 
+    # learning method
+    - key: resources.first_steps
+      t: First Learning Methods
+    - key: resources.first_steps.description
+      t: When first starting out, how did you initially learn coding?
+    - key: resources.first_steps.others
+      t: Other First Learning Methods
+    - key: resources.first_steps.others.description
+      t: Other answers (freeform field).
+
     # blogs & magazines
     - key: resources.blogs_news_magazines
       t: ブログ・マガジン
@@ -706,3 +947,19 @@ translations:
       t: そのほかのポッドキャスト
     - key: resources.podcasts.others.description
       t: そのほかの回答（自由入力欄）。
+
+    # people
+    - key: resources.people
+      t: People
+    - key: resources.people.description
+      t: People you read, follow, or just want to highlight.
+    # - key: resources.people.others
+    #   t: Other People
+    # - key: resources.people.others.description
+    #   t: Other answers (freeform field).
+    - key: resources.people.others
+      t: People
+    - key: resources.people.others.description
+      t: >
+        People you read, follow, or just want to highlight for their work 
+        (freeform field, comma-separated names).
