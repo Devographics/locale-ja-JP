@@ -26,9 +26,9 @@ translations:
       t: どうやって画面に要素を配置しますか？
 
     - key: sections.shapes_graphics.title
-      t: シェイプ＆グラフィクス
+      t: シェイプ＆グラフィックス
     - key: sections.shapes_graphics.description
-      t: 要素の形と表示を制御する。
+      t: 要素の形状と表示を制御する。
 
     - key: sections.interactions.title
       t: インタラクション
@@ -61,12 +61,12 @@ translations:
       t: 単位とセレクタの知識をテストします。
 
     - key: sections.pre_post_processors.title
-      t: プリプロセサ・ポストプロセサ
+      t: プリプロセッサ・ポストプロセッサ
     - key: sections.pre_post_processors.description
       t: CSSを拡張するユーティリティ。
 
     - key: sections.pre_post_processors_others.title
-      t: そのほかのプリプロセサ・ポストプロセサ
+      t: そのほかのプリプロセッサ・ポストプロセッサ
 
     - key: sections.css_frameworks.title
       t: CSSフレームワーク
@@ -176,7 +176,7 @@ translations:
     - key: features.position_sticky
       t: '<code>position: sticky</code>'
     - key: features.logical_properties
-      t: Logical Properties
+      t: 論理プロパティ
     - key: features.logical_properties.description
       t: <code>margin-block-start</code>, <code>padding-inline-end</code>など
     - key: features.aspect_ratio
@@ -194,9 +194,9 @@ translations:
     - key: features.masks
       t: CSS Masks
     - key: features.blend_modes
-      t: Blend Modes
+      t: ブレンドモード
     - key: features.blend_modes.description
-      t: <code>mix-blend-mode</code>
+      t: <code>mix-blend-mode</code>プロパティ
     - key: features.filter_effects
       t: CSS Filter Effects
     - key: features.backdrop_filter
