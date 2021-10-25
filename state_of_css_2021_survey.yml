@@ -1,4 +1,4 @@
-locale: en-US
+locale: ja-JP
 namespace: css
 translations:
     ###########################################################################
@@ -7,11 +7,10 @@ translations:
 
     - key: general.survey_intro_css2021
       t: >
-          Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
-          intrinsic sizing? And `@property` too?! Wow, you've been busy!
+          最近のCSSはどうなっているんでしょう？
+          えっ、`@container`？intrinsic sizing？それに`@property`も？
+          すごい、たくさんありますね！
 
 
-          Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
-          dedicated contributors around the world managed to keep CSS moving forward. 
-          And so once more it's time to survey the CSS ecosystem and figure out
-          where this is all going. And maybe learn about a few new things while you're at it!
+          2021年もずっと、パンデミックは私たちを苦しめ続けました。しかしそんな中でも、頑張っている人たちがおり、CSSは前に進んできました。
+          なので今年も、CSSのエコシステムがどう変わっているのかを確かめるべくアンケートを行います。回答するなかで、新たな発見があるかもしれませんよ！
