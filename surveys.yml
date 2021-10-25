@@ -16,37 +16,37 @@ translations:
     - key: general.faq
       t: FAQ
     - key: faq.create_account
-      t: Why do I need to create an account?
+      t: アカウントを作る必要はありますか？
     - key: faq.create_account.description
-      t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+      t: 重複回答を避けるため、またあなたの回答データを保存するため、そして結果が公開されたときにあなたに伝えられるよう、アカウントの作成をお願いしています。
     - key: faq.anonymous_survey
-      t: Can I take the survey anonymously?
+      t: 匿名での回答はできますか？
     - key: faq.anonymous_survey.description
-      t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access. 
+      t: はい。偽のメールアドレス（something@example.com）や、個人を特定しないメールアドレスを利用すれば可能です。アドレスが分かってさえいれば、回答を保持できます。
     - key: faq.questions_required
-      t: Is answering every question required?
+      t: 全部の質問に答えないといけませんか？
     - key: faq.questions_required.description
-      t: No, every question of the survey is optional and can freely be skipped. 
+      t: すべての回答は任意になっているので、飛ばすこともできます。
     - key: faq.data_published
-      t: Will my data be made public?
+      t: 私のデータは公開されますか？
     - key: faq.data_published.description
-      t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+      t: はい。基本的にすべてのデータが公開されますが、個人を特定可能な情報（メールアドレス、ユーザー名、IDなど）は省かれます。
     - key: faq.survey_design
-      t: How are the surveys designed?
+      t: 設問はどうやって作られましたか？
     - key: faq.survey_design.description
-      t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
+      t: アンケートの設問はコミュニティからフィードバックや、エキスパートのレビューを経て作られています。[詳細はこちら](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)
     - key: faq.results_released
-      t: When will the results be released?
+      t: 結果はいつ公開されますか？
     - key: faq.results_released.description
-      t: Results are generally released a few weeks after the survey closes.
+      t: 基本的にはアンケート期間終了後、数週間で公開しています。
     - key: faq.survey_deadline
-      t: When will the survey close?
+      t: 回答期限はいつまでですか？
     - key: faq.survey_deadline.description
-      t: This survey is scheduled to run until {date}
+      t: このアンケートは {date} まで実施しています。
     - key: faq.team
-      t: Who runs these surveys?
+      t: このアンケートは誰が行っていますか？
     - key: faq.team.description
-      t: Surveys are primarily run by [me](http://sachagreif.com) in collaboration with contributors, translators, and volunteers. 
+      t: アンケートは[私](http://sachagreif.com)を中心に、コントリビュータや翻訳者、ボランティアの協力のもと行っています。
 
     ###########################################################################
     # Form Controls
