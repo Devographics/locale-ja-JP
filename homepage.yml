@@ -13,8 +13,6 @@ translations:
 
     - key: homepage.made_by
       t: '「The State of CSS」を作ったのは:'
-    - key: homepage.leave_issue
-      t: イシューを残す
 
     - key: homepage.previous_years
       t: 'これまでのアンケート:'
