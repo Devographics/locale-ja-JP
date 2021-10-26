@@ -7,7 +7,7 @@ translations:
     - key: general.no_preview_surveys
       t: 表示できるアンケートはありません
     - key: general.global_nav
-      t: Global
+      t: グローバル
 
     ###########################################################################
     # FAQ
@@ -55,18 +55,18 @@ translations:
     - key: bracket.vs
       t: VS
     - key: bracket.start_over
-      t: Start Over
+      t: 最初からやり直す
     - key: bracket.winner
       t: >
-      Winner: 
+      勝者： 
     - key: bracket.round
-      t: Round
+      t: ラウンド
     - key: bracket.empty_bracket
-      t: Pending result (complete the previous round first)
+      t: 結果待ち（前のラウンドを完了してください）
     - key: bracket.result
-      t: Result
+      t: 結果
     - key: bracket.cancel
-      t: Cancel
+      t: キャンセル
 
 
     ###########################################################################
@@ -75,25 +75,22 @@ translations:
 
     - key: user_info.gender.description
       t: >
-        Which of the following describe you, if any?
+        次の選択肢のうち、あなたを表しているものはどれですか。
 
 
-        We use this data to help track and improve the survey's inclusivity
-        and representativeness. Like every other question, it is entirely optional. 
+        回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。ほかの質問と同じく、この質問への回答は任意です。
 
     - key: user_info.race_ethnicity.description
       t: >
-        Which of the following describe you, if any? Please check all that apply.
-        
+        次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
 
-        We use this data to help track and improve the survey's inclusivity
-        and representativeness. Like every other question, it is entirely optional. 
+
+        回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。ほかの質問と同じく、この質問への回答は任意です。
 
     - key: user_info.disability_status.description
       t: >
-        Which of the following describe you, if any? Please check all that apply. 
-        Note that this can include temporary disabilities or injuries. 
-        
+        次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
+        選択肢の状態は、一時的な障害やけがも含まれます。
 
-        We use this data to help track and improve the survey's accessibility
-        and representativeness. Like every other question, it is entirely optional. 
+
+        回答されたデータはアンケートのアクセシビリティや代表性の変化を調査し、またそれらの改善のために使われます。ほかの質問と同じく、この質問への回答は任意です。
