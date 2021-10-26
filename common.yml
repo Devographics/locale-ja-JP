@@ -11,13 +11,13 @@ translations:
       t: >
           以下の理由からアカウントの作成をお願いしています。
 
-          - 回答の重複を避けたい
+          - 回答の重複を避けるため
 
-          - あなたが自身のデータへアクセスできるようにしたい
+          - あなたが自分の回答データへアクセスできるようにするため
 
-          - ページ離脱時にセッションを保存したい
+          - ページ離脱時にセッションを保存したいため
 
-          - 結果が公開されたときにあなたに伝えたい
+          - 結果が公開されたときにあなたに連絡したいため
     - key: general.survey_closed
       t: >
           ごめんなさい！アンケートは終了しました。あなたが送信したデータの確認はできますが、変更はできません。
@@ -26,13 +26,12 @@ translations:
           アンケートを読み込み専用モードで見ています。
     - key: general.survey_preview
       t: >
-          This survey is in preview mode. Its questions are subject to change, and all 
-          inputted data will be deleted when the actual survey starts. 
+          これはプレビュー版です。設問が今後変わる可能性があります。また、回答されたデータはすべて、本アンケートの開始時に削除されます。
     - key: general.survey_read_only_back
       t: >
           <a href="{link}">メインページへ戻る</a>。アンケートへの回答や、回答中のアンケートを再開できます。
     - key: general.take_survey
-      t: Take the {name} {year} survey
+      t: {name} {year}に回答する
 
     # surveys
     - key: general.open_surveys
@@ -50,17 +49,17 @@ translations:
     - key: general.start_survey
       t: アンケートに回答する »
     - key: general.continue_survey
-      t: アンケートの回答を続ける »
+      t: 回答を続ける »
     - key: general.review_survey
-      t: アンケートの回答を確認する »
+      t: 回答を確認する »
     - key: general.preview_survey
-      t: アンケートの回答をプレビュー »
+      t: 回答をプレビュー »
     - key: general.finish_survey
       t: アンケートを終了する »
     - key: general.next_section
-      t: Next section
+      t: 次のセクション
     - key: general.prev_section
-      t: Previous section
+      t: 前のセクション
     - key: general.survey_closed
       t: このアンケートは終了しました。
     - key: general.survey_results
@@ -68,23 +67,23 @@ translations:
     - key: general.surveys_available_languages
       t: アンケートは次の言語でも見られます：
     - key: general.help_us_translate
-      t: アンケートの翻訳に協力する »
+      t: 翻訳に協力する »
     - key: general.translators
       t: 翻訳者
     - key: general.translation_help
       t: 翻訳協力
     - key: general.newly_added
-      t: Newly added this year
+      t: 今回追加された新しい項目
 
     # credits
     - key: credits.thanks
       t: Special Thanks
     - key: credits.accessibility
-      t: Accessibility Consulting
+      t: アクセシビリティコンサルティング
     - key: credits.survey_design
-      t: Survey Design
+      t: アンケート設計
     - key: credits.logo_design
-      t: Logo Design
+      t: ロゴデザイン
 
     # support
     - key: general.support_from
@@ -105,38 +104,38 @@ translations:
       t: >
           注：すべての質問は任意です。100%にする必要はありません。
     - key: general.data_is_saved
-      t: あなたのデータはセクションの移動時に保存されます。
+      t: セクションの移動時にデータが保存されます。
     - key: general.close_nav
-      t: Close menu
+      t: メニューを閉じる
     - key: general.open_nav
-      t: Open menu
+      t: メニューを開く
     - key: general.more_actions
       t: More actions
     - key: general.skip_to_content
-      t: Skip to content
+      t: メインコンテンツにスキップ
 
     # thanks
     - key: general.back
       t: 戻る
     - key: general.thanks
       t: >
-          回答ありがとうございます！
+          ありがとうございます！
 
-          回答したデータは保存されました。アンケートが終了するまでは、確認や編集を行えます。
+          回答が保存されました。アンケート期間が終了するまでは、データの確認や編集を行えます。
 
-          このアンケートをシェアしてください。みなさん一人一人の回答に価値があります。多くの回答が集まることで、このデータもより現実を反映できます。
+          ぜひこのアンケートをシェアしてください。みなさん一人一人の回答に価値があります。多くの回答が集まれば、より現実を反映したデータになります。
     - key: thanks.learn_more_about
       t: ほかにも知っておきたい機能はこちら：
     - key: thanks.knowledge_score
       t: ナレッジスコア
     - key: thanks.score_explanation
       t: >
-          あなたはこのアンケートで紹介した全<span class="score-number score-number-total">{total}</span>機能のうち、<span class="score-number score-number-known">{known}</span>を知って、もしくは使っています。これは全回答者の上位<span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>以内です。
+          あなたはこのアンケートで紹介した全<span class="score-number score-number-total">{total}</span>機能のうち、<span class="score-number score-number-known">{known}</span>を知っている、もしくは使っています。これは全回答者の上位<span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>以内に入ります。
     - key: thanks.share_on_twitter
       t: Twitterにシェア
     - key: thanks.share_score_message
       t: >
-         私の#{hashtag}ナレッジスコアは{score}%でした。アンケートの回答はここから：{shareUrl}
+         私の #{hashtag} ナレッジスコアは{score}%でした。回答はここから：{shareUrl}
     # share
     - key: general.share_subject
       t: >
@@ -161,7 +160,7 @@ translations:
     - key: notfound.title
       t: 404 Not Found
     - key: notfound.description
-      t: ごめんなさい。あなたの探しているものを見つけられませんでした。
+      t: ごめんなさい。探しているものを見つけられませんでした。
 
     # other
     - key: general.join_discord
@@ -176,7 +175,7 @@ translations:
     ###########################################################################
 
     - key: nav.surveys
-      t: アンケート
+      t: アンケート一覧
     - key: nav.account
       t: アカウント
 
@@ -200,7 +199,7 @@ translations:
       t: '{topic}について、どんなリソースを参考にしますか？'
 
     - key: sections.opinions.title
-      t: 意見
+      t: オピニオン
     - key: sections.opinions.description
       t: '{topic}の現状についてどう思いますか？'
 
@@ -215,15 +214,15 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 知らない/何なのかわからない
+      t: <span aria-hidden="true">🤷</span> 知らない / 何なのかわからない
     - key: options.features.heard
-      t: ✅ 知っているが、使ったことはない
+      t: <span aria-hidden="true">✅</span> 知っているが、使ったことはない
     - key: options.features.used
-      t: 👍 使ったことがある
+      t: <span aria-hidden="true">👍</span> 使ったことがある
 
     # features (no emoji)
     - key: options.features.never_heard.label
-      t: 知らない/何なのかわからない
+      t: 知らない / 何なのかわからない
     - key: options.features.heard.label
       t: 知っているが、使ったことはない
     - key: options.features.used.label
@@ -251,19 +250,19 @@ translations:
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 知らない/何なのかわからない
+      t: <span aria-hidden="true">🤷</span> 知らない / 何なのかわからない
     - key: options.tools.interested
-      t: ✅ 知っている > 学んでみたい
+      t: <span aria-hidden="true">✅</span> 知っている > 学んでみたい
     - key: options.tools.not_interested
-      t: 🚫 知っている > 興味がない
+      t: <span aria-hidden="true">🚫</span> 知っている > 興味がない
     - key: options.tools.would_use
-      t: 👍 使った > また使いたい
+      t: <span aria-hidden="true">👍</span> 使った > また使いたい
     - key: options.tools.would_not_use
-      t: 👎 使った > もう使わない
+      t: <span aria-hidden="true">👎</span> 使った > もう使わない
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
-      t: 知らない/何なのかわからない
+      t: 知らない / 何なのかわからない
     - key: options.tools.interested.legend
       t: 知っている > 学んでみたい
     - key: options.tools.not_interested.legend
@@ -323,21 +322,21 @@ translations:
 
     # age
     - key: options.age.range_less_than_10
-      t: Under 10 years old
+      t: 10歳未満
     - key: options.age.range_10_18
-      t: 10-18 years old
+      t: 10-18歳
     - key: options.age.range_18_24
-      t: 18-24 years old
+      t: 18-24歳
     - key: options.age.range_25_34
-      t: 24-34 years old
+      t: 24-34歳
     - key: options.age.range_35_44
-      t: 35-44 years old
+      t: 35-44歳
     - key: options.age.range_45_54
-      t: 45-54 years old
+      t: 45-54歳
     - key: options.age.range_55_64
-      t: 55-64 years old
+      t: 55-64歳
     - key: options.age.range_more_than_65
-      t: 65 years or older
+      t: 65歳以上
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -406,7 +405,7 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: 無報酬
+      t: 収入なし
     - key: options.yearly_salary.range_0_10
       t: $0～$10,000
     - key: options.yearly_salary.range_10_30
@@ -510,19 +509,19 @@ translations:
     - key: options.gender.male
       t: 男性
     - key: options.gender.non_binary
-      t: ノンバイナリー・サードジェンダー
+      t: ノンバイナリー、ジェンダー・ノンコンフォーミング
     - key: options.gender.questioning
-      t: Questioning
+      t: クエスチョニング
     - key: options.gender.not_listed
-      t: Not Listed
+      t: この中にはない
 
     # Race & Ethnicity
     - key: options.race_ethnicity.white_european
       t: 白人・ヨーロッパ系
     - key: options.race_ethnicity.south_asian
-      t: 東南アジア系
+      t: 南アジア系
     - key: options.race_ethnicity.south_east_asian
-      t: South East Asian
+      t: 東南アジア系
     - key: options.race_ethnicity.hispanic_latin
       t: ヒスパニック・ラテン系
     - key: options.race_ethnicity.east_asian
@@ -538,30 +537,30 @@ translations:
     - key: options.race_ethnicity.native_american_islander_australian
       t: ネイティブアメリカン、太平洋諸島系、オーストラリア先住民
     - key: options.race_ethnicity.not_listed
-      t: Not listed
+      t: この中にはない
 
     # Disability Status
     - key: options.disability_status.visual_impairments
       t: >
-        Visual impairments (such as: blindness, color blindness, etc.)
+        視覚障害（全盲、色覚異常など）
     - key: options.disability_status.hearing_impairments
       t: >
-        Hearing impairments (such as: deafness, tinnitus, etc.)
+        聴覚障害（難聴、耳鳴など）
     - key: options.disability_status.mobility_impairments
       t: >
-        Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+        運動障害（関節リウマチ、手根管症候群など）
     - key: options.disability_status.cognitive_impairments
       t: >
-        Cognitive impairments (such as: anxiety, dyslexia, etc.)
+        認識機能障害（不安障害、ディスレクシアなど）
     - key: options.disability_status.not_listed
       t: >
-        Not Listed
+        この中にはない
 
     # Form Factors
     - key: options.form_factors.desktop
       t: デスクトップ
     - key: options.form_factors.keyboard_only
-      t: Desktop with keyboard only
+      t: デスクトップをキーボード操作のみで利用
     - key: options.form_factors.smartphone
       t: スマートフォン
     - key: options.form_factors.feature_phone
@@ -579,9 +578,9 @@ translations:
     - key: options.form_factors.print
       t: 印刷
     - key: options.form_factors.testing_tools
-      t: Testing Tools (Axe, Lighthouse, etc.)
+      t: 調査ツール（Axe、Lighthouseなど）
     - key: options.form_factors.vision_simulator
-      t: Altered Vision Simulator (color blindness, etc.)
+      t: 視覚特性シミュレーター（色覚以上など）
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
@@ -609,117 +608,117 @@ translations:
     - key: options.industry_sector.consulting
       t: コンサルティング・サービス業
     - key: options.industry_sector.travel
-      t: Travel
+      t: 旅行
     - key: options.industry_sector.insurance
-      t: Insurance
+      t: 保険
     - key: options.industry_sector.logistics
-      t: Logistics
+      t: 物流
     - key: options.industry_sector.energy
-      t: Energy
+      t: エネルギー
     - key: options.industry_sector.telecommunications
-      t: Telecommunications
+      t: 電気通信
     - key: options.industry_sector.student
-      t: Student
+      t: 学生
     - key: options.industry_sector.hospitality
-      t: Hospitality
+      t: 接客
     - key: options.industry_sector.cyber_security
-      t: Cyber Security
+      t: サイバーセキュリティ
     - key: options.industry_sector.construction
-      t: Construction
+      t: 建設
     - key: options.industry_sector.automotive
-      t: Automotive
+      t: 自動車
     - key: options.industry_sector.agriculture
-      t: Agriculture
+      t: 農業
     - key: options.industry_sector.transport
-      t: Transport
+      t: 運輸
     - key: options.industry_sector.manufacturing
-      t: Manufacturing
+      t: 製造
 
     # tool evaluation
     - key: options.tool_evaluation.learning_curve_documentation
-      t: Documentation
+      t: ドキュメンテーション
     - key: options.tool_evaluation.learning_curve_documentation.description
-      t: Is it easy to learn and/or well-documented?
+      t: 学ぶのは簡単か、またはドキュメントがよく書かれているか。
     - key: options.tool_evaluation.momentum_popularity
-      t: Hype & Momentum
+      t: ハイプ・勢い
     - key: options.tool_evaluation.momentum_popularity.description
-      t: Is it currently generating a lot of buzz?
+      t: 注目され、盛り上がっているか。
     - key: options.tool_evaluation.user_base_size
-      t: User Base Size
+      t: ユーザーベース
     - key: options.tool_evaluation.user_base_size.description
-      t: Is it a well-established option with a long track record?
+      t: 長く使われ、実績があるか。
     - key: options.tool_evaluation.developer_experience_tooling
-      t: Developer Experience
+      t: 開発体験
     - key: options.tool_evaluation.developer_experience_tooling.description
-      t: Does it have good developer tools, a large plugin ecosystem, etc.?
+      t: よい開発者ツールがあるか、数多くのプラグインがあるか、など。
     - key: options.tool_evaluation.performance_user_experience
-      t: User Experience
+      t: ユーザー体験
     - key: options.tool_evaluation.performance_user_experience.description
-      t: Does it help you create smooth, performant user experiences?
+      t: スムーズで速いユーザー体験を生み出す助けになるか。
     - key: options.tool_evaluation.creator_team
-      t: Creator & Team
+      t: 制作者＆チーム
     - key: options.tool_evaluation.creator_team.description
-      t: Is it backed by a well-known, well-funded, or experienced team?
+      t: 著名な開発者や経験者の多いチームが作っているか、また充分な資金を得ているか。
     - key: options.tool_evaluation.accessibility_features
-      t: Accessibility Features
+      t: アクセシビリティ
     - key: options.tool_evaluation.accessibility_features.description
-      t: Is it good at creating accessible experiences for all users?
+      t: すべてのユーザーに対しアクセシブルな体験を作る助けになるか。
     - key: options.tool_evaluation.community_inclusivity
-      t: Community & Inclusivity
+      t: コミュニティ
     - key: options.tool_evaluation.community_inclusivity.description
-      t: Does it have a welcoming, vibrant community built around it?
+      t: 活気があり、またあたたかなコミュニティがあるか。
 
 
 
     # accessibility features
     - key: options.accessibility_features.keyboard_navigation
-      t: Keyboard navigation
+      t: キーボードナビゲーション
     - key: options.accessibility_features.compliant_contrast
-      t: WCAG-compliant contrast
+      t: WCAG準拠のコントラスト比
     - key: options.accessibility_features.focus_indicators
-      t: Focus indicators
+      t: フォーカスインジケーター
     - key: options.accessibility_features.skip_to_content_link
-      t: Skip-to-content link
+      t: スキップリンク
     - key: options.accessibility_features.color_themes
-      t: Color themes (dark mode, high-contrast mode, etc.)
+      t: カラーテーマ（ダークモード、ハイコントラストモードなど）
     - key: options.accessibility_features.prefers_reduced_motion
-      t: Prefers-reduced-motion
+      t: 視差効果の削減（prefers-reduced-motion）
     - key: options.accessibility_features.alt_text
-      t: Alt texts
+      t: 代替テキスト
     - key: options.accessibility_features.semantic_markup
-      t: Semantic markup
+      t: セマンティックなマークアップ
     - key: options.accessibility_features.aria_attributes
-      t: ARIA HTML attributes
+      t: ARIA属性
 
     # learning methods
     - key: options.first_steps.books
-      t: Books
+      t: 書籍
     - key: options.first_steps.videos
-      t: Videos & screencasts
+      t: 動画・スクリーンキャスト
     - key: options.first_steps.school
-      t: School & higher education
+      t: 学校・高等教育
     - key: options.first_steps.courses_free
-      t: Online courses (free)
+      t: オンラインコース（無料）
     - key: options.first_steps.courses_paid
-      t: Online courses (paid)
+      t: オンラインコース（有料）
     - key: options.first_steps.podcasts
-      t: Podcasts
+      t: ポッドキャスト
     - key: options.first_steps.bootcamp
-      t: Coding bootcamp
+      t: コーディングブートキャンプ
     - key: options.first_steps.on_the_job
-      t: On-the-job training
+      t: 業務・OJT
     - key: options.first_steps.self_directed
-      t: Self-directed learning (Google, Stack Overflow, etc.)
+      t: 独学（Google、Stack Overflowなど）
     - key: options.first_steps.mentoring
-      t: Mentoring
+      t: メンタリング
 
     # degree
     - key: options.higher_education_degree.no_degree
-      t: No
+      t: 学位なし
     - key: options.higher_education_degree.yes_related
-      t: Yes, in a field related to my current profession
+      t: 学位あり（現在の職種に関係する）
     - key: options.higher_education_degree.yes_unrelated
-      t: Yes, but in a field unrelated to my current profession
+      t: 学位あり（現在の職種には関係しない）
 
     ###########################################################################
     # Tools
@@ -733,7 +732,7 @@ translations:
       t: 総合的な満足度
     - key: tools.happiness.description
       t: >
-          ここに挙げた選択肢について、現在の満足度合いを1（very unhappy）から5（very happy）の間で表すとどれになりますか？
+          ここに挙げた選択肢について、現在の満足度合いを1（とても不満）から5（とても満足）の間で表すとどれになりますか？
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -741,7 +740,7 @@ translations:
 
     # age
     - key: user_info.age
-      t: Age
+      t: 年齢
 
     # years of experience
     - key: user_info.years_of_experience
@@ -790,28 +789,28 @@ translations:
       t: ジェンダー
     - key: user_info.gender.description
       t: >
-        We use this data to help track and improve the survey's representativeness. 
+        回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
       t: 人種・民族
     - key: user_info.race_ethnicity.description
       t: >
-        We use this data to help track and improve the survey's representativeness. 
+        回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。
 
     # disability status
     - key: user_info.disability_status
       t: Disability Status
     - key: user_info.disability_status.description
       t: >
-        We use this data to help track and improve the survey's accessibility and representativeness. 
+        回答されたデータはアンケートのアクセシビリティや代表性の変化を調査し、またそれらの改善のために使われます。
     # disability status (other)
     - key: user_info.disability_status.others
-      t: Other Disabilities
+      t: そのほかの障害
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: このアンケートをどうやって知りましたか？
+      t: このアンケートを知ったきっかけは？
     - key: user_info.email
       t: メールアドレス
     - key: user_info.country
@@ -824,12 +823,10 @@ translations:
         今後、レポジトリやそのほかの公開情報を組み合わせるため、GitHubのユーザー名を使うかもしれません。
       
     - key: user_info.twitter_username
-      t: Your Twitter Username
+      t: Twitterのユーザー名
     - key: user_info.twitter_username.description
       t: >
-        We might use Twitter usernames in the future to look at
-        Twitter activity and cross-reference publicly available information
-         (such as the list of people you're following).
+        今後、Twitter上の行動やそのほかの公開情報（フォローしている人など）を組み合わせるため、Twitterのユーザー名を使うかもしれません。
 
     - key: user_info.industry_sector
       t: 業種
@@ -842,9 +839,9 @@ translations:
 
     # degree
     - key: user_info.higher_education_degree
-      t: Higher Education Degree
+      t: 高等教育の学位
     - key: user_info.higher_education_degree.description
-      t: Do you have a higher education degree?
+      t: 高等教育を受け、学位を持っていますか？
 
     ###########################################################################
     # Other Tools
@@ -910,13 +907,13 @@ translations:
 
     # learning method
     - key: resources.first_steps
-      t: First Learning Methods
+      t: 最初の勉強方法
     - key: resources.first_steps.description
-      t: When first starting out, how did you initially learn coding?
+      t: 最初に学び始めたとき、コーディングはどのように勉強しましたか。
     - key: resources.first_steps.others
-      t: Other First Learning Methods
+      t: そのほかの最初の勉強方法
     - key: resources.first_steps.others.description
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
@@ -950,16 +947,15 @@ translations:
 
     # people
     - key: resources.people
-      t: People
+      t: 人物
     - key: resources.people.description
-      t: People you read, follow, or just want to highlight.
+      t: ブログや書籍を読んでいたり、フォローしている人。または単におすすめしたい人。
     # - key: resources.people.others
     #   t: Other People
     # - key: resources.people.others.description
     #   t: Other answers (freeform field).
     - key: resources.people.others
-      t: People
+      t: 人物
     - key: resources.people.others.description
       t: >
-        People you read, follow, or just want to highlight for their work 
-        (freeform field, comma-separated names).
+        ブログや書籍を読んでいたり、フォローしている人。または単におすすめしたい人（複数いる場合はカンマで区切ってください）。
