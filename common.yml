@@ -31,7 +31,7 @@ translations:
       t: >
           <a href="{link}">メインページへ戻る</a>。アンケートへの回答や、回答中のアンケートを再開できます。
     - key: general.take_survey
-      t: {name} {year}に回答する
+      t: '{name} {year}に回答する'
 
     # surveys
     - key: general.open_surveys

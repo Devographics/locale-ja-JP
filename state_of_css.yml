@@ -649,7 +649,7 @@ translations:
     - key: tools_others.tool_evaluation
       t: ライブラリの評価
     - key: tools_others.tool_evaluation.description
-      新しいライブラリを評価するときに何をより重視するか、対決させてください。
+      t: 新しいライブラリを評価するときに何をより重視するか、対決させてください。
 
     ###########################################################################
     # Opinions

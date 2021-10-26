@@ -57,8 +57,7 @@ translations:
     - key: bracket.start_over
       t: 最初からやり直す
     - key: bracket.winner
-      t: >
-      勝者： 
+      t: 勝者：
     - key: bracket.round
       t: ラウンド
     - key: bracket.empty_bracket
