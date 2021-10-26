@@ -46,9 +46,9 @@ translations:
       t: 要素のアニメーションや変形。
 
     - key: sections.accessibility.title
-      t: Accessibility
+      t: アクセシビリティ
     - key: sections.accessibility.description
-      t: Accessibility features and techniques. 
+      t: アクセシビリティ関連機能やテクニック。
 
     - key: sections.media_queries.title
       t: メディアクエリー
@@ -71,7 +71,7 @@ translations:
       t: CSSを拡張するユーティリティ。
 
     - key: sections.pre_post_processors_others.title
-      t: そのほかのプリプロセッサ・ポストプロセッサ
+      t: そのほかのプリプロセッサ・ポストプロセッサ。
 
     - key: sections.css_frameworks.title
       t: CSSフレームワーク
@@ -79,7 +79,7 @@ translations:
       t: コンポーネントとスタイルを提供するライブラリ。
 
     - key: sections.css_frameworks_others.title
-      t: そのほかのCSSフレームワーク
+      t: そのほかのCSSフレームワーク。
 
     - key: sections.css_methodologies.title
       t: CSS設計手法
@@ -87,7 +87,7 @@ translations:
       t: きれいなCSSを書くために体系化された手法。
 
     - key: sections.css_methodologies_others.title
-      t: そのほかのCSS設計手法
+      t: そのほかのCSS設計手法。
 
     - key: sections.css_in_js.title
       t: CSS-in-JS
@@ -105,7 +105,7 @@ translations:
     - key: sections.environments.title
       t: 対応環境
     - key: sections.environments.description
-      t: どんな環境に向けてCSSを書いているか。
+      t: どんな環境に向けてCSSを書きますか。
 
     ###########################################################################
     # Options
@@ -155,55 +155,55 @@ translations:
 
     # what do you use CSS for?
     - key: options.what_do_you_use_css_for.marketing_sites
-      t: Marketing sites & landing pages
+      t: マーケティングサイト・ランディングページ
     - key: options.what_do_you_use_css_for.design_systems
-      t: Design systems
+      t: デザインシステム
     - key: options.what_do_you_use_css_for.blogs
-      t: Blogs or other text-heavy sites
+      t: ブログや他のテキストの多いサイト
     - key: options.what_do_you_use_css_for.web_apps
-      t: Web apps
+      t: ウェブアプリ
     - key: options.what_do_you_use_css_for.mobile_apps
-      t: Mobile apps
+      t: モバイルアプリ
     - key: options.what_do_you_use_css_for.css_art
-      t: CSS art & illustrations
+      t: CSSアートやイラスト
     - key: options.what_do_you_use_css_for.emails
-      t: Emails
+      t: メール
     - key: options.what_do_you_use_css_for.printed_documents
-      t: Printed documents
+      t: 印刷物
 
     # CSS pain points
     - key: options.css_pain_points.browser_interoperability
-      t: Browser Compatibility
+      t: ブラウザの互換性
     - key: options.css_pain_points.browser_interoperability.description
-      t: Differences between Chrome, Safari, Firefox, etc.
+      t: Chrome, Safari, Firefoxなどのブラウザの違い。
     - key: options.css_pain_points.interactions
-      t: Interactions
+      t: インタラクション
     - key: options.css_pain_points.interactions.description
-      t: Responding to user input or other events (scroll, hover, etc.). 
+      t: ユーザーの操作や他のイベント（スクロール、ホバーなど）への応答。
     - key: options.css_pain_points.architecture
-      t: Architecture & Maintenance
+      t: 設計・管理
     - key: options.css_pain_points.architecture.description
-      t: File organization, dead code elimination, refactoring, etc.
+      t: ファイル管理、使わなくなったコードの削除、リファクタリングなど。
     - key: options.css_pain_points.layout_positioning
-      t: Layout & Positioning
+      t: レイアウト・配置
     - key: options.css_pain_points.layout_positioning.description
-      t: Setting up layouts and making sure elements go where you want them to. 
+      t: レイアウトをつくり、要素を思うとおりの位置に配置する。
     - key: options.css_pain_points.scoping_specificity
-      t: Scoping & Specificity
+      t: スコープ・詳細度
     - key: options.css_pain_points.scoping_specificity.description
-      t: Dealing with the cascade, overriding styles, etc.
+      t: カスケーディングやスタイルの上書きに対応する。
     - key: options.css_pain_points.responsive_design
-      t: Responsive Design
+      t: レスポンシブデザイン
     - key: options.css_pain_points.responsive_design.description
-      t: Adapting layouts and designs for different form factors. 
+      t: 様々なフォームファクタに対しレイアウトやデザインを調整する。
     - key: options.css_pain_points.form_elements_styling
-      t: Form Elements Styling
+      t: フォーム要素のスタイル
     - key: options.css_pain_points.form_elements_styling.description
-      t: Customizing how form elements look and behave. 
+      t: フォーム要素の見た目や挙動をカスタマイズする。
     - key: options.css_pain_points.performance_issues
-      t: Performance Issues 
+      t: パフォーマンスの問題
     - key: options.css_pain_points.performance_issues.description
-      t: Dealing with scrolling jank, making animations smoother, etc. 
+      t: スクロールのガタつきに対処したり、アニメーションをスムーズにさせたり。
 
     ###########################################################################
     # Features
@@ -236,15 +236,15 @@ translations:
     - key: features.content_visibility
       t: <code>content-visibility</code>
     - key: features.flexbox_gap
-      t: Gap property for flexbox
+      t: Flexboxのgap
     - key: features.break_rules
       t: Break rules
     - key: features.break_rules.description
       t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
     - key: features.at_container
-      t: Container Queries
+      t: コンテナクエリー
     - key: features.at_container.description
-      t: <code>@container</code> query
+      t: <code>@container</code>クエリー
 
     # shapes & graphics
     - key: features.shapes
@@ -341,7 +341,7 @@ translations:
     - key: features.prefers_reduced_data
       t: <code>prefers-reduced-data</code>
     - key: features.tabindex
-      t: <code>tabindex</code> HTML attribute
+      t: HTMLの<code>tabindex</code>属性
     - key: features.tabindex.description
       t: <code>&lt;div tabindex="0"&gt;</code>
 
@@ -352,9 +352,9 @@ translations:
       t: <code>color-scheme</code>
 
     - key: features.aria_attributes
-      t: ARIA HTML Attributes
+      t: HTMLのARIA属性
     - key: features.aria_attributes.description
-      t: <code>role</code>, <code>aria-label</code>, etc.
+      t: <code>role</code>属性、<code>aria-label</code>属性など
 
     # other features
     - key: features.variables
@@ -373,7 +373,7 @@ translations:
       t: <code>min()</code>, <code>max()</code>, <code>clamp()</code>
 
     - key: features.at_property
-      t: Houdini Custom Properties
+      t: Houdiniカスタムプロパティ
     - key: features.at_property.description
       t: <code>@property</code>
     - key: features.at_layer
@@ -381,41 +381,41 @@ translations:
     - key: features.content_visibility
       t: <code>content-visibility</code>
     - key: features.marker
-      t: <code>::marker</code> pseudo-element
+      t: <code>::marker</code>疑似要素
 
     # missing features
     - key: features.nesting
-      t: Nesting
+      t: ネスト
     - key: features.nesting.description
-      t: Being able to nest styles in native CSS. 
+      t: ツールを使わずネイティブなCSSでスタイルをネストする。 
     - key: features.parent_selector
-      t: Parent Selector
+      t: 親セレクタ
     - key: features.parent_selector.description
-      t: The ability to target a parent element based on its children.
+      t: 子要素の状態から親要素を選択する。
     - key: features.browser_support
-      t: Browser Support
+      t: ブラウザのサポート
     - key: features.browser_support.description
-      t: Better browser support for existing features.
+      t: いま仕様にある機能がブラウザで実装されること。
     - key: features.mixins
-      t: Mixins
+      t: ミックスイン
     - key: features.mixins.description
-      t: Group and reuse definitions dynamically.  
+      t: スタイル定義の動的なグループ化と再利用。
     - key: features.color_functions
-      t: Color Functions
+      t: 色関連の関数
     - key: features.color_functions.description
-      t: Functions for manipulating color values. 
+      t: 色の値を操作する関数。
     - key: features.container_queries
-      t: Container Queries
+      t: コンテナクエリー
     - key: features.container_queries.description
-      t: Being able to write styles based on the parent container's dimensions.
+      t: 親コンテナの大きさをもとにスタイルを書ける。
     - key: features.scoping
-      t: Scoping
+      t: スコープ
     - key: features.scoping.description
-      t: The ability to be more specific about where your styles are applied. 
+      t: スタイルがどこで適用されるかをより細かく指定できる。
     - key: features.subgrid
-      t: Subgrid
+      t: サブグリッド
     - key: features.subgrid.description
-      t: Nesting deeper-level subgrids into a parent grid. 
+      t: 親のグリッドの一部をさらにグリッド化する。
       
     ###########################################################################
     # Units & Selectors
@@ -616,13 +616,13 @@ translations:
       t: どんなデバイスでテストしているか。
 
     - key: environments.accessibility_features
-      t: Accessibility Features
+      t: アクセシビリティ
     - key: environments.accessibility_features.description
-      t: Which accessibility features do you usually implement?
+      t: どんなアクセシビリティ機能を実装しているか。
     - key: environments.accessibility_features.others
-      t: Other Accessibility Features
+      t: そのほかのアクセシビリティ機能
     - key: environments.accessibility_features.others
-      t: Other accessibility features you usually implement
+      t: 上記以外に実装しているアクセシビリティ機能。
 
     - key: environments.css_for_print
       t: 印刷用スタイル
@@ -635,11 +635,11 @@ translations:
       t: メール用のCSSを書いているか。
 
     - key: environments.what_do_you_use_css_for
-      t: What do you mainly use CSS for?
+      t: CSSの利用先
     - key: environments.what_do_you_use_css_for.description
-      t: What kind of project do you usually use CSS for?
+      t: どんなプロジェクトでCSSを使っていますか。
     - key: environments.what_do_you_use_css_for.others
-      t: Other kinds of projects
+      t: そのほかのプロジェクト
 
     - key: charts.axis_legends.css_for_print
       t: 頻度
@@ -647,9 +647,9 @@ translations:
       t: 頻度
 
     - key: tools_others.tool_evaluation
-      t: Library Evaluation
+      t: ライブラリの評価
     - key: tools_others.tool_evaluation.description
-      t: For each matchup, pick the factor you prioritize when evaluating a new library.
+      新しいライブラリを評価するときに何をより重視するか、対決させてください。
 
     ###########################################################################
     # Opinions
@@ -663,7 +663,7 @@ translations:
     - key: opinions.css_evolving_slowly
       t: CSSの発展は遅すぎる
     - key: opinions.css_evolving_slowly.title
-      t: 変化度合い
+      t: 進歩の度合い
 
     - key: opinions.utility_classes_to_be_avoided
       t: セマンティックではない、ユーティリティクラス（.center、.large-textなど）は避けるべきだ
@@ -687,27 +687,26 @@ translations:
 
     # Browser interoperability question
     - key: opinions_others.browser_interoperability_features.others
-      t: Browser Incompatibilities
+      t: ブラウザの差異
     - key: opinions_others.browser_interoperability_features.others.description
       t: >
-        Are there any CSS features you have difficulties using 
-        because of differences between browsers?
+        ブラウザの差異が原因で使うのに苦労したCSSの機能はありますか？
     # Pain Points
     - key: opinions.css_pain_points
-      t: CSS Pain Points
+      t: CSSでつらいところ
     - key: opinions.css_pain_points.description
-      t: For each matchup, pick the aspect of CSS you struggle with the most.
+      t: CSSのどんなところで苦労するか、対決させてください。
 
     - key: opinions_others.css_pain_points.others
-      t: Other CSS Pain Points
+      t: そのほかのつらいところ
 
     # Missing Features
     - key: opinions.currently_missing_from_css
-      t: What do you feel is currently missing from CSS?
+      t: どんな機能がCSSに足りてないと思いますか？
     - key: opinions.currently_missing_from_css.description
-      t: For each matchup, pick the feature you'd most like to be able to use in CSS today.
+      t: CSSにあれば今すぐ使いたいと思う機能について、対決させてください。
     - key: opinions_others.currently_missing_from_css.others
-      t: CSSにいま足りないものは何か。
+      t: CSSにいま足りないものは何か
     - key: opinions_others.currently_missing_from_css.others.description
       t: CSSにいつかほしい機能。
     - key: opinions_others.currently_missing_from_css.others.note
@@ -715,21 +714,21 @@ translations:
           これらの結果は自由入力の内容を正規化したものです。処理されていない生のデータは、[whatsmissingfromcss.com](http://whatsmissingfromcss.com/)からご覧ください。
     
     - key: opinions.sum_up_one_word_css
-      t: CSSを一言で言うと
+      t: CSSをひとことで言うと
     - key: opinions.sum_up_one_word_css.description
-      t: CSSについて何かひとこと言うなら。
+      t: CSSについてひとこと言うならなんでしょうか。
 
     - key: happiness.state_of_the_web
-      t: ウェブ技術の現状に満足しているか。
+      t: ウェブ技術の現状に満足しているか
 
     - key: happiness.state_of_css
-      t: CSSの現状に満足しているか。
+      t: CSSの現状に満足しているか
 
     ###########################################################################
     # Resources
     ###########################################################################
     
     - key: resources.first_steps
-      t: First Steps With CSS
+      t: CSSの最初の勉強方法
     - key: resources.first_steps.description
-      t: When first starting out, how did you initially learn CSS?
+      t: 最初にCSSを学び始めたとき、何から学びましたか。
