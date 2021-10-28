@@ -100,6 +100,11 @@ translations:
       t: >
         このアンケートはサイドプロジェクトです。私たちはプロジェクトを続けていくため、活動をサポートしてくれるパートナーを探しています。サポートは金銭的なものだけでなく、この活動を広めてくれるのも含みます。何か協力できそうと思ったら、ぜひ[連絡してください](mailto:hello@stateofjs.com)！
 
+    - key: sections.awards.title
+      t: アワード
+    - key: sections.awards.description
+      t: 今年注目を集めたものに贈られます。
+
     ###########################################################################
     # User Info
     ###########################################################################
@@ -146,8 +151,16 @@ translations:
       t: Indonesian
     - key: options.locale.hi-IN
       t: Hindi
+    - key: options.locale.zh-Hans
+      t: Chinese (Simplified)
+    - key: options.locale.ja-JP
+      t: Japanese
+    - key: options.locale.ua-UA
+      t: Ukrainian
     - key: options.locale.pl-PL
       t: Polish
+    - key: options.locale.fa-IR
+      t: Farsi
     - key: options.locale.nl-NL
       t: Dutch
 
@@ -164,6 +177,12 @@ translations:
     - key: features.specification_link
       t: W3C仕様
 
+    # knowledge score
+    - key: features.knowledge_score
+      t: 知識の度合い
+    - key: features.knowledge_score.description
+      t: アンケートで取り上げたCSSの機能を回答者がどのくらい知っていたか。
+
     ###########################################################################
     # Tools & Methodologies
     ###########################################################################
@@ -179,6 +198,8 @@ translations:
       t: ホームページ
     - key: tools.npm_link
       t: NPM
+    - key: tools.technology
+      t: Technology
 
     ###########################################################################
     # Blocks
@@ -208,6 +229,34 @@ translations:
       t: ホームページ
     - key: blocks.entity.github_link
       t: GitHub
+
+    # cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.title
+      t: Technology Usage Cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user.description
+      t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
+
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+      t: Technology Usage Cardinality
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
+      t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
+
+    - key: blocks.cardinality.max
+      t: Most common answer
+
+    # tools arrows
+    - key: blocks.tools_arrows.title
+      t: Changes Over Time
+    - key: blocks.tools_arrows.description
+      t: |
+          Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
+          and a point further to the right means more users want to learn it; or have used it and would use it again. 
+    - key: blocks.tools_arrows.note
+      t: |
+          - Some lines skip years.
+          - Technologies with only one year of data are not shown. 
+          - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
+          - A positive velocity means the usage and/or positive opinions have increased over time.
 
     # tools quadrant
     - key: blocks.tools_quadrant.title
@@ -381,6 +430,42 @@ translations:
     - key: charts.ranges_multiple_diverging_lines.negative_offset
       t: 否定のオフセット
 
+
+    - key: charts.tools_arrows.negative_opinion
+      t: Negative opinions
+    - key: charts.tools_arrows.positive_opinion
+      t: Positive opinions
+    - key: charts.tools_arrows.have_not_used
+      t: Have not used
+    - key: charts.tools_arrows.have_used
+      t: Have used
+    - key: charts.tools_arrows.x_axis
+      t: X-axis range
+    - key: charts.tools_arrows.y_axis
+      t: Y-axis range
+    - key: charts.tools_arrows.legend
+      t: Legend 
+    - key: charts.tools_arrows.velocity
+      t: Velocity
+    - key: charts.tools_arrows.velocity_positive
+      t: Overall more positive opinions and/or usage over time
+    - key: charts.tools_arrows.velocity_negative
+      t: Overall more negative opinions and/or less usage over time
+    - key: charts.tools_arrows.opinions_positive
+      t: Mostly positive opinions
+    - key: charts.tools_arrows.opinions_negative
+      t: Mostly negative opinions
+    - key: charts.tools_arrows.low_usage
+      t: Low usage
+    - key: charts.tools_arrows.high_usage
+      t: High usage
+    - key: charts.tools_arrows.popularity_positive
+      t: Rising popularity
+    - key: charts.tools_arrows.negative
+      t: Falling popularity
+
+
+
     ###########################################################################
     # Sharing
     ###########################################################################
@@ -411,6 +496,32 @@ translations:
       t: メールで共有
     - key: share.image
       t: 画像を取得
+    - key: share.link
+      t: Link to section
+    - key: share.close
+      t: Close
+
+    ###########################################################################
+    # Views
+    ###########################################################################
+    - key: views.viz
+      t: Graph
+    - key: views.table
+      t: Table
+
+    ###########################################################################
+    # Table
+    ###########################################################################
+    - key: table.label
+      t: Label
+    - key: table.percentage
+      t: Percentage
+    - key: table.count
+      t: Count
+    - key: table.year
+      t: Year
+    - key: table.mean
+      t: Mean
 
     ###########################################################################
     # Awards
@@ -463,3 +574,42 @@ translations:
       t: 最頻記入投票賞
     - key: award.most_write_ins_award.description
       t: 自由入力欄に書かれた回答が最も多かったものに贈られます。
+
+    ###########################################################################
+    # Hints
+    ###########################################################################
+
+    - key: hints.hint_hint
+      t: >
+          You'll find little hints like this one throughout the survey results
+          that will point out extra features and details. 
+    - key: hints.units_switcher_hint
+      t: >
+          You can use the segmented control at the top right of each block to switch 
+          between relative percentages and absolute counts to get a different view of the
+          same data.
+    - key: hints.export_hint
+      t: >
+          The <span class="hint-export-button">Export</span> button at the top of each block
+          lets you get the raw JSON data for any chart, or a GraphQL
+          query you can run against our public API. 
+    - key: hints.completion_hint
+      t: >
+          Since all questions are optional, some of them got fewer responses than others. 
+          The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+    - key: hints.tool_modal_hint
+      t: >
+          You can click on any technology name to get extra details and 
+          a more in-depth look at its related data. 
+    - key: hints.rankings_modes_hint
+      t: >
+          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
+          to give you a fuller picture of a category's rankings. 
+    - key: hints.sharing_hint
+      t: >
+          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
+          improve your JavaScript performance by up to 15%. 
+    - key: hints.tshirt_hint
+      t: >
+          Another guaranteed scientific finding: buying our t-shirt will 
+          increase your JavaScript knowledge by over 9000!
