@@ -27,6 +27,28 @@ translations:
   - key: partners.learn_more
     t: 詳細をみる。
 
+  - key: tabs.all_respondents
+    t: All Respondents
+
+  - key: tabs.main_answers
+    t: Main Answers
+
+  - key: tabs.other_answers
+    t: Other Answers
+
+  - key: tabs.bracket_wins
+    t: Wins
+
+  - key: tabs.bracket_matchups
+    t: Matchups
+
+  ###########################################################################
+  # Block
+  ###########################################################################
+
+  - key: block.data_from
+    t: foo
+
   ###########################################################################
   # Options
   ###########################################################################
@@ -75,6 +97,28 @@ translations:
   - key: ranges.selector.company_size
     t: 従業員数
 
+  # other learning methods
+  - key: options.first_steps.blogs
+    t: Blogs
+  - key: options.first_steps.forums
+    t: Forums
+  
+  # other disablities
+  - key: options.disability_status_others.adhd
+    t: ADHD
+  - key: options.disability_status_others.autism
+    t: Autism
+  - key: options.disability_status_others.glasses
+    t: Glasses
+  - key: options.disability_status_others.old
+    t: Old Age
+  - key: options.disability_status_others.back_pain
+    t: Back Pain
+  - key: options.disability_status_others.epilepsy
+    t: Epilepsy
+  - key: options.disability_status_others.aspergers
+    t: Aspergers
+
   ###########################################################################
   # Sections
   ###########################################################################
@@ -113,11 +157,22 @@ translations:
     t: 言語
   - key: user_info.locale.description
     t: どの言語で回答したか？
+  - key: user_info.locale.note
+    t: >
+      This data is collected automatically based on respondent's settings while taking the survey; 
+      Languages with fewer than 20 respondents not shown.
 
   - key: user_info.source
     t: ソース
   - key: user_info.source.description
     t: このアンケートをどこで知ったか？
+  - key: user_info.source.note
+    t: This data is a mix of self-reported answers, referrer data, and URL tracking data.
+
+  - key: user_info.gender_by_countries
+    t: By Country
+  - key: user_info.gender_by_countries.description
+    t: Gender distribution by country, sorted by number of respondents who identify as men.
 
   ###########################################################################
   # Locales
@@ -163,6 +218,10 @@ translations:
     t: Farsi
   - key: options.locale.nl-NL
     t: Dutch
+  - key: options.locale.ko-KR
+    t: Korean
+  - key: options.locale.ro-RO
+    t: Romanian
 
   ###########################################################################
   # Features
@@ -206,19 +265,19 @@ translations:
   ###########################################################################
 
   # heatmaps
-  - key: blocks.tools_company_size_heatmap.title
+  - key: blocks.tools_company_size_heatmap
     t: 従業員数でみた利用率
   - key: blocks.tools_company_size_heatmap.description
     t: |
       企業の従業員数によって、技術の利用率が変化しているかを見ています。
 
-  - key: blocks.tools_yearly_salary_heatmap.title
+  - key: blocks.tools_yearly_salary_heatmap
     t: 給与でみた利用率
   - key: blocks.tools_yearly_salary_heatmap.description
     t: |
       給与によって、技術の利用率が変化しているかを見ています。
 
-  - key: blocks.tools_years_of_experience_heatmap.title
+  - key: blocks.tools_years_of_experience_heatmap
     t: 経験年数で見た利用率
   - key: blocks.tools_years_of_experience_heatmap.description
     t: |
@@ -231,12 +290,12 @@ translations:
     t: GitHub
 
   # cardinality
-  - key: blocks.all_sections_tools_cardinality_by_user.title
+  - key: blocks.all_sections_tools_cardinality_by_user
     t: Technology Usage Cardinality
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
 
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+  - key: blocks.front_end_frameworks_tools_cardinality_by_user
     t: Technology Usage Cardinality
   - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
     t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
@@ -245,21 +304,21 @@ translations:
     t: Most common answer
 
   # tools arrows
-  - key: blocks.tools_arrows.title
+  - key: blocks.tools_arrows
     t: Changes Over Time
   - key: blocks.tools_arrows.description
     t: |
-        Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
-        and a point further to the right means more users want to learn it; or have used it and would use it again. 
+      Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
+      and a point further to the right means more users want to learn it; or have used it and would use it again.
   - key: blocks.tools_arrows.note
     t: |
-        - Some lines skip years.
-        - Technologies with only one year of data are not shown. 
-        - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
-        - A positive velocity means the usage and/or positive opinions have increased over time.
+      - Some lines skip years.
+      - Technologies with only one year of data are not shown. 
+      - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
+      - A positive velocity means the usage and/or positive opinions have increased over time.
 
   # tools quadrant
-  - key: blocks.tools_quadrant.title
+  - key: blocks.tools_quadrant
     t: 満足度 vs 利用率
   - key: blocks.tools_quadrant.description
     t: |
@@ -272,6 +331,8 @@ translations:
         - **AVOID**: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
 
         - **ANALYZE**: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
+  - key: blocks.tools_quadrant.note
+    t: Note that TypeScript appears twice in the chart because it's included in both the JavaScript Flavors and Build Tools sections.
 
   - key: blocks.tools_quadrant.interest.description
     t: |
@@ -280,19 +341,19 @@ translations:
       （注：利用数が少ないのは、知られていない技術ということもあれば、多くの人がすでに使っている技術ということもあります。）
 
   # category other tools
-  - key: blocks.category_other_tools.title
+  - key: blocks.category_other_tools
     t: そのほかのツール
   - key: blocks.category_other_tools.description
     t: このカテゴリ内でそのほかのツール（自由回答）。
 
   # tool experience
-  - key: blocks.tool_experience.title
+  - key: blocks.tool_experience
     t: '{name}の経験年数'
   - key: blocks.tool_experience.description
     t: '回答者の{name}の経験。'
 
   # tool positive/negative split ("marimekko" chart)
-  - key: blocks.tools_experience_marimekko.title
+  - key: blocks.tools_experience_marimekko
     t: 肯定的か否定的か
   - key: blocks.tools_experience_marimekko.description
     t: |
@@ -301,7 +362,7 @@ translations:
         棒の太さは、その技術を知っている人の数を表しています。
 
   # tools section streams
-  - key: blocks.tools_section_streams.title
+  - key: blocks.tools_section_streams
     t: 評価の移ろい
   - key: blocks.tools_section_streams.description
     t: |
@@ -311,14 +372,14 @@ translations:
       1年ぶんのデータしかないものは含めていません。
 
   # tools section overview
-  - key: blocks.tools_section_overview.title
+  - key: blocks.tools_section_overview
     t: カテゴリーの概要
   - key: blocks.tools_section_overview.description
     t: |
       アンケートした技術の評価のまとめです。暗い色が肯定的、明るい色が否定的な評価となっています。
 
   # tools experience ranking
-  - key: blocks.tools_experience_ranking.title
+  - key: blocks.tools_experience_ranking
     t: ランキング
   - key: blocks.tools_experience_ranking.description
     t: 満足度、興味、利用率、認知度のランキングです。
@@ -332,14 +393,14 @@ translations:
       - 認知度：総数 － **聞いたことがない**
 
   # happiness
-  - key: blocks.happiness.title
+  - key: blocks.happiness
     t: 総合的な満足度
   - key: blocks.happiness.description
     t: |
       このカテゴリについて、現状について開発者が総合的に満足しているかを、1（とても不満）から5（とても満足）で表します。
 
   # newsletter
-  - key: blocks.newsletter.title
+  - key: blocks.newsletter
     t: 乞うご期待
   - key: blocks.newsletter.description
     t: |
@@ -350,7 +411,7 @@ translations:
     t: お知らせを受け取る
 
   # features_overview
-  - key: blocks.features_overview.title
+  - key: blocks.features_overview
     t: 利用率の概要
   - key: blocks.features_overview.description
     t: |
@@ -370,9 +431,13 @@ translations:
   - key: export.graphql
     t: >
         このクエリーは<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
+  - key: export.export_json
+    t: Get JSON Data
+  - key: export.export_graphql
+    t: Get GraphQL Query
 
   # Tools usage variations
-  - key: blocks.tools_usage_variations.title
+  - key: blocks.tools_usage_variations
     t: 利用率の変動
   - key: blocks.tools_usage_variations.description
     t: |
@@ -384,17 +449,48 @@ translations:
       利用率の低いツールほど変動が大きくなりやすいことに注意してください。
 
   # Recommended Resources
-  - key: blocks.recommended_resources.title
+  - key: blocks.recommended_resources
     t: おすすめのリソース
+
+  # Brackets
+  - key: tool_evaluation.tool_evaluation_wins
+    t: Library Evaluation Rankings
+  - key: tool_evaluation.tool_evaluation_wins.description
+    t: Results from the new library evaluation factors bracket, ranked by overall wins.
+
+  - key: css_pain_points.css_pain_points_wins
+    t: CSS Pain Points
+  - key: css_pain_points.css_pain_points_wins.description
+    t: Results from the CSS pain points tournament bracket, ranked by overall wins.
+
+  - key: currently_missing_from_css.currently_missing_from_css_wins
+    t: Features Missing From CSS
+  - key: currently_missing_from_css.currently_missing_from_css_wins.description
+    t: Results from the missing features tournament bracket, ranked by overall wins.
 
   ###########################################################################
   # Charts
   ###########################################################################
 
+  - key: chart_units.respondents
+    t: "{count} question respondents ({percentage}% completion percentage)"
   - key: chart_units.percentage
     t: パーセント
   - key: chart_units.count
     t: 数
+  - key: chart_units.percentage_question
+    t: "% of question respondents"
+  - key: chart_units.percentage_survey
+    t: "% of survey respondents"
+
+  - key: charts.average
+    t: Average
+  - key: charts.mean
+    t: Mean
+  - key: charts.overall
+    t: Overall
+  - key: charts.all_respondents
+    t: All Respondents
 
   - key: charts.axis_legends.years_of_experience
     t: 経験年数
@@ -422,6 +518,12 @@ translations:
     t: 知識の度合い
   - key: charts.axis_legends.frequency
     t: 頻度
+  - key: charts.axis_legends.age
+    t: Age
+  - key: charts.axis_legends.users_percentage_survey
+    t: "% of survey respondents"
+  - key: charts.axis_legends.users_percentage_question
+    t: "% of question respondents"
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: ベースライン
@@ -429,7 +531,6 @@ translations:
     t: 肯定のオフセット
   - key: charts.ranges_multiple_diverging_lines.negative_offset
     t: 否定のオフセット
-
 
   - key: charts.tools_arrows.negative_opinion
     t: Negative opinions
@@ -444,7 +545,7 @@ translations:
   - key: charts.tools_arrows.y_axis
     t: Y-axis range
   - key: charts.tools_arrows.legend
-    t: Legend 
+    t: Legend
   - key: charts.tools_arrows.velocity
     t: Velocity
   - key: charts.tools_arrows.velocity_positive
@@ -463,8 +564,6 @@ translations:
     t: Rising popularity
   - key: charts.tools_arrows.negative
     t: Falling popularity
-
-
 
   ###########################################################################
   # Sharing
@@ -514,8 +613,14 @@ translations:
   ###########################################################################
   - key: table.label
     t: Label
-  - key: table.percentage
-    t: Percentage
+  - key: table.item
+    t: Item
+  - key: table.percentage_survey
+    t: "% of survey respondents"
+  - key: table.percentage_question
+    t: "% of question respondents"
+  - key: table.percentage_facet
+    t: "% of facet respondents"
   - key: table.count
     t: Count
   - key: table.year
@@ -581,35 +686,42 @@ translations:
 
   - key: hints.hint_hint
     t: >
-        You'll find little hints like this one throughout the survey results
-        that will point out extra features and details. 
+      You'll find little hints like this one throughout the survey results
+      that will point out extra features and details.
+
   - key: hints.units_switcher_hint
     t: >
-        You can use the segmented control at the top right of each block to switch 
-        between relative percentages and absolute counts to get a different view of the
-        same data.
+      You can use the segmented control at the top right of each block to switch 
+      between relative percentages and absolute counts to get a different view of the
+      same data.
+
   - key: hints.export_hint
     t: >
-        The <span class="hint-export-button">Export</span> button at the top of each block
-        lets you get the raw JSON data for any chart, or a GraphQL
-        query you can run against our public API. 
+      The <span class="hint-export-button">Export</span> button at the top of each block
+      lets you get the raw JSON data for any chart, or a GraphQL
+      query you can run against our public API.
+
   - key: hints.completion_hint
     t: >
-        Since all questions are optional, some of them got fewer responses than others. 
-        The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+      Since all questions are optional, some of them got fewer responses than others. 
+      The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+
   - key: hints.tool_modal_hint
     t: >
-        You can click on any technology name to get extra details and 
-        a more in-depth look at its related data. 
+      You can click on any technology name to get extra details and 
+      a more in-depth look at its related data.
+
   - key: hints.rankings_modes_hint
     t: >
-        The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-        to give you a fuller picture of a category's rankings. 
+      The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
+      to give you a fuller picture of a category's rankings.
+
   - key: hints.sharing_hint
     t: >
-        Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-        improve your JavaScript performance by up to 15%. 
+      Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
+      improve your JavaScript performance by up to 15%.
+
   - key: hints.tshirt_hint
     t: >
-        Another guaranteed scientific finding: buying our t-shirt will 
-        increase your JavaScript knowledge by over 9000!
+      Another guaranteed scientific finding: buying our t-shirt will 
+      increase your JavaScript knowledge by over 9000!
