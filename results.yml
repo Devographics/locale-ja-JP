@@ -185,19 +185,19 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: 従業員数でみた利用率
     - key: blocks.tools_company_size_heatmap.description
       t: |
         企業の従業員数によって、技術の利用率が変化しているかを見ています。
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: 給与でみた利用率
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
         給与によって、技術の利用率が変化しているかを見ています。
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: 経験年数で見た利用率
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -210,7 +210,7 @@ translations:
       t: GitHub
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: 満足度 vs 利用率
     - key: blocks.tools_quadrant.description
       t: |
@@ -231,19 +231,19 @@ translations:
         （注：利用数が少ないのは、知られていない技術ということもあれば、多くの人がすでに使っている技術ということもあります。）
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: そのほかのツール
     - key: blocks.category_other_tools.description
       t: このカテゴリ内でそのほかのツール（自由回答）。
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: '{name}の経験年数'
     - key: blocks.tool_experience.description
       t: '回答者の{name}の経験。'
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: 肯定的か否定的か
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -252,7 +252,7 @@ translations:
           棒の太さは、その技術を知っている人の数を表しています。
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: 評価の移ろい
     - key: blocks.tools_section_streams.description
       t: |
@@ -262,14 +262,14 @@ translations:
         1年ぶんのデータしかないものは含めていません。
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: カテゴリーの概要
     - key: blocks.tools_section_overview.description
       t: |
         アンケートした技術の評価のまとめです。暗い色が肯定的、明るい色が否定的な評価となっています。
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: ランキング
     - key: blocks.tools_experience_ranking.description
       t: 満足度、興味、利用率、認知度のランキングです。
@@ -283,14 +283,14 @@ translations:
         - 認知度：総数 － **聞いたことがない**
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: 総合的な満足度
     - key: blocks.happiness.description
       t: |
         このカテゴリについて、現状について開発者が総合的に満足しているかを、1（とても不満）から5（とても満足）で表します。
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: 乞うご期待
     - key: blocks.newsletter.description
       t: |
@@ -301,7 +301,7 @@ translations:
       t: お知らせを受け取る
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: 利用率の概要
     - key: blocks.features_overview.description
       t: |
@@ -323,7 +323,7 @@ translations:
           このクエリーは<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: 利用率の変動
     - key: blocks.tools_usage_variations.description
       t: |
@@ -335,7 +335,7 @@ translations:
         利用率の低いツールほど変動が大きくなりやすいことに注意してください。
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: おすすめのリソース
 
     ###########################################################################
