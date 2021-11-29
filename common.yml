@@ -536,15 +536,15 @@ translations:
     # Gender (short)
 
     - key: options.gender.female
-      t: Woman
+      t: 女性
     - key: options.gender.male
-      t: Man
+      t: 男性
     - key: options.gender.non_binary
-      t: Non-Binary or GNC
+      t: ノンバイナリー・GNC
     - key: options.gender.questioning
-      t: Questioning
+      t: クエスチョニング
     - key: options.gender.not_listed
-      t: Not Listed
+      t: この中にはない
 
     # Race & Ethnicity
     - key: options.race_ethnicity.white_european
@@ -590,19 +590,19 @@ translations:
     # Disability Status (short)
     - key: options.disability_status.visual_impairments
       t: >
-        Visual impairments
+        視覚障害
     - key: options.disability_status.hearing_impairments
       t: >
-        Hearing impairments
+        聴覚障害
     - key: options.disability_status.mobility_impairments
       t: >
-        Mobility impairments
+        運動障害
     - key: options.disability_status.cognitive_impairments
       t: >
-        Cognitive impairments
+        認識機能障害
     - key: options.disability_status.not_listed
       t: >
-        Not Listed
+        この中にはない
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -770,19 +770,19 @@ translations:
 
     # degree (short versions)
     - key: options.higher_education_degree.no_degree.short
-      t: No
+      t: 学位なし
     - key: options.higher_education_degree.yes_related.short
-      t: Yes, in a related field
+      t: 学位あり（関係する）
     - key: options.higher_education_degree.yes_unrelated.short
-      t: Yes, in an unrelated field
+      t: 学位あり（関係なし）
 
     # bracket
     - key: options.bracket.round1
-      t: Round 1 wins
+      t: ラウンド1勝者
     - key: options.bracket.round2
-      t: Round 2 wins
+      t: ラウンド2勝者
     - key: options.bracket.round3
-      t: Round 3 wins
+      t: ラウンド3勝者
 
     ###########################################################################
     # Tools
@@ -806,19 +806,19 @@ translations:
     - key: user_info.age
       t: 年齢
     - key: user_info.age.description
-      t: How old are you, in years?
+      t: 年齢はいくつですか？
 
     # years of experience
     - key: user_info.years_of_experience
       t: 経験年数
     - key: user_info.years_of_experience.description
-      t: この業界で何年ほどの経験がありますか。
+      t: この業界で何年ほどの経験がありますか？
 
     # company size
     - key: user_info.company_size
       t: 会社の規模
     - key: user_info.company_size.description
-      t: あなたの会社はどれくらいの大きさですか。
+      t: あなたの会社はどれくらいの大きさですか？
 
     # salary ranges
     - key: user_info.yearly_salary
@@ -855,37 +855,28 @@ translations:
       t: ジェンダー
     - key: user_info.gender.description
       t: >
-        回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。
-        - Which of the following options describes you, if any? Please pick one.
+        次の選択肢のうち、あなたを表しているものはどれですか。
     - key: user_info.gender.note
       t: >
-        While we know collecting and publishing diversity data can be a sensitive issue,
-        we do think it's important to obtain this data to help measure and improve
-        the survey's efforts in terms of inclusivity and representativeness.
+        多様性について情報を集め公開することはセンシティブな問題になりうることは承知の上ですが、このアンケートの包括性や代表性を知り、向上させるためにこのデータを収集することが重要だと考えています。
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
       t: 人種・民族
     - key: user_info.race_ethnicity.description
       t: >
-        回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。
-        - We use this data to help track and improve the survey's representativeness.
-        Which of the following options describe you, if any? Please check all that apply.
+        次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
     - key: user_info.race_ethnicity.note
       t: >
-        While we know collecting and publishing diversity data can be a sensitive issue,
-        we do think it's important to obtain this data to help measure and improve
-        the survey's efforts in terms of inclusivity and representativeness.
+        多様性について情報を集め公開することはセンシティブな問題になりうることは承知の上ですが、このアンケートの包括性や代表性を知り、向上させるためにこのデータを収集することが重要だと考えています。
 
     # disability status
     - key: user_info.disability_status
       t: Disability Status
     - key: user_info.disability_status.description
       t: >
-        回答されたデータはアンケートのアクセシビリティや代表性の変化を調査し、またそれらの改善のために使われます。
-        - We use this data to help track and improve the survey's accessibility and representativeness.
-        Which of the following disabilities do you experience, if any? Please check all that apply.
-        Note that this can include temporary disabilities or injuries.
+        次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
+        選択肢の状態は、一時的な障害やけがも含まれます。
 
     # disability status (other)
     - key: user_info.disability_status.others
