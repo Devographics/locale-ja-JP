@@ -338,6 +338,24 @@ translations:
     - key: options.age.range_more_than_65
       t: 65歳以上
 
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<10'
+    - key: options.age.range_10_18.short
+      t: 10-18
+    - key: options.age.range_18_24.short
+      t: 18-24
+    - key: options.age.range_25_34.short
+      t: 24-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
+
     # years of experience
     - key: options.years_of_experience.range_less_than_1
       t: 1年未満
@@ -515,6 +533,19 @@ translations:
     - key: options.gender.not_listed
       t: この中にはない
 
+    # Gender (short)
+
+    - key: options.gender.female
+      t: Woman
+    - key: options.gender.male
+      t: Man
+    - key: options.gender.non_binary
+      t: Non-Binary or GNC
+    - key: options.gender.questioning
+      t: Questioning
+    - key: options.gender.not_listed
+      t: Not Listed
+
     # Race & Ethnicity
     - key: options.race_ethnicity.white_european
       t: 白人・ヨーロッパ系
@@ -555,6 +586,23 @@ translations:
     - key: options.disability_status.not_listed
       t: >
         この中にはない
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+        Visual impairments
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Hearing impairments
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Mobility impairments
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Cognitive impairments
+    - key: options.disability_status.not_listed
+      t: >
+        Not Listed
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -720,6 +768,22 @@ translations:
     - key: options.higher_education_degree.yes_unrelated
       t: 学位あり（現在の職種には関係しない）
 
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: No
+    - key: options.higher_education_degree.yes_related.short
+      t: Yes, in a related field
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: Yes, in an unrelated field
+
+    # bracket
+    - key: options.bracket.round1
+      t: Round 1 wins
+    - key: options.bracket.round2
+      t: Round 2 wins
+    - key: options.bracket.round3
+      t: Round 3 wins
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -741,6 +805,8 @@ translations:
     # age
     - key: user_info.age
       t: 年齢
+    - key: user_info.age.description
+      t: How old are you, in years?
 
     # years of experience
     - key: user_info.years_of_experience
@@ -790,6 +856,12 @@ translations:
     - key: user_info.gender.description
       t: >
         回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。
+        - Which of the following options describes you, if any? Please pick one.
+    - key: user_info.gender.note
+      t: >
+        While we know collecting and publishing diversity data can be a sensitive issue,
+        we do think it's important to obtain this data to help measure and improve
+        the survey's efforts in terms of inclusivity and representativeness.
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
@@ -797,6 +869,13 @@ translations:
     - key: user_info.race_ethnicity.description
       t: >
         回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。
+        - We use this data to help track and improve the survey's representativeness.
+        Which of the following options describe you, if any? Please check all that apply.
+    - key: user_info.race_ethnicity.note
+      t: >
+        While we know collecting and publishing diversity data can be a sensitive issue,
+        we do think it's important to obtain this data to help measure and improve
+        the survey's efforts in terms of inclusivity and representativeness.
 
     # disability status
     - key: user_info.disability_status
@@ -804,6 +883,10 @@ translations:
     - key: user_info.disability_status.description
       t: >
         回答されたデータはアンケートのアクセシビリティや代表性の変化を調査し、またそれらの改善のために使われます。
+        - We use this data to help track and improve the survey's accessibility and representativeness.
+        Which of the following disabilities do you experience, if any? Please check all that apply.
+        Note that this can include temporary disabilities or injuries.
+
     # disability status (other)
     - key: user_info.disability_status.others
       t: そのほかの障害
@@ -815,6 +898,8 @@ translations:
       t: メールアドレス
     - key: user_info.country
       t: 居住国・居住地
+    - key: user_info.country.description
+      t: Where do you currently reside?
 
     - key: user_info.github_username
       t: GitHubのユーザー名
