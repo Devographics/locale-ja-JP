@@ -208,37 +208,37 @@ translations:
 
     # CSS missing features (same as features section)
     - key: options.currently_missing_from_css.nesting
-      t: Nesting
+      t: ネスト
     - key: options.currently_missing_from_css.nesting.description
-      t: Being able to nest styles in native CSS.
+      t: ツールを使わずネイティブなCSSでスタイルをネストする。
     - key: options.currently_missing_from_css.parent_selector
-      t: Parent Selector
+      t: 親セレクタ
     - key: options.currently_missing_from_css.parent_selector.description
-      t: The ability to target a parent element based on its children.
+      t: 子要素の状態から親要素を選択する。
     - key: options.currently_missing_from_css.browser_support
-      t: Browser Support
+      t: ブラウザのサポート
     - key: options.currently_missing_from_css.browser_support.description
-      t: Better browser support for existing features.
+      t: いま仕様にある機能がブラウザで実装されること。
     - key: options.currently_missing_from_css.mixins
-      t: Mixins
+      t: ミックスイン
     - key: options.currently_missing_from_css.mixins.description
-      t: Group and reuse definitions dynamically.
+      t: スタイル定義の動的なグループ化と再利用。
     - key: options.currently_missing_from_css.color_functions
-      t: Color Functions
+      t: 色関連の関数
     - key: options.currently_missing_from_css.color_functions.description
-      t: Functions for manipulating color values.
+      t: 色の値を操作する関数。
     - key: options.currently_missing_from_css.container_queries
-      t: Container Queries
+      t: コンテナクエリー
     - key: options.currently_missing_from_css.container_queries.description
-      t: Being able to write styles based on the parent container's dimensions.
+      t: 親コンテナの大きさをもとにスタイルを書ける。
     - key: options.currently_missing_from_css.scoping
-      t: Scoping
+      t: スコープ
     - key: options.currently_missing_from_css.scoping.description
-      t: The ability to be more specific about where your styles are applied. 
+      t: スタイルがどこで適用されるかをより細かく指定できる。
     - key: options.currently_missing_from_css.subgrid
-      t: Subgrid
+      t: サブグリッド
     - key: options.currently_missing_from_css.subgrid.description
-      t: Nesting deeper-level subgrids into a parent grid.
+      t: 親のグリッドの一部をさらにグリッド化する。
 
     ###########################################################################
     # Features
@@ -422,7 +422,7 @@ translations:
     - key: features.nesting
       t: ネスト
     - key: features.nesting.description
-      t: ツールを使わずネイティブなCSSでスタイルをネストする。 
+      t: ツールを使わずネイティブなCSSでスタイルをネストする。
     - key: features.parent_selector
       t: 親セレクタ
     - key: features.parent_selector.description
@@ -451,7 +451,7 @@ translations:
       t: サブグリッド
     - key: features.subgrid.description
       t: 親のグリッドの一部をさらにグリッド化する。
-      
+
     ###########################################################################
     # Units & Selectors
     ###########################################################################
@@ -754,11 +754,11 @@ translations:
       t: CSSについてひとこと言うならなんでしょうか。
 
     - key: happiness.pre_post_processors
-      t: How happy are you with the state of pre/post-processors?
+      t: プリプロセッサ・ポストプロセッサの現状に満足しているか
     - key: happiness.css_in_js
-      t: How happy are you with the state of CSS-in-JS libraries?
+      t: CSS-in-JSライブラリの現状に満足しているか
     - key: happiness.css_frameworks
-      t: How happy are you with the state of CSS frameworks?
+      t: CSSフレームワークの現状に満足しているか
 
     - key: happiness.state_of_the_web
       t: ウェブ技術の現状に満足しているか
