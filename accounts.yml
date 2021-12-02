@@ -23,7 +23,7 @@ translations:
     - key: accounts.error_token_expired
       t: パスワードリセットトークンが無効です
     - key: accounts.username_or_email
-      t: ユーザー名かメールアドレス
+      t: ユーザー名またはメールアドレス
     - key: accounts.enter_username
       t: ユーザー名を入力してください
     - key: accounts.username
@@ -63,11 +63,11 @@ translations:
     - key: accounts.info_password_changed
       t: パスワードが変更されました。
     - key: accounts.please_pick_password
-      t: 続けるために新しいパスワードを選んでください
+      t: 新しいパスワードを選んでください。
     - key: accounts.please_log_in
-      t: 始めるためにはサインアップかログインが必要です。
+      t: サインアップかログインしてください。
     - key: accounts.logged_in_as
       t: '{email}としてログインしました。'
     - key: accounts.questions
       t: >
-          個人データをどのように扱うかの質問や、個人情報の削除がしたい場合は<a href="mailto:hello@stateofjs.com">メールでお問い合わせ</a>ください。
+          個人情報の扱いについての質問や、個人情報の削除がしたい場合は<a href="mailto:hello@stateofjs.com">メールでお問い合わせ</a>ください。

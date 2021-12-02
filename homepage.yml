@@ -13,19 +13,17 @@ translations:
 
     - key: homepage.made_by
       t: '「The State of CSS」を作ったのは:'
-    - key: homepage.leave_issue
-      t: イシューを残す
 
     - key: homepage.previous_years
       t: 'これまでのアンケート:'
 
     - key: homepage.intro
       t: >
-          ## CSSはこれまで以上に速く進化しています。
+          ## CSSはこれまでにない速さで進化しています。
 
-          Flexbox、Grid、Multi-Column…。CSS-in-JSのような新しいパラダイムについて言うまでもありません。
+          Flexbox、Grid、マルチカラム……CSS-in-JSは言うまでもありませんね。
 
-          [State Of JavaScript](https://stateofjs.com)のアンケートの成功をもとに、スタイリングやセレクターについても最新のトレンドを明らかにして、今までにないほど大きくなっている「フロントエンドの分断」の架け橋を作ることにしました！
+          [State Of JavaScript](https://stateofjs.com)の成功をうけ、対象をスタイルやセレクタの世界にも広げることにしました。深まり続ける「フロントエンドの分断」の架け橋になることを願って…！
 
     - key: homepage.take_survey
       t: アンケートに答える
