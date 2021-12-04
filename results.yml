@@ -36,15 +36,15 @@ translations:
   - key: tabs.bracket_wins
     t: 勝者
   - key: tabs.bracket_matchups
-    t: Matchups
+    t: 対戦
   - key: tabs.chart
-    t: Chart
+    t: チャート
   - key: tabs.data
-    t: Data
+    t: データ
   - key: tabs.share
-    t: Share
+    t: シェア
   - key: tabs.debug
-    t: Debug
+    t: デバッグ
 
   ###########################################################################
   # Block
@@ -67,13 +67,13 @@ translations:
     t: 認知度
 
   - key: options.features_mode.grouped
-    t: Grouped
+    t: グループ
   - key: options.features_mode.awareness_rank
-    t: By Awareness
+    t: 認知度順
   - key: options.features_mode.usage_rank
-    t: By Usage
+    t: 利用度順
   - key: options.features_mode.usage_ratio_rank
-    t: By Usage Ratio
+    t: 利用率順
 
   - key: options.features_simplified.know_it
     t: 知っている
@@ -112,9 +112,9 @@ translations:
 
   # other learning methods
   - key: options.first_steps.blogs
-    t: Blogs
+    t: ブログ
   - key: options.first_steps.forums
-    t: Forums
+    t: フォーラム
   
   # other disablities
   - key: options.disability_status_others.adhd
@@ -335,7 +335,7 @@ translations:
     t: 満足度 vs 利用率
   - key: blocks.tools_quadrant.description
     t: |
-      このチャートは技術ごとにその**満足度** (or **interest ratio**) と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
+      このチャートは技術ごとにその**満足度**（もしくは**関心度**）と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
 
         - **ASSESS**: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
 
@@ -514,13 +514,13 @@ translations:
   - key: charts.axis_legends.users_count
     t: ユーザー数
   - key: charts.axis_legends.interest_percentage
-    t: 興味の度合い（％）
+    t: 関心度（％）
   - key: charts.axis_legends.satisfaction_percentage
     t: 満足度（％）
   - key: charts.axis_legends.usage_percentage
-    t: Usage %
+    t: 利用度（％）
   - key: charts.axis_legends.awareness_percentage
-    t: Awareness %
+    t: 認知度（％）
   - key: charts.axis_legends.happiness
     t: 満足度
   - key: charts.axis_legends.knowledge_score
@@ -648,6 +648,7 @@ translations:
   - key: table.percentage_facet
     t: "％のファセット回答数"
   - key: table.count
+    # todo
     t: Count
   - key: table.year
     t: 年
@@ -673,27 +674,28 @@ translations:
 
 
   - key: table.percentages_table
+    # todo
     t: Percentages
   - key: table.rankings_table
-    t: Rankings
+    t: ランキング
 
   - key: table.satisfaction_rank
-    t: Satisfaction Rank
+    t: 満足度ランキング
   - key: table.interest_rank
-    t: Interest Rank
+    t: 関心度ランキング
   - key: table.usage_rank
-    t: Usage Rank
+    t: 利用率ランキング
   - key: table.awareness_rank
-    t: Awareness Rank
+    t: 認知度ランキング
 
   - key: table.would_not_use_percentage
-    t: Would not use %
+    t: もう使わない（％）
   - key: table.not_interested_percentage
-    t: Not interested %
+    t: 興味がない（％）
   - key: table.would_use_percentage
-    t: Would use again %
+    t: また使いたい（％）
   - key: table.interested_percentage
-    t: Interested %
+    t: 興味がある（％）
 
   ###########################################################################
   # Awards
