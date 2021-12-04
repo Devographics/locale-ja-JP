@@ -29,18 +29,22 @@ translations:
 
   - key: tabs.all_respondents
     t: 全回答者
-
   - key: tabs.main_answers
     t: 主回答
-
   - key: tabs.other_answers
     t: ほかの回答
-
   - key: tabs.bracket_wins
     t: 勝者
-
   - key: tabs.bracket_matchups
     t: Matchups
+  - key: tabs.chart
+    t: Chart
+  - key: tabs.data
+    t: Data
+  - key: tabs.share
+    t: Share
+  - key: tabs.debug
+    t: Debug
 
   ###########################################################################
   # Block
@@ -61,6 +65,15 @@ translations:
     t: 利用度
   - key: options.experience_ranking.awareness
     t: 認知度
+
+  - key: options.features_mode.grouped
+    t: Grouped
+  - key: options.features_mode.awareness_rank
+    t: By Awareness
+  - key: options.features_mode.usage_rank
+    t: By Usage
+  - key: options.features_mode.usage_ratio_rank
+    t: By Usage Ratio
 
   - key: options.features_simplified.know_it
     t: 知っている
@@ -322,7 +335,7 @@ translations:
     t: 満足度 vs 利用率
   - key: blocks.tools_quadrant.description
     t: |
-      このチャートは技術ごとにその**満足度**と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
+      このチャートは技術ごとにその**満足度** (or **interest ratio**) と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
 
         - **ASSESS**: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
 
@@ -331,14 +344,6 @@ translations:
         - **AVOID**: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
 
         - **ANALYZE**: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
-  - key: blocks.tools_quadrant.note
-    t: 注：TypeScriptが2つありますが、これはJavaScriptフレーバーのセクションと、ビルドツールのセクション双方に項目があるためです。
-
-  - key: blocks.tools_quadrant.interest.description
-    t: |
-      このチャートは技術ごとにその**関心度**と**総利用数**でプロットしたものです（その技術を知っているものの**使ったことがない**人が回答しています）。
-
-      （注：利用数が少ないのは、知られていない技術ということもあれば、多くの人がすでに使っている技術ということもあります。）
 
   # category other tools
   - key: blocks.category_other_tools
@@ -512,6 +517,10 @@ translations:
     t: 興味の度合い（％）
   - key: charts.axis_legends.satisfaction_percentage
     t: 満足度（％）
+  - key: charts.axis_legends.usage_percentage
+    t: Usage %
+  - key: charts.axis_legends.awareness_percentage
+    t: Awareness %
   - key: charts.axis_legends.happiness
     t: 満足度
   - key: charts.axis_legends.knowledge_score
@@ -565,6 +574,23 @@ translations:
   - key: charts.tools_arrows.negative
     t: 人気低下中
 
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
   ###########################################################################
   # Sharing
   ###########################################################################
@@ -609,7 +635,7 @@ translations:
     t: 表
 
   ###########################################################################
-  # Table
+  # Tables
   ###########################################################################
   - key: table.label
     t: ラベル
@@ -627,6 +653,47 @@ translations:
     t: 年
   - key: table.mean
     t: 平均
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+
+  - key: table.percentages_table
+    t: Percentages
+  - key: table.rankings_table
+    t: Rankings
+
+  - key: table.satisfaction_rank
+    t: Satisfaction Rank
+  - key: table.interest_rank
+    t: Interest Rank
+  - key: table.usage_rank
+    t: Usage Rank
+  - key: table.awareness_rank
+    t: Awareness Rank
+
+  - key: table.would_not_use_percentage
+    t: Would not use %
+  - key: table.not_interested_percentage
+    t: Not interested %
+  - key: table.would_use_percentage
+    t: Would use again %
+  - key: table.interested_percentage
+    t: Interested %
 
   ###########################################################################
   # Awards
