@@ -1,615 +1,786 @@
 locale: ja-JP
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
-
-    - key: results.start
-      t: はじめる
-
-    - key: page.previous
-      t: '前：'
-    - key: page.next
-      t: '次：'
-
-    - key: general.state_of_css_link
-      t: State of CSS
-
-    - key: general.netlify_link
-      t: Hosted by <a href="{link}">Netlify</a>.
-
-    - key: general.completion_percentage
-      t: '回答記入率：'
-
-    - key: partners.thanks
-      t: パートナーのサポートに感謝しています！
-
-    - key: partners.learn_more
-      t: 詳細をみる。
-
-    ###########################################################################
-    # Options
-    ###########################################################################
-
-    - key: options.experience_ranking.satisfaction
-      t: 満足度
-    - key: options.experience_ranking.interest
-      t: 興味
-    - key: options.experience_ranking.usage
-      t: 利用度
-    - key: options.experience_ranking.awareness
-      t: 認知度
-
-    - key: options.features_simplified.know_it
-      t: 知っている
-    - key: options.features_simplified.used_it
-      t: 使ったことがある
-    - key: options.features_simplified.usage_ratio
-      t: 利用率
-
-    - key: options.quadrant.assess
-      t: ASSESS
-    - key: options.quadrant.assess.long
-      t: |
-        ASSESS: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
-    - key: options.quadrant.adopt
-      t: ADOPT
-    - key: options.quadrant.adopt.long
-      t: |
-        ADOPT: 利用率も満足度も高い。使っても大丈夫な技術。
-    - key: options.quadrant.avoid
-      t: AVOID
-    - key: options.quadrant.avoid.long
-      t: |
-        AVOID: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
-    - key: options.quadrant.analyze
-      t: ANALYZE
-    - key: options.quadrant.analyze.long
-      t: |
-        ANALYZE: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
-
-    - key: ranges.selector.years_of_experience
-      t: 経験年数
-    - key: ranges.selector.yearly_salary
-      t: 給与
-    - key: ranges.selector.company_size
-      t: 従業員数
-
-    ###########################################################################
-    # Sections
-    ###########################################################################
-
-    - key: sections.introduction.title
-      t: はじめに
-
-    - key: sections.demographics.title
-      t: 回答者の属性
-
-    - key: sections.tshirt.title
-      t: Tシャツ
-
-    - key: sections.technologies.title
-      t: 技術
-
-    - key: sections.conclusion.title
-      t: おわりに
-
-    - key: sections.support.title
-      t: サポートする
-    - key: sections.support.description
-      t: >
-        このアンケートはサイドプロジェクトです。私たちはプロジェクトを続けていくため、活動をサポートしてくれるパートナーを探しています。サポートは金銭的なものだけでなく、この活動を広めてくれるのも含みます。何か協力できそうと思ったら、ぜひ[連絡してください](mailto:hello@stateofjs.com)！
-
-    - key: sections.awards.title
-      t: アワード
-    - key: sections.awards.description
-      t: 今年注目を集めたものに贈られます。
-
-    ###########################################################################
-    # User Info
-    ###########################################################################
-
-    - key: user_info.locale
-      t: 言語
-    - key: user_info.locale.description
-      t: どの言語で回答したか？
-
-    - key: user_info.source
-      t: ソース
-    - key: user_info.source.description
-      t: このアンケートをどこで知ったか？
-
-    ###########################################################################
-    # Locales
-    ###########################################################################
-
-    - key: options.locale.en-US
-      t: English
-    - key: options.locale.ca-ES
-      t: Catalan
-    - key: options.locale.es-ES
-      t: Spanish
-    - key: options.locale.ru-RU
-      t: Russian
-    - key: options.locale.fr-FR
-      t: French
-    - key: options.locale.zh-Hant
-      t: Chinese (Traditional)
-    - key: options.locale.de-DE
-      t: German
-    - key: options.locale.cs-CZ
-      t: Czech
-    - key: options.locale.pt-PT
-      t: Portuguese
-    - key: options.locale.it-IT
-      t: Italian
-    - key: options.locale.sv-SE
-      t: Swedish
-    - key: options.locale.tr-TR
-      t: Turkish
-    - key: options.locale.id-ID
-      t: Indonesian
-    - key: options.locale.hi-IN
-      t: Hindi
-    - key: options.locale.zh-Hans
-      t: Chinese (Simplified)
-    - key: options.locale.ja-JP
-      t: Japanese
-    - key: options.locale.ua-UA
-      t: Ukrainian
-    - key: options.locale.pl-PL
-      t: Polish
-    - key: options.locale.fa-IR
-      t: Farsi
-    - key: options.locale.nl-NL
-      t: Dutch
-
-    ###########################################################################
-    # Features
-    ###########################################################################
-
-    - key: features.learn_more
-      t: Learn More (MDN)
-    - key: features.mdn_link
-      t: MDN
-    - key: features.caniuse_link
-      t: CanIUse
-    - key: features.specification_link
-      t: W3C仕様
-
-    # knowledge score
-    - key: features.knowledge_score
-      t: 知識の度合い
-    - key: features.knowledge_score.description
-      t: アンケートで取り上げたCSSの機能を回答者がどのくらい知っていたか。
-
-    ###########################################################################
-    # Tools & Methodologies
-    ###########################################################################
-
-    # general
-    - key: tools.links
-      t: リンク
-    - key: tools.github_link
-      t: GitHub
-    - key: tools.github_stars
-      t: stars
-    - key: tools.homepage_link
-      t: ホームページ
-    - key: tools.npm_link
-      t: NPM
-    - key: tools.technology
-      t: Technology
-
-    ###########################################################################
-    # Blocks
-    ###########################################################################
-
-    # heatmaps
-    - key: blocks.tools_company_size_heatmap
-      t: 従業員数でみた利用率
-    - key: blocks.tools_company_size_heatmap.description
-      t: |
-        企業の従業員数によって、技術の利用率が変化しているかを見ています。
-
-    - key: blocks.tools_yearly_salary_heatmap
-      t: 給与でみた利用率
-    - key: blocks.tools_yearly_salary_heatmap.description
-      t: |
-        給与によって、技術の利用率が変化しているかを見ています。
-
-    - key: blocks.tools_years_of_experience_heatmap
-      t: 経験年数で見た利用率
-    - key: blocks.tools_years_of_experience_heatmap.description
-      t: |
-        経験年数によって、技術の利用率が変化しているかを見ています。なお、経験年数とは職務経験であり、その技術の経験ではありません。
-
-    # tool
-    - key: blocks.entity.homepage_link
-      t: ホームページ
-    - key: blocks.entity.github_link
-      t: GitHub
-
-    # cardinality
-    - key: blocks.all_sections_tools_cardinality_by_user.title
-      t: Technology Usage Cardinality
-    - key: blocks.all_sections_tools_cardinality_by_user.description
-      t: For each section, which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. technologies.
-
-    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
-      t: Technology Usage Cardinality
-    - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-      t: Which percentage of respondents use (defined as having answered “would use again”) one, two, three, etc. items in this section.
-
-    - key: blocks.cardinality.max
-      t: Most common answer
-
-    # tools arrows
-    - key: blocks.tools_arrows.title
-      t: Changes Over Time
-    - key: blocks.tools_arrows.description
-      t: |
-          Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
-          and a point further to the right means more users want to learn it; or have used it and would use it again. 
-    - key: blocks.tools_arrows.note
-      t: |
-          - Some lines skip years.
-          - Technologies with only one year of data are not shown. 
-          - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
-          - A positive velocity means the usage and/or positive opinions have increased over time.
-
-    # tools quadrant
-    - key: blocks.tools_quadrant
-      t: 満足度 vs 利用率
-    - key: blocks.tools_quadrant.description
-      t: |
-        このチャートは技術ごとにその**満足度**と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
-
-          - **ASSESS**: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
-
-          - **ADOPT**: 利用率も満足度も高い。使っても大丈夫な技術。
-
-          - **AVOID**: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
-
-          - **ANALYZE**: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
-
-    - key: blocks.tools_quadrant.interest.description
-      t: |
-        このチャートは技術ごとにその**関心度**と**総利用数**でプロットしたものです（その技術を知っているものの**使ったことがない**人が回答しています）。
-
-        （注：利用数が少ないのは、知られていない技術ということもあれば、多くの人がすでに使っている技術ということもあります。）
-
-    # category other tools
-    - key: blocks.category_other_tools
-      t: そのほかのツール
-    - key: blocks.category_other_tools.description
-      t: このカテゴリ内でそのほかのツール（自由回答）。
-
-    # tool experience
-    - key: blocks.tool_experience
-      t: '{name}の経験年数'
-    - key: blocks.tool_experience.description
-      t: '回答者の{name}の経験。'
-
-    # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko
-      t: 肯定的か否定的か
-    - key: blocks.tools_experience_marimekko.description
-      t: |
-          このチャートは回答を肯定的なもの（「学びたい」「また使いたい」）と否定的なもの（「興味がない」「もう使わない」）に分けています。
-
-          棒の太さは、その技術を知っている人の数を表しています。
-
-    # tools section streams
-    - key: blocks.tools_section_streams
-      t: 評価の移ろい
-    - key: blocks.tools_section_streams.description
-      t: |
-        技術について、この数年で評価がどう変わったかを示します。
-    - key: blocks.tools_section_streams.note
-      t: |
-        1年ぶんのデータしかないものは含めていません。
-
-    # tools section overview
-    - key: blocks.tools_section_overview
-      t: カテゴリーの概要
-    - key: blocks.tools_section_overview.description
-      t: |
-        アンケートした技術の評価のまとめです。暗い色が肯定的、明るい色が否定的な評価となっています。
-
-    # tools experience ranking
-    - key: blocks.tools_experience_ranking
-      t: ランキング
-    - key: blocks.tools_experience_ranking.description
-      t: 満足度、興味、利用率、認知度のランキングです。
-    - key: blocks.tools_experience_ranking.note
-      t: |
-        認知度が10％以下の技術は含めていません。度合いは次のように定義しています。
-
-        - 満足度：**また使いたい** vs **もう使わない**
-        - 興味：**学びたい** vs **興味がない**
-        - 利用率：**また使いたい** + **もう使わない** vs 認知度
-        - 認知度：総数 － **聞いたことがない**
-
-    # happiness
-    - key: blocks.happiness
-      t: 総合的な満足度
-    - key: blocks.happiness.description
-      t: |
-        このカテゴリについて、現状について開発者が総合的に満足しているかを、1（とても不満）から5（とても満足）で表します。
-
-    # newsletter
-    - key: blocks.newsletter
-      t: 乞うご期待
-    - key: blocks.newsletter.description
-      t: |
-        回答結果の発表や、来年のアンケートのお知らせを受け取りたい方はメールアドレスを入力してください。
-    - key: blocks.newsletter.email
-      t: メールアドレス
-    - key: blocks.newsletter.submit
-      t: お知らせを受け取る
-
-    # features_overview
-    - key: blocks.features_overview
-      t: 利用率の概要
-    - key: blocks.features_overview.description
-      t: |
-        このチャートは各機能の採用度合いを示しています。各機能はカテゴリごとに分けられています。
-
-        <span class="text-teal-darker text-bold">外の円</span>は機能を知っている人の数を、<span class="text-teal text-bold">内の円</span>は実際に使った人の数をそれぞれ表します。
-
-        回答者の人数など詳細は、ノードにカーソルをあわせると表示される<span class="text-blackpink text-bold">オーバーレイ</span>から確認できます。
-
-    # export
-    - key: export.export
-      t: 出力
-    - key: export.title
-      t: '{title}のデータを出力'
-    - key: export.nocsv
-      t: ごめんなさい。このデータセットはCSVに出力できません。
-    - key: export.graphql
-      t: >
-          このクエリーは<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
-
-    # Tools usage variations
-    - key: blocks.tools_usage_variations
-      t: 利用率の変動
-    - key: blocks.tools_usage_variations.description
-      t: |
-        給与、経験年数、従業員の数などが、技術の利用にどんな差（回答者の「また使いたい」「もう使わない」の選択）を及ぼしたかを調べます。
-
-        ベースラインはそれぞれのツールについての利用率を示します。オフセットはベースラインからの差分を表します。たとえば、Xというツールが全回答者のうち10％で使われているとします（これがベースラインです）。そのツールを使っている人のうち、経験年数1～2年の人の割合が13％の場合（ほかのすべての経験年数1～2年の人と比較し）は、肯定の差分が＋3％となります。
-    - key: blocks.tools_usage_variations.note
-      t: |
-        利用率の低いツールほど変動が大きくなりやすいことに注意してください。
-
-    # Recommended Resources
-    - key: blocks.recommended_resources
-      t: おすすめのリソース
-
-    ###########################################################################
-    # Charts
-    ###########################################################################
-
-    - key: chart_units.percentage
-      t: パーセント
-    - key: chart_units.count
-      t: 数
-
-    - key: charts.axis_legends.years_of_experience
-      t: 経験年数
-    - key: charts.axis_legends.yearly_salary
-      t: 給与レンジ（米ドル）
-    - key: charts.axis_legends.company_size
-      t: 従業員数
-    - key: charts.axis_legends.backend_proficiency
-      t: バックエンドの習熟度
-    - key: charts.axis_legends.css_proficiency
-      t: CSSの習熟度
-    - key: charts.axis_legends.javascript_proficiency
-      t: JavaScriptの習熟度
-    - key: charts.axis_legends.users_percentage
-      t: ユーザーの割合（％）
-    - key: charts.axis_legends.users_count
-      t: ユーザー数
-    - key: charts.axis_legends.interest_percentage
-      t: 興味の度合い（％）
-    - key: charts.axis_legends.satisfaction_percentage
-      t: 満足度（％）
-    - key: charts.axis_legends.happiness
-      t: 満足度
-    - key: charts.axis_legends.knowledge_score
-      t: 知識の度合い
-    - key: charts.axis_legends.frequency
-      t: 頻度
-
-    - key: charts.ranges_multiple_diverging_lines.baseline
-      t: ベースライン
-    - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: 肯定のオフセット
-    - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: 否定のオフセット
-
-
-    - key: charts.tools_arrows.negative_opinion
-      t: Negative opinions
-    - key: charts.tools_arrows.positive_opinion
-      t: Positive opinions
-    - key: charts.tools_arrows.have_not_used
-      t: Have not used
-    - key: charts.tools_arrows.have_used
-      t: Have used
-    - key: charts.tools_arrows.x_axis
-      t: X-axis range
-    - key: charts.tools_arrows.y_axis
-      t: Y-axis range
-    - key: charts.tools_arrows.legend
-      t: Legend 
-    - key: charts.tools_arrows.velocity
-      t: Velocity
-    - key: charts.tools_arrows.velocity_positive
-      t: Overall more positive opinions and/or usage over time
-    - key: charts.tools_arrows.velocity_negative
-      t: Overall more negative opinions and/or less usage over time
-    - key: charts.tools_arrows.opinions_positive
-      t: Mostly positive opinions
-    - key: charts.tools_arrows.opinions_negative
-      t: Mostly negative opinions
-    - key: charts.tools_arrows.low_usage
-      t: Low usage
-    - key: charts.tools_arrows.high_usage
-      t: High usage
-    - key: charts.tools_arrows.popularity_positive
-      t: Rising popularity
-    - key: charts.tools_arrows.negative
-      t: Falling popularity
-
-
-
-    ###########################################################################
-    # Sharing
-    ###########################################################################
-
-    - key: share.share
-      t: シェア
-    - key: share.site.title
-      t: '{siteTitle}の結果を見てみよう'
-    - key: share.site.twitter_text
-      t: '{siteTitle}の結果を見てみよう {link} {hashTag}'
-    - key: share.site.subject
-      t: '{siteTitle}の結果'
-    - key: share.site.body
-      t: '{siteTitle}に関するアンケートの興味深い結果です: {link}'
-    - key: share.block.twitter_text
-      t: '{hashtag} {year}: {title} {link}'
-    - key: share.block.subject
-      t: '{siteTitle}の結果'
-    - key: share.block.body
-      t: '{siteTitle}に関するアンケートの興味深い結果です ({title}): {link}'
-    - key: share.twitter
-      t: Twitterにシェア
-    - key: share.facebook
-      t: Facebookにシェア
-    - key: share.linkedin
-      t: LinkedInにシェア
-    - key: share.email
-      t: メールで共有
-    - key: share.image
-      t: 画像を取得
-    - key: share.link
-      t: Link to section
-    - key: share.close
-      t: Close
-
-    ###########################################################################
-    # Views
-    ###########################################################################
-    - key: views.viz
-      t: Graph
-    - key: views.table
-      t: Table
-
-    ###########################################################################
-    # Table
-    ###########################################################################
-    - key: table.label
-      t: Label
-    - key: table.percentage
-      t: Percentage
-    - key: table.count
-      t: Count
-    - key: table.year
-      t: Year
-    - key: table.mean
-      t: Mean
-
-    ###########################################################################
-    # Awards
-    ###########################################################################
-
-    - key: awards.runner_ups
-      t: 次点
-
-    - key: award.feature_adoption_award.title
-      t: 最優秀利用機能賞
-    - key: award.feature_adoption_award.description
-      t: 一番多く使われた機能に贈られます。
-
-    - key: award.feature_adoption_delta_award.title
-      t: 最優秀採用機能賞
-    - key: award.feature_adoption_delta_award.description
-      t: 「使った」と答えた人がこの1年で一番増加した機能に贈られます。
-
-    - key: award.tool_usage_award.title
-      t: 最優秀利用技術賞
-    - key: award.tool_usage_award.description
-      t: ユーザーベースの一番多い技術に贈られます。
-
-    - key: award.tool_usage_delta_award.title
-      t: 最優秀採用技術賞
-    - key: award.tool_usage_delta_award.description
-      t: 「また使いたい」と答えた人がこの1年で一番増加した機能に贈られます。
-
-    - key: award.tool_satisfaction_award.title
-      t: 最優秀満足度賞
-    - key: award.tool_satisfaction_award.description
-      t: 満足と答えた度合いが一番大きい技術に贈られます。
-
-    - key: award.tool_interest_award.title
-      t: 最優秀関心度賞
-    - key: award.tool_interest_award.description
-      t: 開発者が学びたいと答えた度合いが一番大きい技術に贈られます。
-
-    - key: award.resource_usage_award.title
-      t: 最優秀リソース賞
-    - key: award.resource_usage_award.description
-      t: ユーザーベースの一番多いリソースに贈られます。
-
-    - key: award.prediction_award.title
-      t: 最優秀新人賞
-    - key: award.prediction_award.description
-      t: 将来有望で、次の世代を担うかもしれない技術に贈られます。
-
-    - key: award.most_write_ins_award.title
-      t: 最頻記入投票賞
-    - key: award.most_write_ins_award.description
-      t: 自由入力欄に書かれた回答が最も多かったものに贈られます。
-
-    ###########################################################################
-    # Hints
-    ###########################################################################
-
-    - key: hints.hint_hint
-      t: >
-          You'll find little hints like this one throughout the survey results
-          that will point out extra features and details. 
-    - key: hints.units_switcher_hint
-      t: >
-          You can use the segmented control at the top right of each block to switch 
-          between relative percentages and absolute counts to get a different view of the
-          same data.
-    - key: hints.export_hint
-      t: >
-          The <span class="hint-export-button">Export</span> button at the top of each block
-          lets you get the raw JSON data for any chart, or a GraphQL
-          query you can run against our public API. 
-    - key: hints.completion_hint
-      t: >
-          Since all questions are optional, some of them got fewer responses than others. 
-          The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
-    - key: hints.tool_modal_hint
-      t: >
-          You can click on any technology name to get extra details and 
-          a more in-depth look at its related data. 
-    - key: hints.rankings_modes_hint
-      t: >
-          The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-          to give you a fuller picture of a category's rankings. 
-    - key: hints.sharing_hint
-      t: >
-          Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-          improve your JavaScript performance by up to 15%. 
-    - key: hints.tshirt_hint
-      t: >
-          Another guaranteed scientific finding: buying our t-shirt will 
-          increase your JavaScript knowledge by over 9000!
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: results.start
+    t: はじめる
+
+  - key: page.previous
+    t: '前：'
+  - key: page.next
+    t: '次：'
+
+  - key: general.state_of_css_link
+    t: State of CSS
+
+  - key: general.netlify_link
+    t: Hosted by <a href="{link}">Netlify</a>.
+
+  - key: general.completion_percentage
+    t: '回答記入率：'
+
+  - key: partners.thanks
+    t: パートナーのサポートに感謝しています！
+
+  - key: partners.learn_more
+    t: 詳細をみる。
+
+  - key: tabs.all_respondents
+    t: 全回答者
+  - key: tabs.main_answers
+    t: 主回答
+  - key: tabs.other_answers
+    t: ほかの回答
+  - key: tabs.bracket_wins
+    t: 勝者
+  - key: tabs.bracket_matchups
+    t: 対戦
+  - key: tabs.chart
+    t: チャート
+  - key: tabs.data
+    t: データ
+  - key: tabs.share
+    t: シェア
+  - key: tabs.debug
+    t: デバッグ
+
+  ###########################################################################
+  # Block
+  ###########################################################################
+
+  - key: block.data_from
+    t: foo
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  - key: options.experience_ranking.satisfaction
+    t: 満足度
+  - key: options.experience_ranking.interest
+    t: 興味
+  - key: options.experience_ranking.usage
+    t: 利用度
+  - key: options.experience_ranking.awareness
+    t: 認知度
+
+  - key: options.features_mode.grouped
+    t: グループ
+  - key: options.features_mode.awareness_rank
+    t: 認知度順
+  - key: options.features_mode.usage_rank
+    t: 利用度順
+  - key: options.features_mode.usage_ratio_rank
+    t: 利用率順
+
+  - key: options.features_simplified.know_it
+    t: 知っている
+  - key: options.features_simplified.used_it
+    t: 使ったことがある
+  - key: options.features_simplified.usage_ratio
+    t: 利用率
+
+  - key: options.quadrant.assess
+    t: ASSESS
+  - key: options.quadrant.assess.long
+    t: |
+      ASSESS: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
+  - key: options.quadrant.adopt
+    t: ADOPT
+  - key: options.quadrant.adopt.long
+    t: |
+      ADOPT: 利用率も満足度も高い。使っても大丈夫な技術。
+  - key: options.quadrant.avoid
+    t: AVOID
+  - key: options.quadrant.avoid.long
+    t: |
+      AVOID: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
+  - key: options.quadrant.analyze
+    t: ANALYZE
+  - key: options.quadrant.analyze.long
+    t: |
+      ANALYZE: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
+
+  - key: ranges.selector.years_of_experience
+    t: 経験年数
+  - key: ranges.selector.yearly_salary
+    t: 給与
+  - key: ranges.selector.company_size
+    t: 従業員数
+
+  # other learning methods
+  - key: options.first_steps.blogs
+    t: ブログ
+  - key: options.first_steps.forums
+    t: フォーラム
+  
+  # other disablities
+  - key: options.disability_status_others.adhd
+    t: ADHD
+  - key: options.disability_status_others.autism
+    t: 自閉症
+  - key: options.disability_status_others.glasses
+    t: 眼鏡
+  - key: options.disability_status_others.old
+    t: 老齢
+  - key: options.disability_status_others.back_pain
+    t: 背部痛
+  - key: options.disability_status_others.epilepsy
+    t: てんかん
+  - key: options.disability_status_others.aspergers
+    t: アスペルガー障害
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.introduction.title
+    t: はじめに
+
+  - key: sections.demographics.title
+    t: 回答者の属性
+
+  - key: sections.tshirt.title
+    t: Tシャツ
+
+  - key: sections.technologies.title
+    t: 技術
+
+  - key: sections.conclusion.title
+    t: おわりに
+
+  - key: sections.support.title
+    t: サポートする
+  - key: sections.support.description
+    t: >
+      このアンケートはサイドプロジェクトです。私たちはプロジェクトを続けていくため、活動をサポートしてくれるパートナーを探しています。サポートは金銭的なものだけでなく、この活動を広めてくれるのも含みます。何か協力できそうと思ったら、ぜひ[連絡してください](mailto:hello@stateofjs.com)！
+
+  - key: sections.awards.title
+    t: アワード
+  - key: sections.awards.description
+    t: 今年注目を集めたものに贈られます。
+
+  ###########################################################################
+  # User Info
+  ###########################################################################
+
+  - key: user_info.locale
+    t: 言語
+  - key: user_info.locale.description
+    t: どの言語で回答したか？
+  - key: user_info.locale.note
+    t: >
+      このデータは回答者が回答中の言語設定から自動的に収集されています。回答数が20未満の言語は表示されていません。
+
+  - key: user_info.source
+    t: ソース
+  - key: user_info.source.description
+    t: このアンケートをどこで知ったか？
+  - key: user_info.source.note
+    t: このデータは回答者からの回答、リファラー、URLトラッキングからのデータを合わせたものです。
+
+  - key: user_info.gender_by_countries
+    t: 国別
+  - key: user_info.gender_by_countries.description
+    t: 国別のジェンダー割合を、男性と回答した人の人数で並び替えたものです。
+
+  ###########################################################################
+  # Locales
+  ###########################################################################
+
+  - key: options.locale.en-US
+    t: English
+  - key: options.locale.ca-ES
+    t: Catalan
+  - key: options.locale.es-ES
+    t: Spanish
+  - key: options.locale.ru-RU
+    t: Russian
+  - key: options.locale.fr-FR
+    t: French
+  - key: options.locale.zh-Hant
+    t: Chinese (Traditional)
+  - key: options.locale.de-DE
+    t: German
+  - key: options.locale.cs-CZ
+    t: Czech
+  - key: options.locale.pt-PT
+    t: Portuguese
+  - key: options.locale.it-IT
+    t: Italian
+  - key: options.locale.sv-SE
+    t: Swedish
+  - key: options.locale.tr-TR
+    t: Turkish
+  - key: options.locale.id-ID
+    t: Indonesian
+  - key: options.locale.hi-IN
+    t: Hindi
+  - key: options.locale.zh-Hans
+    t: Chinese (Simplified)
+  - key: options.locale.ja-JP
+    t: Japanese
+  - key: options.locale.ua-UA
+    t: Ukrainian
+  - key: options.locale.pl-PL
+    t: Polish
+  - key: options.locale.fa-IR
+    t: Farsi
+  - key: options.locale.nl-NL
+    t: Dutch
+  - key: options.locale.ko-KR
+    t: Korean
+  - key: options.locale.ro-RO
+    t: Romanian
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  - key: features.learn_more
+    t: Learn More (MDN)
+  - key: features.mdn_link
+    t: MDN
+  - key: features.caniuse_link
+    t: CanIUse
+  - key: features.specification_link
+    t: W3C仕様
+
+  # knowledge score
+  - key: features.knowledge_score
+    t: 知識の度合い
+  - key: features.knowledge_score.description
+    t: アンケートで取り上げたCSSの機能を回答者がどのくらい知っていたか。
+
+  ###########################################################################
+  # Tools & Methodologies
+  ###########################################################################
+
+  # general
+  - key: tools.links
+    t: リンク
+  - key: tools.github_link
+    t: GitHub
+  - key: tools.github_stars
+    t: stars
+  - key: tools.homepage_link
+    t: ホームページ
+  - key: tools.npm_link
+    t: NPM
+  - key: tools.technology
+    t: Technology
+
+  ###########################################################################
+  # Blocks
+  ###########################################################################
+
+  # heatmaps
+  - key: blocks.tools_company_size_heatmap
+    t: 従業員数でみた利用率
+  - key: blocks.tools_company_size_heatmap.description
+    t: |
+      企業の従業員数によって、技術の利用率が変化しているかを見ています。
+
+  - key: blocks.tools_yearly_salary_heatmap
+    t: 給与でみた利用率
+  - key: blocks.tools_yearly_salary_heatmap.description
+    t: |
+      給与によって、技術の利用率が変化しているかを見ています。
+
+  - key: blocks.tools_years_of_experience_heatmap
+    t: 経験年数で見た利用率
+  - key: blocks.tools_years_of_experience_heatmap.description
+    t: |
+      経験年数によって、技術の利用率が変化しているかを見ています。なお、経験年数とは職務経験であり、その技術の経験ではありません。
+
+  # tool
+  - key: blocks.entity.homepage_link
+    t: ホームページ
+  - key: blocks.entity.github_link
+    t: GitHub
+
+  # cardinality
+  - key: blocks.all_sections_tools_cardinality_by_user
+    t: 利用度合いの濃度
+  - key: blocks.all_sections_tools_cardinality_by_user.description
+    t: 技術の利用数（「また使いたい」と答えた数）の割合をセクションごとに表示しています。
+
+  - key: blocks.front_end_frameworks_tools_cardinality_by_user
+    t: 利用度合いの濃度
+  - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
+    t: 技術の利用数（「また使いたい」と答えた数）の割合を表示しています。
+
+  - key: blocks.cardinality.max
+    t: もっとも目にした回答
+
+  # tools arrows
+  - key: blocks.tools_arrows
+    t: 評価の移ろい
+  - key: blocks.tools_arrows.description
+    t: |
+      それぞれの線は2016年から2020年までの経過です。上にある技術ほど、より多くの人に使われていることを表します。また、右にある技術ほど、多くの人が学びたいと考えているもの、もしくは過去に利用し、また使いたいものと思っていることを表します。
+  - key: blocks.tools_arrows.note
+    # todo: velocityの訳語
+    t: |
+      - 線によっては年を飛ばしていることがあります
+      - 1年分のデータしかない技術は表示されていません
+      - velocityの計算式 = (最も直近の評価 - 最も古い評価) + (最も直前の利用度合い) - (最も古い利用度合い)
+      - 正のvelocityは、肯定的な評価や利用度合いが、時間の経過とともに増加していることを表します。
+
+
+  # tools quadrant
+  - key: blocks.tools_quadrant
+    t: 満足度 vs 利用率
+  - key: blocks.tools_quadrant.description
+    t: |
+      このチャートは技術ごとにその**満足度**（もしくは**関心度**）と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
+
+        - **ASSESS**: 利用率は低いが、満足度が高い。チェックしておくとよさそうな技術。
+
+        - **ADOPT**: 利用率も満足度も高い。使っても大丈夫な技術。
+
+        - **AVOID**: 利用率も満足度も低い。いまは避けておいた方がよさそうな技術。
+
+        - **ANALYZE**: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
+
+  # category other tools
+  - key: blocks.category_other_tools
+    t: そのほかのツール
+  - key: blocks.category_other_tools.description
+    t: このカテゴリ内でそのほかのツール（自由回答）。
+
+  # tool experience
+  - key: blocks.tool_experience
+    t: '{name}の経験年数'
+  - key: blocks.tool_experience.description
+    t: '回答者の{name}の経験。'
+
+  # tool positive/negative split ("marimekko" chart)
+  - key: blocks.tools_experience_marimekko
+    t: 肯定的か否定的か
+  - key: blocks.tools_experience_marimekko.description
+    t: |
+        このチャートは回答を肯定的なもの（「学びたい」「また使いたい」）と否定的なもの（「興味がない」「もう使わない」）に分けています。
+
+        棒の太さは、その技術を知っている人の数を表しています。
+
+  # tools section streams
+  - key: blocks.tools_section_streams
+    t: 評価の移ろい
+  - key: blocks.tools_section_streams.description
+    t: |
+      技術について、この数年で評価がどう変わったかを示します。
+  - key: blocks.tools_section_streams.note
+    t: |
+      1年ぶんのデータしかないものは含めていません。
+
+  # tools section overview
+  - key: blocks.tools_section_overview
+    t: カテゴリーの概要
+  - key: blocks.tools_section_overview.description
+    t: |
+      アンケートした技術の評価のまとめです。暗い色が肯定的、明るい色が否定的な評価となっています。
+
+  # tools experience ranking
+  - key: blocks.tools_experience_ranking
+    t: ランキング
+  - key: blocks.tools_experience_ranking.description
+    t: 満足度、興味、利用率、認知度のランキングです。
+  - key: blocks.tools_experience_ranking.note
+    t: |
+      認知度が10％以下の技術は含めていません。度合いは次のように定義しています。
+
+      - 満足度：**また使いたい** vs **もう使わない**
+      - 興味：**学びたい** vs **興味がない**
+      - 利用率：**また使いたい** + **もう使わない** vs 認知度
+      - 認知度：総数 － **聞いたことがない**
+
+  # happiness
+  - key: blocks.happiness
+    t: 総合的な満足度
+  - key: blocks.happiness.description
+    t: |
+      このカテゴリについて、現状について開発者が総合的に満足しているかを、1（とても不満）から5（とても満足）で表します。
+
+  # newsletter
+  - key: blocks.newsletter
+    t: 乞うご期待
+  - key: blocks.newsletter.description
+    t: |
+      回答結果の発表や、来年のアンケートのお知らせを受け取りたい方はメールアドレスを入力してください。
+  - key: blocks.newsletter.email
+    t: メールアドレス
+  - key: blocks.newsletter.submit
+    t: お知らせを受け取る
+
+  # features_overview
+  - key: blocks.features_overview
+    t: 利用率の概要
+  - key: blocks.features_overview.description
+    t: |
+      このチャートは各機能の採用度合いを示しています。各機能はカテゴリごとに分けられています。
+
+      <span class="text-teal-darker text-bold">外の円</span>は機能を知っている人の数を、<span class="text-teal text-bold">内の円</span>は実際に使った人の数をそれぞれ表します。
+
+      回答者の人数など詳細は、ノードにカーソルをあわせると表示される<span class="text-blackpink text-bold">オーバーレイ</span>から確認できます。
+
+  # export
+  - key: export.export
+    t: 出力
+  - key: export.title
+    t: '{title}のデータを出力'
+  - key: export.nocsv
+    t: ごめんなさい。このデータセットはCSVに出力できません。
+  - key: export.graphql
+    t: >
+        このクエリーは<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
+  - key: export.export_json
+    t: JSONデータを取得
+  - key: export.export_graphql
+    t: GraphQLのクエリーを取得
+
+  # Tools usage variations
+  - key: blocks.tools_usage_variations
+    t: 利用率の変動
+  - key: blocks.tools_usage_variations.description
+    t: |
+      給与、経験年数、従業員の数などが、技術の利用にどんな差（回答者の「また使いたい」「もう使わない」の選択）を及ぼしたかを調べます。
+
+      ベースラインはそれぞれのツールについての利用率を示します。オフセットはベースラインからの差分を表します。たとえば、Xというツールが全回答者のうち10％で使われているとします（これがベースラインです）。そのツールを使っている人のうち、経験年数1～2年の人の割合が13％の場合（ほかのすべての経験年数1～2年の人と比較し）は、肯定の差分が＋3％となります。
+  - key: blocks.tools_usage_variations.note
+    t: |
+      利用率の低いツールほど変動が大きくなりやすいことに注意してください。
+
+  # Recommended Resources
+  - key: blocks.recommended_resources
+    t: おすすめのリソース
+
+  # Brackets
+  - key: tool_evaluation.tool_evaluation_wins
+    t: ライブラリの評価ランキング
+  - key: tool_evaluation.tool_evaluation_wins.description
+    t: 新しいライブラリの評価基準について、最も重要と評価された順に並べています。
+
+  - key: css_pain_points.css_pain_points_wins
+    t: CSSのつらいところ
+  - key: css_pain_points.css_pain_points_wins.description
+    t: CSSのつらいところについて、最もつらいと評価された順に並べています。
+
+  - key: currently_missing_from_css.currently_missing_from_css_wins
+    t: CSSに足りないもの
+  - key: currently_missing_from_css.currently_missing_from_css_wins.description
+    t: CSSに足りないものについて、足りないと思われた順に並べています。
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: chart_units.respondents
+    t: "回答者数：{count}（完了度{percentage}％）"
+  - key: chart_units.percentage
+    t: パーセント
+  - key: chart_units.count
+    t: 数
+  - key: chart_units.percentage_question
+    t: "％の質問回答数"
+  - key: chart_units.percentage_survey
+    t: "％のアンケート回答数"
+
+  - key: charts.average
+    t: 代表値
+  - key: charts.mean
+    t: 平均
+  - key: charts.overall
+    t: 総合
+  - key: charts.all_respondents
+    t: 全回答者
+
+  - key: charts.axis_legends.years_of_experience
+    t: 経験年数
+  - key: charts.axis_legends.yearly_salary
+    t: 給与レンジ（米ドル）
+  - key: charts.axis_legends.company_size
+    t: 従業員数
+  - key: charts.axis_legends.backend_proficiency
+    t: バックエンドの習熟度
+  - key: charts.axis_legends.css_proficiency
+    t: CSSの習熟度
+  - key: charts.axis_legends.javascript_proficiency
+    t: JavaScriptの習熟度
+  - key: charts.axis_legends.users_percentage
+    t: ユーザーの割合（％）
+  - key: charts.axis_legends.users_count
+    t: ユーザー数
+  - key: charts.axis_legends.interest_percentage
+    t: 関心度（％）
+  - key: charts.axis_legends.satisfaction_percentage
+    t: 満足度（％）
+  - key: charts.axis_legends.usage_percentage
+    t: 利用度（％）
+  - key: charts.axis_legends.awareness_percentage
+    t: 認知度（％）
+  - key: charts.axis_legends.happiness
+    t: 満足度
+  - key: charts.axis_legends.knowledge_score
+    t: 知識の度合い
+  - key: charts.axis_legends.frequency
+    t: 頻度
+  - key: charts.axis_legends.age
+    t: 年齢
+  - key: charts.axis_legends.users_percentage_survey
+    t: "％の質問回答数"
+  - key: charts.axis_legends.users_percentage_question
+    t: "％のアンケート回答数"
+
+  - key: charts.ranges_multiple_diverging_lines.baseline
+    t: ベースライン
+  - key: charts.ranges_multiple_diverging_lines.positive_offset
+    t: 肯定のオフセット
+  - key: charts.ranges_multiple_diverging_lines.negative_offset
+    t: 否定のオフセット
+
+  - key: charts.tools_arrows.negative_opinion
+    t: 否定的な意見
+  - key: charts.tools_arrows.positive_opinion
+    t: 肯定的な意見
+  - key: charts.tools_arrows.have_not_used
+    t: 使ったことがない
+  - key: charts.tools_arrows.have_used
+    t: 使ったことがある
+  - key: charts.tools_arrows.x_axis
+    t: X軸の範囲
+  - key: charts.tools_arrows.y_axis
+    t: Y軸の範囲
+  - key: charts.tools_arrows.legend
+    t: 凡例
+  - key: charts.tools_arrows.velocity
+    t: Velocity
+  - key: charts.tools_arrows.velocity_positive
+    t: 肯定的で利用度合いが高い方向に推移
+  - key: charts.tools_arrows.velocity_negative
+    t: 否定的で利用度合いが低い方向に推移
+  - key: charts.tools_arrows.opinions_positive
+    t: 多くが肯定的
+  - key: charts.tools_arrows.opinions_negative
+    t: 多くが否定的
+  - key: charts.tools_arrows.low_usage
+    t: 低い利用度合い
+  - key: charts.tools_arrows.high_usage
+    t: 高い利用度合い
+  - key: charts.tools_arrows.popularity_positive
+    t: 人気上昇中
+  - key: charts.tools_arrows.negative
+    t: 人気低下中
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Sharing
+  ###########################################################################
+
+  - key: share.share
+    t: シェア
+  - key: share.site.title
+    t: '{siteTitle}の結果を見てみよう'
+  - key: share.site.twitter_text
+    t: '{siteTitle}の結果を見てみよう {link} {hashTag}'
+  - key: share.site.subject
+    t: '{siteTitle}の結果'
+  - key: share.site.body
+    t: '{siteTitle}に関するアンケートの興味深い結果です: {link}'
+  - key: share.block.twitter_text
+    t: '{hashtag} {year}: {title} {link}'
+  - key: share.block.subject
+    t: '{siteTitle}の結果'
+  - key: share.block.body
+    t: '{siteTitle}に関するアンケートの興味深い結果です ({title}): {link}'
+  - key: share.twitter
+    t: Twitterにシェア
+  - key: share.facebook
+    t: Facebookにシェア
+  - key: share.linkedin
+    t: LinkedInにシェア
+  - key: share.email
+    t: メールで共有
+  - key: share.image
+    t: 画像を取得
+  - key: share.link
+    t: セクションにリンク
+  - key: share.close
+    t: 閉じる
+
+  ###########################################################################
+  # Views
+  ###########################################################################
+  - key: views.viz
+    t: グラフ
+  - key: views.table
+    t: 表
+
+  ###########################################################################
+  # Tables
+  ###########################################################################
+  - key: table.label
+    t: ラベル
+  - key: table.item
+    t: 項目
+  - key: table.percentage_survey
+    t: "％のアンケート回答数"
+  - key: table.percentage_question
+    t: "％の質問回答数"
+  - key: table.percentage_facet
+    t: "％のファセット回答数"
+  - key: table.count
+    # todo
+    t: Count
+  - key: table.year
+    t: 年
+  - key: table.mean
+    t: 平均
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+
+  - key: table.percentages_table
+    # todo
+    t: Percentages
+  - key: table.rankings_table
+    t: ランキング
+
+  - key: table.satisfaction_rank
+    t: 満足度ランキング
+  - key: table.interest_rank
+    t: 関心度ランキング
+  - key: table.usage_rank
+    t: 利用率ランキング
+  - key: table.awareness_rank
+    t: 認知度ランキング
+
+  - key: table.would_not_use_percentage
+    t: もう使わない（％）
+  - key: table.not_interested_percentage
+    t: 興味がない（％）
+  - key: table.would_use_percentage
+    t: また使いたい（％）
+  - key: table.interested_percentage
+    t: 興味がある（％）
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: awards.runner_ups
+    t: 次点
+
+  - key: award.feature_adoption_award.title
+    t: 最優秀利用機能賞
+  - key: award.feature_adoption_award.description
+    t: 一番多く使われた機能に贈られます。
+
+  - key: award.feature_adoption_delta_award.title
+    t: 最優秀採用機能賞
+  - key: award.feature_adoption_delta_award.description
+    t: 「使った」と答えた人がこの1年で一番増加した機能に贈られます。
+
+  - key: award.tool_usage_award.title
+    t: 最優秀利用技術賞
+  - key: award.tool_usage_award.description
+    t: ユーザーベースの一番多い技術に贈られます。
+
+  - key: award.tool_usage_delta_award.title
+    t: 最優秀採用技術賞
+  - key: award.tool_usage_delta_award.description
+    t: 「また使いたい」と答えた人がこの1年で一番増加した機能に贈られます。
+
+  - key: award.tool_satisfaction_award.title
+    t: 最優秀満足度賞
+  - key: award.tool_satisfaction_award.description
+    t: 満足と答えた度合いが一番大きい技術に贈られます。
+
+  - key: award.tool_interest_award.title
+    t: 最優秀関心度賞
+  - key: award.tool_interest_award.description
+    t: 開発者が学びたいと答えた度合いが一番大きい技術に贈られます。
+
+  - key: award.resource_usage_award.title
+    t: 最優秀リソース賞
+  - key: award.resource_usage_award.description
+    t: ユーザーベースの一番多いリソースに贈られます。
+
+  - key: award.prediction_award.title
+    t: 最優秀新人賞
+  - key: award.prediction_award.description
+    t: 将来有望で、次の世代を担うかもしれない技術に贈られます。
+
+  - key: award.most_write_ins_award.title
+    t: 最頻記入投票賞
+  - key: award.most_write_ins_award.description
+    t: 自由入力欄に書かれた回答が最も多かったものに贈られます。
+
+  ###########################################################################
+  # Hints
+  ###########################################################################
+
+  - key: hints.hint_hint
+    t: >
+      結果ページのあちこちに、このような小さなヒントを設けています。ちょっとした機能の紹介や、詳しい説明をしています。
+
+  - key: hints.units_switcher_hint
+    t: >
+      ブロック右上のボタンから、相対的な割合と絶対的な数を切り替えて、データを異なる確度から見られます。
+
+  - key: hints.export_hint
+    t: >
+      ブロック上部にある<span class="hint-export-button">Export</span>ボタンから、グラフの生JSONデータや、公開APIへのGraphQLクエリーを取得できます。
+
+  - key: hints.completion_hint
+    t: >
+      すべての回答が任意なので、ある回答が他の回答と比べて数が少ないことがあります。完了度インジケーター（<span class="hint-completion-indicator">◕</span>）から、何人の方が回答したかがわかります。
+
+  - key: hints.tool_modal_hint
+    t: >
+      技術名をクリックすると、その技術の詳細や、より細かい関連データを見られます。
+
+  - key: hints.rankings_modes_hint
+    t: >
+      ランキングは満足度、興味、利用度合い、認知度のグラフを切り替えられます。
+
+  - key: hints.sharing_hint
+    t: >
+      このアンケートをTwitterやFacebook、メールで共有すると、JavaScriptパフォーマンスが15％向上します。これは科学的に証明されています。
+
+  - key: hints.tshirt_hint
+    t: >
+      もうひとつ。Tシャツを購入すると、あなたのJavaScriptの知識スコアが9000以上になります。これも科学的知見です！

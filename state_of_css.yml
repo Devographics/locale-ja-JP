@@ -205,6 +205,41 @@ translations:
     - key: options.css_pain_points.performance_issues.description
       t: スクロールのガタつきに対処したり、アニメーションをスムーズにさせたり。
 
+
+    # CSS missing features (same as features section)
+    - key: options.currently_missing_from_css.nesting
+      t: ネスト
+    - key: options.currently_missing_from_css.nesting.description
+      t: ツールを使わずネイティブなCSSでスタイルをネストする。
+    - key: options.currently_missing_from_css.parent_selector
+      t: 親セレクタ
+    - key: options.currently_missing_from_css.parent_selector.description
+      t: 子要素の状態から親要素を選択する。
+    - key: options.currently_missing_from_css.browser_support
+      t: ブラウザのサポート
+    - key: options.currently_missing_from_css.browser_support.description
+      t: いま仕様にある機能がブラウザで実装されること。
+    - key: options.currently_missing_from_css.mixins
+      t: ミックスイン
+    - key: options.currently_missing_from_css.mixins.description
+      t: スタイル定義の動的なグループ化と再利用。
+    - key: options.currently_missing_from_css.color_functions
+      t: 色関連の関数
+    - key: options.currently_missing_from_css.color_functions.description
+      t: 色の値を操作する関数。
+    - key: options.currently_missing_from_css.container_queries
+      t: コンテナクエリー
+    - key: options.currently_missing_from_css.container_queries.description
+      t: 親コンテナの大きさをもとにスタイルを書ける。
+    - key: options.currently_missing_from_css.scoping
+      t: スコープ
+    - key: options.currently_missing_from_css.scoping.description
+      t: スタイルがどこで適用されるかをより細かく指定できる。
+    - key: options.currently_missing_from_css.subgrid
+      t: サブグリッド
+    - key: options.currently_missing_from_css.subgrid.description
+      t: 親のグリッドの一部をさらにグリッド化する。
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -383,11 +418,11 @@ translations:
     - key: features.marker
       t: <code>::marker</code>疑似要素
 
-    # missing features
+    # missing features (see also options)
     - key: features.nesting
       t: ネスト
     - key: features.nesting.description
-      t: ツールを使わずネイティブなCSSでスタイルをネストする。 
+      t: ツールを使わずネイティブなCSSでスタイルをネストする。
     - key: features.parent_selector
       t: 親セレクタ
     - key: features.parent_selector.description
@@ -416,7 +451,7 @@ translations:
       t: サブグリッド
     - key: features.subgrid.description
       t: 親のグリッドの一部をさらにグリッド化する。
-      
+
     ###########################################################################
     # Units & Selectors
     ###########################################################################
@@ -717,6 +752,13 @@ translations:
       t: CSSをひとことで言うと
     - key: opinions.sum_up_one_word_css.description
       t: CSSについてひとこと言うならなんでしょうか。
+
+    - key: happiness.pre_post_processors
+      t: プリプロセッサ・ポストプロセッサの現状に満足しているか
+    - key: happiness.css_in_js
+      t: CSS-in-JSライブラリの現状に満足しているか
+    - key: happiness.css_frameworks
+      t: CSSフレームワークの現状に満足しているか
 
     - key: happiness.state_of_the_web
       t: ウェブ技術の現状に満足しているか
