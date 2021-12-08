@@ -45,6 +45,16 @@ translations:
     t: シェア
   - key: tabs.debug
     t: デバッグ
+  - key: tabs.by_country
+    t: By Country
+  - key: tabs.by_years_of_experience
+    t: By Experience
+  - key: tabs.by_degree
+    t: By Degree
+  - key: tabs.by_salary
+    t: By Salary
+  - key: tabs.by_gender
+    t: By Gender
 
   ###########################################################################
   # Block
@@ -181,10 +191,35 @@ translations:
   - key: user_info.source.note
     t: このデータは回答者からの回答、リファラー、URLトラッキングからのデータを合わせたものです。
 
-  - key: user_info.gender_by_countries
-    t: 国別
-  - key: user_info.gender_by_countries.description
-    t: 国別のジェンダー割合を、男性と回答した人の人数で並び替えたものです。
+   - key: user_info.gender_by_country
+    t: Gender By Country
+  - key: user_info.gender_by_country.description
+    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+
+  - key: user_info.years_of_experience_by_salary
+    t: Years of Experience by Salary Range
+  - key: user_info.years_of_experience_by_salary.description
+    t: Years of experience by salary range.
+
+  - key: user_info.yearly_salary_by_country
+    t: Salary By Country
+  - key: user_info.yearly_salary_by_country.description
+    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+
+  - key: user_info.yearly_salary_by_degree
+    t: Salary By Higher Education Degree
+  - key: user_info.yearly_salary_by_degree.description
+    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: Race & Ethnicity by Years of Experience
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+
+  - key: user_info.higher_education_degree_by_gender
+    t: Higher Education Degree by Gender
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Higher education degree distribution by gender.
 
   ###########################################################################
   # Locales
@@ -496,6 +531,8 @@ translations:
     t: 総合
   - key: charts.all_respondents
     t: 全回答者
+  - key: charts.facet_responses
+    t: '{count} responses'
 
   - key: charts.axis_legends.years_of_experience
     t: 経験年数
@@ -597,6 +634,10 @@ translations:
 
   - key: share.share
     t: シェア
+  - key: share.options
+    t: Share Options
+  - key: share.preview
+    t: Social media preview
   - key: share.site.title
     t: '{siteTitle}の結果を見てみよう'
   - key: share.site.twitter_text
@@ -623,6 +664,8 @@ translations:
     t: 画像を取得
   - key: share.link
     t: セクションにリンク
+  - key: share.url
+    t: Get link
   - key: share.close
     t: 閉じる
 
