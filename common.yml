@@ -338,6 +338,24 @@ translations:
     - key: options.age.range_more_than_65
       t: 65歳以上
 
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<10'
+    - key: options.age.range_10_18.short
+      t: 10-18
+    - key: options.age.range_18_24.short
+      t: 18-24
+    - key: options.age.range_25_34.short
+      t: 24-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
+
     # years of experience
     - key: options.years_of_experience.range_less_than_1
       t: 1年未満
@@ -515,6 +533,19 @@ translations:
     - key: options.gender.not_listed
       t: この中にはない
 
+    # Gender (short)
+
+    - key: options.gender.female
+      t: 女性
+    - key: options.gender.male
+      t: 男性
+    - key: options.gender.non_binary
+      t: ノンバイナリー・GNC
+    - key: options.gender.questioning
+      t: クエスチョニング
+    - key: options.gender.not_listed
+      t: この中にはない
+
     # Race & Ethnicity
     - key: options.race_ethnicity.white_european
       t: 白人・ヨーロッパ系
@@ -552,6 +583,23 @@ translations:
     - key: options.disability_status.cognitive_impairments
       t: >
         認識機能障害（不安障害、ディスレクシアなど）
+    - key: options.disability_status.not_listed
+      t: >
+        この中にはない
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+        視覚障害
+    - key: options.disability_status.hearing_impairments
+      t: >
+        聴覚障害
+    - key: options.disability_status.mobility_impairments
+      t: >
+        運動障害
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        認識機能障害
     - key: options.disability_status.not_listed
       t: >
         この中にはない
@@ -720,6 +768,22 @@ translations:
     - key: options.higher_education_degree.yes_unrelated
       t: 学位あり（現在の職種には関係しない）
 
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: 学位なし
+    - key: options.higher_education_degree.yes_related.short
+      t: 学位あり（関係する）
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: 学位あり（関係なし）
+
+    # bracket
+    - key: options.bracket.round1
+      t: ラウンド1勝者
+    - key: options.bracket.round2
+      t: ラウンド2勝者
+    - key: options.bracket.round3
+      t: ラウンド3勝者
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -741,18 +805,20 @@ translations:
     # age
     - key: user_info.age
       t: 年齢
+    - key: user_info.age.description
+      t: 年齢はいくつですか？
 
     # years of experience
     - key: user_info.years_of_experience
       t: 経験年数
     - key: user_info.years_of_experience.description
-      t: この業界で何年ほどの経験がありますか。
+      t: この業界で何年ほどの経験がありますか？
 
     # company size
     - key: user_info.company_size
       t: 会社の規模
     - key: user_info.company_size.description
-      t: あなたの会社はどれくらいの大きさですか。
+      t: あなたの会社はどれくらいの大きさですか？
 
     # salary ranges
     - key: user_info.yearly_salary
@@ -789,21 +855,29 @@ translations:
       t: ジェンダー
     - key: user_info.gender.description
       t: >
-        回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。
+        次の選択肢のうち、あなたを表しているものはどれですか。
+    - key: user_info.gender.note
+      t: >
+        多様性について情報を集め公開することはセンシティブな問題になりうることは承知の上ですが、このアンケートの包括性や代表性を知り、向上させるためにこのデータを収集することが重要だと考えています。
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
       t: 人種・民族
     - key: user_info.race_ethnicity.description
       t: >
-        回答されたデータはアンケートの代表性の変化を調査し、またその改善のために使われます。
+        次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
+    - key: user_info.race_ethnicity.note
+      t: >
+        多様性について情報を集め公開することはセンシティブな問題になりうることは承知の上ですが、このアンケートの包括性や代表性を知り、向上させるためにこのデータを収集することが重要だと考えています。
 
     # disability status
     - key: user_info.disability_status
       t: Disability Status
     - key: user_info.disability_status.description
       t: >
-        回答されたデータはアンケートのアクセシビリティや代表性の変化を調査し、またそれらの改善のために使われます。
+        次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
+        選択肢の状態は、一時的な障害やけがも含まれます。
+
     # disability status (other)
     - key: user_info.disability_status.others
       t: そのほかの障害
@@ -815,6 +889,8 @@ translations:
       t: メールアドレス
     - key: user_info.country
       t: 居住国・居住地
+    - key: user_info.country.description
+      t: Where do you currently reside?
 
     - key: user_info.github_username
       t: GitHubのユーザー名
