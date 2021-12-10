@@ -339,7 +339,7 @@ translations:
         このカテゴリについて、現状について開発者が総合的に満足しているかを、1（とても不満）から5（とても満足）で表します。
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: 乞うご期待
     - key: blocks.newsletter.description
       t: |
