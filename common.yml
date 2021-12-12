@@ -85,9 +85,9 @@ translations:
     - key: credits.logo_design
       t: ロゴデザイン
     - key: credits.mobile_testing
-      t: Mobile Testing
+      t: モバイルテスト
     - key: credits.data_visualizations
-      t: Data Visualizations
+      t: データビジュアリゼーション
 
     # support
     - key: general.support_from
