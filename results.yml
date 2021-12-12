@@ -192,34 +192,34 @@ translations:
     t: このデータは回答者からの回答、リファラー、URLトラッキングからのデータを合わせたものです。
 
    - key: user_info.gender_by_country
-    t: Gender By Country
+    t: 居住国とジェンダー
   - key: user_info.gender_by_country.description
-    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+    t: 100以上の回答があった国について、回答者のジェンダー分布を表示しています。数値は「平均ジェンダー」（ジェンダーのキーに整数を昇順で割り振っています）の降順です。
 
   - key: user_info.years_of_experience_by_salary
-    t: Years of Experience by Salary Range
+    t: 給与レンジと経験年数
   - key: user_info.years_of_experience_by_salary.description
-    t: Years of experience by salary range.
+    t: 給与レンジごとの経験年数。
 
   - key: user_info.yearly_salary_by_country
-    t: Salary By Country
+    t: 居住国と給与
   - key: user_info.yearly_salary_by_country.description
-    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+    t: 100以上の回答があった国について、回答者の給与の分布を表示しています。順番は平均給与の降順です。
 
   - key: user_info.yearly_salary_by_degree
-    t: Salary By Higher Education Degree
+    t: 高等教育の学位と給与
   - key: user_info.yearly_salary_by_degree.description
-    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+    t: 高等教育の学位と、回答者の給与の分布を表示しています。順番は平均給与の降順です。
 
   - key: user_info.race_ethnicity_by_years_of_experience
-    t: Race & Ethnicity by Years of Experience
+    t: 経験年数と人種・民族
   - key: user_info.race_ethnicity_by_years_of_experience.description
-    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+    t: 経験年数と人種・民族性の分布です。順番は平均経験年数の昇順です。
 
   - key: user_info.higher_education_degree_by_gender
-    t: Higher Education Degree by Gender
+    t: ジェンダーと高等教育の学位
   - key: user_info.higher_education_degree_by_gender.description
-    t: Higher education degree distribution by gender.
+    t: ジェンダーと高等教育の学位の分布です。
 
   ###########################################################################
   # Locales
@@ -532,6 +532,7 @@ translations:
   - key: charts.all_respondents
     t: 全回答者
   - key: charts.facet_responses
+    # todo
     t: '{count} responses'
 
   - key: charts.axis_legends.years_of_experience
@@ -635,9 +636,9 @@ translations:
   - key: share.share
     t: シェア
   - key: share.options
-    t: Share Options
+    t: シェア設定
   - key: share.preview
-    t: Social media preview
+    t: ソーシャルメディアのプレビュー
   - key: share.site.title
     t: '{siteTitle}の結果を見てみよう'
   - key: share.site.twitter_text
@@ -665,7 +666,7 @@ translations:
   - key: share.link
     t: セクションにリンク
   - key: share.url
-    t: Get link
+    t: リンクを取得
   - key: share.close
     t: 閉じる
 
