@@ -341,9 +341,7 @@ translations:
     t: 利用度合いの濃度
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        For each section, which percentage of respondents **use** 
-        (defined as having answered “would use again”) one, two, three, etc. technologies.
-        The bottom-most bar represents the sum of all other bars. 
+        セクションごとに、回答者が**使った**（「また使いたい」と答えた）技術の総数を表しています。一番下のバーは、その上にあるバーの合計になります。
 
   - key: blocks.cardinality.max
     t: もっとも目にした回答
@@ -492,35 +490,34 @@ translations:
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
-    t: Library Evaluation Rankings
+    t: ライブラリ評価ランキング
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+    t: 新しいライブラリの評価にあたって、重要とみている点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
 
   - key: tool_evaluation.tool_evaluation_matchups
-    t: Library Evaluation Rankings (Matchups)
+    t: ライブラリ評価ランキング (Matchups)
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+    t: 新しいライブラリの評価にあたって、重要とみている点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
   - key: css_pain_points.css_pain_points_wins
-    t: CSS Pain Points
+    t: CSSのつらいところ
   - key: css_pain_points.css_pain_points_wins.description
-    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
 
   - key: css_pain_points.css_pain_points_matchups
-    t: Features Missing From CSS (Matchups)
+    t: CSSに足りていない機能 (Matchups)
   - key: css_pain_points.css_pain_points_matchups.description
-    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
   - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Features Missing From CSS
+    t: CSSに足りていない機能
   - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
+    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
 
   - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: Features Missing From CSS (Matchups)
+    t: CSSに足りていない機能 (Matchups)
   - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
-
+    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
   ###########################################################################
   # Charts
