@@ -45,6 +45,16 @@ translations:
     t: シェア
   - key: tabs.debug
     t: デバッグ
+  - key: tabs.by_country
+    t: By Country
+  - key: tabs.by_experience
+    t: By Experience
+  - key: tabs.by_degree
+    t: By Degree
+  - key: tabs.by_salary
+    t: By Salary
+  - key: tabs.by_gender
+    t: By Gender
 
   ###########################################################################
   # Block
@@ -181,10 +191,35 @@ translations:
   - key: user_info.source.note
     t: このデータは回答者からの回答、リファラー、URLトラッキングからのデータを合わせたものです。
 
-  - key: user_info.gender_by_countries
-    t: 国別
-  - key: user_info.gender_by_countries.description
-    t: 国別のジェンダー割合を、男性と回答した人の人数で並び替えたものです。
+  - key: user_info.gender_by_country
+    t: 居住国とジェンダー
+  - key: user_info.gender_by_country.description
+    t: 100以上の回答があった国について、回答者のジェンダー分布を表示しています。数値は「平均ジェンダー」（ジェンダーのキーに整数を昇順で割り振っています）の降順です。
+
+  - key: user_info.years_of_experience_by_salary
+    t: 給与レンジと経験年数
+  - key: user_info.years_of_experience_by_salary.description
+    t: 給与レンジごとの経験年数。
+
+  - key: user_info.yearly_salary_by_country
+    t: 居住国と給与
+  - key: user_info.yearly_salary_by_country.description
+    t: 100以上の回答があった国について、回答者の給与の分布を表示しています。順番は平均給与の降順です。
+
+  - key: user_info.yearly_salary_by_degree
+    t: 高等教育の学位と給与
+  - key: user_info.yearly_salary_by_degree.description
+    t: 高等教育の学位と、回答者の給与の分布を表示しています。順番は平均給与の降順です。
+
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: 経験年数と人種・民族
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: 経験年数と人種・民族性の分布です。順番は平均経験年数の昇順です。
+
+  - key: user_info.higher_education_degree_by_gender
+    t: ジェンダーと高等教育の学位
+  - key: user_info.higher_education_degree_by_gender.description
+    t: ジェンダーと高等教育の学位の分布です。
 
   ###########################################################################
   # Locales
@@ -305,12 +340,8 @@ translations:
   - key: blocks.all_sections_tools_cardinality_by_user
     t: 利用度合いの濃度
   - key: blocks.all_sections_tools_cardinality_by_user.description
-    t: 技術の利用数（「また使いたい」と答えた数）の割合をセクションごとに表示しています。
-
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user
-    t: 利用度合いの濃度
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-    t: 技術の利用数（「また使いたい」と答えた数）の割合を表示しています。
+    t: >
+        セクションごとに、回答者が**使った**（「また使いたい」と答えた）技術の総数を表しています。一番下のバーは、その上にあるバーの合計になります。
 
   - key: blocks.cardinality.max
     t: もっとも目にした回答
@@ -459,19 +490,34 @@ translations:
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
-    t: ライブラリの評価ランキング
+    t: ライブラリ評価ランキング
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: 新しいライブラリの評価基準について、最も重要と評価された順に並べています。
+    t: 新しいライブラリの評価にあたって、重要とみている点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: ライブラリ評価ランキング (Matchups)
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: 新しいライブラリの評価にあたって、重要とみている点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
   - key: css_pain_points.css_pain_points_wins
     t: CSSのつらいところ
   - key: css_pain_points.css_pain_points_wins.description
-    t: CSSのつらいところについて、最もつらいと評価された順に並べています。
+    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: CSSに足りていない機能 (Matchups)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
   - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: CSSに足りないもの
+    t: CSSに足りていない機能
   - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: CSSに足りないものについて、足りないと思われた順に並べています。
+    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+
+  - key: currently_missing_from_css.currently_missing_from_css_matchups
+    t: CSSに足りていない機能 (Matchups)
+  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
   ###########################################################################
   # Charts
@@ -496,6 +542,9 @@ translations:
     t: 総合
   - key: charts.all_respondents
     t: 全回答者
+  - key: charts.facet_responses
+    # todo
+    t: '{count} responses'
 
   - key: charts.axis_legends.years_of_experience
     t: 経験年数
@@ -597,6 +646,10 @@ translations:
 
   - key: share.share
     t: シェア
+  - key: share.options
+    t: シェア設定
+  - key: share.preview
+    t: ソーシャルメディアのプレビュー
   - key: share.site.title
     t: '{siteTitle}の結果を見てみよう'
   - key: share.site.twitter_text
@@ -623,6 +676,8 @@ translations:
     t: 画像を取得
   - key: share.link
     t: セクションにリンク
+  - key: share.url
+    t: リンクを取得
   - key: share.close
     t: 閉じる
 
@@ -759,11 +814,11 @@ translations:
 
   - key: hints.units_switcher_hint
     t: >
-      ブロック右上のボタンから、相対的な割合と絶対的な数を切り替えて、データを異なる確度から見られます。
+      ブロックの下にあるボタンから異なる単位をぶことで、同じデータを異なる角度から見られます。
 
   - key: hints.export_hint
     t: >
-      ブロック上部にある<span class="hint-export-button">Export</span>ボタンから、グラフの生JSONデータや、公開APIへのGraphQLクエリーを取得できます。
+      <span class="hint-icon hint-export-button">Export</span>タブから、グラフの生データを見たり、JSONデータとして見たり、公開APIへのGraphQLクエリーも取得てきます。
 
   - key: hints.completion_hint
     t: >
@@ -779,8 +834,20 @@ translations:
 
   - key: hints.sharing_hint
     t: >
-      このアンケートをTwitterやFacebook、メールで共有すると、JavaScriptパフォーマンスが15％向上します。これは科学的に証明されています。
+      このアンケートをTwitterやFacebook、メールで共有すると、コーディングのパフォーマンスが15％向上します。これは科学的に証明されています。
 
   - key: hints.tshirt_hint
     t: >
-      もうひとつ。Tシャツを購入すると、あなたのJavaScriptの知識スコアが9000以上になります。これも科学的知見です！
+      もうひとつ。Tシャツを購入すると、あなたのプログラミングスコアが9000以上になります。これも科学的知見です！
+
+  - key: hints.variants_hint
+    t: >
+      いくつかのチャートには、同じデータや関連データを補完に表示するタブがあります。ぜひチェックしてください！
+
+  - key: hints.share_hint
+    t: >
+      <span class="hint-icon hint-share-button">Share</span>タブでは、チャートのシェアや、画像をダウンロードして共有するのがとても楽に行なえます。
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">次のチャートは8つの項目について、回答者がトーナメントで2つを戦わせ続け、勝者を決めた結果です。</span><span class="hint-diagram"/></span>
