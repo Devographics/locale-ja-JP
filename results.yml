@@ -810,56 +810,44 @@ translations:
 
   - key: hints.hint_hint
     t: >
-      You'll find little hints like this one throughout the survey results
-      that will point out extra features and details.
+      結果ページのあちこちに、このような小さなヒントを設けています。ちょっとした機能の紹介や、詳しい説明をしています。
 
   - key: hints.units_switcher_hint
     t: >
-      You can use the segmented control at the bottom of each block to switch 
-      between different units to get an alternate view of the same data.
+      ブロックの下にあるボタンから異なる単位をぶことで、同じデータを異なる角度から見られます。
 
   - key: hints.export_hint
     t: >
-      The <span class="hint-icon hint-export-button">Export</span> tab lets you view the raw 
-      data for any chart, view it as JSON, or get a GraphQL query you can 
-      run against our public API.
+      <span class="hint-icon hint-export-button">Export</span>タブから、グラフの生データを見たり、JSONデータとして見たり、公開APIへのGraphQLクエリーも取得てきます。
 
   - key: hints.completion_hint
     t: >
-      Since all questions are optional, some of them got fewer responses than others. 
-      The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+      すべての回答が任意なので、ある回答が他の回答と比べて数が少ないことがあります。完了度インジケーター（<span class="hint-completion-indicator">◕</span>）から、何人の方が回答したかがわかります。
 
   - key: hints.tool_modal_hint
     t: >
-      You can click on any technology name to get extra details and 
-      a more in-depth look at its related data.
+      技術名をクリックすると、その技術の詳細や、より細かい関連データを見られます。
 
   - key: hints.rankings_modes_hint
     t: >
-      The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-      to give you a fuller picture of a category's rankings.
+      ランキングは満足度、興味、利用度合い、認知度のグラフを切り替えられます。
 
   - key: hints.sharing_hint
     t: >
-      Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-      improve your coding performance by up to 15%.
+      このアンケートをTwitterやFacebook、メールで共有すると、コーディングのパフォーマンスが15％向上します。これは科学的に証明されています。
 
   - key: hints.tshirt_hint
     t: >
-      Another guaranteed scientific finding: buying our t-shirt will 
-      increase your programming skills by over 9000!
+      もうひとつ。Tシャツを購入すると、あなたのプログラミングスコアが9000以上になります。これも科学的知見です！
 
   - key: hints.variants_hint
     t: >
-      Some charts feature additional tabs that offer complementary breakdowns of the same data,
-      or related data. Make sure to check them out!
+      いくつかのチャートには、同じデータや関連データを補完に表示するタブがあります。ぜひチェックしてください！
 
   - key: hints.share_hint
     t: >
-      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
-      or even download it as an image. 
+      <span class="hint-icon hint-share-button">Share</span>タブでは、チャートのシェアや、画像をダウンロードして共有するのがとても楽に行なえます。
 
   - key: hints.bracket_hint
     t: >
-      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
-      respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+      <span class="hint-bracket"><span class="hint-text">次のチャートは8つの項目について、回答者がトーナメントで2つを戦わせ続け、勝者を決めた結果です。</span><span class="hint-diagram"/></span>
