@@ -191,7 +191,7 @@ translations:
   - key: user_info.source.note
     t: このデータは回答者からの回答、リファラー、URLトラッキングからのデータを合わせたものです。
 
-   - key: user_info.gender_by_country
+  - key: user_info.gender_by_country
     t: 居住国とジェンダー
   - key: user_info.gender_by_country.description
     t: 100以上の回答があった国について、回答者のジェンダー分布を表示しています。数値は「平均ジェンダー」（ジェンダーのキーに整数を昇順で割り振っています）の降順です。
