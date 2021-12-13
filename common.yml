@@ -77,7 +77,7 @@ translations:
 
     # credits
     - key: credits.thanks
-      t: Special Thanks
+      t: スペシャルサンクス
     - key: credits.accessibility
       t: アクセシビリティコンサルティング
     - key: credits.survey_design
@@ -89,11 +89,11 @@ translations:
     - key: credits.data_visualizations
       t: データビジュアリゼーション
     - key: credits.repo_architecture
-      t: Repo Architecture
+      t: レポジトリアーキテクチャ
     - key: credits.code_refactoring
-      t: Code Refactoring
+      t: コードリファクタリング
     - key: credits.data_processing
-      t: Data Processing
+      t: データ処理
 
     # support
     - key: general.support_from
