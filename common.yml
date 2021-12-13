@@ -88,6 +88,12 @@ translations:
       t: モバイルテスト
     - key: credits.data_visualizations
       t: データビジュアリゼーション
+    - key: credits.repo_architecture
+      t: Repo Architecture
+    - key: credits.code_refactoring
+      t: Code Refactoring
+    - key: credits.data_processing
+      t: Data Processing
 
     # support
     - key: general.support_from
