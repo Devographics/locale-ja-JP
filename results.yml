@@ -824,7 +824,7 @@ translations:
 
   - key: hints.units_switcher_hint
     t: >
-      ブロックの下にあるボタンから異なる単位をぶことで、同じデータを異なる角度から見られます。
+      ブロックの下にあるボタンから単位を切り替えると、同じデータを異なる視点で見られます。
 
   - key: hints.export_hint
     t: >
@@ -852,11 +852,11 @@ translations:
 
   - key: hints.variants_hint
     t: >
-      いくつかのチャートには、同じデータや関連データを補完に表示するタブがあります。ぜひチェックしてください！
+      いくつかのチャートには、補足データや関連データを表示するタブがあります。ぜひチェックしてください！
 
   - key: hints.share_hint
     t: >
-      <span class="hint-icon hint-share-button">Share</span>タブでは、チャートのシェアや、画像をダウンロードして共有するのがとても楽に行なえます。
+      <span class="hint-icon hint-share-button">Share</span>タブから、チャートのシェアや、画像のダウンロードが簡単に行なえます。
 
   - key: hints.bracket_hint
     t: >
