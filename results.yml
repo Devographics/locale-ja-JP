@@ -125,6 +125,8 @@ translations:
     t: ブログ
   - key: options.first_steps.forums
     t: フォーラム
+  - key: options.first_steps.view_source
+    t: View Source
   
   # other disablities
   - key: options.disability_status_others.adhd
@@ -160,6 +162,9 @@ translations:
 
   - key: sections.conclusion.title
     t: おわりに
+
+  - key: sections.about.title
+    t: About
 
   - key: sections.support.title
     t: サポートする
@@ -210,6 +215,11 @@ translations:
     t: 高等教育の学位と給与
   - key: user_info.yearly_salary_by_degree.description
     t: 高等教育の学位と、回答者の給与の分布を表示しています。順番は平均給与の降順です。
+
+  - key: user_info.yearly_salary_by_experience
+    t: Salary By Experience
+  - key: user_info.yearly_salary_by_experience.description
+    t: Yearly salary distribution by experience, sorted by mean salary descending.
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: 経験年数と人種・民族
