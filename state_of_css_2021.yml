@@ -8,14 +8,19 @@ translations:
       t: |
 
             <span class="first-letter">D</span>o woodworkers have to learn a new, better way to saw a board every couple years? Do painters feel like frauds for still using oil paint? Or is it just us front-end developers who get to experience this constant state of change?
+            <span class="first-letter">木</span>工職人は数年おきに、ノコギリのよりよい使い方を学ぶ必要があるのでしょうか？画家がまだ油絵を描きつづけると負い目に感じたりはするのでしょうか？それとも、絶えず変化することを体験し続けなければならないのは、フロントエンド開発者だけなのでしょうか？
 
             With container queries and more just around the corner, things are definitely moving fast. And since we need to keep up with as well, we took the time to give these survey results a couple new power-ups of their own! 
+            コンテナークエリーなどがもうすぐという状況にきています。〇〇が速く進んでいるのです。その流れに私たちはついていかなければいけませんから、そのためにアンケート結果もパワーアップさせる時間を使いました★
 
             What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by experience level; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/) or by [downloading our data](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
+            今回から、2つのデータを組み合わせることができるようになりました。給与水準と経験年数とか、ジェンダーと居住国といった感じです。このアンケート結果でいくつかの組み合わせを見られますが、[API](https://api.stateofjs.com/)を使ったり、[データをダウンロード](https://www.kaggle.com/sachag/state-of-css)して、よりいろいろなデータをexploreしてください。いいビジュアライズをしたら、ぜひ教えてください。
 
             And now, let's see what CSS has been up to this year!
+            では、今年のCSSがどうだったかを見てみましょう！
 
             *Note: We've had to push back the 2021 [State of JavaScript](http://stateofjs.com/) survey to January 2022 for lack of time. See you after the holidays!*
+            *お知らせ：時間をとれなかったため、2021年の[State of JavaScript](http://stateofjs.com/)は2022年1月に実施することにしました。年明けにまたお会いしましょう。よいお年を！*
 
             <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -24,31 +29,32 @@ translations:
     ###########################################################################
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: Tシャツ
 
     - key: sections.tshirt.description
       t: |
-          ## Support the Survey With the State of CSS T-Shirt
+          ## State of CSSのTシャツを買って応援しよう
 
           Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
 
           But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
 
     - key: tshirt.about
-      t: About the T-shirt
+      t: Tシャツについて
 
     - key: tshirt.description
       t: |
-          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau. 
+          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+          このTシャツは、高品質でとてもやわらかなトライブレンドの生地を使っています。スリムフィットで、私たちのパートナーCotton Bureauによるプリントです。
 
     - key: tshirt.getit
-      t: Get It
+      t: 購入する
 
     - key: tshirt.price
-      t: USD $29 + shipping
+      t: 29ドル＋送料
 
     - key: tshirt.designer.heading
-      t: About the Designer
+      t: デザイナー
 
     - key: tshirt.designer.name
       t: Christopher Kirk-Nielsen
@@ -56,7 +62,7 @@ translations:
     - key: tshirt.designer.bio
       t: |
           Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
-          
+
     ###########################################################################
     # Sections Introductions
     ###########################################################################
