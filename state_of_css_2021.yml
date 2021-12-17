@@ -6,20 +6,14 @@ translations:
 
     - key: sections.introduction.description
       t: |
+            <span class="first-letter">木</span>工職人は数年ごとに、ノコギリのよりよい使い方を学ばなければならないのでしょうか？画家は「まだ油絵を描きつづけている」と、負い目に感じたりはするのでしょうか？それとも、絶えず変化することを体験し続けなければならないのは、フロントエンド開発者だけなのでしょうか？
 
-            <span class="first-letter">D</span>o woodworkers have to learn a new, better way to saw a board every couple years? Do painters feel like frauds for still using oil paint? Or is it just us front-end developers who get to experience this constant state of change?
-            <span class="first-letter">木</span>工職人は数年おきに、ノコギリのよりよい使い方を学ぶ必要があるのでしょうか？画家がまだ油絵を描きつづけると負い目に感じたりはするのでしょうか？それとも、絶えず変化することを体験し続けなければならないのは、フロントエンド開発者だけなのでしょうか？
+            コンテナークエリーなどを目前に、自体はますます速く進んでいます。その流れに飲まれないよう、このアンケート結果にパワーアップを施しました！
 
-            With container queries and more just around the corner, things are definitely moving fast. And since we need to keep up with as well, we took the time to give these survey results a couple new power-ups of their own! 
-            コンテナークエリーなどがもうすぐという状況にきています。〇〇が速く進んでいるのです。その流れに私たちはついていかなければいけませんから、そのためにアンケート結果もパワーアップさせる時間を使いました★
+            今回から、2つのデータを組み合わせることができるようになりました。給与水準と経験年数や、ジェンダーと居住国といった感じです。このアンケート結果でいくつかの組み合わせを見られますが、[API](https://api.stateofjs.com/)を使ったり、[データをダウンロード](https://www.kaggle.com/sachag/state-of-css)して、さらにデータを掘り下げてみてください。いいビジュアライズをしたら、ぜひ教えてください。
 
-            What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by experience level; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/) or by [downloading our data](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
-            今回から、2つのデータを組み合わせることができるようになりました。給与水準と経験年数とか、ジェンダーと居住国といった感じです。このアンケート結果でいくつかの組み合わせを見られますが、[API](https://api.stateofjs.com/)を使ったり、[データをダウンロード](https://www.kaggle.com/sachag/state-of-css)して、よりいろいろなデータをexploreしてください。いいビジュアライズをしたら、ぜひ教えてください。
-
-            And now, let's see what CSS has been up to this year!
             では、今年のCSSがどうだったかを見てみましょう！
 
-            *Note: We've had to push back the 2021 [State of JavaScript](http://stateofjs.com/) survey to January 2022 for lack of time. See you after the holidays!*
             *お知らせ：時間をとれなかったため、2021年の[State of JavaScript](http://stateofjs.com/)は2022年1月に実施することにしました。年明けにまたお会いしましょう。よいお年を！*
 
             <span class="conclusion__byline">– Sacha Greif</span>
