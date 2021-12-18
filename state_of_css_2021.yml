@@ -65,37 +65,42 @@ translations:
           This year's survey reached **8,714** developers throughout the world, and in order
           to help highlight different voices and surface deeper insights, we made a special
           effort to provide new ways to break our data down. 
+          今年の調査では、世界の開発者 **8,734** もの開発者からアンケートをとりました。今回の調査は、異なる意見やより深い洞察を得るため、データを分類する新しい方法の提供に力を費やしました。
 
     - key: sections.features.description
       t: |
-          CSS's dynamism shows no sign of stopping, as developers make an effort to adopt the current
-          crop of new features while looking forward to even more innovation in the next few years. 
+          CSSの力強さはとどまるところを知りません。開発者は新しいCSSの機能を使おうと努力し、今後数年のさらなる革新に期待しています。
 
     - key: sections.technologies.description
       t: |
           With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
           the category has managed to carve out its niche. Maybe the two sides of the front-end world are 
           not so far apart after all?
+          回答者の50％近くが何らかのCSS-in-JSライブラリを1つ以上使っているのを見るに、このカテゴリはニッチから抜け出したものといっていいでしょう。フロントエンドの世界のこの2つのサイドは、そこまで離れていないのではないかもしれませんね。
 
     - key: sections.tools_others.description
       t: |
           Picking a technology can often come down to a series of tough choices between 
           competing priorities, and this year we tried to capture this process using a new bracket-style question format. 
+          技術選択においては、プライオリティの競争の連続という、つらい選択になります★。今年はブラケット形式★の質問で、その選択をどうするかを表現してみました★
 
     - key: sections.environments.description
       t: |
           Accessibility has long been an after-thought when it comes to web development, but many developers
           are now realizing that it should in fact be the foundation on which everything else rests. 
+          ウェブ開発においてアクセシビリティは後付けのものとなっていました、しかし多くの開発者が、アクセシビリティは
 
     - key: sections.resources.description
       t: |
           Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
           and actually feature the people who make up the CSS community themselves! 
+          おすすめするリソースとしてブログやポッドキャスト、ウェブサイトを挙げる。これでもいいのですが、今年はもう一歩進んで、CSSコミュニティをなす人に着目することにしました。
 
     - key: sections.opinions.description
       t: |
           Whether it's pain points that hold you back today, or missing features that you hope to use
           tomorrow, this was your chance to vent and share your gripes with CSS!
+          このセクションは、いま現在あなたを悩ませていることや、現在のCSSに足りず、今後使いたい機能など、CSSについて思っていることを言うためのセクションでした。
           
     ###########################################################################
     # Notes
