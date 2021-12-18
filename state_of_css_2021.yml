@@ -369,11 +369,11 @@ translations:
 ###########################################################################
 
     - key: partners.frontendmasters.description
-      t: Advance your skills with in-depth, modern front-end engineering courses.
+      t: 深くまで学べるモダンなフロントエンドエンジニアリングのコースでスキルアップしましょう。
     - key: partners.polypane.description
-      t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+      t: 意欲的な開発者のためのブラウザです。レスポンシブでアクセシブル、そして速いウェブサイトを楽に作りましょう。
     - key: partners.google_chrome.description
-      t: Thanks to the Google Chrome team for supporting our work.
+      t: サポートしてくれたGoogle Chromeチームに感謝します。
 
 ###########################################################################
 # FAQ/About
