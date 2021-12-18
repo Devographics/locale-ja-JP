@@ -125,16 +125,16 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2021, CSS comparison functions are becoming a key part of every CSS developer's toolkit. 
+      t: \**{value}**もの向上をみせたCSSの比較関数が、CSS開発者の重要なツールになってきているようです。
 
     # - key: award.tool_usage_delta_award.comment
     #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS takes the top spot once again with a **{value}** satisfaction ratio.
+      t: PostCSSが**{value}**もの満足度を得て、今年もトップになりました。
 
     - key: award.tool_interest_award.comment
-      t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+      t: \**{value}**もの関心度を得て、今年もCSS ModulesがCSS開発者が最も興味を持っているものとして選ばれました。
 
     # - key: award.most_write_ins_award.comment
     #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
