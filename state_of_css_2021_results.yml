@@ -6,16 +6,15 @@ translations:
 
     - key: sections.introduction.description
       t: |
+            <span class="first-letter">木</span>工職人は数年ごとに、ノコギリのよりよい使い方を学ばなければならないのでしょうか？画家は「まだ油絵を描きつづけている」と、負い目に感じたりはするのでしょうか？それとも、絶え間ない変化を経験し続けなければならないのは、フロントエンド開発者だけなのでしょうか？
 
-            <span class="first-letter">D</span>o woodworkers have to learn a new, better way to saw a board every couple years? Do painters feel like frauds for still using oil paint? Or is it just us front-end developers who get to experience this constant state of change?
+            コンテナークエリーなどが目の前に来るくらい、物事の進みがますます速くなっています。その流れに飲まれないよう、このアンケート結果にパワーアップを施しました！
 
-            With container queries and more just around the corner, things are definitely moving fast. And since we need to keep up with as well, we took the time to give these survey results a couple new power-ups of their own! 
+            今回から、2つのデータを組み合わせることができるようになりました。たとえば、給与水準と経験年数や、ジェンダーと居住国といった感じです。このアンケート結果でいくつかの組み合わせを見られますが、[API](https://api.stateofjs.com/)を使ったり、[データをダウンロード](https://www.kaggle.com/sachag/state-of-css)して、さらにデータを掘り下げてみてください。いいビジュアライズをしたら、ぜひ教えてください。
 
-            What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by experience level; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/) or by [downloading our data](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
+            では、今年のCSSがどうだったかを見てみましょう！
 
-            And now, let's see what CSS has been up to this year!
-
-            *Note: We've had to push back the 2021 [State of JavaScript](http://stateofjs.com/) survey to January 2022 for lack of time. See you after the holidays!*
+            *お知らせ：時間をとれなかったため、2021年の[State of JavaScript](http://stateofjs.com/)は2022年1月に実施することにしました。年明けにまたお会いしましょう。よいお年を！*
 
             <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -24,38 +23,38 @@ translations:
     ###########################################################################
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: Tシャツ
 
     - key: sections.tshirt.description
       t: |
-          ## Support the Survey With the State of CSS T-Shirt
+          ## State of CSSのTシャツを買って応援しよう
 
-          Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+          画質の悪さや大きなカセット、必要な巻き戻しなど、VHS時代を懐かしんでもうれしい機能はありません。しかし私たちが**懐かしい**と思うのは、空のVHSテープを飾った90年代のビジュアルです。
 
-          But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+          すてきなChristopher Kirk-Nielsenの手によって、レトロラッドなスタイルを楽しむことができ、またあなたのCSSへの愛も確かめられます。
 
     - key: tshirt.about
-      t: About the T-shirt
+      t: Tシャツについて
 
     - key: tshirt.description
       t: |
-          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau. 
+          このTシャツは、高品質でとてもやわらかなトライブレンドの生地を使っています。スリムフィットで、私たちのパートナーCotton Bureauによるプリントです。
 
     - key: tshirt.getit
-      t: Get It
+      t: 購入する
 
     - key: tshirt.price
-      t: USD $29 + shipping
+      t: 29ドル＋送料
 
     - key: tshirt.designer.heading
-      t: About the Designer
+      t: デザイナー
 
     - key: tshirt.designer.name
       t: Christopher Kirk-Nielsen
 
     - key: tshirt.designer.bio
       t: |
-          Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+          フランス出身、アメリカ在住。Chrisは素晴らしいフロントエンド開発者であり、またレトロビジュアルを得意とする才能あるイラストレーターでもあります。[彼が手がけるほかのTシャツのデザイン](https://chriskirknielsen.com/designs)もぜひご覧になってください。
 
     ###########################################################################
     # Sections Introductions
@@ -63,40 +62,31 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **8,714** developers throughout the world, and in order
-          to help highlight different voices and surface deeper insights, we made a special
-          effort to provide new ways to break our data down. 
+          今年の調査では、世界中の**8,734**もの開発者から回答を得ることができました。今回の調査は、さまざまな意見を反映したり深い洞察を得るため、データの分類やその表示方法をとくに頑張りました。
 
     - key: sections.features.description
       t: |
-          CSS's dynamism shows no sign of stopping, as developers make an effort to adopt the current
-          crop of new features while looking forward to even more innovation in the next few years. 
+          CSSの力強さはとどまるところを知りません。開発者は新しいCSSの機能を使おうと努力し、今後数年のさらなる革新に期待しています。
 
     - key: sections.technologies.description
       t: |
-          With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
-          the category has managed to carve out its niche. Maybe the two sides of the front-end world are 
-          not so far apart after all?
+          回答者の50％近くが何らかのCSS-in-JSライブラリを1つ以上使っていることから、これらのツールはもうニッチなものではないと言えるでしょう。CSSとJavaScriptという、フロントエンドの世界のこの2つのサイドは、そこまで離れていないのかもしれませんね。
 
     - key: sections.tools_others.description
       t: |
-          Picking a technology can often come down to a series of tough choices between 
-          competing priorities, and this year we tried to capture this process using a new bracket-style question format. 
+          技術選定は、どちらを優先するかという難しい選択の連続です。今年の調査では、対戦表を模した設問を用意し、その優先順位を示せるようにしました。
 
     - key: sections.environments.description
       t: |
-          Accessibility has long been an after-thought when it comes to web development, but many developers
-          are now realizing that it should in fact be the foundation on which everything else rests. 
+          ウェブ開発においてアクセシビリティは後づけのものとなっていました。しかし現在は多くの開発者が、アクセシビリティをすべての基礎とすべきことと気づき始めています。
 
     - key: sections.resources.description
       t: |
-          Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
-          and actually feature the people who make up the CSS community themselves! 
+          おすすめするリソースとしてブログやポッドキャスト、ウェブサイトを挙げる。これでもいいのですが、今年はもう一歩進んで、CSSコミュニティの人に着目することにしました。
 
     - key: sections.opinions.description
       t: |
-          Whether it's pain points that hold you back today, or missing features that you hope to use
-          tomorrow, this was your chance to vent and share your gripes with CSS!
+          現在あなたを悩ませていることや、いまのCSSに足りず今後使いたい機能など、CSSについて思っていることを言うところでした。
 
     ###########################################################################
     # Notes
@@ -104,66 +94,65 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+          ジェンダーのバランスについては[ブログ記事](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)を書いています。興味のある方はお読みください。
 
     - key: blocks.currently_missing_from_css.note
       t: |
-          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+          この質問に対する回答のデータセットは[サイドプロジェクト](https://whatsmissingfromcss.com/)にまとめています。
 
     - key: blocks.source.note
       t: >
 
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+        このチャートは、リファラー、URLパラメーター、そして自由入力欄の回答をひとまとめにしています。
 
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+        - State of JS: [State of JS](https://stateofjs.com)のメーリングリスト。
 
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+        - State of CSS: State of CSSのメーリングリスト。“email”や“by email”といった回答もここにまとめています。
 
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - Work: “work”、“colleagues”、“coworkers”などをまとめたものです。
 
     ###########################################################################
     # Awards
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2021, CSS comparison functions are becoming a key part of every CSS developer's toolkit. 
+      t: \**{value}**もの向上をみせたCSSの比較関数が、CSS開発者の重要なツールになってきているようです。
 
     # - key: award.tool_usage_delta_award.comment
     #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
     - key: award.tool_satisfaction_award.comment
-      t: PostCSS takes the top spot once again with a **{value}** satisfaction ratio.
+      t: PostCSSが**{value}**もの満足度を得て、今年もトップになりました。
 
     - key: award.tool_interest_award.comment
-      t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+      t: \**{value}**もの関心度を得て、今年もCSS ModulesがCSS開発者が最も興味を持っているものとして選ばれました。
 
     # - key: award.most_write_ins_award.comment
     #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
 
-      
     ###########################################################################
     # Conclusion
     ###########################################################################
 
     - key: sections.conclusion.description
       t: |
-            <span class="first-line">The way you write CSS is about to change forever.</span>
+            <span class="first-line">CSSの書き方が、大きく変わろうとしています。</span>
 
-            For many years now, many innovations in writing styles for the web have happened elsewhere: in preprocessors, JavaScript frameworks, or compilers. To be sure, CSS itself has also received some welcome improvements like [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) or [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Yet we still reach for libraries and other helpers on a daily basis. 
+            何年にもわたり、ウェブでのスタイルの書き方に関する多くの革新が、プリプロセッサ、JavaScriptフレームワーク、コンパイラなどCSSとは別の場所で起こっていました。もちろん、CSSにおいても[aspect-ratio](https://developer.mozilla.org/ja/docs/Web/CSS/aspect-ratio)や[カスタムプロパティ](https://developer.mozilla.org/ja/docs/Web/CSS/--*)など、歓迎すべき機能向上が図られています。とはいえ、私たちはライブラリやほかのヘルパーツールを使い続けているのが現状です。
 
-            But there's a change coming. The core CSS language is getting shaken up and renewed, and we're right at the forefront of accelerated evolution. 
+            しかし、変化が起ころうとしています。CSSに根本から変化が起こっており、そんな進化の最前線に私たちは居るのです。
 
-            [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) will bring in an entirely new era of responsive design, and [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) will make our use of frameworks, theming and managing complex codebases significantly easier. 
+            [コンテナークエリー](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries)はレスポンシブデザインに全く新しい時代をもたらし、[カスケイドレイヤー](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)はフレームワークやテーマの使い方、複雑なコードベースの管理をずっと楽なものにしてくれるでしょう。
 
-            When we look a little further ahead, we can also see the [@when/else conditional](https://css-tricks.com/proposal-for-css-when/) coming up, which will let us combine media, container and supports queries into a single at-rule.
+            さらに先をみてみると、[@when/else条件節](https://css-tricks.com/proposal-for-css-when/)というのもあります。これを使えば、メディアクエリー、コンテナークエリー、フィーチャークエリーを1つの@ルールにまとめられます。
 
-            And fingers crossed, 2022 is the year we finally see some movement on native CSS nesting. Those of us that work with tools like Sass and PostCSS already couldn't imagine another way of working.
+            2022年には、ネイティブなCSSのネストに関して前進があることを願っています。SassやPostCSSなどのツールを使っている身には、それらを使わない姿を想像できませんから。
 
-            All of this together means that 2022 is likely to be a year where the way you write CSS is going to fundamentally change. It's an incredibly exciting period, and we look forward to all the amazing implementations in the year to come.
+            まとめると、2022年は、CSSの書き方が根本的に変わる年になりそうです。とてもエキサイティングな年になるでしょうし、それらをうまく使ったサイトやアプリが出てくることも楽しみでなりません。
 
     - key: conclusion.bio
-      t: Web developer and creator of Polypane
-      
+      t: ウェブ開発者・Polypaneの開発者
+
     ###########################################################################
     # Picks
     ###########################################################################
@@ -229,7 +218,8 @@ translations:
       t: Frontend Developer and Content Creator
     - key: picks.lauragift_.description
       t: |
-            Kevin creates CSS content on Youtube and I really enjoy watching his videos a lot. 
+            Kevin creates CSS content on YouTube and I really enjoy watching his videos a lot. 
+
             He does a really good job teaching CSS concepts in a way that's easy and fun 
             to understand.
     
@@ -309,11 +299,19 @@ translations:
     #   t: |
     #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
 
-    # - key: picks.kilianvalkhof.bio
-    #   t: Web developer and creator of Polypane
-    # - key: picks.kilianvalkhof.description
+    - key: picks.kilianvalkhof.name
+      t: prefers-reduced-data
+    - key: picks.kilianvalkhof.bio
+      t: Web developer and creator of Polypane
+    - key: picks.kilianvalkhof.description
+      t: |
+          We need more devs to ask browsers about this feature, and to realize how big a difference it can make. With 64% of respondents not knowing it though, we have work to do!
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
     #   t: |
-    #       `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
 
     # - key: picks.piccalilli_.bio
     #   t: Freelance designer & dev who runs piccalil.li
@@ -355,3 +353,81 @@ translations:
     #   t: |
     #       The media query to reduce motion, which helps avoid 
     #       triggering dizziness and discomfort.
+
+
+###########################################################################
+# Sponsors
+###########################################################################
+
+    - key: partners.frontendmasters.description
+      t: 深くまで学べるモダンなフロントエンドエンジニアリングのコースでスキルアップしましょう。
+    - key: partners.polypane.description
+      t: 意欲的な開発者のためのブラウザです。レスポンシブでアクセシブル、そして速いウェブサイトを楽に作りましょう。
+    - key: partners.google_chrome.description
+      t: サポートしてくれたGoogle Chromeチームに感謝します。
+
+###########################################################################
+# FAQ/About
+###########################################################################
+
+    - key: about.content
+      t: >
+            2021年のState of CSSアンケートは2021年10月5日から11月2日まで実施され、8714の回答を集めました。アンケートは私[Sacha Greif](https://sachagreif.com/)が、オープンソースコントリビューターとコンサルタントの協力により運営しています。
+
+            今年のロゴとTシャツは[Christopher Kirk-Nielsen](http://chriskirknielsen.com/)によりデザインやアニメーションが作られています。
+
+            ### アンケートのゴール
+
+            このアンケートや、[State of JavaScript](https://stateofjs.com/)は、ウェブ開発のエコシステムで、これから来るトレンドを見つけ、技術者の技術選定を助けることを目的に作られました。
+
+            このため、アンケートでは現在流行っているもの分析よりも、今後数年で来るだろう機能についての予測に主眼をおいています。現在広く使われている機能や技術が設問に含まれていないのはそのためです。
+
+            ### アンケートの設計
+
+            今回のアンケートは昨年のアンケートを元に、[GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8)でのフィードバックを受けて作られました。
+
+            すべての設問は任意回答としています。
+
+            ### アンケートの対象者
+
+            このアンケートはオンラインで誰でも回答できるようになっているため、回答者がふるいにかけられたり厳選されたりといったことはありません。回答者の種別においては、過去のアンケート回答者（専用メーリングリストで通知された）や、ソーシャルメディアからの流入が主となっています。
+
+            ### 代表性と包括性
+
+            すべてのコミュニティから意見を募ることは重要と考えていますが、このようなオープンなアンケートでは、すべての人の属性を適切に反映することにとても苦労しているのが現実です。固有バイアスを持つシステムで運用する場合はなおのことです。
+
+            これに抗うため、私たちは3つの戦略をとっています。
+
+            - **アウトリーチ**：今年、私たちはBIPOC、LGBTQの開発者を代表する23の組織に、協力を求めて働きかけを行いました。回答はほとんど得られませんでしたが、現在の回答者よりも広くリーチできる方法を模索し続けます。
+
+            - **データ解析**：ファセットや確率変数といった機能を用いて、マイノリティであってもその意見を拾えるよう、常に心掛けています。
+
+            - **バリアの低減**：アンケートが長すぎたり、アクセシブルでなかったり、読み込みが遅かったり、英語のみだったり。これらは「努力税」を課すことになり、それに答える余裕のないコミュニティを切り捨ててしまいます。これらの問題を解決し、バリアを少なくすることで、回答者の多様性を高められるでしょう。
+
+            ### プロジェクトの資金
+
+            プロジェクトの資金はさまざまなところから調達しています。
+
+            - **Tシャツの売上**。
+
+            - **スポンサーリンク**：各ページ下部にあるおすすめのリソースはパートナーの[Frontend Masters](https://frontendmasters.com/)から提供されています。
+
+            - **その他の資金**：今年は[Google Chrome](https://www.google.com/chrome/)チームからの資金援助を受け、[アクセシビリティコンサルタント](https://fossheim.io/)に仕事を依頼しました。
+
+            これらの資金源はありますが、基本的には自己資金によるプロジェクトです。プロジェクトへの寄付やスポンサーは大歓迎です。とくにウェブエコシステムで中心的な役割を担うブラウザベンダーと密接な連携を取りたいと考えています。
+
+            ### 技術概要
+
+            このアンケートで使われている技術については、[解説記事](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)を公開しています。
+
+            - **データコレクション**：[Vulcan.js](http://vulcanjs.org/)のカスタムアプリ。
+
+            - **データストレージ・処理**：MongoDBとMongoDB Aggregation。
+
+            - **データAPI**：Node.jsのGraphQL API。
+
+            - **結果のウェブサイト**：[Gatsby](https://www.gatsbyjs.com/)によるReactアプリ。
+
+            - **データビジュアリゼーション**：[Nivo](https://nivo.rocks/)ライブラリ。
+
+            - **書体**：[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)と[Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)。

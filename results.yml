@@ -125,6 +125,8 @@ translations:
     t: ブログ
   - key: options.first_steps.forums
     t: フォーラム
+  - key: options.first_steps.view_source
+    t: View Source
   
   # other disablities
   - key: options.disability_status_others.adhd
@@ -160,6 +162,9 @@ translations:
 
   - key: sections.conclusion.title
     t: おわりに
+
+  - key: sections.about.title
+    t: About
 
   - key: sections.support.title
     t: サポートする
@@ -210,6 +215,11 @@ translations:
     t: 高等教育の学位と給与
   - key: user_info.yearly_salary_by_degree.description
     t: 高等教育の学位と、回答者の給与の分布を表示しています。順番は平均給与の降順です。
+
+  - key: user_info.yearly_salary_by_experience
+    t: Salary By Experience
+  - key: user_info.yearly_salary_by_experience.description
+    t: Yearly salary distribution by experience, sorted by mean salary descending.
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: 経験年数と人種・民族
@@ -279,7 +289,7 @@ translations:
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
-    t: CanIUse
+    t: Can I Use
   - key: features.specification_link
     t: W3C仕様
 
@@ -505,7 +515,7 @@ translations:
     t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
 
   - key: css_pain_points.css_pain_points_matchups
-    t: CSSに足りていない機能 (Matchups)
+    t: CSSのつらいところ (Matchups)
   - key: css_pain_points.css_pain_points_matchups.description
     t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
@@ -814,7 +824,7 @@ translations:
 
   - key: hints.units_switcher_hint
     t: >
-      ブロックの下にあるボタンから異なる単位をぶことで、同じデータを異なる角度から見られます。
+      ブロックの下にあるボタンから単位を切り替えると、同じデータを異なる視点で見られます。
 
   - key: hints.export_hint
     t: >
@@ -842,11 +852,11 @@ translations:
 
   - key: hints.variants_hint
     t: >
-      いくつかのチャートには、同じデータや関連データを補完に表示するタブがあります。ぜひチェックしてください！
+      いくつかのチャートには、補足データや関連データを表示するタブがあります。ぜひチェックしてください！
 
   - key: hints.share_hint
     t: >
-      <span class="hint-icon hint-share-button">Share</span>タブでは、チャートのシェアや、画像をダウンロードして共有するのがとても楽に行なえます。
+      <span class="hint-icon hint-share-button">Share</span>タブから、チャートのシェアや、画像のダウンロードが簡単に行なえます。
 
   - key: hints.bracket_hint
     t: >
