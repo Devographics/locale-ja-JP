@@ -822,6 +822,8 @@ translations:
       t: ラウンド2勝者
     - key: options.bracket.round3
       t: ラウンド3勝者
+    - key: options.bracket.combined
+      t: Combined
 
     ###########################################################################
     # Tools
