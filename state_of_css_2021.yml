@@ -62,10 +62,7 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **8,714** developers throughout the world, and in order
-          to help highlight different voices and surface deeper insights, we made a special
-          effort to provide new ways to break our data down. 
-          今年の調査では、世界の開発者 **8,734** もの開発者からアンケートをとりました。今回の調査は、異なる意見やより深い洞察を得るため、データを分類する新しい方法の提供に力を費やしました。
+          今年の調査では、世界中の**8,734**もの開発者から回答を得ることができました。今回の調査は、さまざまな意見を反映したり深い洞察を得るため、データの分類やその表示方法をとくに頑張りました。
 
     - key: sections.features.description
       t: |
@@ -73,35 +70,24 @@ translations:
 
     - key: sections.technologies.description
       t: |
-          With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
-          the category has managed to carve out its niche. Maybe the two sides of the front-end world are 
-          not so far apart after all?
-          回答者の50％近くが何らかのCSS-in-JSライブラリを1つ以上使っているのを見るに、このカテゴリはニッチから抜け出したものといっていいでしょう。フロントエンドの世界のこの2つのサイドは、そこまで離れていないのではないかもしれませんね。
+          回答者の50％近くが何らかのCSS-in-JSライブラリを1つ以上使っていることから、これらのツールはもうニッチなものではないと言えるでしょう。CSSとJavaScriptという、フロントエンドの世界のこの2つのサイドは、そこまで離れていないのかもしれませんね。
 
     - key: sections.tools_others.description
       t: |
-          Picking a technology can often come down to a series of tough choices between 
-          competing priorities, and this year we tried to capture this process using a new bracket-style question format. 
-          技術選択においては、プライオリティの競争の連続という、つらい選択になります★。今年はブラケット形式★の質問で、その選択をどうするかを表現してみました★
+          技術選定は、どちらを優先するかという難しい選択の連続です。今年の調査では、対戦表を模した設問を用意し、その優先順位を示せるようにしました。
 
     - key: sections.environments.description
       t: |
-          Accessibility has long been an after-thought when it comes to web development, but many developers
-          are now realizing that it should in fact be the foundation on which everything else rests. 
-          ウェブ開発においてアクセシビリティは後付けのものとなっていました、しかし多くの開発者が、アクセシビリティは
+          ウェブ開発においてアクセシビリティは後づけのものとなっていました。しかし現在は多くの開発者が、アクセシビリティをすべての基礎とすべきことと気づき始めています。
 
     - key: sections.resources.description
       t: |
-          Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
-          and actually feature the people who make up the CSS community themselves! 
-          おすすめするリソースとしてブログやポッドキャスト、ウェブサイトを挙げる。これでもいいのですが、今年はもう一歩進んで、CSSコミュニティをなす人に着目することにしました。
+          おすすめするリソースとしてブログやポッドキャスト、ウェブサイトを挙げる。これでもいいのですが、今年はもう一歩進んで、CSSコミュニティの人に着目することにしました。
 
     - key: sections.opinions.description
       t: |
-          Whether it's pain points that hold you back today, or missing features that you hope to use
-          tomorrow, this was your chance to vent and share your gripes with CSS!
-          このセクションは、いま現在あなたを悩ませていることや、現在のCSSに足りず、今後使いたい機能など、CSSについて思っていることを言うためのセクションでした。
-          
+          現在あなたを悩ませていることや、いまのCSSに足りず今後使いたい機能など、CSSについて思っていることを言うところでした。
+
     ###########################################################################
     # Notes
     ###########################################################################
