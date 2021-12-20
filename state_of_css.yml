@@ -228,7 +228,7 @@ translations:
     - key: options.currently_missing_from_css.color_functions.description
       t: 色の値を操作する関数。
     - key: options.currently_missing_from_css.container_queries
-      t: コンテナクエリー
+      t: コンテナークエリー
     - key: options.currently_missing_from_css.container_queries.description
       t: 親コンテナの大きさをもとにスタイルを書ける。
     - key: options.currently_missing_from_css.scoping
@@ -277,7 +277,7 @@ translations:
     - key: features.break_rules.description
       t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
     - key: features.at_container
-      t: コンテナクエリー
+      t: コンテナークエリー
     - key: features.at_container.description
       t: <code>@container</code>クエリー
 
@@ -440,7 +440,7 @@ translations:
     - key: features.color_functions.description
       t: 色の値を操作する関数。
     - key: features.container_queries
-      t: コンテナクエリー
+      t: コンテナークエリー
     - key: features.container_queries.description
       t: 親コンテナの大きさをもとにスタイルを書ける。
     - key: features.scoping

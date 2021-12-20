@@ -131,7 +131,7 @@ translations:
 
     - key: sections.other_tools.description
       t: |
-          ライブラリやユーティリティ、その他のツールなどの多様性と量は、JavaScriptのエコシステムがどれだけ広大になったのかを浮き彫りにしています。そして今年はDenoやHermesなどのJavaScriptランタイムについても調査しました、
+          ライブラリやユーティリティ、そのほかのツールなどの多様性と量は、JavaScriptのエコシステムがどれだけ広大になったのかを浮き彫りにしています。そして今年はDenoやHermesなどのJavaScriptランタイムについても調査しました、
 
     - key: sections.resources.description
       t: |
