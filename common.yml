@@ -103,7 +103,7 @@ translations:
     - key: general.privacy_policy
       t: プライバシーポリシー
     - key: general.leave_issue
-      t: 質問があったり、バグを見つけたときは<a href="{link}" target="_blank">issueを立ててください</a>。
+      t: 質問やバグ報告は<a href="{link}" target="_blank">issueを立ててください</a>。
     - key: general.emoji_icons
       t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -162,7 +162,7 @@ translations:
 
     # partners
     - key: partners.our_partners
-      t: パートナー一覧
+      t: パートナー
     - key: partners.become_partner
       t: パートナーになる
 
@@ -178,7 +178,7 @@ translations:
     - key: general.translator_mode
       t: option/altを押して翻訳モードにする。
     - key: general.charts_nivo
-      t: Charts built with <a href="{link}">Nivo</a>.
+      t: チャート生成：<a href="{link}">Nivo</a>。
       
     ###########################################################################
     # Nav
@@ -865,7 +865,7 @@ translations:
     - key: user_info.yearly_salary
       t: 年収
     - key: user_info.yearly_salary.description
-      t: 米ドルでの年収。
+      t: 年収はいくらですか？（米ドル）
 
     # job title
     - key: user_info.job_title
@@ -899,7 +899,7 @@ translations:
         次の選択肢のうち、あなたを表しているものはどれですか。
     - key: user_info.gender.note
       t: >
-        多様性について情報を集め公開することはセンシティブな問題になりうることは承知の上ですが、このアンケートの包括性や代表性を知り、向上させるためにこのデータを収集することが重要だと考えています。
+        多様性に関する情報収集と公開がセンシティブな問題になりうることは承知しています。その上で、このアンケートの包括性や代表性を知り、また向上させるためにデータを収集することが重要と考えています。
 
     # skin tone/appearance
     - key: user_info.race_ethnicity
@@ -909,11 +909,11 @@ translations:
         次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
     - key: user_info.race_ethnicity.note
       t: >
-        多様性について情報を集め公開することはセンシティブな問題になりうることは承知の上ですが、このアンケートの包括性や代表性を知り、向上させるためにこのデータを収集することが重要だと考えています。
+        多様性に関する情報収集と公開がセンシティブな問題になりうることは承知しています。その上で、このアンケートの包括性や代表性を知り、また向上させるためにデータを収集することが重要と考えています。
 
     # disability status
     - key: user_info.disability_status
-      t: Disability Status
+      t: 障害の種類
     - key: user_info.disability_status.description
       t: >
         次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
@@ -931,7 +931,7 @@ translations:
     - key: user_info.country
       t: 居住国・居住地
     - key: user_info.country.description
-      t: Where do you currently reside?
+      t: 住んでいる国はどこですか？
 
     - key: user_info.github_username
       t: GitHubのユーザー名
@@ -1044,11 +1044,11 @@ translations:
 
     # sites & courses
     - key: resources.sites_courses
-      t: サイト・学習コース
+      t: ウェブサイト・学習コース
     - key: resources.sites_courses.description
-      t: サイトや学習コースのうち、参考にしているものは何ですか？
+      t: ウェブサイトや学習コースのうち、参考にしているものは何ですか？
     - key: resources.sites_courses.others
-      t: そのほかのサイト・学習コース
+      t: そのほかのウェブサイト・学習コース
     - key: resources.sites_courses.others.description
       t: そのほかの回答（自由入力欄）。
 

@@ -10,7 +10,7 @@ translations:
 
             コンテナークエリーなどが目の前に来るくらい、物事の進みがますます速くなっています。その流れに飲まれないよう、このアンケート結果にパワーアップを施しました！
 
-            今回から、2つのデータを組み合わせることができるようになりました。たとえば、給与水準と経験年数や、ジェンダーと居住国といった感じです。このアンケート結果でいくつかの組み合わせを見られますが、[API](https://api.stateofjs.com/)を使ったり、[データをダウンロード](https://www.kaggle.com/sachag/state-of-css)して、さらにデータを掘り下げてみてください。いいビジュアライズをしたら、ぜひ教えてください。
+            今回から、2つのデータを組み合わせることができるようになりました。たとえば、年収水準と経験年数や、ジェンダーと居住国といった感じです。このアンケート結果でいくつかの組み合わせを見られますが、[API](https://api.stateofjs.com/)を使ったり、[データをダウンロード](https://www.kaggle.com/sachag/state-of-css)して、さらにデータを掘り下げてみてください。いいビジュアライズをしたら、ぜひ教えてください。
 
             では、今年のCSSがどうだったかを見てみましょう！
 
@@ -98,7 +98,7 @@ translations:
 
     - key: blocks.currently_missing_from_css.note
       t: |
-          この質問に対する回答のデータセットは[サイドプロジェクト](https://whatsmissingfromcss.com/)にまとめています。
+          回答のデータセットは[サイドプロジェクト](https://whatsmissingfromcss.com/)にまとめています。
 
     - key: blocks.source.note
       t: >
@@ -412,7 +412,7 @@ translations:
 
             - **スポンサーリンク**：各ページ下部にあるおすすめのリソースはパートナーの[Frontend Masters](https://frontendmasters.com/)から提供されています。
 
-            - **その他の資金**：今年は[Google Chrome](https://www.google.com/chrome/)チームからの資金援助を受け、[アクセシビリティコンサルタント](https://fossheim.io/)に仕事を依頼しました。
+            - **そのほかの資金源**：今年は[Google Chrome](https://www.google.com/chrome/)チームからの資金援助を受け、[アクセシビリティコンサルタント](https://fossheim.io/)に仕事を依頼しました。
 
             これらの資金源はありますが、基本的には自己資金によるプロジェクトです。プロジェクトへの寄付やスポンサーは大歓迎です。とくにウェブエコシステムで中心的な役割を担うブラウザベンダーと密接な連携を取りたいと考えています。
 
