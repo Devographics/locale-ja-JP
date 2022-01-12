@@ -1,4 +1,4 @@
-locale: en-US
+locale: ja-JP
 namespace: js
 translations:
     ###########################################################################
@@ -7,15 +7,11 @@ translations:
 
     - key: general.survey_intro_js2021
       t: >
-          First the 2020 Olympics got pushed back to 2021, 
-          and now the 2021 State of JavaScript survey is happening now, in 2022!
+          2020年のオリンピックが2021年に延期されたように、2021年のState of JavaScriptもこの2022年に行われることとなったのです！
 
 
-          It's true: between work, family, and and all the turmoil in the world, 
-          some things got disrupted a little.
-          
+          ええ。そうです。仕事、家族、世界中で起こっている混乱すべてに挟まれて、ちょっとはみ出てしまったんです。
 
-          But while the year may be off-by-one, we hope the data provided by the 
-          survey itself will be just as informative and insightful as ever. 
-          And don't worry, there will be another survey towards the end of this year to set things straight again!
-          
+
+          これもoff-by-oneエラーなのかもしれませんね。でも、このアンケートのデータが引き続き、真実を見据えた有益なものであると願っています。
+          心配しないでください。今年は年末にアンケートをやって、一年をきれいに終わらせられるでしょう！
