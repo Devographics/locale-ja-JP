@@ -85,19 +85,19 @@ translations:
       t: コードのコンパイルとビルド
 
     - key: sections.monorepo_tools.title
-      t: Monorepo Tools
+      t: モノレポのツール
     - key: sections.monorepo_tools.description
-      t: Tools used to manage JavaScript monorepos.
+      t: JavaScriptモノレポの管理に使うツール
 
     - key: sections.tools_others.title
-      t: Other Tools
+      t: そのほかのツール
     - key: sections.tools_others.description
-      t: Other JavaScript tools
+      t: そのほかのJavaScriptツール
 
     - key: sections.other_tools.title
-      t: Other Tools
+      t: そのほかのツール
     - key: sections.other_tools.description
-      t: For these tools & technologies, just check the ones that you use regularly.
+      t: 以下のツールや技術について、普段使っているものにチェックをつけてください
 
     ###########################################################################
     # Options
@@ -117,45 +117,45 @@ translations:
     # - key: options.js_pain_points.form_handling.description
     #   t: Creating forms, managing their state and errors, and saving their data. 
     - key: options.js_pain_points.state_management
-      t: State Management
+      t: ステート管理
     - key: options.js_pain_points.state_management.description
-      t: Managing global data state in complex applications. 
+      t: 複雑なアプリケーションで、グローバルなデータのステートを管理すること。
     # - key: options.js_pain_points.performance_issues
     #   t: Performance Issues
     # - key: options.js_pain_points.performance_issues.description
     #   t: Bundle sizes, slow loading, and other performance issues. 
     - key: options.js_pain_points.managing_dependencies
-      t: Managing Dependencies
+      t: 依存関係の管理
     - key: options.js_pain_points.managing_dependencies.description
-      t: Managing dependencies, package versions and bundle sizes
+      t: 依存関係やパッケージのバージョン、バンドルサイズを管理すること。
     - key: options.js_pain_points.architecture
-      t: Code Architecture
+      t: コード設計
     - key: options.js_pain_points.architecture.description
-      t: Organizing and maintaining your codebase.
+      t: コードベースを構造化したり管理すること。
     - key: options.js_pain_points.finding_packages
-      t: Finding Packages
+      t: パッケージの検索
     - key: options.js_pain_points.finding_packages.description
-      t: Finding and evaluating JavaScript packages.
+      t: JavaScriptパッケージを探したり評価すること。
     - key: options.js_pain_points.writing_modules
-      t: Writing Modules
+      t: モジュールの作成
     - key: options.js_pain_points.writing_modules.description
-      t: Writing JavaScript modules and publishing them as packages. 
+      t: JavaScriptモジュールを作成したり、パッケージとして公開すること。
     - key: options.js_pain_points.debugging
-      t: Debugging
+      t: デバッグ
     - key: options.js_pain_points.debugging.description
-      t: Identifying and solving issues with your code. 
+      t: コードの問題点を見つけたり、解決すること。
     - key: options.js_pain_points.async_code
-      t: Async Code
+      t: 非同期処理
     - key: options.js_pain_points.async_code.description
-      t: Handling asynchronous functions. 
+      t: 非同期な関数を処理すること。
     - key: options.js_pain_points.modules_management
-      t: Modules Management
+      t: モジュール管理
     - key: options.js_pain_points.modules_management.description
-      t: Writing and importing modules. 
+      t: モジュールを書いたり読み込んだりすること。
     - key: options.js_pain_points.date_management
-      t: Date Management
+      t: 日付や時刻の処理
     - key: options.js_pain_points.date_management.description
-      t: Handling and manipulating dates and times. 
+      t: 日付や時刻を処理したり操作すること。
     # - key: options.js_pain_points.xxx
     #   t: 
     # - key: options.js_pain_points.xxx.description
@@ -164,37 +164,37 @@ translations:
 
     # JS missing features
     - key: options.currently_missing_from_js.static_typing
-      t: Static Typing
+      t: 静的型付け
     - key: options.currently_missing_from_js.static_typing.description
-      t: Native types (similar to what TypeScript offers).
+      t: 型のネイティブサポート（TypeScriptと同様の機能）。
     - key: options.currently_missing_from_js.standard_library
-      t: Standard Library
+      t: 標準ライブラリ
     - key: options.currently_missing_from_js.standard_library.description
-      t: A standard library of common utilities
+      t: 共通ユーティリティの標準ライブラリ。
     - key: options.currently_missing_from_js.pattern_matching
-      t: Pattern Matching
+      t: パターンマッチ
     - key: options.currently_missing_from_js.pattern_matching.description
-      t: A new `match` keyword for pattern-matching objects. 
+      t: オブジェクトのパターンマッチに使う新しい`match`キーワード。
     - key: options.currently_missing_from_js.pipe_operator
-      t: Pipe Operator
+      t: パイプ演算子
     - key: options.currently_missing_from_js.pipe_operator.description
-      t: A new `|>` operator for passing the result of one function to another.
+      t: 関数の結果を別の関数に渡す新しい`|>`演算子。
     - key: options.currently_missing_from_js.decorators
-      t: Decorators
+      t: デコレータ
     - key: options.currently_missing_from_js.decorators.description
-      t: Decorators used to metaprogram and add functionality to a value.
+      t: メタプログラミングや値に処理を付加するデコレータ。
     - key: options.currently_missing_from_js.immutable_data_structures
-      t: Immutable Data Structures
+      t: イミュータブルなデータ構造
     - key: options.currently_missing_from_js.immutable_data_structures.description
-      t: New deeply immutable data structures such as `Record` and `Tuple`.
+      t: `Record`や`Tuple`など、より徹底したイミュータブルなデータ構造。
     - key: options.currently_missing_from_js.better_date_management
-      t: Better Date Management
+      t: より良い日付管理
     - key: options.currently_missing_from_js.better_date_management.description
-      t: A new `Temporal` object for working with dates and times.
+      t: 日付や時刻を処理するための新しい`Temporal`オブジェクト。
     - key: options.currently_missing_from_js.observable
       t: Observable
     - key: options.currently_missing_from_js.observable.description
-      t: A new `Observable`` type used to model push-based data sources.
+      t: プッシュベースなデータソースのモデリングに使う新しい型`Observable`。
     # - key: options.currently_missing_from_js.xxx
     #   t: 
     # - key: options.currently_missing_from_js.xxx.description
@@ -227,19 +227,19 @@ translations:
     - key: features.optional_chaining.description
       t: '例：`const dogName = adventurer.dog?.name`'
     - key: features.private_fields
-      t: Private Fields
+      t: プライベートフィールド
     - key: features.private_fields.description
       t: '例：`class ClassWithPrivateField { #privateField }`'
 
     # language
     - key: features.proxies
-      t: Proxies
+      t: Proxy
     - key: features.async_await
       t: Async/Await
     - key: features.promises
-      t: Promises
+      t: Promise
     - key: features.decorators
-      t: Decorators
+      t: デコレータ
     - key: features.decorators.description
       t: デコレータを簡単に言うと、コードの一部を別のコードでラップする（文字通り「デコレート」する）仕組みです。
     - key: features.dynamic_import
@@ -250,11 +250,11 @@ translations:
 
     # data structures
     - key: features.maps
-      t: Maps
+      t: Map
     - key: features.sets
-      t: Sets
+      t: Set
     - key: features.typed_arrays
-      t: Typed Arrays
+      t: Typed Array
     - key: array_prototype_flat
       t: Array.prototype.flat
 
@@ -384,26 +384,26 @@ translations:
 
     # Pain Points
     - key: opinions.js_pain_points
-      t: JavaScript Pain Points
+      t: JavaScriptのつらいところ
     - key: opinions.js_pain_points.description
-      t: For each matchup, pick the aspect of JavaScript you struggle with the most.
+      t: JavaScriptどんなところで苦労するか、対決させてください。
 
     - key: opinions_others.js_pain_points.others
-      t: Other JavaScript Pain Points
+      t: そのほかのJavaScriptのつらいところ
 
     # Missing Features
     - key: opinions.currently_missing_from_js
-      t: What do you feel is currently missing from JavaScript?
+      t: どんな機能がJavaScriptに足りてないと思いますか？
     - key: opinions.currently_missing_from_js.description
-      t: For each matchup, pick the feature you'd most like to be able to use in JavaScript today.
+      t: JavaScriptにあれば今すぐ使いたいと思う機能について、対決させてください。
     - key: opinions_others.currently_missing_from_js.others
-      t: Other Missing Features
+      t: そのほかでほしい機能
 
     ###########################################################################
     # Resources
     ###########################################################################
 
     - key: resources.first_steps
-      t: First Steps With JavaScript
+      t: JavaScriptの最初の勉強方法
     - key: resources.first_steps.description
-      t: When first starting out, how did you initially learn JavaScript?
+      t: 最初にJavaScriptを学び始めたとき、どの方法で学びましたか。
