@@ -186,7 +186,7 @@ translations:
     - key: options.currently_missing_from_js.immutable_data_structures
       t: イミュータブルなデータ構造
     - key: options.currently_missing_from_js.immutable_data_structures.description
-      t: `Record`や`Tuple`など、より徹底したイミュータブルなデータ構造。
+      t: '`Record`や`Tuple`など、より徹底したイミュータブルなデータ構造。'
     - key: options.currently_missing_from_js.better_date_management
       t: より良い日付管理
     - key: options.currently_missing_from_js.better_date_management.description
