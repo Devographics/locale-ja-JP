@@ -1020,13 +1020,13 @@ translations:
     - key: tools_others.non_js_languages.others.description
       t: そのほかの回答（自由入力欄）。
     - key: tools_others.javascript_flavors
-      t: JavaScript Flavors
+      t: JavaScriptフレーバー
     - key: tools_others.javascript_flavors.description
-      t: Languages that compile to JavaScript
+      t: JavaScriptにコンパイルする言語
     - key: tools_others.javascript_flavors.others
-      t: Other JavaScript Flavors
+      t: そのほかのJavaScriptフレーバー
     - key: tools_others.javascript_flavors.others.description
-      t: Other answers (freeform field).
+      t: そのほかの回答（自由入力欄）。
 
 
 
