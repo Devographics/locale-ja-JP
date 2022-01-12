@@ -54,6 +54,10 @@ translations:
       t: サインアップ
     - key: accounts.sign_in
       t: ログイン
+    - key: accounts.switch_to_sign_up
+      t: アカウントがありませんか？サインアップしましょう
+    - key: accounts.switch_to_sign_in
+      t: アカウントがありますか？ログインしてください
     - key: accounts.sign_out
       t: ログアウト
     - key: accounts.cancel

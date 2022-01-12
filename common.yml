@@ -31,7 +31,7 @@ translations:
       t: >
           <a href="{link}">メインページへ戻る</a>。アンケートへの回答や、回答中のアンケートを再開できます。
     - key: general.take_survey
-      t: '{name} {year}に回答する'
+      t: '{name}に回答する'
 
     # surveys
     - key: general.open_surveys
@@ -74,6 +74,8 @@ translations:
       t: 翻訳協力
     - key: general.newly_added
       t: 今回追加された新しい項目
+    - key: general.new
+      t: New
 
     # credits
     - key: credits.thanks
@@ -1017,6 +1019,16 @@ translations:
       t: そのほかの言語
     - key: tools_others.non_js_languages.others.description
       t: そのほかの回答（自由入力欄）。
+    - key: tools_others.javascript_flavors
+      t: JavaScriptフレーバー
+    - key: tools_others.javascript_flavors.description
+      t: JavaScriptにコンパイルする言語
+    - key: tools_others.javascript_flavors.others
+      t: そのほかのJavaScriptフレーバー
+    - key: tools_others.javascript_flavors.others.description
+      t: そのほかの回答（自由入力欄）。
+
+
 
     ###########################################################################
     # Resources

@@ -773,4 +773,4 @@ translations:
     - key: resources.first_steps
       t: CSSの最初の勉強方法
     - key: resources.first_steps.description
-      t: 最初にCSSを学び始めたとき、何から学びましたか。
+      t: 最初にCSSを学び始めたとき、どの方法で学びましたか。
