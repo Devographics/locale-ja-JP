@@ -414,17 +414,17 @@ translations:
       t: JavaScriptにいつか追加されてほしい機能
 
     - key: happiness.front_end_frameworks
-      t: How happy are you with the state of front end frameworks?
+      t: フロントエンドフレームワークの現状に満足していますか？
     - key: happiness.back_end_frameworks
-      t: How happy are you with the state of back end frameworks?
+      t: バックエンドフレームワークの現状に満足していますか？
     - key: happiness.testing
-      t: How happy are you with the state of testing tools?
+      t: テストツールの現状に満足していますか？
     - key: happiness.mobile_desktop
-      t: How happy are you with the state of mobile & desktop frameworks?
+      t: モバイル・デスクトップフレームワークの現状に満足していますか？
     - key: happiness.build_tools
-      t: How happy are you with the state of build tools?
+      t: ビルドツールの現状に満足していますか？
     - key: happiness.monorepo_tools
-      t: How happy are you with the state of monorepo tools?
+      t: モノレポツールの現状に満足していますか？
 
     - key: happiness.state_of_the_web
       t: ウェブ技術の現状に満足していますか？
