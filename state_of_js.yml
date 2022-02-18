@@ -451,24 +451,24 @@ translations:
 
     # pain points/currently missing (results)
     - key: js_pain_points.js_pain_points_wins
-      t: JavaScript Pain Points
+      t: JavaScriptのつらいところ
     - key: js_pain_points.js_pain_points_wins.description
-      t: Which aspect of JavaScript do you struggle with the most? Results are ranked by number of tournament rounds won.
+      t: JavaScriptについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
 
     - key: js_pain_points.js_pain_points_matchups
-      t: JavaScript Pain Points (Matchups)
+      t: JavaScriptのつらいところ（対戦）
     - key: js_pain_points.js_pain_points_matchups.description
-      t: Which aspect of JavaScript do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+      t: JavaScriptについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
     - key: currently_missing_from_js.currently_missing_from_js_wins
-      t: Features Missing From JavaScript
+      t: JavaScriptに足りていない機能
     - key: currently_missing_from_js.currently_missing_from_js_wins.description
-      t: Which feature would you most like to be able to use in JavaScript today? Results are ranked by number of tournament rounds won.
+      t: JavaScriptについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
 
     - key: currently_missing_from_js.currently_missing_from_js_matchups
-      t: Features Missing From JavaScript (Matchups)
+      t: JavaScriptに足りていない機能（対戦）
     - key: currently_missing_from_js.currently_missing_from_js_matchups.description
-      t: Which feature would you most like to be able to use in JavaScript today? Percentage of rounds won by left-hand item against top-side item.
+      t: JavaScriptについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
     ###########################################################################
     # Resources
