@@ -15,3 +15,17 @@ translations:
 
           これもoff-by-oneエラーなのかもしれませんね。でも、このアンケートのデータが引き続き、真実を見据えた有益なものであると願っています。
           心配しないでください。今年は年末にアンケートをやって、一年をきれいに終わらせられるでしょう！
+
+    ###########################################################################
+    # Survey
+    ###########################################################################
+
+    - key: features.features_intro
+      t: >
+          Welcome to the survey! This first part is all about figuring out 
+          which **features** of the JavaScript language you know about. 
+          And if you know about something but haven't yet used it, that's fine too!
+    - key: tools.tools_intro
+      t: >
+          The next couple sections focus on the **libraries** and **frameworks** that make up 
+          the JavaScript ecosystem. Let us know what you're excited about!
