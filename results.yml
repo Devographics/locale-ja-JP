@@ -610,8 +610,11 @@ translations:
     t: 高い利用率
   - key: charts.tools_arrows.popularity_positive
     t: 人気上昇中
-  - key: charts.tools_arrows.negative
+  - key: charts.tools_arrows.popularity_negative
     t: 人気低下中
+
+  - key: charts.no_answer
+    t: No Answer
 
 
   ###########################################################################
