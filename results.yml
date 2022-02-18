@@ -143,6 +143,16 @@ translations:
     t: てんかん
   - key: options.disability_status_others.aspergers
     t: アスペルガー障害
+  - key: options.disability_status_others.color_blindness
+    t: Color Blindness
+  - key: options.disability_status_others.anxiety
+    t: Anxiety
+  - key: options.disability_status_others.dyslexia
+    t: Dyslexia
+  - key: options.disability_status_others.diabetes
+    t: Diabetes
+  - key: options.disability_status_others.carpal_tunnel
+    t: Carpal Tunnel
 
   ###########################################################################
   # Sections
