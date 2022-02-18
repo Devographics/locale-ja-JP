@@ -160,6 +160,9 @@ translations:
   - key: sections.technologies.title
     t: 技術
 
+  - key: sections.libraries.title
+    t: Libraries
+
   - key: sections.conclusion.title
     t: おわりに
 
@@ -407,6 +410,18 @@ translations:
 
         棒の太さは、その技術を知っている人の数を表しています。
 
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Library Tier List
+  - key: blocks.tools_tier_list.description
+    t: |
+      This chart ranks libraries based on their satisfaction ratio (percentage of users
+      who would use a library again). Note that libraries used by less than 10% of survey 
+      respondents are not included.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
   # tools section streams
   - key: blocks.tools_section_streams
     t: 評価の移ろい
@@ -481,6 +496,33 @@ translations:
     t: JSONデータを取得
   - key: export.export_graphql
     t: GraphQLのクエリーを取得
+
+  - key: custom_data.heading
+    t: Custom Chart
+  - key: custom_data.custom_data
+    t: Custom Data
+  - key: custom_data.graphql_query
+    t: GraphQL Query
+  - key: custom_data.chart_title
+    t: Custom Chart
+  - key: custom_data.submit
+    t: Submit
+  - key: custom_data.empty_contents
+    t: Please enter some data in the "Custom Data" field.
+  - key: custom_data.edit_title
+    t: Edit Chart Title
+  - key: custom_data.customize
+    t: Customize Data
+  - key: custom_data.details
+    t: >
+
+        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+
+        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+
+        3. In the explorer window, click the Play ("Execute Query") button.
+
+        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
