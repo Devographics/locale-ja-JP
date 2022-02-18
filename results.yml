@@ -161,7 +161,7 @@ translations:
     t: 技術
 
   - key: sections.libraries.title
-    t: Libraries
+    t: ライブラリ
 
   - key: sections.conclusion.title
     t: おわりに
