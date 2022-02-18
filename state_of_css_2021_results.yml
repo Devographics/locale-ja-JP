@@ -89,6 +89,29 @@ translations:
           現在あなたを悩ませていることや、いまのCSSに足りず今後使いたい機能など、CSSについて思っていることを言うところでした。
 
     ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: options.features_categories.layout
+      aliasFor: sections.layout.title
+    - key: options.features_categories.shapes_graphics
+      aliasFor: sections.shapes_graphics.title
+    - key: options.features_categories.interactions
+      aliasFor: sections.interactions.title
+    - key: options.features_categories.typography
+      aliasFor: sections.typography.title
+    - key: options.features_categories.animations_transforms
+      aliasFor: sections.animations_transforms.title
+    - key: options.features_categories.accessibility
+      aliasFor: sections.accessibility.title
+    - key: options.features_categories.media_queries
+      aliasFor: sections.media_queries.title
+    - key: options.features_categories.other_features
+      aliasFor: sections.other_features.title
+
+
+
+    ###########################################################################
     # Notes
     ###########################################################################
 
