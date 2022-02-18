@@ -113,6 +113,27 @@ translations:
     t: |
       ANALYZE: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
 
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: Low usage, high satisfaction. Technologies worth keeping an eye on.
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: High usage, high satisfaction. Safe technologies to adopt.
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: Low usage, low satisfaction. Technologies that are harder to recommend.
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
   - key: ranges.selector.years_of_experience
     t: 経験年数
   - key: ranges.selector.yearly_salary
