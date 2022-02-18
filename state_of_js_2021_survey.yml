@@ -22,10 +22,7 @@ translations:
 
     - key: features.features_intro
       t: >
-          Welcome to the survey! This first part is all about figuring out 
-          which **features** of the JavaScript language you know about. 
-          And if you know about something but haven't yet used it, that's fine too!
+          アンケートへようこそ！最初のパートはあなたが知っているJavaScriptの **機能** についてお聞きします。知っているけど使ったことのない機能があっても構いません！
     - key: tools.tools_intro
       t: >
-          The next couple sections focus on the **libraries** and **frameworks** that make up 
-          the JavaScript ecosystem. Let us know what you're excited about!
+          その次からはJavaScriptエコシステムをつくる **ライブラリ** や **フレームワーク** についてお聞きします。何にわくわくしているのか教えてください！
