@@ -529,31 +529,31 @@ translations:
     t: GraphQLのクエリーを取得
 
   - key: custom_data.heading
-    t: Custom Chart
+    t: カスタムチャート
   - key: custom_data.custom_data
-    t: Custom Data
+    t: カスタムデータ
   - key: custom_data.graphql_query
-    t: GraphQL Query
+    t: GraphQLクエリー
   - key: custom_data.chart_title
-    t: Custom Chart
+    t: カスタムチャート
   - key: custom_data.submit
-    t: Submit
+    t: 送信
   - key: custom_data.empty_contents
-    t: Please enter some data in the "Custom Data" field.
+    t: 「カスタムデータ」フィールドに何かデータを入れてください。
   - key: custom_data.edit_title
-    t: Edit Chart Title
+    t: チャートのタイトルを編集
   - key: custom_data.customize
-    t: Customize Data
+    t: データのカスタマイズ
   - key: custom_data.details
     t: >
 
-        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+        1. 「GraphQLクエリー」フィールドのテキストをコピーし、[GraphQL API explorer](https://graphiql.stateofjs.com/)の真ん中のパネルに張りつけます。
 
-        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+        2. 左のサイドバーからクエリーに1つ以上の **フィルター**をつけます。このときデータの構造を維持するようにしてください。
 
-        3. In the explorer window, click the Play ("Execute Query") button.
+        3. API explorerのウィンドウ内にある再生（「Execute Query」）ボタンをクリックします。
 
-        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+        4. 変更したクエリーの結果（`{ data: … }`）を、この上にある「カスタムデータ」フィールドに張りつけて送信してください。
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
