@@ -165,15 +165,15 @@ translations:
   - key: options.disability_status_others.aspergers
     t: アスペルガー障害
   - key: options.disability_status_others.color_blindness
-    t: Color Blindness
+    t: 色覚障害
   - key: options.disability_status_others.anxiety
-    t: Anxiety
+    t: 不安障害
   - key: options.disability_status_others.dyslexia
-    t: Dyslexia
+    t: ディスレクシア
   - key: options.disability_status_others.diabetes
-    t: Diabetes
+    t: 糖尿病
   - key: options.disability_status_others.carpal_tunnel
-    t: Carpal Tunnel
+    t: 手根管症候群
 
   ###########################################################################
   # Sections
