@@ -909,60 +909,59 @@ translations:
 
   - key: sponsor.sponsor_finish
     t: >
-      Thanks for supporting the survey. Your avatar should appear next to the chart you picked
-      within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+      スポンサーになってくださりありがとうございます！1時間ほどで、選んだチャートの横にあなたのアイコンが表示されます。もし表示されない場合は[ご連絡ください](mailto:chartsponsor@stateofjs.com)。
     
   - key: sponsor.sponsored_by
     t: >
-        **{name}** donated **${amount}** to sponsor this chart
+        **{name}** がこのチャートに **${amount}** 出資しました
   - key: sponsor.sponsor_button
-    t: Sponsor This Chart
+    t: このチャートのスポンサーになる
 
   - key: sponsor.sponsor_chart.title
-    t: Sponsor Chart "{title}"
+    t: "{title}" のスポンサーになる
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Support this survey financially by donating $10 or more, and get your
-        Twitter avatar featured next to a chart!
+        アンケートのサポートをお願いします。このチャートに10ドル以上出資すると、あなたのTwitterのアイコンがチャートの横に表示されます！
   - key: sponsor.chart_id
-    t: 'Chart ID: '
+    t: 'チャートID: '
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+) 
+    t: このチャートのスポンサーになる (${baseAmount}+) 
 
   - key: sponsor.how_it_works.title
-    t: How It Works
+    t: スポンサーの仕組み
 
   - key: sponsor.how_it_works.description
     t: >
-      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
-      
-      
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
-      
-      
-      3. Once you checkout, you will be able to **provide your Twitter username**. 
-      
-      
-      4. You will see a **File Download** page, but you can safely ignore it. 
-      
-      
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**. 
+      1. **「このチャートのスポンサーになる」ボタンをクリックする** と、私たちのパートナーである[SendOwl](https://www.sendowl.com/)の支払いページに移動します。
+
+
+      2. **金額を調整** し、出資額を変更できます。金額は10ドル以上からになります。
+
+
+      3. 支払いを済ませると、 **Twitterのユーザー名を入力** できるようになります。 
+
+
+      4. **ファイルダウンロード** のページに移動しますが、これは無視して構いません。
+
+
+      5. サイトがバックグラウンドで再構築されます。あなたのユーザー名と出資額が **1時間ほどでチャートの横に表示** されます。
   - key: sponsor.faq.title
-    t: F.A.Q.
+    t: よくある質問
 
   - key: sponsor.faq.usage.title
-    t: What will my donation be used for?
+    t: 寄付したお金は何に使われますか？
 
   - key: sponsor.faq.usage.description
-    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+    t: あなたの寄付はアンケートの管理者への援助になります。また、他のコントリビューター（イラストレーター、アクセシビリティ専門家、ダイバーシティ専門家など）への報酬にも使われます。
+
 
   - key: sponsor.faq.public.title
-    t: Will my donation be public?
+    t: 寄付は公開されるのでしょうか？
 
   - key: sponsor.faq.public.description
-    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+    t: はい。あなたの **Twitterのユーザー名** と **寄付した金額** がチャートの横に表示されます。
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
@@ -971,19 +970,20 @@ translations:
   #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
 
   - key: sponsor.faq.refund.title
-    t: What's your refund policy?
+    t: 返金ポリシーはどうなっていますか？
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees. 
+    t: すべての寄付には1週間の返金期間があります。支払金額から取引手数料を引いた額が変換されます。
 
   - key: sponsor.faq.influence.title
-    t: Do donations influence the survey contents?
+    t: 寄付がアンケートの内容に影響を与えますか？
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey. 
+    t: 寄付は公開済みのアンケートに対して行われます。寄付者がアンケートの内容に対し何か影響を与えることはありません。
 
   - key: sponsor.faq.feedback.title
     t: Where can I leave feedback/ask questions?
+    t: フィードバックや質問はどこで受けつけていますか？
 
   - key: sponsor.faq.feedback.description
-    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
+    t: [GitHub](https://github.com/StateOfJS/Monorepo/issues/69) もしくは [Discord](https://discord.gg/tuWRUWVyJs) にお願いします。
