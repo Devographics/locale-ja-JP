@@ -443,12 +443,10 @@ translations:
 
   # tool tier list
   - key: blocks.tools_tier_list
-    t: Library Tier List
+    t: ライブラリのティアリスト
   - key: blocks.tools_tier_list.description
     t: |
-      This chart ranks libraries based on their satisfaction ratio (percentage of users
-      who would use a library again). Note that libraries used by less than 10% of survey 
-      respondents are not included.
+      このチャートはライブラリをその満足度（また使いたいと回答したユーザーの％）でランクづけしたものです。注：使ったことのある回答者が全体のの10％に満たない技術は含まれていません。
   - key: blocks.tools_tier_list.bounds
     t: >
       {lowerBound}% - {upperBound}%
