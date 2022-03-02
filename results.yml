@@ -666,6 +666,7 @@ translations:
   - key: charts.tools_arrows.legend
     t: 凡例
   - key: charts.tools_arrows.velocity
+    # todo
     t: Velocity
   - key: charts.tools_arrows.velocity_positive
     t: 肯定的で利用率が高い方向に推移
