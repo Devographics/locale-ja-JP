@@ -117,22 +117,22 @@ translations:
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: Low usage, high satisfaction. Technologies worth keeping an eye on.
+      1: 低い利用率、高い満足度。チェックしておいてよさそうな技術。
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: High usage, high satisfaction. Safe technologies to adopt.
+      2: 高い利用率、高い満足度。採用して間違いはない技術。
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: Low usage, low satisfaction. Technologies that are harder to recommend.
+      3: 低い利用率、低い満足度。おすすめしにくくなった技術。
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+      4: 高い利用率、低い満足度。現在使っているなら、見直したほうがよさそうな技術。
 
   - key: ranges.selector.years_of_experience
     t: 経験年数
