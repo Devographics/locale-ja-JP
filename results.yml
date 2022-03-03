@@ -985,4 +985,4 @@ translations:
     t: フィードバックや質問はどこで受けつけていますか？
 
   - key: sponsor.faq.feedback.description
-    t: [GitHub](https://github.com/StateOfJS/Monorepo/issues/69) もしくは [Discord](https://discord.gg/tuWRUWVyJs) にお願いします。
+    t: \[GitHub](https://github.com/StateOfJS/Monorepo/issues/69) もしくは [Discord](https://discord.gg/tuWRUWVyJs) にお願いします。
