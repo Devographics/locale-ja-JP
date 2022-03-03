@@ -767,25 +767,25 @@ translations:
       t: CSSの現状に満足しているか
 
     # pain points/currently missing (results)
-  - key: css_pain_points.css_pain_points_wins
-    t: CSSのつらいところ
-  - key: css_pain_points.css_pain_points_wins.description
-    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+    - key: css_pain_points.css_pain_points_wins
+      t: CSSのつらいところ
+    - key: css_pain_points.css_pain_points_wins.description
+      t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
 
-  - key: css_pain_points.css_pain_points_matchups
-    t: CSSのつらいところ（対戦）
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
+    - key: css_pain_points.css_pain_points_matchups
+      t: CSSのつらいところ（対戦）
+    - key: css_pain_points.css_pain_points_matchups.description
+      t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: CSSに足りていない機能
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+    - key: currently_missing_from_css.currently_missing_from_css_wins
+      t: CSSに足りていない機能
+    - key: currently_missing_from_css.currently_missing_from_css_wins.description
+      t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
 
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: CSSに足りていない機能（対戦）
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
+    - key: currently_missing_from_css.currently_missing_from_css_matchups
+      t: CSSに足りていない機能（対戦）
+    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+      t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
     ###########################################################################
     # Resources
