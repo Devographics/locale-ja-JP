@@ -918,7 +918,7 @@ translations:
     t: このチャートのスポンサーになる
 
   - key: sponsor.sponsor_chart.title
-    t: "{title}" のスポンサーになる
+    t: \"{title}\" のスポンサーになる
 
   - key: sponsor.sponsor_chart.description
     t: >
@@ -982,7 +982,6 @@ translations:
     t: 寄付は公開済みのアンケートに対して行われます。寄付者がアンケートの内容に対し何か影響を与えることはありません。
 
   - key: sponsor.faq.feedback.title
-    t: Where can I leave feedback/ask questions?
     t: フィードバックや質問はどこで受けつけていますか？
 
   - key: sponsor.faq.feedback.description
