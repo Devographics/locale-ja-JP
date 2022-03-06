@@ -669,7 +669,7 @@ translations:
     - key: options.form_factors.testing_tools
       t: 調査ツール（Axe、Lighthouseなど）
     - key: options.form_factors.vision_simulator
-      t: 視覚特性シミュレーター（色覚以上など）
+      t: 視覚特性シミュレーター（色覚障害など）
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
