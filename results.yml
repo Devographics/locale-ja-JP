@@ -117,22 +117,22 @@ translations:
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: 低い利用率、高い満足度。チェックしておいてよさそうな技術。
+      1: 利用率は低いが、満足度が高い。チェックしておいてよさそうな技術。
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: 高い利用率、高い満足度。採用して間違いはない技術。
+      2: 利用率も満足度も高い。採用して間違いはない技術。
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: 低い利用率、低い満足度。おすすめしにくくなった技術。
+      3: 利用率も満足度も低い。おすすめしにくくなった技術。
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: 高い利用率、低い満足度。現在使っているなら、見直したほうがよさそうな技術。
+      4: 利用率は高いが、満足度が低い。現在使っているなら、見直したほうがよさそうな技術。
 
   - key: ranges.selector.years_of_experience
     t: 経験年数
