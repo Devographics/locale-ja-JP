@@ -110,16 +110,15 @@ translations:
 
     - key: blocks.tools_quadrant.description
       t: |
-        This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
-        It can be divided into four quadrants:
+        このチャートは技術ごとにその**満足度**（もしくは**関心度**）と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
 
-          - **1**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+          - **1**: 利用率は低いが、満足度が高い。チェックしておいてよさそうな技術。
 
-          - **2**: High usage, high satisfaction. Safe technologies to adopt.
+          - **2**: 利用率も満足度も高い。採用して間違いはない技術。
 
-          - **3**: Low usage, low satisfaction. Technologies that are harder to recommend currently.
+          - **3**: 利用率も満足度も低い。おすすめしにくくなった技術。
 
-          - **4**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+          - **4**: 利用率は高いが、満足度が低い。現在使っているなら、見直したほうがよさそうな技術。
 
 
     ###########################################################################
