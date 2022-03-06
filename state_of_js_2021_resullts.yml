@@ -128,22 +128,22 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+          ジェンダーのバランスについては[ブログ記事](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)を書いています。興味のある方はお読みください。
 
     - key: blocks.currently_missing_from_css.note
       t: |
-          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+          回答のデータセットは[サイドプロジェクト](https://whatsmissingfromcss.com/)にまとめています。
 
     - key: blocks.source.note
       t: >
-      
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
 
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+        このチャートは、リファラー、URLパラメーター、そして自由入力欄の回答をひとまとめにしています。
 
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+        - State of JS: [State of JS](https://stateofjs.com)のメーリングリスト。
 
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - State of CSS: State of CSSのメーリングリスト。“email”や“by email”といった回答もここにまとめています。
+
+        - Work: “work”、“colleagues”、“coworkers”などをまとめたものです。
 
     ###########################################################################
     # Awards
