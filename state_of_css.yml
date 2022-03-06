@@ -159,7 +159,7 @@ translations:
     - key: options.what_do_you_use_css_for.design_systems
       t: デザインシステム
     - key: options.what_do_you_use_css_for.blogs
-      t: ブログや他のテキストの多いサイト
+      t: ブログやそのほかのテキスト中心なサイト
     - key: options.what_do_you_use_css_for.web_apps
       t: ウェブアプリ
     - key: options.what_do_you_use_css_for.mobile_apps
@@ -179,7 +179,7 @@ translations:
     - key: options.css_pain_points.interactions
       t: インタラクション
     - key: options.css_pain_points.interactions.description
-      t: ユーザーの操作や他のイベント（スクロール、ホバーなど）への応答。
+      t: ユーザーの操作やそのほかのイベント（スクロール、ホバーなど）への応答。
     - key: options.css_pain_points.architecture
       t: 設計・管理
     - key: options.css_pain_points.architecture.description
