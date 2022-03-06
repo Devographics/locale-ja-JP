@@ -71,37 +71,31 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year, **16,085** respondents took part in the survey. And in order
-          to help highlight different voices and surface deeper insights, we made a special
-          effort to provide new ways to break our data down. 
+          今年の調査では、世界中の**16,085**もの開発者から回答を得ることができました。今回の調査は、さまざまな意見を反映したり深い洞察を得るため、データの分類やその表示方法をとくに頑張りました。
 
     - key: sections.features.description
       t: |
-          JavaScript may move fast, but it seems like JavaScript developers move even faster, as many relatively new features already show high adoption levels. 
+          JavaScriptの流れは速いかもしれませんが、JavaScript開発者はより速く進んでいるようです。というのも、新しめの機能の採用度合いがすでに高くなっているのです。
 
     - key: sections.technologies.description
       t: |
-          This year's results point to a high degree of fragmentation in the JavaScript world. But while this can sometimes cause headaches, all that competition does make for a very dynamic ecosystem. 
+          今回の結果は、JavaScriptワールドの細分化が進んでいることを示しています。これが頭痛の種になるかもしれませんが、こうした競争が非常にダイナミックなエコシステムに繋がっているのでしょう。
 
     - key: sections.tools_others.description
       t: |
-          Picking a technology can often come down to a series of tough choices between 
-          competing priorities, and this year we tried to capture this process using a new bracket-style question format. 
+          技術選定は、どちらを優先するかという難しい選択の連続です。今年の調査では、対戦表を模した設問を用意し、その優先順位を示せるようにしました。
 
     - key: sections.environments.description
       t: |
-          Accessibility has long been an after-thought when it comes to web development, but many developers
-          are now realizing that it should in fact be the foundation on which everything else rests. 
+          ウェブ開発においてアクセシビリティは後づけのものとなっていました。しかし現在は多くの開発者が、アクセシビリティをすべての基礎とすべきことと気づき始めています。
 
     - key: sections.resources.description
       t: |
-          Highlighting blogs, podcasts, and sites was a good start, but this year we decided to go one step further
-          and actually feature the people who make up the JavaScript community! 
+          おすすめするリソースとしてブログやポッドキャスト、ウェブサイトを挙げる。これでもいいのですが、今年はもう一歩進んで、JavaScriptコミュニティの人に着目することにしました。
 
     - key: sections.opinions.description
       t: |
-          Whether it's pain points that hold you back today, or missing features that you hope to use
-          tomorrow, this was your chance to vent and share your gripes with JavaScript!
+          現在あなたを悩ませていることや、いまのJavaScriptに足りず今後使いたい機能など、JavaScriptについて思っていることを言うところでした。
     
     ###########################################################################
     # Charts
