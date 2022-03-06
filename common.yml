@@ -1014,7 +1014,7 @@ translations:
     - key: tools_others.non_js_languages
       t: JavaScript以外の言語
     - key: tools_others.non_js_languages.description
-      t: 他のプログラミング言語のうち、使っているものは何ですか？
+      t: プログラミング言語のうち、そのほかに使っているものは何ですか？
     - key: tools_others.non_js_languages.others
       t: そのほかの言語
     - key: tools_others.non_js_languages.others.description
