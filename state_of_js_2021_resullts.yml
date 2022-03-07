@@ -358,72 +358,74 @@ translations:
     
     - key: about.content
       t: >
-            The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+            2021年のState of JSアンケートは2022年1月13日から**2022年**2月2日まで実施され、16,085の回答を集めました。アンケートは私[Sacha Greif](https://sachagreif.com/)が、オープンソースコントリビューターとコンサルタントの協力により運営しています。
 
-            This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+            今年のロゴとTシャツは[Christopher Kirk-Nielsen](http://chriskirknielsen.com/)によりデザインやアニメーションが作られています。
 
-            ### Survey Goals
 
-            This survey, along with the [State of CSS](https://stateofcss.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+            ### アンケートのゴール
 
-            As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+            このアンケートや、[State of CSS](https://stateofcss.com/)は、ウェブ開発のエコシステムでこれから来るトレンドを見つけ、技術者の技術選定を助けることを目的に作られました。
 
-            They should also be taken as a **snapshot of a specific subset of developers**, and are not meant to speak for the entire ecosystem. 
+            このため、アンケートでは現在流行っているもの分析よりも、今後数年で来るだろう機能についての予測に主眼をおいています。現在広く使われている機能や技術が設問に含まれていないのはそのためです。
 
-            ### Survey Design
 
-            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
+            また、このアンケートは**特定の開発者の一部が回答時点で感じていること**であり、エコシステム全体を代弁するわけではありません。
+
+            ### アンケートの設計
+
+            今回のアンケートは昨年のアンケートを元に、[GitHub](https://github.com/StateOfJS/Monorepo/issues/56)でのフィードバックを受けて作られました。
+
+            すべての設問は任意回答としています。
+
+            ### アンケートの対象者
+
+            このアンケートはオンラインで誰でも回答できるようになっているため、回答者がふるいにかけられたり選別されたりといったことはありません。回答者は主に、過去のアンケート回答者（専用メーリングリストでの案内）や、ソーシャルメディア経由で回答した人となっています。
+
+            なお、フレームワークやライブラリの開発者が、バナーやツイートを活用し、利用者に対してアンケートに回答するよう呼びかけることもありました。トラフィックの分析は「ソース」チャートで行っています。
+
+            ### 代表性と包括性
+
+            すべてのコミュニティから意見を募ることは重要と考えていますが、このようなオープンなアンケートでは、すべての人の属性を適切に反映することにとても苦労しているのが現実です。固有バイアスを持つシステムで運用する場合はなおのことです。
+
+
+            これに抗うため、私たちは3つの戦略をとっています。
+
+
+            - **アウトリーチ**：様々な人がアンケートに答えてくれるように、私たちは常に様々な組織（BIPOCやLGBTQにフォーカスした組織や、オンラインの授業プラットフォームなど）に働きかけています。
+
+            - **データ解析**：ファセットや確率変数といった機能を用いて、マイノリティであってもその意見を拾えるよう、常に心掛けています。
+
+            - **バリアの低減**：アンケートが長すぎたり、アクセシブルでなかったり、読み込みが遅かったり、英語のみだったり。これらは「努力税」を課すことになり、それに答える余裕のないコミュニティを切り捨ててしまいます。これらの問題を解決し、バリアを少なくすることで、回答者の多様性を高められるでしょう。
+
+
+            ### プロジェクトの資金
+
+            プロジェクトの資金はさまざまなところから調達しています。
+
+
+            - **Tシャツの売上**。
+
+            - **チャートのスポンサー**：コミュニティの人がこのアンケートに寄付することで、名前が結果のチャートに掲載されます。
+
+            - **スポンサーリンク**：各ページ下部にあるおすすめのリソースはパートナーの[Frontend Masters](https://frontendmasters.com/)から提供されています。
             
-            All survey questions were optional. 
+            - **そのほかの資金源**：今年は[Google Chrome](https://www.google.com/chrome/)チームからの資金援助を受け、[アクセシビリティコンサルタント](https://fossheim.io/)に仕事を依頼しました。
 
-            ### Survey Audience
+            これらの資金源はありますが、基本的には自己資金によるプロジェクトです。プロジェクトへの寄付やスポンサーは大歓迎です。とくにウェブエコシステムで中心的な役割を担うブラウザベンダーと密接な連携を取りたいと考えています。
 
-            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+            ### 技術概要
 
-            Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+            このアンケートで使われている技術については、[解説記事](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)を公開しています。
 
-            ### Representativeness & Inclusivity
+            - **データコレクション**：[Vulcan.js](http://vulcanjs.org/)のカスタムアプリ。
 
-            While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+            - **データストレージ・処理**：MongoDBとMongoDB Aggregation。
 
-
-            In order to counter-balance this, we are implementing three distinct strategies:
-
-
-            - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
+            - **データAPI**：Node.jsのGraphQL API。
             
-            - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+            - **結果のウェブサイト**：[Gatsby](https://www.gatsbyjs.com/)によるReactアプリ。
             
-            - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
-
-            ### Project Funding
-
-            Funding from this project comes from a variety of sources:
-
-
-            - **T-shirt sales**. 
-
-            - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
-
-            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+            - **データビジュアリゼーション**：[Nivo](https://nivo.rocks/)ライブラリ。
             
-            - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the CSS and JS surveys.
-
-
-            Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
-
-            ### Technical Overview
-
-            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
-
-            - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
-
-            - **Data storage/processing**: MongoDB & MongoDB Aggregations.
-            
-            - **Data API**: Node.js GraphQL API. 
-            
-            - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
-            
-            - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
-            
-            - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+            - **書体**：[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)と[Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)。
