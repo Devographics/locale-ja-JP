@@ -149,21 +149,21 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2021, the nullish coalescing operator (??) has quickly become an integral part of JavaScript. 
+      t: nullish coalescing演算子（??）が2021年に **{value}** の増加を見せ、JavaScriptになくてはならないものとなりました。
 
     - key: award.tool_usage_delta_award.comment
-      t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+      t: esbuildはまだ2年という若さですが、 **{value}** という増加をみせ、しっかりと前進しています。
 
     - key: award.tool_satisfaction_award.comment
-      t: Vite takes the top spot with a sky-high **{value}** satisfaction ratio!
+      t: Viteが **{value}** という驚くべき満足度の高さでトップに躍り出ました。
 
     - key: award.tool_interest_award.comment
-      t: With a **{value}** interest ratio, Vite once again wins the gold!
+      t: \**{value}** という関心度で、またしてもViteが金メダルとなりました。
 
     - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **{value}** mentions Elm was the most popular item overall.
+      t: 多くの設問が自由回答欄を設けていますが、その中で最も多く **{value}** の回答を集めたのがElmでした。
 
-      
+
     ###########################################################################
     # Conclusion
     ###########################################################################
