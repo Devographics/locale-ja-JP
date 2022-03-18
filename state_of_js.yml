@@ -248,6 +248,43 @@ translations:
       t: >
         例：`await import('/modules/my-module.js')`
 
+    - key: features.promise_all_settled
+      t: Promise.allSettled()
+    - key: features.big_int
+      t: BigInt
+    - key: features.numeric_separators
+      t: Numeric Separators
+    - key: features.string_replace_all
+      t: String.prototype.replaceAll()
+    - key: features.string_match_all
+      t: String.prototype.matchAll()
+    - key: features.logical_assignment
+      t: Logical Assignment
+    - key: features.promise_any
+      t: Promise.any()
+    - key: features.array_at
+      t: Array.prototype.at()
+    - key: features.top_level_await
+      t: Top-Level Await
+    - key: features.intl
+      t: Intl
+    - key: features.custom_elements
+      t: Custom Elements
+    - key: features.shadow_dom
+      t: Shadow DOM
+    - key: features.page_visibility
+      t: Page Visibility API
+    - key: features.broadcast_channel
+      t: Broadcast Channel API
+    - key: features.geolocation
+      t: Geolocation API
+    - key: features.file_system_access
+      t: File System Access API
+    - key: features.web_share
+      t: Web Share API
+    - key: features.webxr
+      t: WebXR
+
     # data structures
     - key: features.maps
       t: Map
@@ -376,6 +413,19 @@ translations:
     - key: opinions_others.missing_from_js.others.description
       t: JavaScriptにいつか追加されてほしい機能
 
+    - key: happiness.front_end_frameworks
+      t: フロントエンドフレームワークの現状に満足していますか？
+    - key: happiness.back_end_frameworks
+      t: バックエンドフレームワークの現状に満足していますか？
+    - key: happiness.testing
+      t: テストツールの現状に満足していますか？
+    - key: happiness.mobile_desktop
+      t: モバイル・デスクトップフレームワークの現状に満足していますか？
+    - key: happiness.build_tools
+      t: ビルドツールの現状に満足していますか？
+    - key: happiness.monorepo_tools
+      t: モノレポツールの現状に満足していますか？
+
     - key: happiness.state_of_the_web
       t: ウェブ技術の現状に満足していますか？
 
@@ -398,6 +448,27 @@ translations:
       t: JavaScriptにあれば今すぐ使いたいと思う機能について、対決させてください。
     - key: opinions_others.currently_missing_from_js.others
       t: そのほかでほしい機能
+
+    # pain points/currently missing (results)
+    - key: js_pain_points.js_pain_points_wins
+      t: JavaScriptのつらいところ
+    - key: js_pain_points.js_pain_points_wins.description
+      t: JavaScriptについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+
+    - key: js_pain_points.js_pain_points_matchups
+      t: JavaScriptのつらいところ（対戦）
+    - key: js_pain_points.js_pain_points_matchups.description
+      t: JavaScriptについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
+
+    - key: currently_missing_from_js.currently_missing_from_js_wins
+      t: JavaScriptに足りていない機能
+    - key: currently_missing_from_js.currently_missing_from_js_wins.description
+      t: JavaScriptについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+
+    - key: currently_missing_from_js.currently_missing_from_js_matchups
+      t: JavaScriptに足りていない機能（対戦）
+    - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+      t: JavaScriptについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
     ###########################################################################
     # Resources

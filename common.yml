@@ -669,7 +669,7 @@ translations:
     - key: options.form_factors.testing_tools
       t: 調査ツール（Axe、Lighthouseなど）
     - key: options.form_factors.vision_simulator
-      t: 視覚特性シミュレーター（色覚以上など）
+      t: 視覚特性シミュレーター（色覚障害など）
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
@@ -725,7 +725,7 @@ translations:
 
     # tool evaluation
     - key: options.tool_evaluation.learning_curve_documentation
-      t: ドキュメンテーション
+      t: ドキュメント
     - key: options.tool_evaluation.learning_curve_documentation.description
       t: 学ぶのは簡単か、またはドキュメントがよく書かれているか。
     - key: options.tool_evaluation.momentum_popularity
@@ -733,7 +733,7 @@ translations:
     - key: options.tool_evaluation.momentum_popularity.description
       t: 注目され、盛り上がっているか。
     - key: options.tool_evaluation.user_base_size
-      t: ユーザーベース
+      t: ユーザー基盤
     - key: options.tool_evaluation.user_base_size.description
       t: 長く使われ、実績があるか。
     - key: options.tool_evaluation.developer_experience_tooling
@@ -1014,7 +1014,7 @@ translations:
     - key: tools_others.non_js_languages
       t: JavaScript以外の言語
     - key: tools_others.non_js_languages.description
-      t: 他のプログラミング言語のうち、使っているものは何ですか？
+      t: プログラミング言語のうち、そのほかに使っているものは何ですか？
     - key: tools_others.non_js_languages.others
       t: そのほかの言語
     - key: tools_others.non_js_languages.others.description

@@ -113,6 +113,27 @@ translations:
     t: |
       ANALYZE: 利用率は高いが、満足度は低い。現在使っているなら、見直すとよさそうな技術。
 
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: 利用率は低いが、満足度が高い。チェックしておいてよさそうな技術。
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: 利用率も満足度も高い。採用して間違いはない技術。
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: 利用率も満足度も低い。おすすめしにくくなった技術。
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: 利用率は高いが、満足度が低い。現在使っているなら、見直したほうがよさそうな技術。
+
   - key: ranges.selector.years_of_experience
     t: 経験年数
   - key: ranges.selector.yearly_salary
@@ -143,6 +164,16 @@ translations:
     t: てんかん
   - key: options.disability_status_others.aspergers
     t: アスペルガー障害
+  - key: options.disability_status_others.color_blindness
+    t: 色覚障害
+  - key: options.disability_status_others.anxiety
+    t: 不安障害
+  - key: options.disability_status_others.dyslexia
+    t: ディスレクシア
+  - key: options.disability_status_others.diabetes
+    t: 糖尿病
+  - key: options.disability_status_others.carpal_tunnel
+    t: 手根管症候群
 
   ###########################################################################
   # Sections
@@ -159,6 +190,9 @@ translations:
 
   - key: sections.technologies.title
     t: 技術
+
+  - key: sections.libraries.title
+    t: ライブラリ
 
   - key: sections.conclusion.title
     t: おわりに
@@ -407,6 +441,16 @@ translations:
 
         棒の太さは、その技術を知っている人の数を表しています。
 
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: ライブラリのティアリスト
+  - key: blocks.tools_tier_list.description
+    t: |
+      このチャートはライブラリをその満足度（また使いたいと回答したユーザーの％）でランクづけしたものです。注：使ったことのある回答者が全体のの10％に満たない技術は含まれていません。
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
   # tools section streams
   - key: blocks.tools_section_streams
     t: 評価の移ろい
@@ -482,6 +526,33 @@ translations:
   - key: export.export_graphql
     t: GraphQLのクエリーを取得
 
+  - key: custom_data.heading
+    t: カスタムチャート
+  - key: custom_data.custom_data
+    t: カスタムデータ
+  - key: custom_data.graphql_query
+    t: GraphQLクエリー
+  - key: custom_data.chart_title
+    t: カスタムチャート
+  - key: custom_data.submit
+    t: 送信
+  - key: custom_data.empty_contents
+    t: 「カスタムデータ」フィールドに何かデータを入れてください。
+  - key: custom_data.edit_title
+    t: チャートのタイトルを編集
+  - key: custom_data.customize
+    t: データのカスタマイズ
+  - key: custom_data.details
+    t: >
+
+        1. 「GraphQLクエリー」フィールドのテキストをコピーし、[GraphQL API explorer](https://graphiql.stateofjs.com/)の真ん中のパネルに張りつけます。
+
+        2. 左のサイドバーからクエリーに1つ以上の **フィルター**をつけます。このときデータの構造を維持するようにしてください。
+
+        3. API explorerのウィンドウ内にある再生（「Execute Query」）ボタンをクリックします。
+
+        4. 変更したクエリーの結果（`{ data: … }`）を、この上にある「カスタムデータ」フィールドに張りつけて送信してください。
+
   # Tools usage variations
   - key: blocks.tools_usage_variations
     t: 利用率の変動
@@ -508,26 +579,6 @@ translations:
     t: ライブラリ評価ランキング（対戦）
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: 新しいライブラリの評価にあたって、重要とみている点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
-
-  - key: css_pain_points.css_pain_points_wins
-    t: CSSのつらいところ
-  - key: css_pain_points.css_pain_points_wins.description
-    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
-
-  - key: css_pain_points.css_pain_points_matchups
-    t: CSSのつらいところ（対戦）
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
-
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: CSSに足りていない機能
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
-
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: CSSに足りていない機能（対戦）
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
   ###########################################################################
   # Charts
@@ -615,6 +666,7 @@ translations:
   - key: charts.tools_arrows.legend
     t: 凡例
   - key: charts.tools_arrows.velocity
+    # todo
     t: Velocity
   - key: charts.tools_arrows.velocity_positive
     t: 肯定的で利用率が高い方向に推移
@@ -630,25 +682,12 @@ translations:
     t: 高い利用率
   - key: charts.tools_arrows.popularity_positive
     t: 人気上昇中
-  - key: charts.tools_arrows.negative
+  - key: charts.tools_arrows.popularity_negative
     t: 人気低下中
 
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.animations_transforms
-    aliasFor: sections.animations_transforms.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.media_queries
-    aliasFor: sections.media_queries.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
+  - key: charts.no_answer
+    t: 回答なし
+
 
   ###########################################################################
   # Sharing
@@ -860,3 +899,90 @@ translations:
   - key: hints.bracket_hint
     t: >
       <span class="hint-bracket"><span class="hint-text">次のチャートは8つの項目について、回答者がトーナメントで2つを戦わせ続け、勝者を決めた結果です。</span><span class="hint-diagram"/></span>
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Thanks
+
+  - key: sponsor.sponsor_finish
+    t: >
+      スポンサーになってくださりありがとうございます！1時間ほどで、選んだチャートの横にあなたのアイコンが表示されます。もし表示されない場合は[ご連絡ください](mailto:chartsponsor@stateofjs.com)。
+    
+  - key: sponsor.sponsored_by
+    t: >
+        **{name}** がこのチャートに **${amount}** 出資しました
+  - key: sponsor.sponsor_button
+    t: このチャートのスポンサーになる
+
+  - key: sponsor.sponsor_chart.title
+    t: \"{title}\" のスポンサーになる
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+        アンケートのサポートをお願いします。このチャートに10ドル以上出資すると、あなたのTwitterのアイコンがチャートの横に表示されます！
+  - key: sponsor.chart_id
+    t: 'チャートID: '
+
+  - key: sponsor.sponsor_this_chart
+    t: このチャートのスポンサーになる (${baseAmount}+) 
+
+  - key: sponsor.how_it_works.title
+    t: スポンサーの仕組み
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. **「このチャートのスポンサーになる」ボタンをクリックする** と、私たちのパートナーである[SendOwl](https://www.sendowl.com/)の支払いページに移動します。
+
+
+      2. **金額を調整** し、出資額を変更できます。金額は10ドル以上からになります。
+
+
+      3. 支払いを済ませると、 **Twitterのユーザー名を入力** できるようになります。 
+
+
+      4. **ファイルダウンロード** のページに移動しますが、これは無視して構いません。
+
+
+      5. サイトがバックグラウンドで再構築されます。あなたのユーザー名と出資額が **1時間ほどでチャートの横に表示** されます。
+  - key: sponsor.faq.title
+    t: よくある質問
+
+  - key: sponsor.faq.usage.title
+    t: 寄付したお金は何に使われますか？
+
+  - key: sponsor.faq.usage.description
+    t: あなたの寄付はアンケートの管理者への援助になります。また、他のコントリビューター（イラストレーター、アクセシビリティ専門家、ダイバーシティ専門家など）への報酬にも使われます。
+
+
+  - key: sponsor.faq.public.title
+    t: 寄付は公開されるのでしょうか？
+
+  - key: sponsor.faq.public.description
+    t: はい。あなたの **Twitterのユーザー名** と **寄付した金額** がチャートの横に表示されます。
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+
+  - key: sponsor.faq.refund.title
+    t: 返金ポリシーはどうなっていますか？
+
+  - key: sponsor.faq.refund.description
+    t: すべての寄付には1週間の返金期間があります。支払金額から取引手数料を引いた額が変換されます。
+
+  - key: sponsor.faq.influence.title
+    t: 寄付がアンケートの内容に影響を与えますか？
+
+  - key: sponsor.faq.influence.description
+    t: 寄付は公開済みのアンケートに対して行われます。寄付者がアンケートの内容に対し何か影響を与えることはありません。
+
+  - key: sponsor.faq.feedback.title
+    t: フィードバックや質問はどこで受けつけていますか？
+
+  - key: sponsor.faq.feedback.description
+    t: \[GitHub](https://github.com/StateOfJS/Monorepo/issues/69) もしくは [Discord](https://discord.gg/tuWRUWVyJs) にお願いします。
