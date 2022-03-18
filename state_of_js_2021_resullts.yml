@@ -171,17 +171,17 @@ translations:
     - key: sections.conclusion.description
       t: |
 
-            <span class="first-line">JavaScript is in a tremendously better state today compared to 2016.</span>
+            <span class="first-line">2016年と比べると、現在のJavaScriptはとてもよくなっています。</span>
             
-            Back when the first State of JS survey took place, only 21% of you used TypeScript compared to 69% today. Whereas we used to joke about a new front end framework releasing every day, **React** and **Vue** have now been dominant for 6 years running. And the percentage of people reporting that "JS is moving too fast" is down from 59% to 38%.
+            State of JSが始まったころはTypeScriptを使っている人は21％でしたが、現在は69％です。新しいフレームワークが毎日出てくるなんて冗談を言っていたのも昔の話で、**React**と**Vue**がこの6年ずっと主要な地位にいます。そして「JSの進みが速すぎる」と言っていた人の割合は、59％から38％へと減りました。
 
-            This is not to say that the language has stood still. The **Optional Chaining** and **Nullish Coalescing** APIs have rocketed up to be the most used new APIs in our survey, despite only being 2 years old. And more good things are on the way from TC39: you reported that date management is a top missing feature, and the Temporal API recently reached [Stage 3](https://github.com/tc39/proposal-temporal).
+            これはJavaScriptという言語が停滞したわけではありません。**Optional Chaining**や**Nullish Coalescing**が、登場してから2年しか経ってないにも関わらず、このアンケート上で最も使われるAPIとなっています。他にもTC39で進んでいる機能があります。日時の処理をする機能が足りてないと言ってましたよね。それをかなえるTemporal APIが最近[Stage 3](https://github.com/tc39/proposal-temporal)に進みました。
 
-            The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% satisfaction, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done. 
+            ツールのエコシステムも速い進化を遂げています。2021年は**Vite**の年だといっても過言ではないでしょう。Viteは98％もの満足度を獲得しただけでなく、すでにこのアンケート上で30％もの利用率を誇っており、esbuildをしのいでいます。JavaScriptビルドツールを押し上げているのはViteだけではなりません。現在私たちが追っている12のツールのうち8つが、まだ登場して2年にも満たないものなんです！今回初めてだったモノレポツールの集計では、**pnpm**や**Turborepo**、**Nx**が上位になりましたが、その現状に満足している人の割合はまだ25％でした。まだまだこのカテゴリにおいてはやることがあるようです。
             
-            Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
+            他にも、**Deno**、**Rome**、**Astro**、**Remix**をはじめ新しいツールの多くがベンチャーキャピタルから出資を受けた企業により支援されています。不安定なオープンソースの金銭的な支援に変わり、こうした流れが強まるのかもしれません。
 
-            As the [Third Age of JavaScript](https://www.swyx.io/js-third-age/) enters its third year, the opportunities for aspiring open sourcerors and entrepreneurs continue to unfold, and I'm excited to see what the next couple years bring!
+            [Third Age of JavaScript](https://www.swyx.io/js-third-age/)というエントリが3年目に入ろうとしています。意欲的なオープンソースの活動者や起業家に対する機会は広がり続けています。この先2年3年とどんなことが起こるのか、とても楽しみです！
 
     - key: conclusion.bio
       t: Head of DX at Temporal
