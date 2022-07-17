@@ -791,7 +791,7 @@ translations:
     # Resources
     ###########################################################################
     
-    - key: resources.first_steps
+    - key: resources.first_steps_css
       t: CSSの最初の勉強方法
-    - key: resources.first_steps.description
+    - key: resources.first_steps_css.description
       t: 最初にCSSを学び始めたとき、どの方法で学びましたか。

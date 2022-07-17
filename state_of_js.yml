@@ -474,7 +474,7 @@ translations:
     # Resources
     ###########################################################################
 
-    - key: resources.first_steps
+    - key: resources.first_steps_js
       t: JavaScriptの最初の勉強方法
-    - key: resources.first_steps.description
+    - key: resources.first_steps_js.description
       t: 最初にJavaScriptを学び始めたとき、どの方法で学びましたか。
