@@ -384,11 +384,11 @@ translations:
 # Sponsors
 ###########################################################################
 
-    - key: partners.frontendmasters.description
+    - key: sponsors.frontendmasters.description
       t: 深くまで学べるモダンなフロントエンドエンジニアリングのコースでスキルアップしましょう。
-    - key: partners.polypane.description
+    - key: sponsors.polypane.description
       t: 意欲的な開発者のためのブラウザです。レスポンシブでアクセシブル、そして速いウェブサイトを楽に作りましょう。
-    - key: partners.google_chrome.description
+    - key: sponsors.google_chrome.description
       t: サポートしてくれたGoogle Chromeチームに感謝します。
 
 ###########################################################################

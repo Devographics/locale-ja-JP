@@ -21,10 +21,10 @@ translations:
   - key: general.completion_percentage
     t: '回答記入率：'
 
-  - key: partners.thanks
+  - key: sponsors.thanks
     t: パートナーのサポートに感謝しています！
 
-  - key: partners.learn_more
+  - key: sponsors.learn_more
     t: 詳細をみる。
 
   - key: tabs.all_respondents

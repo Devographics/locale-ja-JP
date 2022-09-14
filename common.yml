@@ -163,9 +163,9 @@ translations:
       t: Clear question
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: パートナー
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: パートナーになる
 
     # 404
