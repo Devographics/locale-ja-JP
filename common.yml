@@ -55,10 +55,10 @@ translations:
     - key: general.preview_survey
       t: 回答をプレビュー »
     - key: general.finish_survey
-      t: アンケートを終了する »
+      t: アンケートを終了する
     - key: general.next_section
       t: 次のセクション
-    - key: general.prev_section
+    - key: general.previous_section
       t: 前のセクション
     - key: general.survey_closed
       t: このアンケートは終了しました。
