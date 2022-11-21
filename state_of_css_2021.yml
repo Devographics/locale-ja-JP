@@ -157,7 +157,7 @@ translations:
     # Conclusion
     ###########################################################################
 
-    - key: sections.conclusion.description
+    - key: conclusion.css2021
       t: |
             <span class="first-line">CSSの書き方が、大きく変わろうとしています。</span>
 
@@ -173,7 +173,7 @@ translations:
 
             まとめると、2022年は、CSSの書き方が根本的に変わる年になりそうです。とてもエキサイティングな年になるでしょうし、それらをうまく使ったサイトやアプリが出てくることも楽しみでなりません。
 
-    - key: conclusion.bio
+    - key: conclusion.css2021.bio
       t: ウェブ開発者・Polypaneの開発者
 
     ###########################################################################
