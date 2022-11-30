@@ -520,7 +520,7 @@ translations:
     t: ごめんなさい。このデータセットはCSVに出力できません。
   - key: export.graphql
     t: >
-        このクエリーは<a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
+        このクエリーは<a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
   - key: export.export_json
     t: JSONデータを取得
   - key: export.export_graphql

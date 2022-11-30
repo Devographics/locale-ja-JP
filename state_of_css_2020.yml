@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2020
       t: |
           <span class="first-letter">忘</span>れましょう、CSSについて知っているすべてを。忘れられなくても、多くのことを見直す準備はしておきましょう。あなたが私と同じく、10年以上CSSを書いているひとなら、2020年のCSSは私たちが慣れ親しんだものとまったくもって違うものに見えるでしょう。
 

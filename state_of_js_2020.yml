@@ -12,7 +12,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2020
       t: |
 
           <span class="first-letter">2</span>020年と同じように、JavaScriptはなんとかして前進しました。Optional ChainingやNullish Coalescingなどの新機能のおかげで言語自体も成長を続けていますし、TypeScriptの普及は、静的型付けを普及させることで、物事をまったく別のレベルに引き上げています。

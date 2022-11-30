@@ -14,7 +14,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2021
       t: |
 
             <span class="first-letter">多</span>くのことがあった2021年でした。本当に。このアンケートだって2022年に延びてしまったんですから！
