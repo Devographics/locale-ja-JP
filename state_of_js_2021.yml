@@ -1,431 +1,429 @@
 locale: ja-JP
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.results.description
-      t: JavaScriptエコシステムの最新トレンドを追うアンケートの2021年版。
+  - key: general.results.description
+    t: JavaScriptエコシステムの最新トレンドを追うアンケートの2021年版。
 
-    - key: general.livestream_announcement
-      t: 2月22日に[アンケート結果について話すスペシャルライブストリーム](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5)（英語）をやります。ぜひ観てください！
+  - key: general.livestream_announcement
+    t: 2月22日に[アンケート結果について話すスペシャルライブストリーム](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5)（英語）をやります。ぜひ観てください！
 
-    ###########################################################################
-    # Introduction
-    ###########################################################################
+  ###########################################################################
+  # Introduction
+  ###########################################################################
 
-    - key: introduction.js2021
-      t: |
+  - key: introduction.js2021
+    t: |
 
-            <span class="first-letter">多</span>くのことがあった2021年でした。本当に。このアンケートだって2022年に延びてしまったんですから！
+      <span class="first-letter">多</span>くのことがあった2021年でした。本当に。このアンケートだって2022年に延びてしまったんですから！
 
-            より高速なビルドツールや新しいバックエンドフレームワークなど、JavaScriptは進化し続けています。私たちもベストを尽くし、新しい質問形式や、2つのデータポイントの相互参照機能（年収×経験レベルなど）、そしてチャートのカスタマイズ機能と、このアンケートにパワーアップを施しました！ほかにもあるので、[新機能のまとめ]](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)を読んでみてください（英語）。
+      より高速なビルドツールや新しいバックエンドフレームワークなど、JavaScriptは進化し続けています。私たちもベストを尽くし、新しい質問形式や、2つのデータポイントの相互参照機能（年収×経験レベルなど）、そしてチャートのカスタマイズ機能と、このアンケートにパワーアップを施しました！ほかにもあるので、[新機能のまとめ]](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)を読んでみてください（英語）。
 
-            すべてが順風満帆ではありませんでした。悪いことが起こってなさそうなのが幸いですが、[データ漏洩](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1)に対応しないといけませんでした。また引き続き、このアンケートをより包括的に、アクセシブルに、そしてフェアになるよう努力し続けています。
-            
-            このアンケートはJavaScriptエコスステムのほんの少し、本当に少ししか表せていないかもしれません。それでもこの調査結果が興味深いものであればと願っています！
+      すべてが順風満帆ではありませんでした。悪いことが起こってなさそうなのが幸いですが、[データ漏洩](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1)に対応しないといけませんでした。また引き続き、このアンケートをより包括的に、アクセシブルに、そしてフェアになるよう努力し続けています。
 
-            <span class="conclusion__byline">– Sacha Greif</span>
+      このアンケートはJavaScriptエコスステムのほんの少し、本当に少ししか表せていないかもしれません。それでもこの調査結果が興味深いものであればと願っています！
 
-    ###########################################################################
-    # Tshirt
-    ###########################################################################
+      <span class="conclusion__byline">– Sacha Greif</span>
 
-    - key: sections.tshirt.title
-      t: Tシャツ
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
 
-    - key: sections.tshirt.description
-      t: |
-          ## State of JavaScriptのTシャツを買って応援しよう
+  - key: sections.tshirt.title
+    t: Tシャツ
 
-          画質の悪さや大きなカセット、必要な巻き戻しなど、VHS時代を懐かしんでもうれしい機能はありません。しかし私たちが**懐かしい**と思うのは、空のVHSテープを飾った90年代のビジュアルです。
+  - key: sections.tshirt.description
+    t: |
+      ## State of JavaScriptのTシャツを買って応援しよう
 
-          すてきなChristopher Kirk-Nielsenの手によって、レトロラッドなスタイルを楽しむことができ、またあなたのJavaScriptへの愛も確かめられます。
+      画質の悪さや大きなカセット、必要な巻き戻しなど、VHS時代を懐かしんでもうれしい機能はありません。しかし私たちが**懐かしい**と思うのは、空のVHSテープを飾った90年代のビジュアルです。
 
-    - key: tshirt.about
-      t: Tシャツについて
+      すてきなChristopher Kirk-Nielsenの手によって、レトロラッドなスタイルを楽しむことができ、またあなたのJavaScriptへの愛も確かめられます。
 
-    - key: tshirt.description
-      t: |
-          このTシャツは、高品質でとてもやわらかなトライブレンドの生地を使っています。スリムフィットで、私たちのパートナーCotton Bureauによるプリントです。
+  - key: tshirt.about
+    t: Tシャツについて
 
-    - key: tshirt.getit
-      t: 購入する
+  - key: tshirt.description
+    t: |
+      このTシャツは、高品質でとてもやわらかなトライブレンドの生地を使っています。スリムフィットで、私たちのパートナーCotton Bureauによるプリントです。
 
-    - key: tshirt.price
-      t: 29ドル＋送料
+  - key: tshirt.getit
+    t: 購入する
 
-    - key: tshirt.designer.heading
-      t: デザイナー
+  - key: tshirt.price
+    t: 29ドル＋送料
 
-    - key: tshirt.designer.name
-      t: Christopher Kirk-Nielsen
+  - key: tshirt.designer.heading
+    t: デザイナー
 
-    - key: tshirt.designer.bio
-      t: |
-          フランス出身、アメリカ在住。Chrisは素晴らしいフロントエンド開発者であり、またレトロビジュアルを得意とする才能あるイラストレーターでもあります。[彼が手がけるほかのTシャツのデザイン](https://chriskirknielsen.com/designs)もぜひご覧になってください。
-          
-    ###########################################################################
-    # Sections
-    ###########################################################################
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
 
-    - key: sections.user_info.description
-      t: |
-          今年の調査では、世界中の**16,085**もの開発者から回答を得ることができました。今回の調査は、さまざまな意見を反映したり深い洞察を得るため、データの分類やその表示方法をとくに頑張りました。
+  - key: tshirt.designer.bio
+    t: |
+      フランス出身、アメリカ在住。Chrisは素晴らしいフロントエンド開発者であり、またレトロビジュアルを得意とする才能あるイラストレーターでもあります。[彼が手がけるほかのTシャツのデザイン](https://chriskirknielsen.com/designs)もぜひご覧になってください。
 
-    - key: sections.features.description
-      t: |
-          JavaScriptの流れは速いかもしれませんが、JavaScript開発者はより速く進んでいるようです。というのも、新しめの機能の採用度合いがすでに高くなっているのです。
+  ###########################################################################
+  # Sections
+  ###########################################################################
 
-    - key: sections.technologies.description
-      t: |
-          今回の結果は、JavaScriptワールドの細分化が進んでいることを示しています。これが頭痛の種になるかもしれませんが、こうした競争が非常にダイナミックなエコシステムに繋がっているのでしょう。
+  - key: sections.user_info.description
+    t: |
+      今年の調査では、世界中の**16,085**もの開発者から回答を得ることができました。今回の調査は、さまざまな意見を反映したり深い洞察を得るため、データの分類やその表示方法をとくに頑張りました。
 
-    - key: sections.tools_others.description
-      t: |
-          技術選定は、どちらを優先するかという難しい選択の連続です。今年の調査では、対戦表を模した設問を用意し、その優先順位を示せるようにしました。
+  - key: sections.features.description
+    t: |
+      JavaScriptの流れは速いかもしれませんが、JavaScript開発者はより速く進んでいるようです。というのも、新しめの機能の採用度合いがすでに高くなっているのです。
 
-    - key: sections.environments.description
-      t: |
-          ウェブ開発においてアクセシビリティは後づけのものとなっていました。しかし現在は多くの開発者が、アクセシビリティをすべての基礎とすべきことと気づき始めています。
+  - key: sections.technologies.description
+    t: |
+      今回の結果は、JavaScriptワールドの細分化が進んでいることを示しています。これが頭痛の種になるかもしれませんが、こうした競争が非常にダイナミックなエコシステムに繋がっているのでしょう。
 
-    - key: sections.resources.description
-      t: |
-          おすすめするリソースとしてブログやポッドキャスト、ウェブサイトを挙げる。これでもいいのですが、今年はもう一歩進んで、JavaScriptコミュニティの人に着目することにしました。
+  - key: sections.tools_others.description
+    t: |
+      技術選定は、どちらを優先するかという難しい選択の連続です。今年の調査では、対戦表を模した設問を用意し、その優先順位を示せるようにしました。
 
-    - key: sections.opinions.description
-      t: |
-          現在あなたを悩ませていることや、いまのJavaScriptに足りず今後使いたい機能など、JavaScriptについて思っていることを言うところでした。
-    
-    ###########################################################################
-    # Charts
-    ###########################################################################
-     
-    - key: options.features_categories.language
-      aliasFor: sections.language.title
-    - key: options.features_categories.browser_apis
-      aliasFor: sections.browser_apis.title
-    - key: options.features_categories.other_features
-      aliasFor: sections.other_features.title
+  - key: sections.environments.description
+    t: |
+      ウェブ開発においてアクセシビリティは後づけのものとなっていました。しかし現在は多くの開発者が、アクセシビリティをすべての基礎とすべきことと気づき始めています。
 
-    - key: blocks.tools_quadrant.description
-      t: |
-        このチャートは技術ごとにその**満足度**（もしくは**関心度**）と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
+  - key: sections.resources.description
+    t: |
+      おすすめするリソースとしてブログやポッドキャスト、ウェブサイトを挙げる。これでもいいのですが、今年はもう一歩進んで、JavaScriptコミュニティの人に着目することにしました。
 
-          - **1**: 利用率は低いが、満足度が高い。チェックしておいてよさそうな技術。
+  - key: sections.opinions.description
+    t: |
+      現在あなたを悩ませていることや、いまのJavaScriptに足りず今後使いたい機能など、JavaScriptについて思っていることを言うところでした。
 
-          - **2**: 利用率も満足度も高い。採用して間違いはない技術。
+  ###########################################################################
+  # Charts
+  ###########################################################################
 
-          - **3**: 利用率も満足度も低い。おすすめしにくくなった技術。
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
 
-          - **4**: 利用率は高いが、満足度が低い。現在使っているなら、見直したほうがよさそうな技術。
+  - key: blocks.tools_quadrant.description
+    t: |
+      このチャートは技術ごとにその**満足度**（もしくは**関心度**）と**総利用数**でプロットしたものです。4つの領域は、次のように読み取れます。
 
+        - **1**: 利用率は低いが、満足度が高い。チェックしておいてよさそうな技術。
 
-    ###########################################################################
-    # Notes
-    ###########################################################################
+        - **2**: 利用率も満足度も高い。採用して間違いはない技術。
 
-    - key: blocks.gender.note
-      t: |
-          ジェンダーのバランスについては[ブログ記事](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)を書いています。興味のある方はお読みください。
-
-    - key: blocks.currently_missing_from_css.note
-      t: |
-          回答のデータセットは[サイドプロジェクト](https://whatsmissingfromcss.com/)にまとめています。
-
-    - key: blocks.source.note
-      t: >
-
-        このチャートは、リファラー、URLパラメーター、そして自由入力欄の回答をひとまとめにしています。
-
-        - State of JS: [State of JS](https://stateofjs.com)のメーリングリスト。
-
-        - State of CSS: State of CSSのメーリングリスト。“email”や“by email”といった回答もここにまとめています。
-
-        - Work: “work”、“colleagues”、“coworkers”などをまとめたものです。
-
-    ###########################################################################
-    # Awards
-    ###########################################################################
-
-    - key: award.feature_adoption_delta_award.comment
-      t: nullish coalescing演算子（??）が2021年に **{value}** の増加を見せ、JavaScriptになくてはならないものとなりました。
-
-    - key: award.tool_usage_delta_award.comment
-      t: esbuildはまだ2年という若さですが、 **{value}** という増加をみせ、しっかりと前進しています。
-
-    - key: award.tool_satisfaction_award.comment
-      t: Viteが **{value}** という驚くべき満足度の高さでトップに躍り出ました。
-
-    - key: award.tool_interest_award.comment
-      t: \**{value}** という関心度で、またしてもViteが金メダルとなりました。
-
-    - key: award.most_write_ins_award.comment
-      t: 多くの設問が自由回答欄を設けていますが、その中で最も多く **{value}** の回答を集めたのがElmでした。
-
-
-    ###########################################################################
-    # Conclusion
-    ###########################################################################
-
-    - key: conclusion.js2021
-      t: |
-
-            <span class="first-line">2016年と比べると、現在のJavaScriptはとてもよくなっています。</span>
-            
-            State of JSが始まったころはTypeScriptを使っている人は21％でしたが、現在は69％です。新しいフレームワークが毎日出てくるなんて冗談を言っていたのも昔の話で、**React**と**Vue**がこの6年ずっと主要な地位にいます。そして「JSの進みが速すぎる」と言っていた人の割合は、59％から38％へと減りました。
-
-            これはJavaScriptという言語が停滞したわけではありません。**Optional Chaining**や**Nullish Coalescing**が、登場してから2年しか経ってないにも関わらず、このアンケート上で最も使われるAPIとなっています。他にもTC39で進んでいる機能があります。日時の処理をする機能が足りてないと言ってましたよね。それをかなえるTemporal APIが最近[Stage 3](https://github.com/tc39/proposal-temporal)に進みました。
-
-            ツールのエコシステムも速い進化を遂げています。2021年は**Vite**の年だといっても過言ではないでしょう。Viteは98％もの満足度を獲得しただけでなく、すでにこのアンケート上で30％もの利用率を誇っており、esbuildをしのいでいます。JavaScriptビルドツールを押し上げているのはViteだけではなりません。現在私たちが追っている12のツールのうち8つが、まだ登場して2年にも満たないものなんです！今回初めてだったモノレポツールの集計では、**pnpm**や**Turborepo**、**Nx**が上位になりましたが、その現状に満足している人の割合はまだ25％でした。まだまだこのカテゴリにおいてはやることがあるようです。
-            
-            他にも、**Deno**、**Rome**、**Astro**、**Remix**をはじめ新しいツールの多くがベンチャーキャピタルから出資を受けた企業により支援されています。不安定なオープンソースの金銭的な支援に変わり、こうした流れが強まるのかもしれません。
-
-            [Third Age of JavaScript](https://www.swyx.io/js-third-age/)というエントリが3年目に入ろうとしています。意欲的なオープンソースの活動者や起業家に対する機会は広がり続けています。この先2年3年とどんなことが起こるのか、とても楽しみです！
-
-    - key: conclusion.js2021.bio
-      t: Head of DX at Temporal
-      
-    ###########################################################################
-    # Picks
-    ###########################################################################
-
-    - key: picks.my_pick
-      t: 'My 2021 Pick: '
-    - key: picks.intro
-      t: We asked members of the JavaScript community to share their “pick of the year”
-
-    - key: picks.lee_robinson.name
-      t: SvelteKit
-    - key: picks.lee_robinson.bio
-      t: Director of Developer Relations at Vercel
-    - key: picks.lee_robinson.description
-      t: |
-          SvelteKit is a fresh take on building for the web and has an 
-          incredibly passionate, growing community of supporters. 
-
-    - key: picks.vadim_makeev.name
-      t: Server-Side Rendering
-    - key: picks.vadim_makeev.bio
-      t: DevRel, Podcaster & Web Standards Advocate
-    - key: picks.vadim_makeev.description
-      t: |
-          The time has come to get our priorities straight. 
-          UX > DX, and it has always been like that. Performance FTW!
-            
-    - key: picks.ben_ilegbodu.name
-      t: Lee Robinson
-    - key: picks.ben_ilegbodu.bio
-      t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
-    - key: picks.ben_ilegbodu.description
-      t: |
-          Lee has been great at shepherding and advocating for Next.js. 
-          He's helped me a ton with Next and continues to build excitement 
-          for where it's going
-            
-    - key: picks.shawn_wang.name
-      t: Supabase
-    - key: picks.shawn_wang.bio
-      t: Head of DX at Temporal
-    - key: picks.shawn_wang.description
-      t: |
-          Supabase is making Postgres accessible to more developers and showing 
-          everyone how a small focused team can out-ship peers 10x their size.
-
-    - key: picks.sarah_drasner.name
-      t: Pawel Kozlowski
-    - key: picks.sarah_drasner.bio
-      t: Director of Engineering, Core Developer Web at Google
-    - key: picks.sarah_drasner.description
-      t: |
-          Pawel Kozlowski is the kind of developer who can be open-minded to different 
-          approaches with humility and curiosity with the interest of improving things.
-
-    - key: picks.sara_vieira.name
-      t: Paul Henschel
-    - key: picks.sara_vieira.bio
-      t: International Agent of JS Bullshit
-    - key: picks.sara_vieira.description
-      t: |
-          Paul's work on animations and ReactThreeFiber 
-          have made doing any kind of 3D work on the web way easier. 
-
-    - key: picks.mark_erikson.name
-      t: Ryan Carniato
-    - key: picks.mark_erikson.bio
-      t: Redux Maintainer
-    - key: picks.mark_erikson.description
-      t: |
-          Ryan's reactive JS framework SolidJS hit 1.0, 
-          and he wrote numerous articles analyzing advanced 
-          JS framework implementation concepts.
-    
-    - key: picks.miguel_angel_duran.name
-      t: Vite
-    - key: picks.miguel_angel_duran.bio
-      t: Front End Dev & Twitch Coding Streamer
-    - key: picks.miguel_angel_duran.description
-      t: |
-          In addition to esbuild and swc, fantastic tools pushing forward the ecosystem, 
-          I'm enjoying Vite. It has a delightful DX, and it's rich in features. 
-      
-    - key: picks.alyssa_nicoll.name
-      t: BroccoDev's Twitch Stream
-    - key: picks.alyssa_nicoll.bio
-      t: Sr. Developer Advocate at Progress
-    - key: picks.alyssa_nicoll.description
-      t: |
-        Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer, 
-        developer, and most importantly teacher. 
-        I always have a blast watching his streams and learning from him.
-      
-    - key: picks.michael_jackson.name
-      t: esbuild
-    - key: picks.michael_jackson.bio
-      t: Co-founder of Remix
-    - key: picks.michael_jackson.description
-      t: |
-        We have been building the Remix compiler on top of esbuild and it 
-        has definitely raised the bar as far as JS bundlers are concerned. 
-        It's incredibly fast and the plugin API allows us to do pretty much anything we want.
-
-    - key: picks.david_khourshid.name
-      t: Remix
-    - key: picks.david_khourshid.bio
-      t: Pianist and founder of Stately
-    - key: picks.david_khourshid.description
-      t: |
-          Remix is a full-stack web framework that feels old-school, but in a good way, 
-          by putting you on the path to create fast, complex, and accessible modern web apps.
-      
-    - key: picks.kent_c_dodds.name
-      t: Fly.io
-    - key: picks.kent_c_dodds.bio
-      t: Director of Developer Experience, Remix
-    - key: picks.kent_c_dodds.description
-      t: |
-          Fly enabled me (a frontend engineer with a distain for DevOps) 
-          to confidently deploy a real-world, globally-distributed, production-grade 
-          app.
-
-    - key: picks.tejas_kumar.name
-      t: Joe Haddad
-    - key: picks.tejas_kumar.bio
-      t: Web Developer, Conference Speaker, and Director of DevRel at Xata
-    - key: picks.tejas_kumar.description
-      t: |   
-          Joe works on Next.js at Vercel and is constantly looking to proudly 
-          demonstrate its power while actively listening 
-          to feedback from the community to support them better. 
-
-    - key: picks.wes_bos.name
-      t: TC39 Proposals
-    - key: picks.wes_bos.bio
-      t: JavaScript Teacher & Podcast Host
-    - key: picks.wes_bos.description
-      t: |
-          A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
-      
-    - key: picks.scott_tolinkski.name
-      t: SvelteKit
-    - key: picks.scott_tolinkski.bio
-      t: Creator of Level-Up Tuts, co-host of Syntax
-    - key: picks.scott_tolinkski.description
-      t: |   
-          Svelte Kit provides the amazing developer experience of Svelte with all 
-          of the modern features of expected from a web platform. 
-
-    - key: picks.xxxx.name
-      t:
-    - key: picks.xxxx.bio
-      t: 
-    - key: picks.xxxx.description
-      t: |   
-###########################################################################
-# Sponsors
-###########################################################################
-
-    - key: sponsors.frontendmasters.description
-      t: 深くまで学べるモダンなフロントエンドエンジニアリングのコースでスキルアップしましょう。
-    - key: sponsors.polypane.description
-      t: 意欲的な開発者のためのブラウザです。レスポンシブでアクセシブル、そして速いウェブサイトを楽に作りましょう。
-    - key: sponsors.google_chrome.description
-      t: サポートしてくれたGoogle Chromeチームに感謝します。
-
-###########################################################################
-# FAQ/About
-###########################################################################
-    
-    - key: about.content
-      t: >
-            2021年のState of JSアンケートは2022年1月13日から**2022年**2月2日まで実施され、16,085の回答を集めました。アンケートは私[Sacha Greif](https://sachagreif.com/)が、オープンソースコントリビューターとコンサルタントの協力により運営しています。
-
-            今年のロゴとTシャツは[Christopher Kirk-Nielsen](http://chriskirknielsen.com/)によりデザインやアニメーションが作られています。
-
-
-            ### アンケートのゴール
-
-            このアンケートや、[State of CSS](https://stateofcss.com/)は、ウェブ開発のエコシステムでこれから来るトレンドを見つけ、技術者の技術選定を助けることを目的に作られました。
-
-            このため、アンケートでは現在流行っているもの分析よりも、今後数年で来るだろう機能についての予測に主眼をおいています。現在広く使われている機能や技術が設問に含まれていないのはそのためです。
-
-
-            また、このアンケートは**特定の開発者の一部が回答時点で感じていること**であり、エコシステム全体を代弁するわけではありません。
-
-            ### アンケートの設計
-
-            今回のアンケートは昨年のアンケートを元に、[GitHub](https://github.com/StateOfJS/Monorepo/issues/56)でのフィードバックを受けて作られました。
-
-            すべての設問は任意回答としています。
-
-            ### アンケートの対象者
-
-            このアンケートはオンラインで誰でも回答できるようになっているため、回答者がふるいにかけられたり選別されたりといったことはありません。回答者は主に、過去のアンケート回答者（専用メーリングリストでの案内）や、ソーシャルメディア経由で回答した人となっています。
-
-            なお、フレームワークやライブラリの開発者が、バナーやツイートを活用し、利用者に対してアンケートに回答するよう呼びかけることもありました。トラフィックの分析は「ソース」チャートで行っています。
-
-            ### 代表性と包括性
-
-            すべてのコミュニティから意見を募ることは重要と考えていますが、このようなオープンなアンケートでは、すべての人の属性を適切に反映することにとても苦労しているのが現実です。固有バイアスを持つシステムで運用する場合はなおのことです。
-
-
-            これに抗うため、私たちは3つの戦略をとっています。
-
-
-            - **アウトリーチ**：様々な人がアンケートに答えてくれるように、私たちは常に様々な組織（BIPOCやLGBTQにフォーカスした組織や、オンラインの授業プラットフォームなど）に働きかけています。
-
-            - **データ解析**：ファセットや確率変数といった機能を用いて、マイノリティであってもその意見を拾えるよう、常に心掛けています。
-
-            - **バリアの低減**：アンケートが長すぎたり、アクセシブルでなかったり、読み込みが遅かったり、英語のみだったり。これらは「努力税」を課すことになり、それに答える余裕のないコミュニティを切り捨ててしまいます。これらの問題を解決し、バリアを少なくすることで、回答者の多様性を高められるでしょう。
-
-
-            ### プロジェクトの資金
-
-            プロジェクトの資金はさまざまなところから調達しています。
-
-
-            - **Tシャツの売上**。
-
-            - **チャートのスポンサー**：コミュニティの人がこのアンケートに寄付することで、名前が結果のチャートに掲載されます。
-
-            - **スポンサーリンク**：各ページ下部にあるおすすめのリソースはパートナーの[Frontend Masters](https://frontendmasters.com/)から提供されています。
-            
-            - **そのほかの資金源**：今年は[Google Chrome](https://www.google.com/chrome/)チームからの資金援助を受け、[アクセシビリティコンサルタント](https://fossheim.io/)に仕事を依頼しました。
-
-            これらの資金源はありますが、基本的には自己資金によるプロジェクトです。プロジェクトへの寄付やスポンサーは大歓迎です。とくにウェブエコシステムで中心的な役割を担うブラウザベンダーと密接な連携を取りたいと考えています。
-
-            ### 技術概要
-
-            このアンケートで使われている技術については、[解説記事](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)を公開しています。
-
-            - **データコレクション**：[Vulcan.js](http://vulcanjs.org/)のカスタムアプリ。
-
-            - **データストレージ・処理**：MongoDBとMongoDB Aggregation。
-
-            - **データAPI**：Node.jsのGraphQL API。
-            
-            - **結果のウェブサイト**：[Gatsby](https://www.gatsbyjs.com/)によるReactアプリ。
-            
-            - **データビジュアリゼーション**：[Nivo](https://nivo.rocks/)ライブラリ。
-            
-            - **書体**：[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)と[Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)。
+        - **3**: 利用率も満足度も低い。おすすめしにくくなった技術。
+
+        - **4**: 利用率は高いが、満足度が低い。現在使っているなら、見直したほうがよさそうな技術。
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      ジェンダーのバランスについては[ブログ記事](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)を書いています。興味のある方はお読みください。
+
+  - key: blocks.css_missing_features.note
+    t: |
+      回答のデータセットは[サイドプロジェクト](https://whatsmissingfromcss.com/)にまとめています。
+
+  - key: blocks.source.note
+    t: >
+
+      このチャートは、リファラー、URLパラメーター、そして自由入力欄の回答をひとまとめにしています。
+
+      - State of JS: [State of JS](https://stateofjs.com)のメーリングリスト。
+
+      - State of CSS: State of CSSのメーリングリスト。“email”や“by email”といった回答もここにまとめています。
+
+      - Work: “work”、“colleagues”、“coworkers”などをまとめたものです。
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: nullish coalescing演算子（??）が2021年に **{value}** の増加を見せ、JavaScriptになくてはならないものとなりました。
+
+  - key: award.tool_usage_delta_award.comment
+    t: esbuildはまだ2年という若さですが、 **{value}** という増加をみせ、しっかりと前進しています。
+
+  - key: award.tool_satisfaction_award.comment
+    t: Viteが **{value}** という驚くべき満足度の高さでトップに躍り出ました。
+
+  - key: award.tool_interest_award.comment
+    t: \**{value}** という関心度で、またしてもViteが金メダルとなりました。
+
+  - key: award.most_write_ins_award.comment
+    t: 多くの設問が自由回答欄を設けていますが、その中で最も多く **{value}** の回答を集めたのがElmでした。
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2021
+    t: |
+
+      <span class="first-line">2016年と比べると、現在のJavaScriptはとてもよくなっています。</span>
+
+      State of JSが始まったころはTypeScriptを使っている人は21％でしたが、現在は69％です。新しいフレームワークが毎日出てくるなんて冗談を言っていたのも昔の話で、**React**と**Vue**がこの6年ずっと主要な地位にいます。そして「JSの進みが速すぎる」と言っていた人の割合は、59％から38％へと減りました。
+
+      これはJavaScriptという言語が停滞したわけではありません。**Optional Chaining**や**Nullish Coalescing**が、登場してから2年しか経ってないにも関わらず、このアンケート上で最も使われるAPIとなっています。他にもTC39で進んでいる機能があります。日時の処理をする機能が足りてないと言ってましたよね。それをかなえるTemporal APIが最近[Stage 3](https://github.com/tc39/proposal-temporal)に進みました。
+
+      ツールのエコシステムも速い進化を遂げています。2021年は**Vite**の年だといっても過言ではないでしょう。Viteは98％もの満足度を獲得しただけでなく、すでにこのアンケート上で30％もの利用率を誇っており、esbuildをしのいでいます。JavaScriptビルドツールを押し上げているのはViteだけではなりません。現在私たちが追っている12のツールのうち8つが、まだ登場して2年にも満たないものなんです！今回初めてだったモノレポツールの集計では、**pnpm**や**Turborepo**、**Nx**が上位になりましたが、その現状に満足している人の割合はまだ25％でした。まだまだこのカテゴリにおいてはやることがあるようです。
+
+      他にも、**Deno**、**Rome**、**Astro**、**Remix**をはじめ新しいツールの多くがベンチャーキャピタルから出資を受けた企業により支援されています。不安定なオープンソースの金銭的な支援に変わり、こうした流れが強まるのかもしれません。
+
+      [Third Age of JavaScript](https://www.swyx.io/js-third-age/)というエントリが3年目に入ろうとしています。意欲的なオープンソースの活動者や起業家に対する機会は広がり続けています。この先2年3年とどんなことが起こるのか、とても楽しみです！
+
+  - key: conclusion.js2021.bio
+    t: Head of DX at Temporal
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "My 2021 Pick: "
+  - key: picks.intro
+    t: We asked members of the JavaScript community to share their “pick of the year”
+
+  - key: picks.lee_robinson.name
+    t: SvelteKit
+  - key: picks.lee_robinson.bio
+    t: Director of Developer Relations at Vercel
+  - key: picks.lee_robinson.description
+    t: |
+      SvelteKit is a fresh take on building for the web and has an 
+      incredibly passionate, growing community of supporters.
+
+  - key: picks.vadim_makeev.name
+    t: Server-Side Rendering
+  - key: picks.vadim_makeev.bio
+    t: DevRel, Podcaster & Web Standards Advocate
+  - key: picks.vadim_makeev.description
+    t: |
+      The time has come to get our priorities straight. 
+      UX > DX, and it has always been like that. Performance FTW!
+
+  - key: picks.ben_ilegbodu.name
+    t: Lee Robinson
+  - key: picks.ben_ilegbodu.bio
+    t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
+  - key: picks.ben_ilegbodu.description
+    t: |
+      Lee has been great at shepherding and advocating for Next.js. 
+      He's helped me a ton with Next and continues to build excitement 
+      for where it's going
+
+  - key: picks.shawn_wang.name
+    t: Supabase
+  - key: picks.shawn_wang.bio
+    t: Head of DX at Temporal
+  - key: picks.shawn_wang.description
+    t: |
+      Supabase is making Postgres accessible to more developers and showing 
+      everyone how a small focused team can out-ship peers 10x their size.
+
+  - key: picks.sarah_drasner.name
+    t: Pawel Kozlowski
+  - key: picks.sarah_drasner.bio
+    t: Director of Engineering, Core Developer Web at Google
+  - key: picks.sarah_drasner.description
+    t: |
+      Pawel Kozlowski is the kind of developer who can be open-minded to different 
+      approaches with humility and curiosity with the interest of improving things.
+
+  - key: picks.sara_vieira.name
+    t: Paul Henschel
+  - key: picks.sara_vieira.bio
+    t: International Agent of JS Bullshit
+  - key: picks.sara_vieira.description
+    t: |
+      Paul's work on animations and ReactThreeFiber 
+      have made doing any kind of 3D work on the web way easier.
+
+  - key: picks.mark_erikson.name
+    t: Ryan Carniato
+  - key: picks.mark_erikson.bio
+    t: Redux Maintainer
+  - key: picks.mark_erikson.description
+    t: |
+      Ryan's reactive JS framework SolidJS hit 1.0, 
+      and he wrote numerous articles analyzing advanced 
+      JS framework implementation concepts.
+
+  - key: picks.miguel_angel_duran.name
+    t: Vite
+  - key: picks.miguel_angel_duran.bio
+    t: Front End Dev & Twitch Coding Streamer
+  - key: picks.miguel_angel_duran.description
+    t: |
+      In addition to esbuild and swc, fantastic tools pushing forward the ecosystem, 
+      I'm enjoying Vite. It has a delightful DX, and it's rich in features.
+
+  - key: picks.alyssa_nicoll.name
+    t: BroccoDev's Twitch Stream
+  - key: picks.alyssa_nicoll.bio
+    t: Sr. Developer Advocate at Progress
+  - key: picks.alyssa_nicoll.description
+    t: |
+      Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer, 
+      developer, and most importantly teacher. 
+      I always have a blast watching his streams and learning from him.
+
+  - key: picks.michael_jackson.name
+    t: esbuild
+  - key: picks.michael_jackson.bio
+    t: Co-founder of Remix
+  - key: picks.michael_jackson.description
+    t: |
+      We have been building the Remix compiler on top of esbuild and it 
+      has definitely raised the bar as far as JS bundlers are concerned. 
+      It's incredibly fast and the plugin API allows us to do pretty much anything we want.
+
+  - key: picks.david_khourshid.name
+    t: Remix
+  - key: picks.david_khourshid.bio
+    t: Pianist and founder of Stately
+  - key: picks.david_khourshid.description
+    t: |
+      Remix is a full-stack web framework that feels old-school, but in a good way, 
+      by putting you on the path to create fast, complex, and accessible modern web apps.
+
+  - key: picks.kent_c_dodds.name
+    t: Fly.io
+  - key: picks.kent_c_dodds.bio
+    t: Director of Developer Experience, Remix
+  - key: picks.kent_c_dodds.description
+    t: |
+      Fly enabled me (a frontend engineer with a distain for DevOps) 
+      to confidently deploy a real-world, globally-distributed, production-grade 
+      app.
+
+  - key: picks.tejas_kumar.name
+    t: Joe Haddad
+  - key: picks.tejas_kumar.bio
+    t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+  - key: picks.tejas_kumar.description
+    t: |
+      Joe works on Next.js at Vercel and is constantly looking to proudly 
+      demonstrate its power while actively listening 
+      to feedback from the community to support them better.
+
+  - key: picks.wes_bos.name
+    t: TC39 Proposals
+  - key: picks.wes_bos.bio
+    t: JavaScript Teacher & Podcast Host
+  - key: picks.wes_bos.description
+    t: |
+      A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+
+  - key: picks.scott_tolinkski.name
+    t: SvelteKit
+  - key: picks.scott_tolinkski.bio
+    t: Creator of Level-Up Tuts, co-host of Syntax
+  - key: picks.scott_tolinkski.description
+    t: |
+      Svelte Kit provides the amazing developer experience of Svelte with all 
+      of the modern features of expected from a web platform.
+
+  - key: picks.xxxx.name
+    t:
+  - key: picks.xxxx.bio
+    t:
+  - key: picks.xxxx.description
+    t: |
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: 深くまで学べるモダンなフロントエンドエンジニアリングのコースでスキルアップしましょう。
+  - key: sponsors.polypane.description
+    t: 意欲的な開発者のためのブラウザです。レスポンシブでアクセシブル、そして速いウェブサイトを楽に作りましょう。
+  - key: sponsors.google_chrome.description
+    t: サポートしてくれたGoogle Chromeチームに感謝します。
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      2021年のState of JSアンケートは2022年1月13日から**2022年**2月2日まで実施され、16,085の回答を集めました。アンケートは私[Sacha Greif](https://sachagreif.com/)が、オープンソースコントリビューターとコンサルタントの協力により運営しています。
+
+      今年のロゴとTシャツは[Christopher Kirk-Nielsen](http://chriskirknielsen.com/)によりデザインやアニメーションが作られています。
+
+
+      ### アンケートのゴール
+
+      このアンケートや、[State of CSS](https://stateofcss.com/)は、ウェブ開発のエコシステムでこれから来るトレンドを見つけ、技術者の技術選定を助けることを目的に作られました。
+
+      このため、アンケートでは現在流行っているもの分析よりも、今後数年で来るだろう機能についての予測に主眼をおいています。現在広く使われている機能や技術が設問に含まれていないのはそのためです。
+
+
+      また、このアンケートは**特定の開発者の一部が回答時点で感じていること**であり、エコシステム全体を代弁するわけではありません。
+
+      ### アンケートの設計
+
+      今回のアンケートは昨年のアンケートを元に、[GitHub](https://github.com/StateOfJS/Monorepo/issues/56)でのフィードバックを受けて作られました。
+
+      すべての設問は任意回答としています。
+
+      ### アンケートの対象者
+
+      このアンケートはオンラインで誰でも回答できるようになっているため、回答者がふるいにかけられたり選別されたりといったことはありません。回答者は主に、過去のアンケート回答者（専用メーリングリストでの案内）や、ソーシャルメディア経由で回答した人となっています。
+
+      なお、フレームワークやライブラリの開発者が、バナーやツイートを活用し、利用者に対してアンケートに回答するよう呼びかけることもありました。トラフィックの分析は「ソース」チャートで行っています。
+
+      ### 代表性と包括性
+
+      すべてのコミュニティから意見を募ることは重要と考えていますが、このようなオープンなアンケートでは、すべての人の属性を適切に反映することにとても苦労しているのが現実です。固有バイアスを持つシステムで運用する場合はなおのことです。
+
+
+      これに抗うため、私たちは3つの戦略をとっています。
+
+
+      - **アウトリーチ**：様々な人がアンケートに答えてくれるように、私たちは常に様々な組織（BIPOCやLGBTQにフォーカスした組織や、オンラインの授業プラットフォームなど）に働きかけています。
+
+      - **データ解析**：ファセットや確率変数といった機能を用いて、マイノリティであってもその意見を拾えるよう、常に心掛けています。
+
+      - **バリアの低減**：アンケートが長すぎたり、アクセシブルでなかったり、読み込みが遅かったり、英語のみだったり。これらは「努力税」を課すことになり、それに答える余裕のないコミュニティを切り捨ててしまいます。これらの問題を解決し、バリアを少なくすることで、回答者の多様性を高められるでしょう。
+
+
+      ### プロジェクトの資金
+
+      プロジェクトの資金はさまざまなところから調達しています。
+
+
+      - **Tシャツの売上**。
+
+      - **チャートのスポンサー**：コミュニティの人がこのアンケートに寄付することで、名前が結果のチャートに掲載されます。
+
+      - **スポンサーリンク**：各ページ下部にあるおすすめのリソースはパートナーの[Frontend Masters](https://frontendmasters.com/)から提供されています。
+
+      - **そのほかの資金源**：今年は[Google Chrome](https://www.google.com/chrome/)チームからの資金援助を受け、[アクセシビリティコンサルタント](https://fossheim.io/)に仕事を依頼しました。
+
+      これらの資金源はありますが、基本的には自己資金によるプロジェクトです。プロジェクトへの寄付やスポンサーは大歓迎です。とくにウェブエコシステムで中心的な役割を担うブラウザベンダーと密接な連携を取りたいと考えています。
+
+      ### 技術概要
+
+      このアンケートで使われている技術については、[解説記事](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)を公開しています。
+
+      - **データコレクション**：[Vulcan.js](http://vulcanjs.org/)のカスタムアプリ。
+
+      - **データストレージ・処理**：MongoDBとMongoDB Aggregation。
+
+      - **データAPI**：Node.jsのGraphQL API。
+
+      - **結果のウェブサイト**：[Gatsby](https://www.gatsbyjs.com/)によるReactアプリ。
+
+      - **データビジュアリゼーション**：[Nivo](https://nivo.rocks/)ライブラリ。
+
+      - **書体**：[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)と[Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)。

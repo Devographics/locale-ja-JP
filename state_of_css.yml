@@ -1,797 +1,796 @@
 locale: ja-JP
 namespace: css
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
-
-    - key: general.state_of_css.intro
-      t: >
-          CSSはこれまでにない速さで進化しています。
-
-          Flexbox、Grid、マルチカラム……CSS-in-JSは言うまでもありませんね。
-
-          State Of JavaScriptの成功をうけ、対象をスタイルやセレクタの世界にも広げることにしました。このアンケートが、いまのトレンドが何かを知ったり、どのようなツールを使えばいいのかといった疑問の解決の手助けになることを願っています！
-
-    - key: general.results.description
-      t: CSSの最新トレンドを知るためのアンケート
-
-    ###########################################################################
-    # Sections
-    ###########################################################################
-
-    - key: sections.layout.title
-      t: レイアウト
-    - key: sections.layout.description
-      t: どうやって画面に要素を配置しますか？
-
-    - key: sections.shapes_graphics.title
-      t: シェイプ＆グラフィックス
-    - key: sections.shapes_graphics.description
-      t: 要素の形状と表示を制御する。
-
-    - key: sections.interactions.title
-      t: インタラクション
-    - key: sections.interactions.description
-      t: ユーザーとページのインタラクションを調整する。
-
-    - key: sections.typography.title
-      t: タイポグラフィ
-    - key: sections.typography.description
-      t: テキストの設定や配置。
-
-    - key: sections.animations_transforms.title
-      t: アニメーション＆トランスフォーム
-    - key: sections.animations_transforms.description
-      t: 要素のアニメーションや変形。
-
-    - key: sections.accessibility.title
-      t: アクセシビリティ
-    - key: sections.accessibility.description
-      t: アクセシビリティ関連機能やテクニック。
-
-    - key: sections.media_queries.title
-      t: メディアクエリー
-    - key: sections.media_queries.description
-      t: デバイスやユーザーの設定にあわせる。
-
-    - key: sections.other_features.title
-      t: そのほかの機能
-    - key: sections.other_features.description
-      t: そのほかのCSSの機能。
-
-    - key: sections.units_selectors.title
-      t: 単位とセレクタ
-    - key: sections.units_selectors.description
-      t: 単位とセレクタの知識をテストします。
-
-    - key: sections.pre_post_processors.title
-      t: プリプロセッサ・ポストプロセッサ
-    - key: sections.pre_post_processors.description
-      t: CSSを拡張するユーティリティ。
-
-    - key: sections.pre_post_processors_others.title
-      t: そのほかのプリプロセッサ・ポストプロセッサ。
-
-    - key: sections.css_frameworks.title
-      t: CSSフレームワーク
-    - key: sections.css_frameworks.description
-      t: コンポーネントとスタイルを提供するライブラリ。
-
-    - key: sections.css_frameworks_others.title
-      t: そのほかのCSSフレームワーク。
-
-    - key: sections.css_methodologies.title
-      t: CSS設計手法
-    - key: sections.css_methodologies.description
-      t: きれいなCSSを書くために体系化された手法。
-
-    - key: sections.css_methodologies_others.title
-      t: そのほかのCSS設計手法。
-
-    - key: sections.css_in_js.title
-      t: CSS-in-JS
-    - key: sections.css_in_js.description
-      t: JavaScriptコードにCSSを組み込むためのライブラリ。
-
-    - key: sections.css_in_js_others.title
-      t: そのほかのCSS-in-JSライブラリ。
-
-    - key: sections.tools_others.title
-      t: そのほかのツール
-    - key: sections.tools_others.description
-      t: そのほかのCSSのツール。
-
-    - key: sections.environments.title
-      t: 対応環境
-    - key: sections.environments.description
-      t: どんな環境に向けてCSSを書きますか。
-
-    ###########################################################################
-    # Options
-    ###########################################################################
-
-    # CSS for print
-    - key: options.css_for_print.0
-      t: 印刷用スタイルは（ほとんど）書いたことがない
-    - key: options.css_for_print.0.short
-      t: まったくない
-
-    - key: options.css_for_print.1
-      t: 印刷用スタイルはときどき書く
-    - key: options.css_for_print.1.short
-      t: ときどき
-
-    - key: options.css_for_print.2
-      t: 印刷用スタイルはほとんどのプロジェクトで書いている
-    - key: options.css_for_print.2.short
-      t: かなり
-
-    - key: options.css_for_print.3
-      t: CSSは印刷用スタイルを主に書いている
-    - key: options.css_for_print.3.short
-      t: 専業
-
-    # CSS for email
-    - key: options.css_for_email.0
-      t: メール用のCSSは（ほとんど）書いたことがない
-    - key: options.css_for_email.0.short
-      t: まったくない
-
-    - key: options.css_for_email.1
-      t: メール用のCSSはときどき書く
-    - key: options.css_for_email.1.short
-      t: ときどき
-
-    - key: options.css_for_email.2
-      t: メール用のCSSはほとんどのプロジェクトで書いている
-    - key: options.css_for_email.2.short
-      t: かなり
-
-    - key: options.css_for_email.3
-      t: メール用のCSSを主に書いている
-    - key: options.css_for_email.3.short
-      t: 専業
-
-    # what do you use CSS for?
-    - key: options.what_do_you_use_css_for.marketing_sites
-      t: マーケティングサイト・ランディングページ
-    - key: options.what_do_you_use_css_for.design_systems
-      t: デザインシステム
-    - key: options.what_do_you_use_css_for.blogs
-      t: ブログやそのほかのテキスト中心なサイト
-    - key: options.what_do_you_use_css_for.web_apps
-      t: ウェブアプリ
-    - key: options.what_do_you_use_css_for.mobile_apps
-      t: モバイルアプリ
-    - key: options.what_do_you_use_css_for.css_art
-      t: CSSアートやイラスト
-    - key: options.what_do_you_use_css_for.emails
-      t: メール
-    - key: options.what_do_you_use_css_for.printed_documents
-      t: 印刷物
-
-    # CSS pain points
-    - key: options.css_pain_points.browser_interoperability
-      t: ブラウザの互換性
-    - key: options.css_pain_points.browser_interoperability.description
-      t: Chrome, Safari, Firefoxなどのブラウザの違い。
-    - key: options.css_pain_points.interactions
-      t: インタラクション
-    - key: options.css_pain_points.interactions.description
-      t: ユーザーの操作やそのほかのイベント（スクロール、ホバーなど）への応答。
-    - key: options.css_pain_points.architecture
-      t: 設計・管理
-    - key: options.css_pain_points.architecture.description
-      t: ファイル管理、使わなくなったコードの削除、リファクタリングなど。
-    - key: options.css_pain_points.layout_positioning
-      t: レイアウト・配置
-    - key: options.css_pain_points.layout_positioning.description
-      t: レイアウトをつくり、要素を思うとおりの位置に配置する。
-    - key: options.css_pain_points.scoping_specificity
-      t: スコープ・詳細度
-    - key: options.css_pain_points.scoping_specificity.description
-      t: カスケーディングやスタイルの上書きに対応する。
-    - key: options.css_pain_points.responsive_design
-      t: レスポンシブデザイン
-    - key: options.css_pain_points.responsive_design.description
-      t: 様々なフォームファクタに対しレイアウトやデザインを調整する。
-    - key: options.css_pain_points.form_elements_styling
-      t: フォーム要素のスタイル
-    - key: options.css_pain_points.form_elements_styling.description
-      t: フォーム要素の見た目や挙動をカスタマイズする。
-    - key: options.css_pain_points.performance_issues
-      t: パフォーマンスの問題
-    - key: options.css_pain_points.performance_issues.description
-      t: スクロールのガタつきに対処したり、アニメーションをスムーズにさせたり。
-
-
-    # CSS missing features (same as features section)
-    - key: options.currently_missing_from_css.nesting
-      t: ネスト
-    - key: options.currently_missing_from_css.nesting.description
-      t: ツールを使わずネイティブなCSSでスタイルをネストする。
-    - key: options.currently_missing_from_css.parent_selector
-      t: 親セレクタ
-    - key: options.currently_missing_from_css.parent_selector.description
-      t: 子要素の状態から親要素を選択する。
-    - key: options.currently_missing_from_css.browser_support
-      t: ブラウザのサポート
-    - key: options.currently_missing_from_css.browser_support.description
-      t: いま仕様にある機能がブラウザで実装されること。
-    - key: options.currently_missing_from_css.mixins
-      t: ミックスイン
-    - key: options.currently_missing_from_css.mixins.description
-      t: スタイル定義の動的なグループ化と再利用。
-    - key: options.currently_missing_from_css.color_functions
-      t: 色関連の関数
-    - key: options.currently_missing_from_css.color_functions.description
-      t: 色の値を操作する関数。
-    - key: options.currently_missing_from_css.container_queries
-      t: コンテナークエリー
-    - key: options.currently_missing_from_css.container_queries.description
-      t: 親コンテナの大きさをもとにスタイルを書ける。
-    - key: options.currently_missing_from_css.scoping
-      t: スコープ
-    - key: options.currently_missing_from_css.scoping.description
-      t: スタイルがどこで適用されるかをより細かく指定できる。
-    - key: options.currently_missing_from_css.subgrid
-      t: サブグリッド
-    - key: options.currently_missing_from_css.subgrid.description
-      t: 親のグリッドの一部をさらにグリッド化する。
-
-    ###########################################################################
-    # Features
-    ###########################################################################
-
-    # layout
-
-    - key: features.grid
-      t: CSS Grid
-    - key: features.subgrid
-      t: Subgrid
-    - key: features.regions
-      t: CSS Regions
-    - key: features.flexbox
-      t: Flexbox
-    - key: features.multi_column
-      t: CSS Multi-Column
-    - key: features.writing_modes
-      t: CSS Writing Modes
-    - key: features.exclusions
-      t: CSS Exclusions
-    - key: features.position_sticky
-      t: '<code>position: sticky</code>'
-    - key: features.logical_properties
-      t: 論理プロパティ
-    - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code>など
-    - key: features.aspect_ratio
-      t: <code>aspect-ratio</code>
-    - key: features.content_visibility
-      t: <code>content-visibility</code>
-    - key: features.flexbox_gap
-      t: Flexboxのgap
-    - key: features.break_rules
-      t: Break rules
-    - key: features.break_rules.description
-      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
-    - key: features.at_container
-      t: コンテナークエリー
-    - key: features.at_container.description
-      t: <code>@container</code>クエリー
-
-    # shapes & graphics
-    - key: features.shapes
-      t: CSS Shapes
-    - key: features.object_fit
-      t: <code>object-fit</code>
-    - key: features.clip_path
-      t: <code>clip-path</code>
-    - key: features.masks
-      t: CSS Masks
-    - key: features.blend_modes
-      t: ブレンドモード
-    - key: features.blend_modes.description
-      t: <code>mix-blend-mode</code>プロパティ
-    - key: features.filter_effects
-      t: CSS Filter Effects
-    - key: features.backdrop_filter
-      t: <code>backdrop-filter</code>
-
-    - key: features.intrinsic_sizing
-      t: Intrinsic Sizing
-    - key: features.intrinsic_sizing.description
-      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
-    - key: features.repeating_linear_gradient
-      t: <code>repeating-linear-gradient()</code>
-    - key: features.conic_gradient
-      t: <code>conic-gradient()</code>
-    - key: features.color_function
-      t: <code>color()</code>
-
-    - key: features.accent_color
-      t: <code>accent-color</code>
-
-    # interactions
-    - key: features.scroll_snap
-      t: CSS Scroll Snap
-    - key: features.overscroll_behavior
-      t: <code>overscroll-behavior</code>
-    - key: features.overflow_anchor
-      t: <code>overflow-anchor</code>
-    - key: features.touch_action
-      t: <code>touch-action</code>
-    - key: features.pointer_events
-      t: <code>pointer-events</code>
-    - key: features.scroll_timeline
-      t: <code>scroll-timeline</code>
-
-    # typography
-    - key: features.web_fonts
-      t: ウェブフォント (@font-face)
-    - key: features.variable_fonts
-      t: バリアブルフォント
-    - key: features.line_breaking
-      t: 改行関連プロパティ
-    - key: features.line_breaking.description
-      t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
-    - key: features.font_variant
-      t: <code>font-variant-*</code>
-    - key: features.initial_letter
-      t: <code>initial-letter</code>
-    - key: features.font_variant_numeric
-      t: <code>font-variant-numeric</code>
-    - key: features.font_display
-      t: <code>font-display</code>
-    - key: features.line_clamp
-      t: <code>line-clamp</code>
-    - key: features.leading_trim
-      t: <code>leading-trim</code>
-    - key: features.direction
-      t: <code>direction</code>
-    - key: features.direction.description
-      t: HTMLの<code>dir</code>属性も含む。
-
-    # animations & transforms
-    - key: features.transitions
-      t: CSS Transitions
-    - key: features.transforms
-      t: CSS Transforms
-    - key: features.animations
-      t: CSS Animations
-    - key: features.perspective
-      t: <code>perspective</code>
-
-    # media queries
-    - key: features.feature_support_queries
-      t: フィーチャークエリー (<code>@supports</code>)
-    - key: features.prefers_reduced_motion
-      t: <code>prefers-reduced-motion</code>
-    - key: features.prefers_color_scheme
-      t: <code>prefers-color-scheme</code>
-    - key: features.color_gamut
-      t: <code>color-gamut</code>
-
-    - key: features.prefers_reduced_data
-      t: <code>prefers-reduced-data</code>
-    - key: features.tabindex
-      t: HTMLの<code>tabindex</code>属性
-    - key: features.tabindex.description
-      t: <code>&lt;div tabindex="0"&gt;</code>
-
-    - key: features.color_contrast
-      t: <code>color-contrast()</code>
-
-    - key: features.color_scheme
-      t: <code>color-scheme</code>
-
-    - key: features.aria_attributes
-      t: HTMLのARIA属性
-    - key: features.aria_attributes.description
-      t: <code>role</code>属性、<code>aria-label</code>属性など
-
-    # other features
-    - key: features.variables
-      t: CSS Variables (カスタムプロパティ)
-    - key: features.containment
-      t: CSS Containment
-    - key: features.will_change
-      t: <code>will-change</code>
-    - key: features.calc
-      t: <code>calc()</code>
-    - key: features.houdini
-      t: Houdini
-    - key: features.comparison_functions
-      t: CSS比較関数
-    - key: features.comparison_functions.description
-      t: <code>min()</code>, <code>max()</code>, <code>clamp()</code>
-
-    - key: features.at_property
-      t: Houdiniカスタムプロパティ
-    - key: features.at_property.description
-      t: <code>@property</code>
-    - key: features.at_layer
-      t: <code>@layer</code>
-    - key: features.content_visibility
-      t: <code>content-visibility</code>
-    - key: features.marker
-      t: <code>::marker</code>疑似要素
-
-    # missing features (see also options)
-    - key: features.nesting
-      t: ネスト
-    - key: features.nesting.description
-      t: ツールを使わずネイティブなCSSでスタイルをネストする。
-    - key: features.parent_selector
-      t: 親セレクタ
-    - key: features.parent_selector.description
-      t: 子要素の状態から親要素を選択する。
-    - key: features.browser_support
-      t: ブラウザのサポート
-    - key: features.browser_support.description
-      t: いま仕様にある機能がブラウザで実装されること。
-    - key: features.mixins
-      t: ミックスイン
-    - key: features.mixins.description
-      t: スタイル定義の動的なグループ化と再利用。
-    - key: features.color_functions
-      t: 色関連の関数
-    - key: features.color_functions.description
-      t: 色の値を操作する関数。
-    - key: features.container_queries
-      t: コンテナークエリー
-    - key: features.container_queries.description
-      t: 親コンテナの大きさをもとにスタイルを書ける。
-    - key: features.scoping
-      t: スコープ
-    - key: features.scoping.description
-      t: スタイルがどこで適用されるかをより細かく指定できる。
-    - key: features.subgrid
-      t: サブグリッド
-    - key: features.subgrid.description
-      t: 親のグリッドの一部をさらにグリッド化する。
-
-    ###########################################################################
-    # Units & Selectors
-    ###########################################################################
-
-    - key: features_others.units
-      t: 単位
-    - key: features_others.units.description
-      t: どの単位を使ったことがあるか。
-
-    - key: options.units.px
-      t: px
-    - key: options.units.pt
-      t: pt
-    - key: options.units.percent
-      t: '%'
-    - key: options.units.em
-      t: em
-    - key: options.units.rem
-      t: rem
-    - key: options.units.vh_vw
-      t: vh, vw
-    - key: options.units.vmin_vmax
-      t: vmin, vmax
-    - key: options.units.ch
-      t: ch
-    - key: options.units.ex
-      t: ex
-    - key: options.units.mm
-      t: mm
-    - key: options.units.cm
-      t: cm
-    - key: options.units.in
-      t: in
-
-    - key: features_others.pseudo_elements
-      t: 疑似要素
-    - key: features_others.pseudo_elements.description
-      t: どの疑似要素を使ったことがあるか。
-
-    - key: options.pseudo_elements.before
-      t: '::before'
-    - key: options.pseudo_elements.after
-      t: '::after'
-    - key: options.pseudo_elements.first_line
-      t: '::first-line'
-    - key: options.pseudo_elements.first_letter
-      t: '::first-letter'
-    - key: options.pseudo_elements.selection
-      t: '::selection'
-    - key: options.pseudo_elements.placeholder
-      t: '::placeholder'
-    - key: options.pseudo_elements.marker
-      t: '::marker'
-    - key: options.pseudo_elements.backdrop
-      t: '::backdrop'
-
-    - key: features_others.combinators
-      t: 結合子セレクタ
-    - key: features_others.combinators.description
-      t: CSSセレクタの結合子のうち、どれを使ったことがあるか。
-
-    - key: options.combinators.descendant
-      t: div span (子孫)
-    - key: options.combinators.child
-      t: div > span (子)
-    - key: options.combinators.next_sibling
-      t: div + div (隣接)
-    - key: options.combinators.subsequent_sibling
-      t: div ~ div (兄弟)
-
-    - key: features_others.tree_document_structure
-      t: 木構造・ドキュメント構造
-    - key: features_others.tree_document_structure.description
-      t: 構造関連セレクタのうち、どれを使ったことがあるか。
-
-    - key: options.tree_document_structure.root
-      t: :root
-    - key: options.tree_document_structure.empty
-      t: :empty
-    - key: options.tree_document_structure.not
-      t: :not()
-    - key: options.tree_document_structure.nth_child
-      t: :nth-child()
-    - key: options.tree_document_structure.nth_last_child
-      t: :nth-last-child()
-    - key: options.tree_document_structure.first_child
-      t: :first-child
-    - key: options.tree_document_structure.last_child
-      t: :last-child
-    - key: options.tree_document_structure.only_child
-      t: :only-child
-    - key: options.tree_document_structure.nth_of_type
-      t: :nth-of-type()
-    - key: options.tree_document_structure.nth_last_of_type
-      t: :nth-last-of-type()
-    - key: options.tree_document_structure.first_of_type
-      t: :first-of-type
-    - key: options.tree_document_structure.last_of_type
-      t: :last-of-type
-    - key: options.tree_document_structure.only_of_type
-      t: :only-of-type
-    - key: options.tree_document_structure.lang
-      t: :lang()
-    - key: options.tree_document_structure.is
-      t: :is()
-    - key: options.tree_document_structure.where
-      t: :where()
-    - key: options.tree_document_structure.has
-      t: :has()
-
-    - key: features_others.attributes
-      t: 属性セレクタ
-    - key: features_others.attributes.description
-      t: 属性セレクタのうち、どれを使ったことがあるか。
-
-    - key: options.attributes.presence
-      t: div[foo] (属性の存在)
-    - key: options.attributes.equality
-      t: div[foo="bar"] (一致)
-    - key: options.attributes.starts_with
-      t: div[foo^="bar"] (開始)
-    - key: options.attributes.ends_with
-      t: div[foo$="bar"] (終了)
-    - key: options.attributes.contains_word
-      t: div[foo~="bar"] (単語の包含)
-    - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (文字列の包含)
-
-    - key: features_others.links_urls
-      t: リンク・URL
-    - key: features_others.links_urls.description
-      t: リンク・URL関連のセレクタのうち、どれを使ったことがあるか。
-
-    - key: options.links_urls.any_link
-      t: :any-link
-    - key: options.links_urls.link_visited
-      t: :link / :visited
-    - key: options.links_urls.local_link
-      t: :local-link
-    - key: options.links_urls.target
-      t: :target
-
-    - key: features_others.interaction
-      t: インタラクション
-    - key: features_others.interaction.description
-      t: インタラクション関連セレクタのうち、どれを使ったことがあるか。
-
-    - key: options.interaction.hover
-      t: :hover
-    - key: options.interaction.active
-      t: :active
-    - key: options.interaction.focus
-      t: :focus
-    - key: options.interaction.focus_within
-      t: :focus-within
-    - key: options.interaction.focus_visible
-      t: :focus-visible
-
-    - key: features_others.form_controls
-      t: フォームコントロール
-    - key: features_others.form_controls.description
-      t: フォームコントロール関連セレクタのうち、どれを使ったことがあるか。
-
-    - key: options.form_controls.enabled_disabled
-      t: :enabled / :disabled
-    - key: options.form_controls.read_only_write
-      t: :read-only / :read-write
-    - key: options.form_controls.placeholder_shown
-      t: :placeholder-shown
-    - key: options.form_controls.default
-      t: :default
-    - key: options.form_controls.checked
-      t: :checked
-    - key: options.form_controls.indeterminate
-      t: :indeterminate
-    - key: options.form_controls.valid_invalid
-      t: :valid / :invalid
-    - key: options.form_controls.user_invalid
-      t: :user-invalid
-    - key: options.form_controls.in_out_range
-      t: :in-range / :out-of-range
-    - key: options.form_controls.required_optional
-      t: :required / :optional
-
-    ###########################################################################
-    # Environments
-    ###########################################################################
-
-    - key: environments.browsers
-      t: ブラウザー
-    - key: environments.browsers.description
-      t: どのブラウザーでテストしているか。
-
-    - key: environments.form_factors
-      t: 対応デバイス
-    - key: environments.form_factors.description
-      t: どんなデバイスでテストしているか。
-
-    - key: environments.accessibility_features
-      t: アクセシビリティ
-    - key: environments.accessibility_features.description
-      t: どんなアクセシビリティ機能を実装しているか。
-    - key: environments.accessibility_features.others
-      t: そのほかのアクセシビリティ機能
-    - key: environments.accessibility_features.others
-      t: 上記以外に実装しているアクセシビリティ機能。
-
-    - key: environments.css_for_print
-      t: 印刷用スタイル
-    - key: environments.css_for_print.description
-      t: 印刷用スタイルを書いているか。
-
-    - key: environments.css_for_email
-      t: メールクライアント用CSS
-    - key: environments.css_for_email.description
-      t: メール用のCSSを書いているか。
-
-    - key: environments.what_do_you_use_css_for
-      t: CSSの利用先
-    - key: environments.what_do_you_use_css_for.description
-      t: どんなプロジェクトでCSSを使っていますか。
-    - key: environments.what_do_you_use_css_for.others
-      t: そのほかのプロジェクト
-
-    - key: charts.axis_legends.css_for_print
-      t: 頻度
-    - key: charts.axis_legends.css_for_email
-      t: 頻度
-
-    - key: tools_others.tool_evaluation
-      t: ライブラリの評価
-    - key: tools_others.tool_evaluation.description
-      t: 新しいライブラリを評価するときに何をより重視するか、対決させてください。
-
-    ###########################################################################
-    # Opinions
-    ###########################################################################
-
-    - key: opinions.css_easy_to_learn
-      t: CSSを学ぶのは簡単だ
-    - key: opinions.css_easy_to_learn.title
-      t: 学習曲線
-
-    - key: opinions.css_evolving_slowly
-      t: CSSの発展は遅すぎる
-    - key: opinions.css_evolving_slowly.title
-      t: 進歩の度合い
-
-    - key: opinions.utility_classes_to_be_avoided
-      t: セマンティックではない、ユーティリティクラス（.center、.large-textなど）は避けるべきだ
-    - key: opinions.utility_classes_to_be_avoided.title
-      t: セマンティックでないクラス
-
-    - key: opinions.selector_nesting_to_be_avoided
-      t: セレクタの入れ子（.foo .bar ul li {...}）は避けるべきだ
-    - key: opinions.selector_nesting_to_be_avoided.title
-      t: セレクタの入れ子
-
-    - key: opinions.css_is_programming_language
-      t: CSSはプログラミング言語だ
-    - key: opinions.css_is_programming_language.title
-      t: プログラミング言語
-
-    - key: opinions.enjoy_writing_css
-      t: CSSを書いていて楽しい
-    - key: opinions.enjoy_writing_css.title
-      t: 楽しさ
-
-    # Browser interoperability question
-    - key: opinions_others.browser_interoperability_features.others
-      t: ブラウザの差異
-    - key: opinions_others.browser_interoperability_features.others.description
-      t: >
-        ブラウザの差異が原因で使うのに苦労したCSSの機能はありますか？
-    # Pain Points
-    - key: opinions.css_pain_points
-      t: CSSでつらいところ
-    - key: opinions.css_pain_points.description
-      t: CSSのどんなところで苦労するか、対決させてください。
-
-    - key: opinions_others.css_pain_points.others
-      t: そのほかのつらいところ
-
-    # Missing Features
-    - key: opinions.currently_missing_from_css
-      t: どんな機能がCSSに足りてないと思いますか？
-    - key: opinions.currently_missing_from_css.description
-      t: CSSにあれば今すぐ使いたいと思う機能について、対決させてください。
-    - key: opinions_others.currently_missing_from_css.others
-      t: CSSにいま足りないものは何か
-    - key: opinions_others.currently_missing_from_css.others.description
-      t: CSSにいつかほしい機能。
-    - key: opinions_others.currently_missing_from_css.others.note
-      t: >
-          これらの結果は自由入力の内容を正規化したものです。処理されていない生のデータは、[whatsmissingfromcss.com](http://whatsmissingfromcss.com/)からご覧ください。
-    
-    - key: opinions.sum_up_one_word_css
-      t: CSSをひとことで言うと
-    - key: opinions.sum_up_one_word_css.description
-      t: CSSについてひとこと言うならなんでしょうか。
-
-    - key: happiness.pre_post_processors
-      t: プリプロセッサ・ポストプロセッサの現状に満足しているか
-    - key: happiness.css_in_js
-      t: CSS-in-JSライブラリの現状に満足しているか
-    - key: happiness.css_frameworks
-      t: CSSフレームワークの現状に満足しているか
-
-    - key: happiness.state_of_the_web
-      t: ウェブ技術の現状に満足しているか
-
-    - key: happiness.state_of_css
-      t: CSSの現状に満足しているか
-
-    # pain points/currently missing (results)
-    - key: css_pain_points.css_pain_points_wins
-      t: CSSのつらいところ
-    - key: css_pain_points.css_pain_points_wins.description
-      t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
-
-    - key: css_pain_points.css_pain_points_matchups
-      t: CSSのつらいところ（対戦）
-    - key: css_pain_points.css_pain_points_matchups.description
-      t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
-
-    - key: currently_missing_from_css.currently_missing_from_css_wins
-      t: CSSに足りていない機能
-    - key: currently_missing_from_css.currently_missing_from_css_wins.description
-      t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
-
-    - key: currently_missing_from_css.currently_missing_from_css_matchups
-      t: CSSに足りていない機能（対戦）
-    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-      t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
-
-    ###########################################################################
-    # Resources
-    ###########################################################################
-    
-    - key: resources.first_steps_css
-      t: CSSの最初の勉強方法
-    - key: resources.first_steps_css.description
-      t: 最初にCSSを学び始めたとき、どの方法で学びましたか。
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_css.intro
+    t: >
+      CSSはこれまでにない速さで進化しています。
+
+      Flexbox、Grid、マルチカラム……CSS-in-JSは言うまでもありませんね。
+
+      State Of JavaScriptの成功をうけ、対象をスタイルやセレクタの世界にも広げることにしました。このアンケートが、いまのトレンドが何かを知ったり、どのようなツールを使えばいいのかといった疑問の解決の手助けになることを願っています！
+
+  - key: general.results.description
+    t: CSSの最新トレンドを知るためのアンケート
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.layout.title
+    t: レイアウト
+  - key: sections.layout.description
+    t: どうやって画面に要素を配置しますか？
+
+  - key: sections.shapes_graphics.title
+    t: シェイプ＆グラフィックス
+  - key: sections.shapes_graphics.description
+    t: 要素の形状と表示を制御する。
+
+  - key: sections.interactions.title
+    t: インタラクション
+  - key: sections.interactions.description
+    t: ユーザーとページのインタラクションを調整する。
+
+  - key: sections.typography.title
+    t: タイポグラフィ
+  - key: sections.typography.description
+    t: テキストの設定や配置。
+
+  - key: sections.animations_transforms.title
+    t: アニメーション＆トランスフォーム
+  - key: sections.animations_transforms.description
+    t: 要素のアニメーションや変形。
+
+  - key: sections.accessibility.title
+    t: アクセシビリティ
+  - key: sections.accessibility.description
+    t: アクセシビリティ関連機能やテクニック。
+
+  - key: sections.media_queries.title
+    t: メディアクエリー
+  - key: sections.media_queries.description
+    t: デバイスやユーザーの設定にあわせる。
+
+  - key: sections.other_features.title
+    t: そのほかの機能
+  - key: sections.other_features.description
+    t: そのほかのCSSの機能。
+
+  - key: sections.units_selectors.title
+    t: 単位とセレクタ
+  - key: sections.units_selectors.description
+    t: 単位とセレクタの知識をテストします。
+
+  - key: sections.pre_post_processors.title
+    t: プリプロセッサ・ポストプロセッサ
+  - key: sections.pre_post_processors.description
+    t: CSSを拡張するユーティリティ。
+
+  - key: sections.pre_post_processors_others.title
+    t: そのほかのプリプロセッサ・ポストプロセッサ。
+
+  - key: sections.css_frameworks.title
+    t: CSSフレームワーク
+  - key: sections.css_frameworks.description
+    t: コンポーネントとスタイルを提供するライブラリ。
+
+  - key: sections.css_frameworks_others.title
+    t: そのほかのCSSフレームワーク。
+
+  - key: sections.css_methodologies.title
+    t: CSS設計手法
+  - key: sections.css_methodologies.description
+    t: きれいなCSSを書くために体系化された手法。
+
+  - key: sections.css_methodologies_others.title
+    t: そのほかのCSS設計手法。
+
+  - key: sections.css_in_js.title
+    t: CSS-in-JS
+  - key: sections.css_in_js.description
+    t: JavaScriptコードにCSSを組み込むためのライブラリ。
+
+  - key: sections.css_in_js_others.title
+    t: そのほかのCSS-in-JSライブラリ。
+
+  - key: sections.tools_others.title
+    t: そのほかのツール
+  - key: sections.tools_others.description
+    t: そのほかのCSSのツール。
+
+  - key: sections.environments.title
+    t: 対応環境
+  - key: sections.environments.description
+    t: どんな環境に向けてCSSを書きますか。
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  # CSS for print
+  - key: options.css_for_print.0
+    t: 印刷用スタイルは（ほとんど）書いたことがない
+  - key: options.css_for_print.0.short
+    t: まったくない
+
+  - key: options.css_for_print.1
+    t: 印刷用スタイルはときどき書く
+  - key: options.css_for_print.1.short
+    t: ときどき
+
+  - key: options.css_for_print.2
+    t: 印刷用スタイルはほとんどのプロジェクトで書いている
+  - key: options.css_for_print.2.short
+    t: かなり
+
+  - key: options.css_for_print.3
+    t: CSSは印刷用スタイルを主に書いている
+  - key: options.css_for_print.3.short
+    t: 専業
+
+  # CSS for email
+  - key: options.css_for_email.0
+    t: メール用のCSSは（ほとんど）書いたことがない
+  - key: options.css_for_email.0.short
+    t: まったくない
+
+  - key: options.css_for_email.1
+    t: メール用のCSSはときどき書く
+  - key: options.css_for_email.1.short
+    t: ときどき
+
+  - key: options.css_for_email.2
+    t: メール用のCSSはほとんどのプロジェクトで書いている
+  - key: options.css_for_email.2.short
+    t: かなり
+
+  - key: options.css_for_email.3
+    t: メール用のCSSを主に書いている
+  - key: options.css_for_email.3.short
+    t: 専業
+
+  # what do you use CSS for?
+  - key: options.what_do_you_use_css_for.marketing_sites
+    t: マーケティングサイト・ランディングページ
+  - key: options.what_do_you_use_css_for.design_systems
+    t: デザインシステム
+  - key: options.what_do_you_use_css_for.blogs
+    t: ブログやそのほかのテキスト中心なサイト
+  - key: options.what_do_you_use_css_for.web_apps
+    t: ウェブアプリ
+  - key: options.what_do_you_use_css_for.mobile_apps
+    t: モバイルアプリ
+  - key: options.what_do_you_use_css_for.css_art
+    t: CSSアートやイラスト
+  - key: options.what_do_you_use_css_for.emails
+    t: メール
+  - key: options.what_do_you_use_css_for.printed_documents
+    t: 印刷物
+
+  # CSS pain points
+  - key: options.css_pain_points.browser_interoperability
+    t: ブラウザの互換性
+  - key: options.css_pain_points.browser_interoperability.description
+    t: Chrome, Safari, Firefoxなどのブラウザの違い。
+  - key: options.css_pain_points.interactions
+    t: インタラクション
+  - key: options.css_pain_points.interactions.description
+    t: ユーザーの操作やそのほかのイベント（スクロール、ホバーなど）への応答。
+  - key: options.css_pain_points.architecture
+    t: 設計・管理
+  - key: options.css_pain_points.architecture.description
+    t: ファイル管理、使わなくなったコードの削除、リファクタリングなど。
+  - key: options.css_pain_points.layout_positioning
+    t: レイアウト・配置
+  - key: options.css_pain_points.layout_positioning.description
+    t: レイアウトをつくり、要素を思うとおりの位置に配置する。
+  - key: options.css_pain_points.scoping_specificity
+    t: スコープ・詳細度
+  - key: options.css_pain_points.scoping_specificity.description
+    t: カスケーディングやスタイルの上書きに対応する。
+  - key: options.css_pain_points.responsive_design
+    t: レスポンシブデザイン
+  - key: options.css_pain_points.responsive_design.description
+    t: 様々なフォームファクタに対しレイアウトやデザインを調整する。
+  - key: options.css_pain_points.form_elements_styling
+    t: フォーム要素のスタイル
+  - key: options.css_pain_points.form_elements_styling.description
+    t: フォーム要素の見た目や挙動をカスタマイズする。
+  - key: options.css_pain_points.performance_issues
+    t: パフォーマンスの問題
+  - key: options.css_pain_points.performance_issues.description
+    t: スクロールのガタつきに対処したり、アニメーションをスムーズにさせたり。
+
+  # CSS missing features (same as features section)
+  - key: options.css_missing_features.nesting
+    t: ネスト
+  - key: options.css_missing_features.nesting.description
+    t: ツールを使わずネイティブなCSSでスタイルをネストする。
+  - key: options.css_missing_features.parent_selector
+    t: 親セレクタ
+  - key: options.css_missing_features.parent_selector.description
+    t: 子要素の状態から親要素を選択する。
+  - key: options.css_missing_features.browser_support
+    t: ブラウザのサポート
+  - key: options.css_missing_features.browser_support.description
+    t: いま仕様にある機能がブラウザで実装されること。
+  - key: options.css_missing_features.mixins
+    t: ミックスイン
+  - key: options.css_missing_features.mixins.description
+    t: スタイル定義の動的なグループ化と再利用。
+  - key: options.css_missing_features.color_functions
+    t: 色関連の関数
+  - key: options.css_missing_features.color_functions.description
+    t: 色の値を操作する関数。
+  - key: options.css_missing_features.container_queries
+    t: コンテナークエリー
+  - key: options.css_missing_features.container_queries.description
+    t: 親コンテナの大きさをもとにスタイルを書ける。
+  - key: options.css_missing_features.scoping
+    t: スコープ
+  - key: options.css_missing_features.scoping.description
+    t: スタイルがどこで適用されるかをより細かく指定できる。
+  - key: options.css_missing_features.subgrid
+    t: サブグリッド
+  - key: options.css_missing_features.subgrid.description
+    t: 親のグリッドの一部をさらにグリッド化する。
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # layout
+
+  - key: features.grid
+    t: CSS Grid
+  - key: features.subgrid
+    t: Subgrid
+  - key: features.regions
+    t: CSS Regions
+  - key: features.flexbox
+    t: Flexbox
+  - key: features.multi_column
+    t: CSS Multi-Column
+  - key: features.writing_modes
+    t: CSS Writing Modes
+  - key: features.exclusions
+    t: CSS Exclusions
+  - key: features.position_sticky
+    t: "<code>position: sticky</code>"
+  - key: features.logical_properties
+    t: 論理プロパティ
+  - key: features.logical_properties.description
+    t: <code>margin-block-start</code>, <code>padding-inline-end</code>など
+  - key: features.aspect_ratio
+    t: <code>aspect-ratio</code>
+  - key: features.content_visibility
+    t: <code>content-visibility</code>
+  - key: features.flexbox_gap
+    t: Flexboxのgap
+  - key: features.break_rules
+    t: Break rules
+  - key: features.break_rules.description
+    t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
+  - key: features.at_container
+    t: コンテナークエリー
+  - key: features.at_container.description
+    t: <code>@container</code>クエリー
+
+  # shapes & graphics
+  - key: features.shapes
+    t: CSS Shapes
+  - key: features.object_fit
+    t: <code>object-fit</code>
+  - key: features.clip_path
+    t: <code>clip-path</code>
+  - key: features.masks
+    t: CSS Masks
+  - key: features.blend_modes
+    t: ブレンドモード
+  - key: features.blend_modes.description
+    t: <code>mix-blend-mode</code>プロパティ
+  - key: features.filter_effects
+    t: CSS Filter Effects
+  - key: features.backdrop_filter
+    t: <code>backdrop-filter</code>
+
+  - key: features.intrinsic_sizing
+    t: Intrinsic Sizing
+  - key: features.intrinsic_sizing.description
+    t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
+  - key: features.repeating_linear_gradient
+    t: <code>repeating-linear-gradient()</code>
+  - key: features.conic_gradient
+    t: <code>conic-gradient()</code>
+  - key: features.color_function
+    t: <code>color()</code>
+
+  - key: features.accent_color
+    t: <code>accent-color</code>
+
+  # interactions
+  - key: features.scroll_snap
+    t: CSS Scroll Snap
+  - key: features.overscroll_behavior
+    t: <code>overscroll-behavior</code>
+  - key: features.overflow_anchor
+    t: <code>overflow-anchor</code>
+  - key: features.touch_action
+    t: <code>touch-action</code>
+  - key: features.pointer_events
+    t: <code>pointer-events</code>
+  - key: features.scroll_timeline
+    t: <code>scroll-timeline</code>
+
+  # typography
+  - key: features.web_fonts
+    t: ウェブフォント (@font-face)
+  - key: features.variable_fonts
+    t: バリアブルフォント
+  - key: features.line_breaking
+    t: 改行関連プロパティ
+  - key: features.line_breaking.description
+    t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
+  - key: features.font_variant
+    t: <code>font-variant-*</code>
+  - key: features.initial_letter
+    t: <code>initial-letter</code>
+  - key: features.font_variant_numeric
+    t: <code>font-variant-numeric</code>
+  - key: features.font_display
+    t: <code>font-display</code>
+  - key: features.line_clamp
+    t: <code>line-clamp</code>
+  - key: features.leading_trim
+    t: <code>leading-trim</code>
+  - key: features.direction
+    t: <code>direction</code>
+  - key: features.direction.description
+    t: HTMLの<code>dir</code>属性も含む。
+
+  # animations & transforms
+  - key: features.transitions
+    t: CSS Transitions
+  - key: features.transforms
+    t: CSS Transforms
+  - key: features.animations
+    t: CSS Animations
+  - key: features.perspective
+    t: <code>perspective</code>
+
+  # media queries
+  - key: features.feature_support_queries
+    t: フィーチャークエリー (<code>@supports</code>)
+  - key: features.prefers_reduced_motion
+    t: <code>prefers-reduced-motion</code>
+  - key: features.prefers_color_scheme
+    t: <code>prefers-color-scheme</code>
+  - key: features.color_gamut
+    t: <code>color-gamut</code>
+
+  - key: features.prefers_reduced_data
+    t: <code>prefers-reduced-data</code>
+  - key: features.tabindex
+    t: HTMLの<code>tabindex</code>属性
+  - key: features.tabindex.description
+    t: <code>&lt;div tabindex="0"&gt;</code>
+
+  - key: features.color_contrast
+    t: <code>color-contrast()</code>
+
+  - key: features.color_scheme
+    t: <code>color-scheme</code>
+
+  - key: features.aria_attributes
+    t: HTMLのARIA属性
+  - key: features.aria_attributes.description
+    t: <code>role</code>属性、<code>aria-label</code>属性など
+
+  # other features
+  - key: features.variables
+    t: CSS Variables (カスタムプロパティ)
+  - key: features.containment
+    t: CSS Containment
+  - key: features.will_change
+    t: <code>will-change</code>
+  - key: features.calc
+    t: <code>calc()</code>
+  - key: features.houdini
+    t: Houdini
+  - key: features.comparison_functions
+    t: CSS比較関数
+  - key: features.comparison_functions.description
+    t: <code>min()</code>, <code>max()</code>, <code>clamp()</code>
+
+  - key: features.at_property
+    t: Houdiniカスタムプロパティ
+  - key: features.at_property.description
+    t: <code>@property</code>
+  - key: features.at_layer
+    t: <code>@layer</code>
+  - key: features.content_visibility
+    t: <code>content-visibility</code>
+  - key: features.marker
+    t: <code>::marker</code>疑似要素
+
+  # missing features (see also options)
+  - key: features.nesting
+    t: ネスト
+  - key: features.nesting.description
+    t: ツールを使わずネイティブなCSSでスタイルをネストする。
+  - key: features.parent_selector
+    t: 親セレクタ
+  - key: features.parent_selector.description
+    t: 子要素の状態から親要素を選択する。
+  - key: features.browser_support
+    t: ブラウザのサポート
+  - key: features.browser_support.description
+    t: いま仕様にある機能がブラウザで実装されること。
+  - key: features.mixins
+    t: ミックスイン
+  - key: features.mixins.description
+    t: スタイル定義の動的なグループ化と再利用。
+  - key: features.color_functions
+    t: 色関連の関数
+  - key: features.color_functions.description
+    t: 色の値を操作する関数。
+  - key: features.container_queries
+    t: コンテナークエリー
+  - key: features.container_queries.description
+    t: 親コンテナの大きさをもとにスタイルを書ける。
+  - key: features.scoping
+    t: スコープ
+  - key: features.scoping.description
+    t: スタイルがどこで適用されるかをより細かく指定できる。
+  - key: features.subgrid
+    t: サブグリッド
+  - key: features.subgrid.description
+    t: 親のグリッドの一部をさらにグリッド化する。
+
+  ###########################################################################
+  # Units & Selectors
+  ###########################################################################
+
+  - key: features_others.units
+    t: 単位
+  - key: features_others.units.description
+    t: どの単位を使ったことがあるか。
+
+  - key: options.units.px
+    t: px
+  - key: options.units.pt
+    t: pt
+  - key: options.units.percent
+    t: "%"
+  - key: options.units.em
+    t: em
+  - key: options.units.rem
+    t: rem
+  - key: options.units.vh_vw
+    t: vh, vw
+  - key: options.units.vmin_vmax
+    t: vmin, vmax
+  - key: options.units.ch
+    t: ch
+  - key: options.units.ex
+    t: ex
+  - key: options.units.mm
+    t: mm
+  - key: options.units.cm
+    t: cm
+  - key: options.units.in
+    t: in
+
+  - key: features_others.pseudo_elements
+    t: 疑似要素
+  - key: features_others.pseudo_elements.description
+    t: どの疑似要素を使ったことがあるか。
+
+  - key: options.pseudo_elements.before
+    t: "::before"
+  - key: options.pseudo_elements.after
+    t: "::after"
+  - key: options.pseudo_elements.first_line
+    t: "::first-line"
+  - key: options.pseudo_elements.first_letter
+    t: "::first-letter"
+  - key: options.pseudo_elements.selection
+    t: "::selection"
+  - key: options.pseudo_elements.placeholder
+    t: "::placeholder"
+  - key: options.pseudo_elements.marker
+    t: "::marker"
+  - key: options.pseudo_elements.backdrop
+    t: "::backdrop"
+
+  - key: features_others.combinators
+    t: 結合子セレクタ
+  - key: features_others.combinators.description
+    t: CSSセレクタの結合子のうち、どれを使ったことがあるか。
+
+  - key: options.combinators.descendant
+    t: div span (子孫)
+  - key: options.combinators.child
+    t: div > span (子)
+  - key: options.combinators.next_sibling
+    t: div + div (隣接)
+  - key: options.combinators.subsequent_sibling
+    t: div ~ div (兄弟)
+
+  - key: features_others.tree_document_structure
+    t: 木構造・ドキュメント構造
+  - key: features_others.tree_document_structure.description
+    t: 構造関連セレクタのうち、どれを使ったことがあるか。
+
+  - key: options.tree_document_structure.root
+    t: :root
+  - key: options.tree_document_structure.empty
+    t: :empty
+  - key: options.tree_document_structure.not
+    t: :not()
+  - key: options.tree_document_structure.nth_child
+    t: :nth-child()
+  - key: options.tree_document_structure.nth_last_child
+    t: :nth-last-child()
+  - key: options.tree_document_structure.first_child
+    t: :first-child
+  - key: options.tree_document_structure.last_child
+    t: :last-child
+  - key: options.tree_document_structure.only_child
+    t: :only-child
+  - key: options.tree_document_structure.nth_of_type
+    t: :nth-of-type()
+  - key: options.tree_document_structure.nth_last_of_type
+    t: :nth-last-of-type()
+  - key: options.tree_document_structure.first_of_type
+    t: :first-of-type
+  - key: options.tree_document_structure.last_of_type
+    t: :last-of-type
+  - key: options.tree_document_structure.only_of_type
+    t: :only-of-type
+  - key: options.tree_document_structure.lang
+    t: :lang()
+  - key: options.tree_document_structure.is
+    t: :is()
+  - key: options.tree_document_structure.where
+    t: :where()
+  - key: options.tree_document_structure.has
+    t: :has()
+
+  - key: features_others.attributes
+    t: 属性セレクタ
+  - key: features_others.attributes.description
+    t: 属性セレクタのうち、どれを使ったことがあるか。
+
+  - key: options.attributes.presence
+    t: div[foo] (属性の存在)
+  - key: options.attributes.equality
+    t: div[foo="bar"] (一致)
+  - key: options.attributes.starts_with
+    t: div[foo^="bar"] (開始)
+  - key: options.attributes.ends_with
+    t: div[foo$="bar"] (終了)
+  - key: options.attributes.contains_word
+    t: div[foo~="bar"] (単語の包含)
+  - key: options.attributes.contains_substring
+    t: div[foo*="bar"] (文字列の包含)
+
+  - key: features_others.links_urls
+    t: リンク・URL
+  - key: features_others.links_urls.description
+    t: リンク・URL関連のセレクタのうち、どれを使ったことがあるか。
+
+  - key: options.links_urls.any_link
+    t: :any-link
+  - key: options.links_urls.link_visited
+    t: :link / :visited
+  - key: options.links_urls.local_link
+    t: :local-link
+  - key: options.links_urls.target
+    t: :target
+
+  - key: features_others.interaction
+    t: インタラクション
+  - key: features_others.interaction.description
+    t: インタラクション関連セレクタのうち、どれを使ったことがあるか。
+
+  - key: options.interaction.hover
+    t: :hover
+  - key: options.interaction.active
+    t: :active
+  - key: options.interaction.focus
+    t: :focus
+  - key: options.interaction.focus_within
+    t: :focus-within
+  - key: options.interaction.focus_visible
+    t: :focus-visible
+
+  - key: features_others.form_controls
+    t: フォームコントロール
+  - key: features_others.form_controls.description
+    t: フォームコントロール関連セレクタのうち、どれを使ったことがあるか。
+
+  - key: options.form_controls.enabled_disabled
+    t: :enabled / :disabled
+  - key: options.form_controls.read_only_write
+    t: :read-only / :read-write
+  - key: options.form_controls.placeholder_shown
+    t: :placeholder-shown
+  - key: options.form_controls.default
+    t: :default
+  - key: options.form_controls.checked
+    t: :checked
+  - key: options.form_controls.indeterminate
+    t: :indeterminate
+  - key: options.form_controls.valid_invalid
+    t: :valid / :invalid
+  - key: options.form_controls.user_invalid
+    t: :user-invalid
+  - key: options.form_controls.in_out_range
+    t: :in-range / :out-of-range
+  - key: options.form_controls.required_optional
+    t: :required / :optional
+
+  ###########################################################################
+  # Environments
+  ###########################################################################
+
+  - key: environments.browsers
+    t: ブラウザー
+  - key: environments.browsers.description
+    t: どのブラウザーでテストしているか。
+
+  - key: environments.form_factors
+    t: 対応デバイス
+  - key: environments.form_factors.description
+    t: どんなデバイスでテストしているか。
+
+  - key: environments.accessibility_features
+    t: アクセシビリティ
+  - key: environments.accessibility_features.description
+    t: どんなアクセシビリティ機能を実装しているか。
+  - key: environments.accessibility_features.others
+    t: そのほかのアクセシビリティ機能
+  - key: environments.accessibility_features.others
+    t: 上記以外に実装しているアクセシビリティ機能。
+
+  - key: environments.css_for_print
+    t: 印刷用スタイル
+  - key: environments.css_for_print.description
+    t: 印刷用スタイルを書いているか。
+
+  - key: environments.css_for_email
+    t: メールクライアント用CSS
+  - key: environments.css_for_email.description
+    t: メール用のCSSを書いているか。
+
+  - key: environments.what_do_you_use_css_for
+    t: CSSの利用先
+  - key: environments.what_do_you_use_css_for.description
+    t: どんなプロジェクトでCSSを使っていますか。
+  - key: environments.what_do_you_use_css_for.others
+    t: そのほかのプロジェクト
+
+  - key: charts.axis_legends.css_for_print
+    t: 頻度
+  - key: charts.axis_legends.css_for_email
+    t: 頻度
+
+  - key: tools_others.tool_evaluation
+    t: ライブラリの評価
+  - key: tools_others.tool_evaluation.description
+    t: 新しいライブラリを評価するときに何をより重視するか、対決させてください。
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.css_easy_to_learn
+    t: CSSを学ぶのは簡単だ
+  - key: opinions.css_easy_to_learn.title
+    t: 学習曲線
+
+  - key: opinions.css_evolving_slowly
+    t: CSSの発展は遅すぎる
+  - key: opinions.css_evolving_slowly.title
+    t: 進歩の度合い
+
+  - key: opinions.utility_classes_to_be_avoided
+    t: セマンティックではない、ユーティリティクラス（.center、.large-textなど）は避けるべきだ
+  - key: opinions.utility_classes_to_be_avoided.title
+    t: セマンティックでないクラス
+
+  - key: opinions.selector_nesting_to_be_avoided
+    t: セレクタの入れ子（.foo .bar ul li {...}）は避けるべきだ
+  - key: opinions.selector_nesting_to_be_avoided.title
+    t: セレクタの入れ子
+
+  - key: opinions.css_is_programming_language
+    t: CSSはプログラミング言語だ
+  - key: opinions.css_is_programming_language.title
+    t: プログラミング言語
+
+  - key: opinions.enjoy_writing_css
+    t: CSSを書いていて楽しい
+  - key: opinions.enjoy_writing_css.title
+    t: 楽しさ
+
+  # Browser interoperability question
+  - key: opinions_others.browser_interoperability_features.others
+    t: ブラウザの差異
+  - key: opinions_others.browser_interoperability_features.others.description
+    t: >
+      ブラウザの差異が原因で使うのに苦労したCSSの機能はありますか？
+  # Pain Points
+  - key: opinions.css_pain_points
+    t: CSSでつらいところ
+  - key: opinions.css_pain_points.description
+    t: CSSのどんなところで苦労するか、対決させてください。
+
+  - key: opinions_others.css_pain_points.others
+    t: そのほかのつらいところ
+
+  # Missing Features
+  - key: opinions.css_missing_features
+    t: どんな機能がCSSに足りてないと思いますか？
+  - key: opinions.css_missing_features.description
+    t: CSSにあれば今すぐ使いたいと思う機能について、対決させてください。
+  - key: opinions_others.css_missing_features.others
+    t: CSSにいま足りないものは何か
+  - key: opinions_others.css_missing_features.others.description
+    t: CSSにいつかほしい機能。
+  - key: opinions_others.css_missing_features.others.note
+    t: >
+      これらの結果は自由入力の内容を正規化したものです。処理されていない生のデータは、[whatsmissingfromcss.com](http://whatsmissingfromcss.com/)からご覧ください。
+
+  - key: opinions.sum_up_one_word_css
+    t: CSSをひとことで言うと
+  - key: opinions.sum_up_one_word_css.description
+    t: CSSについてひとこと言うならなんでしょうか。
+
+  - key: happiness.pre_post_processors
+    t: プリプロセッサ・ポストプロセッサの現状に満足しているか
+  - key: happiness.css_in_js
+    t: CSS-in-JSライブラリの現状に満足しているか
+  - key: happiness.css_frameworks
+    t: CSSフレームワークの現状に満足しているか
+
+  - key: happiness.state_of_the_web
+    t: ウェブ技術の現状に満足しているか
+
+  - key: happiness.state_of_css
+    t: CSSの現状に満足しているか
+
+  # pain points/currently missing (results)
+  - key: css_pain_points.css_pain_points_wins
+    t: CSSのつらいところ
+  - key: css_pain_points.css_pain_points_wins.description
+    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: CSSのつらいところ（対戦）
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: CSSについて、最も悪戦苦闘している点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
+
+  - key: css_missing_features.css_missing_features_wins
+    t: CSSに足りていない機能
+  - key: css_missing_features.css_missing_features_wins.description
+    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果はトーナメントの各ラウンドの勝者の数で並べています。
+
+  - key: css_missing_features.css_missing_features_matchups
+    t: CSSに足りていない機能（対戦）
+  - key: css_missing_features.css_missing_features_matchups.description
+    t: CSSについて、いま使えたらなと最も思う機能はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.first_steps_css
+    t: CSSの最初の勉強方法
+  - key: resources.first_steps_css.description
+    t: 最初にCSSを学び始めたとき、どの方法で学びましたか。
