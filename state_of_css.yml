@@ -446,10 +446,6 @@ translations:
     t: スコープ
   - key: features.scoping.description
     t: スタイルがどこで適用されるかをより細かく指定できる。
-  - key: features.subgrid
-    t: サブグリッド
-  - key: features.subgrid.description
-    t: 親のグリッドの一部をさらにグリッド化する。
 
   ###########################################################################
   # Units & Selectors
