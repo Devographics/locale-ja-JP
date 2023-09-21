@@ -36,7 +36,7 @@ translations:
   # surveys
   - key: general.open_surveys
     t: 実施中のアンケート
-  - key: general.no_closed_surveys
+  - key: general.no_open_surveys
     t: 実施中のアンケートはありません。
   - key: general.closed_surveys
     t: 終了したアンケート

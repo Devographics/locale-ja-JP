@@ -651,7 +651,7 @@ translations:
     t: どんなアクセシビリティ機能を実装しているか。
   - key: environments.accessibility_features.others
     t: そのほかのアクセシビリティ機能
-  - key: environments.accessibility_features.others
+  - key: environments.accessibility_features.others.description
     t: 上記以外に実装しているアクセシビリティ機能。
 
   - key: environments.css_for_print
