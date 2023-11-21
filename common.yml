@@ -1033,7 +1033,7 @@ translations:
   # learning method
   - key: resources.first_steps
     t: 最初の勉強方法
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: 最初に学び始めたとき、コーディングはどのように勉強しましたか。
   - key: resources.first_steps.others
     t: そのほかの最初の勉強方法
@@ -1043,7 +1043,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: ブログ・マガジン
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: ブログやマガジンのうち、読んでいるのは何ですか？
   - key: resources.blogs_news_magazines.others
     t: そのほかのブログ・マガジン
@@ -1053,7 +1053,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: ウェブサイト・学習コース
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: ウェブサイトや学習コースのうち、参考にしているものは何ですか？
   - key: resources.sites_courses.others
     t: そのほかのウェブサイト・学習コース
@@ -1063,7 +1063,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: ポッドキャスト
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: プログラミングに関係するポッドキャストのうち、聞いているものは何ですか？
   - key: resources.podcasts.others
     t: そのほかのポッドキャスト
