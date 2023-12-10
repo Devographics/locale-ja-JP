@@ -26,9 +26,9 @@ translations:
   ###########################################################################
 
   - key: sections.features.title
-    t: Features
+    t: 機能
   - key: sections.features.description
-    t: Syntax, browser APIs, and other features.
+    t: 構文、ブラウザAPI、その他の機能
 
   - key: sections.syntax.title
     t: 構文
@@ -76,14 +76,14 @@ translations:
     t: アプリでのデータの読み込みや管理
 
   - key: sections.rendering_frameworks.title
-    t: Rendering Frameworks
+    t: レンダリングフレームワーク
   - key: sections.rendering_frameworks.description
-    t: Frameworks focused on rendering and serving your application
+    t: アプリケーションのレンダリングと配信に重点を置いたフレームワーク
 
   - key: sections.meta_frameworks.title
-    t: Meta-Frameworks
+    t: メタフレームワーク
   - key: sections.meta_frameworks.description
-    t: Frameworks focused on rendering and serving your application
+    t: アプリケーションのレンダリングと配信に重点を置いたフレームワーク
 
   - key: sections.back_end_frameworks.title
     t: バックエンドフレームワーク
@@ -121,29 +121,24 @@ translations:
     t: 以下のツールや技術について、普段使っているものにチェックをつけてください
 
   - key: sections.resources_js.title
-    t: Resources
+    t: リソース
   - key: sections.resources_js.description
-    t: What JavaScript resources do you consult?
+    t: 参照したことがあるJavaScriptのリソースはなんですか？
 
   - key: sections.usage_js.title
-    t: Usage
+    t: 使用状況
   - key: sections.usage_js.description
-    t: How you use JavaScript
+    t: どのようにJavaScriptを使用していますか？
 
   ###########################################################################
   # Survey Help
   ###########################################################################
 
   - key: features.features_intro
-    t: >
-      Welcome to the survey! This first part is all about figuring out 
-      which **features** of the JavaScript language you know about. 
-      And if you know about something but haven't yet used it, that's fine too!
+    t: アンケートへようこそ！1つ目のパートでは、JavaScriptの**機能**についてどれだけ知っているかを把握することが目的です。まだ使ったことがないけれど知っているものでも大丈夫です！
 
   - key: tools.tools_intro
-    t: >
-      The next couple sections focus on the **libraries** and **frameworks** that make up 
-      the JavaScript ecosystem. Let us know what you're excited about!
+    t: 次のいくつかのセクションでは、JavaScriptのエコシステムを構成する**ライブラリ**と**フレームワーク**に焦点を当てます。あなたが何に興奮しているか教えてください！
 
   ###########################################################################
   # Options
@@ -245,50 +240,50 @@ translations:
     aliasFor: options.js_pain_points.date_management.description
 
   - key: options.top_js_pain_points.performance
-    t: Performance
+    t: パフォーマンス
   - key: options.top_js_pain_points.performance.description
-    t: Writing performant and efficient JavaScript code
+    t: 高いパフォーマンスで効率的なJavaScriptコードを書く
 
   - key: options.top_js_pain_points.build_tools
-    t: Build Tools
+    t: ビルドツール
   - key: options.top_js_pain_points.build_tools.description
-    t: Managing tooling to bundle your code
+    t: コードのバンドルをするツールの管理
 
   - key: options.top_js_pain_points.typing
-    t: Typing
+    t: 型付け
   - key: options.top_js_pain_points.typing.description
-    t: Managing and maintaining types
+    t: 型の保守と管理
 
   - key: options.top_js_pain_points.build_tools
-    t: Build Tools
+    t: ビルドツール
   - key: options.top_js_pain_points.typing
-    t: Typing
+    t: 型付け
   - key: options.top_js_pain_points.typescript
     t: TypeScript
   - key: options.top_js_pain_points.esm_cjs
-    t: ESM vs CJS
+    t: ESM対CJS
   - key: options.top_js_pain_points.testing
-    t: Testing
+    t: テスト
   - key: options.top_js_pain_points.performance
-    t: Performance
+    t: パフォーマンス
   - key: options.top_js_pain_points.too_many_choices
-    t: Too Many Choices
+    t: 多すぎる選択肢
   - key: options.top_js_pain_points.react
     t: React
   - key: options.top_js_pain_points.bundlers
-    t: Bundlers
+    t: バンドラー
   - key: options.top_js_pain_points.complexity
-    t: Complexity
+    t: 複雑さ
   - key: options.top_js_pain_points.standard_library
-    t: Standard Library
+    t: 標準ライブラリ
   - key: options.top_js_pain_points.tooling
-    t: Tooling
+    t: ツール
   - key: options.top_js_pain_points.dependencies
-    t: Dependencies
+    t: 依存関係
   - key: options.top_js_pain_points.security
-    t: Security
+    t: セキュリティ
   - key: options.top_js_pain_points.slow
-    t: Slowness
+    t: 遅さ
 
   # JS missing features
   - key: options.currently_missing_from_js.static_typing
@@ -384,25 +379,25 @@ translations:
 
   # What do you use JS for?
   - key: options.what_do_you_use_js_for.frontend_development
-    t: Frontend Development
+    t: フロントエンド開発
   - key: options.what_do_you_use_js_for.backend_development
-    t: Backend Development
+    t: バックエンド開発
   - key: options.what_do_you_use_js_for.data_analysis
-    t: Data Analysis
+    t: データ分析
   - key: options.what_do_you_use_js_for.machine_learning
-    t: Machine Learning
+    t: 機械学習
   - key: options.what_do_you_use_js_for.desktop_apps
-    t: Desktop Apps
+    t: デスクトップアプリ開発
   - key: options.what_do_you_use_js_for.mobile_apps
-    t: Mobile Apps
+    t: モバイルアプリ開発
   - key: options.what_do_you_use_js_for.embedded_apps
-    t: Embedded Apps
+    t: 組み込みアプリ開発
   - key: options.what_do_you_use_js_for.game_development
-    t: Game Development
+    t: ゲーム開発
   - key: options.what_do_you_use_js_for.data_visualization
-    t: Data Visualization
+    t: データ可視化
   - key: options.what_do_you_use_js_for.graphics_animation
-    t: Graphics & Animation
+    t: グラフィックス＆アニメーション
 
   - key: options.what_do_you_use_js_for.scripting
     t: Scripting
@@ -428,64 +423,64 @@ translations:
   # JS App Patterns
 
   - key: options.js_app_patterns.single_page_app
-    t: Single Page Application (SPA)
+    t: シングルページアプリケーション（SPA）
   - key: options.js_app_patterns.single_page_app.description
-    t: Apps that run entirely in the browser
+    t: ほとんどがブラウザ上（クライアントサイド）で動作するアプリケーション
   - key: options.js_app_patterns.multiple_page_app
-    t: Multi-Page Application (MPA)
+    t: マルチページアプリケーション（MPA）
   - key: options.js_app_patterns.multiple_page_app.description
-    t: Apps that run entirely on the server, with minimal client-side dynamic behavior
+    t: ほとんどがサーバーサイドで動作し、クライアントサイドの動的な振る舞いが最小限であるアプリケーション
   - key: options.js_app_patterns.static_site_generation
-    t: Static Site Generation (SSG)
+    t: 静的サイト生成（SSG）
   - key: options.js_app_patterns.static_site_generation.description
-    t: Static content pre-rendered at build time, with or without a client-side dynamic element
+    t: ビルド時に静的コンテンツが事前に生成され、クライアントサイドの動的生成はあったりなかったりする手法
   - key: options.js_app_patterns.server_side_rendering
-    t: Server-Side Rendering (SSR)
+    t: サーバーサイドレンダリング（SSR）
   - key: options.js_app_patterns.server_side_rendering.description
-    t: Dynamically rendering HTML content on the server on request, before rehydrating it on the client
+    t: リクエストに応じてサーバー上でHTMLコンテンツを動的にレンダリングし、その後クライアント上で全体をハイドレーションする手法
   - key: options.js_app_patterns.partial_hydration
-    t: Partial Hydration
+    t: 部分的なハイドレーション（Partial Hydration）
   - key: options.js_app_patterns.partial_hydration.description
-    t: Only hydrating some of your components on the client (e.g. React Server Components)
+    t: 特定のコンポーネントのみをハイドレーションする手法（例：React Server Components）
   - key: options.js_app_patterns.progressive_rehydration
-    t: Progressive Hydration
+    t: プログレッシブハイドレーション（Progressive Hydration）
   - key: options.js_app_patterns.progressive_rehydration.description
-    t: Controlling the order of component hydration on the client
+    t: ハイドレーションするコンポーネントの順番を制御する手法
   - key: options.js_app_patterns.islands_architecture
-    t: Islands Architecture
+    t: アイランドアーキテクチャ（Islands Architecture）
   - key: options.js_app_patterns.islands_architecture.description
-    t: Isolated islands of dynamic behavior with multiple entry points in an otherwise static site (Astro, Eleventy)
+    t: 静的サイト内に動的な振る舞いをする孤立した島のような部分を複数組み合わせて作るアーキテクチャ（例：Astro、Eleventy）
   - key: options.js_app_patterns.progressive_enhancement
-    t: Progressive Enhancement
+    t: プログレッシブエンハンスメント（Progressive Enhancement）
   - key: options.js_app_patterns.progressive_enhancement.description
-    t: Making sure an app is functional even without JavaScript
+    t: JavaScriptが無効でもアプリケーションが最低限機能するように作る戦略
   - key: options.js_app_patterns.incremental_static_generation
-    t: Incremental Static Generation
+    t: インクリメンタル静的生成（Incremental Static Generation）
   - key: options.js_app_patterns.incremental_static_generation.description
-    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR & on-demand revalidation, Gatsby DSG)
+    t: 初回のビルド後も静的サイトを動的に更新、変更可能にする手法（Next.jsのISR & on-demand revalidation、GatsbyのDSG）
   - key: options.js_app_patterns.streaming_ssr
-    t: Streaming SSR
+    t: ストリーミングサーバサイドレンダリング（Streaming SSR）
   - key: options.js_app_patterns.streaming_ssr.description
-    t: Breaking down server-rendered content in smaller streamed chunks
+    t: サーバーサイドでレンダリングされたコンテンツを小さなストリーミングチャンク分割して扱う手法
   - key: options.js_app_patterns.resumability
-    t: Resumability
+    t: 再開可能性（Resumability）
   - key: options.js_app_patterns.resumability.description
-    t: Serializing framework state on the server so the client can resume execution with no duplicated code execution.
+    t: サーバ上でフレームワークの状態をシリアライズすることで、クライアントがコードの重複実行なしで再開できるようにする手法
   - key: options.js_app_patterns.edge_rendering
-    t: Edge Rendering
+    t: エッジレンダリング（Edge Rendering）
   - key: options.js_app_patterns.edge_rendering.description
-    t: Altering rendered HTML at the edge before sending it on to the client
+    t: クライアントに送信する前に、エッジでレンダリングされたHTMLを変更する手法
   - key: options.js_app_patterns.partial_prerendering
-    t: Partial Prerendering
+    t: パーシャルプリレンダリング（Partial Prerendering）
   - key: options.js_app_patterns.partial_prerendering.description
-    t: Render a route with a static loading shell, while keeping some parts dynamic
+    t: ルート内で一部を動的に保ちつつ、静的な部分はシェルとして事前にレンダリングする手法
 
   - key: options.js_app_patterns.micro_frontend
-    t: Micro Frontend
+    t: マイクロフロントエンド
   - key: options.js_app_patterns.domain_driven_design
-    t: Domain-Driven Design
+    t: ドメイン駆動デザイン
   - key: options.js_app_patterns.serverless
-    t: Serverless
+    t: サーバーレス
   - key: options.js_app_patterns.pespa
     t: PESPA
 
@@ -521,9 +516,9 @@ translations:
   - key: features.arrow_functions
     t: アロー関数（arrow functions）
   - key: features.nullish_coalescing
-    t: Nullish Coalescing
+    t: Null 合体演算子（Nullish Coalescing）
   - key: features.optional_chaining
-    t: Optional Chaining
+    t: オプショナルチェーン（Optional Chaining）
   - key: features.private_fields
     t: プライベートフィールド
 
@@ -542,39 +537,39 @@ translations:
     t: Dynamic Import
 
   - key: features.syntax_features
-    t: Syntax Features
+    t: 構文機能
   - key: features.syntax_features.question
-    t: Which of these syntax features have you used?
+    t: どの構文機能を使ったことがありますか？
 
   - key: features.string_features
-    t: String Features
+    t: 文字列の機能
   - key: features.string_features.question
-    t: Which of these String features have you used?
+    t: どの文字列機能を使ったことがありますか？
 
   - key: features.array_features
-    t: Array Features
+    t: 配列の機能
   - key: features.array_features.question
-    t: Which of these Array features have you used?
+    t: どの配列機能を使ったことがありますか？
 
   - key: features.async_features
-    t: Async Features
+    t: 非同期の機能
   - key: features.async_features.question
-    t: Which of these async features have you used?
+    t: どの非同期機能を使ったことがありますか？
 
   - key: features.browser_api_features
-    t: Browser APIs
+    t: ブラウザのAPI
   - key: features.browser_api_features.question
-    t: Which of these browser APIs have you used?
+    t: どのブラウザAPIを使ったことがありますか？
 
   - key: features.language_pain_points
-    t: Language Pain Points
+    t: 言語のつらいところ
   - key: features.language_pain_points.question
-    t: What are your main pain points regarding the JavaScript language?
+    t: JavaScript言語に関して、つらいと感じるところは何ですか？
 
   - key: features.browser_apis_pain_points
-    t: Browser APIs Pain Points
+    t: ブラウザAPIのつらいところ
   - key: features.browser_apis_pain_points.question
-    t: What are your main pain points regarding browser APIs?
+    t: ブラウザAPIに関して、つらいと感じるところは何ですか？
 
   # patterns
   - key: patterns.object_oriented_programming
@@ -608,102 +603,100 @@ translations:
     t: これは[Angular](https://angular.io/)についてで、非推奨になった[AngularJS](https://angularjs.org/)のものではないことに注意してください。
 
   - key: tools.best_of_js_projects.note
-    t: >
-      Libraries are loaded from [Best of JS](https://bestofjs.org/). 
-      If a project is missing, you can [submit it here](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
+    t: ライブラリは[Best of JS](https://bestofjs.org/)から読み込まれます。プロジェクトが見つからない場合は、[GitHubのIssue](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md)を立てることができます。
 
   # front-end frameworks
   - key: tools.front_end_frameworks_happiness
-    t: Front-end Frameworks Happiness
+    t: フロントエンドフレームワークの満足度
   - key: tools.front_end_frameworks_happiness.question
-    t: How happy are you with the current state of front-end frameworks?
+    t: フロントエンドフレームワークの現状にどのくらい満足していますか？
 
   - key: tools.front_end_frameworks_pain_points
-    t: Front-end Frameworks Pain Points
+    t: フロントエンドフレームワークのつらいところ
   - key: tools.front_end_frameworks_pain_points.question
-    t: What pain points have you encountered when using front-end frameworks?
+    t: フロントエンドフレームワークを使うときに、つらいと感じるところは何ですか？
 
   # meta-frameworks
 
   - key: tools.meta_frameworks_happiness
-    t: Meta-Frameworks Happiness
+    t: メタフレームワークの満足度
   - key: tools.meta_frameworks_happiness.question
-    t: How happy are you with the current state of meta-frameworks?
+    t: メタフレームワークの現状にどのくらい満足していますか？
 
   - key: tools.meta_frameworks_pain_points
-    t: Meta-Frameworks Pain Points
+    t: メタフレームワークのつらいところ
   - key: tools.meta_frameworks_pain_points.question
-    t: What pain points have you encountered when using meta-frameworks?
+    t: メタフレームワークを使うときに、つらいと感じるところは何ですか？
 
   # testing
 
   - key: tools.testing_happiness
-    t: Testing Happiness
+    t: テストの満足度
   - key: tools.testing_happiness.question
-    t: How happy are you with the current state of testing tools?
+    t: テストツールの現状にどのくらい満足していますか？
 
   - key: tools.testing_pain_points
-    t: Testing Pain Points
+    t: テストのつらいところ
   - key: tools.testing_pain_points.question
-    t: What pain points have you encountered when using testing tools?
+    t: テストツールを使うときに、つらいと感じるところは何ですか？
 
   # mobile & desktop
 
   - key: tools.mobile_desktop_happiness
-    t: Mobile & Desktop Happiness
+    t: モバイル＆デスクトップ開発の満足度
   - key: tools.mobile_desktop_happiness.question
-    t: How happy are you with the current state of mobile & desktop tools?
+    t: モバイル＆デスクトップアプリ開発の現状にどのくらい満足していますか？
 
   - key: tools.mobile_desktop_pain_points
-    t: Mobile & Desktop Pain Points
+    t: モバイル＆デスクトップ開発のつらいところ
   - key: tools.mobile_desktop_pain_points.question
-    t: What pain points have you encountered when using JavaScript to build mobile & desktop apps?
+    t: モバイル＆デスクトップアプリ開発をするときに、つらいと感じるところは何ですか？
 
   # build tools
 
   - key: tools.build_tools_happiness
-    t: Build Tools Happiness
+    t: ビルドツールの満足度
   - key: tools.build_tools_happiness.question
-    t: How happy are you with the current state of build tools?
+    t: ビルドツールの現状にどのくらい満足していますか？
 
   - key: tools.build_tools_pain_points
-    t: Build Tools Pain Points
+    t: ビルドツールのつらいところ
   - key: tools.build_tools_pain_points.question
-    t: What pain points have you encountered when using build tools?
+    t: ビルドツールを使うときに、つらいと感じるところは何ですか？
 
   # monorepo tools
 
   - key: tools.monorepo_tools_happiness
-    t: Monorepo Happiness
+    t: モノレポツールの満足度
   - key: tools.monorepo_tools_happiness.question
-    t: How happy are you with the current state of monorepo tools?
+    t: モノレポツールの現状にどのくらい満足していますか？
 
   - key: tools.monorepo_tools_pain_points
-    t: Monorepo Pain Points
+    t: モノレポツールのつらいところ
   - key: tools.monorepo_tools_pain_points.question
-    t: What pain points have you encountered when using monorepo tools?
+    t: モノレポツールを使うときに、つらいと感じるところは何ですか？
 
   ###########################################################################
   # Other Tools
   ###########################################################################
 
   - key: tools_others.libraries
-    t: Libraries
+    t: ライブラリ
   - key: tools_others.libraries.description
-    t: Which libraries do you regularly use?
+    t: 普段どのライブラリを使っていますか？
   - key: tools_others.libraries.others
-    t: Other Libraries
+    t: そのほかのライブラリ
   - key: tools_others.libraries.others.description
-    t: Other answers (freeform field).
+    t: そのほかの回答（自由入力欄）
 
   - key: tools_others.text_editors
-    t: Text Editors
+    t: テキストエディタ
   - key: tools_others.text_editors.description
-    t: Which text editor(s) do you regularly use?
+    t: 普段どのテキストエディタを使っていますか？
   - key: tools_others.text_editors.others
-    t: Other Text Editors
+    t: そのほかのテキストエディタ
   - key: tools_others.text_editors.others.description
-    t: Other answers (freeform field).
+    t: そのほかの回答（自由入力欄）
 
   - key: tools_others.utilities
     t: Utilities
@@ -712,7 +705,7 @@ translations:
   - key: tools_others.utilities.others
     t: Other Utilities
   - key: tools_others.utilities.others.description
-    t: Other utilities (freeform field).
+    t: Other utilities（自由入力欄）
 
   - key: tools_others.browsers
     t: Browsers
@@ -721,7 +714,7 @@ translations:
   - key: tools_others.browsers.others
     t: Other Browsers
   - key: tools_others.browsers.others.description
-    t: Other answers (freeform field).
+    t: そのほかの回答（自由入力欄）
 
   - key: tools_others.build_tools
     t: Build Tools
@@ -730,7 +723,7 @@ translations:
   - key: tools_others.build_tools.others
     t: Other Build Tools
   - key: tools_others.build_tools.others.description
-    t: Other answers (freeform field).
+    t: そのほかの回答（自由入力欄）
 
   - key: tools_others.non_js_languages
     t: Non-JavaScript Languages
@@ -739,7 +732,7 @@ translations:
   - key: tools_others.non_js_languages.others
     t: Other Languages
   - key: tools_others.non_js_languages.others.description
-    t: Other answers (freeform field).
+    t: そのほかの回答（自由入力欄）
 
   - key: tools_others.javascript_flavors
     t: JavaScript Flavors
@@ -748,7 +741,7 @@ translations:
   - key: tools_others.javascript_flavors.others
     t: Other JavaScript Flavors
   - key: tools_others.javascript_flavors.others.description
-    t: Other answers (freeform field).
+    t: そのほかの回答（自由入力欄）
 
   - key: tools_others.runtimes
     t: JavaScriptランタイム
@@ -795,18 +788,18 @@ translations:
     t: Other Data Visualization Libraries
 
   - key: tools_others.graphics_animation
-    t: Graphics & Animations
+    t: グラフィックス＆アニメーション
   - key: tools_others.graphics_animation.description
-    t: Libraries dedicated to graphics and animation.
+    t: グラフィックスとアニメーションに特化したライブラリ
   - key: tools_others.graphics_animation.others
-    t: Other Graphics & Animations Libraries
+    t: そのほかのグラフィックス＆アニメーションライブラリ
 
   - key: tools_others.data_fetching
-    t: Data Fetching
+    t: データ取得
   - key: tools_others.data_fetching.description
-    t: Libraries that manage data fetching and caching.
+    t: データ取得とキャッシュ処理に特化したライブラリ
   - key: tools_others.data_fetching.others
-    t: Other Data Fetching Libraries
+    t: そのほかのデータ取得ライブラリ
 
   - key: other_tools.libraries
     aliasFor: tools_others.libraries
@@ -944,65 +937,66 @@ translations:
     aliasFor: tools_others.backend_frameworks.others
 
   - key: other_tools.ai_tools
-    t: AI Tools
+    t: AIツール
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
+    t: コードを書くために、普段使っているAIツールはありますか？
 
   - key: other_tools.hosting
-    t: Hosting Services
+    t: サービスのホスティング
   - key: other_tools.hosting.question
-    t: Which of these services have you used to host JavaScript apps?
+    t: JavaScriptアプリケーションをホスティングするためのに使ったことがあるツールはありますか？
 
   ###########################################################################
   # Usage
   ###########################################################################
 
   - key: usage.js_app_patterns
-    t: Application Patterns
+    t: アプリケーションパターン
   - key: usage.js_app_patterns.question
-    t: Which of the following architecture and rendering patterns have you used **in the last year**?
+    t: >
+      **過去1年間**で、どのアーキテクチャやレンダリングパターンを使用しましたか？
   - key: usage.js_app_patterns.others
-    t: Other App Patterns
+    t: その他のアプリケーションパターン
 
   - key: usage.what_do_you_use_js_for
-    t: JavaScript Usage
+    t: JavaScriptの使用状況
   - key: usage.what_do_you_use_js_for.question
-    t: What do you use JavaScript for?
+    t: どのような目的でJavaScriptを使っていますか？
   - key: usage.what_do_you_use_js_for.others
-    t: Other JavaScript Use Cases
+    t: そのほかのJavaScriptユースケース
 
   - key: usage.js_ts_balance
-    t: JavaScript/TypeScript Balance
+    t: JavaScriptとTypeScriptのバランス
   - key: usage.js_ts_balance.question
-    t: How do you divide your time between writing JavaScript and TypeScript code?
+    t: どのくらいの割合でJavaScriptとTypeScriptを書いていますか？
 
   - key: tools_others.edge_runtimes
-    t: JavaScript Edge/Serverless Runtimes
+    t: JavaScriptのエッジ/サーバーレスランタイム
   - key: tools_others.edge_runtimes.question
-    t: Which edge or serverless runtimes do you regularly use?
+    t: いつもどのエッジ/サーバーレスランタイムを使っていますか？
   - key: tools_others.edge_runtimes.others
-    t: Other Edge Runtimes
+    t: そのほかのエッジランタイム
   - key: other_tools.edge_runtimes
     aliasFor: tools_others.edge_runtimes
   - key: other_tools.edge_runtimes.description
     aliasFor: tools_others.edge_runtimes.question
 
   - key: usage.usage_type
-    t: JavaScript Usage
+    t: JavaScriptの使用状況
   - key: usage.usage_type.question
-    t: In what context do you primarily use JavaScript?
+    t: 主にどのようなコンテキストでJavaScriptを使っていますか？
   - key: usage.usage_type.others
-    t: Other Usages
+    t: そのほかの使用状況
 
   - key: opinions.pick_of_the_year
-    t: Your “Pick of the Year”
+    t: 今年のイチオシ
   - key: opinions.pick_of_the_year.description
-    t: The name of a feature, library, website, person, etc. you want to highlight this year.
+    t: あなたが今年ハイライトしたい機能、ライブラリ、ウェブサイト、人などの名前
 
   - key: usage.industry_sector_js
     aliasFor: usage.industry_sector
   - key: usage.industry_sector_js.question
-    t: Which industry sector(s) are you using JavaScript in?
+    t: あなたがJavaScriptを使用している業界は何ですか？
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
 
@@ -1046,7 +1040,7 @@ translations:
   - key: happiness.monorepo_tools
     t: モノレポツールの現状に満足していますか？
   - key: happiness.rendering_frameworks
-    t: How happy are you with the state of rendering frameworks?
+    t: レンダリングフレームワークの現状に満足していますか？
 
   - key: happiness.state_of_the_web
     t: ウェブ技術の現状に満足していますか？
@@ -1063,7 +1057,7 @@ translations:
   - key: usage.top_js_pain_points
     aliasFor: opinions.js_pain_points
   - key: usage.top_js_pain_points.question
-    t: What aspects of JavaScript do you struggle with the most?
+    t: JavaScriptのどこに一番苦労していますか？
 
   - key: opinions.js_pain_points
     t: JavaScriptのつらいところ
@@ -1075,7 +1069,7 @@ translations:
   - key: opinions.top_js_pain_points
     aliasFor: opinions.js_pain_points
   - key: opinions.top_js_pain_points.description
-    t: Pick the top 3 aspects of JavaScript you struggle with the most.
+    t: JavaScriptにおいてあなたが苦労している要素を3つ選んでください。
   - key: opinions_others.top_js_pain_points.others
     aliasFor: opinions_others.js_pain_points.others
   - key: opinions.top_js_pain_points.others
@@ -1084,7 +1078,7 @@ translations:
   # Missing Features
 
   - key: usage.top_currently_missing_from_js
-    t: Missing Features
+    t: 欠けている機能
   - key: usage.top_currently_missing_from_js.question
     aliasFor: opinions.currently_missing_from_js
 
@@ -1098,7 +1092,7 @@ translations:
   - key: opinions.top_currently_missing_from_js
     aliasFor: opinions.currently_missing_from_js
   - key: opinions.top_currently_missing_from_js.description
-    t: Pick the top 3 features you'd most like to be able to use in JavaScript today.
+    t: JavaScriptで今すぐに利用したい機能を3つ選んでください。
   - key: opinions_others.top_currently_missing_from_js.others
     aliasFor: opinions_others.currently_missing_from_js.others
   - key: opinions.top_currently_missing_from_js.others

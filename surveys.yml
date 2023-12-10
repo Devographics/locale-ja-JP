@@ -123,13 +123,13 @@ translations:
   ###########################################################################
 
   - key: accounts.create_account
-    t: Continue with Account
+    t: アカウントを使って回答する
   - key: accounts.create_account.description
-    t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
+    t: アカウントがあれば自分の回答データを見返すことができ、調査結果が公開されたタイミングで通知を受け取ることができます。
   - key: accounts.create_account.note
-    t: If you **already have an account** we will send you a magic log-in link by email.
+    t: すでにアカウントをお持ちの方には、ログインのためのメールでマジックリンクを送信します。
   - key: accounts.create_account.action
-    t: Continue with Account
+    t: アカウントを使って回答する
   - key: accounts.your_email
     t: Your Email
 
@@ -139,11 +139,11 @@ translations:
     t: Upgrading your account with an email address will let you access your survey response after you end your session.
 
   - key: accounts.continue_as_guest
-    t: Continue as Guest
+    t: ゲストとして回答する
   - key: accounts.continue_as_guest.description
-    t: Taking the survey anonymously means you **won't be able to access your data again** after you end your session.
+    t: 匿名で回答することもできますが、セッションが終了したあとは自分の回答データを見返すことはできません。
   - key: accounts.continue_as_guest.action
-    t: Continue as Guest
+    t: ゲストとして回答する
 
   - key: accounts.magic_link.no_email
     t: Please enter your email
@@ -599,54 +599,53 @@ translations:
 
   - key: general.js2023.survey_intro
     t: >
-      JavaScript started its life as a browser language, and then went to on conquer the server with Node.js. 
+      JavaScriptはブラウザで動く言語として生まれ、その後Node.jsを使ってサーバでも活躍するようになりました。 
 
 
-      And it 2023, it seems like the ecosystem as a whole might finally be ready to try and bridge that gap. Between features like React Server Components, frameworks like Solid and Qwik, or meta-frameworks like Next.js and Sveltekit, providing a better way of serving code and data to clients has become JavaScript's next big goal. 
+      そして2023年、エコシステム全体がそのギャップを埋めるための準備が整ったようにみえます。React Server Componentsのような機能や、Solid、Qwikといったフレームワーク、またNext.jsやSveltekitといったメタフレームワークでは、クライアントに対してコードとデータを提供するためのより良い手段を提供することが、JavaScriptの次なる大きな目標となっています。
 
 
-      Or should we say TypeScript? At this point it's become hard to disentangle the two, so let's not even try. 
+      あるいはTypeScriptと言うべきでしょうか？この時点では、これら二つを切り離すのは難しくなってきています。
 
 
-      Instead, take the survey and help us figure out what's new, what's old, and what async/awaits us in the years to come!
+      何が新しいか、古いか、そして今後の数年で何が私たちを待ち受けているのかを知るためにアンケートにご参加ください！
 
   - key: faq.data_used_js2023
-    t: How will this data be used?
+    t: 回答したデータはどのように使用されますか？
   - key: faq.data_used_js2023.description
     t: >
-      All data collected will be released openly for anybody to consult. Developers or companies may use it to prioritize focus areas and inform their roadmaps.
+      集めたデータはすべて公開され、誰でも参照できるようになります。開発者や企業は、これを参考にして重点分野の優先順位付けをしたり、ロードマップを立てるために役立てることができます。
 
   - key: faq.survey_goals_js2023
-    t: What are the survey's goals?
+    t: この調査の目的は何ですか？
   - key: faq.survey_goals_js2023.description
     t: >
-      The survey's goals are to measure awareness and popularity of JavaScript features and libraries in order to anticipate future trends.
+      この調査の目的はJavaScriptの機能やライブラリの認知度や人気を測定し、今後のトレンドを予測することです。
 
   - key: faq.who_should_take_survey_js2023
-    t: Who should take this survey?
+    t: このアンケートの対象者は誰ですか？
   - key: faq.who_should_take_survey_js2023.description
     t: >
-      This is an open survey for anybody who uses JavaScript (or TypeScript), whether regularly or occasionally, as part of their job, as a student, or just for fun!
+      このアンケートはJavaScript（または TypeScript）を、仕事として、学生として、あるいは単なる趣味として使っている人なら誰でも参加できるオープンなアンケートです！
 
   - key: faq.how_long_will_survey_take_js2023
-    t: How long will answering the survey take?
+    t: このアンケートの回答にはどのくらいの時間がかかりますか？
   - key: faq.how_long_will_survey_take_js2023.description
     t: >
-      Depending on how many questions you answer (all questions are optional),
-      filling out the survey should take around 15-20 minutes.
+      回答する質問の数によりますが、アンケートの所要時間は15〜20分程度です。（すべての質問は任意です）
 
   - key: faq.learn_more_js2023
-    t: Where can I learn more?
+    t: 調査についてもっと詳しく知りたいです！
   - key: faq.learn_more_js2023.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah).
+    t: この調査についての詳細は「[The State of JS 2023 Survey is Now Open](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah)」をご覧ください！
 
   - key: faq.survey_design_js2023
-    t: How was this survey designed?
+    t: この調査の内容はどのように設計されていますか？
   - key: faq.survey_design_js2023.description
-    t: >
-      The survey was designed with input from the community through an [open feedback thread](https://github.com/Devographics/surveys/issues/224).
+    t:
+      この調査は「[State of JS 2023 Feedback](https://github.com/Devographics/surveys/issues/224)」を通して、コミュニティからの意見をもとに組み立てられました。
 
   - key: faq.results_released_js2023
-    t: When will the results be released?
+    t: 結果はいつ公開されますか？
   - key: faq.results_released_js2023.description
-    t: The survey will run from November 22 to December 12, and the survey results will be released shortly after that.
+    t: 調査期間は11月22日から12月12日までで、調査結果はその後まもなく公開される予定です。
