@@ -23,7 +23,7 @@ translations:
     t: Hidden
 
   - key: general.pick_up_to
-    t: Pick up to {limit} items.
+    t: 最大{limit}つ選択してください。
 
   - key: general.privacy_policy
     t: Privacy Policy
@@ -69,13 +69,13 @@ translations:
     t: Item {index}…
 
   - key: feature.unimplemented
-    t: No browser implementation yet
+    t: どのブラウザも未実装
 
   - key: general.skip_question
-    t: Skip
+    t: スキップ
 
   - key: general.unskip_question
-    t: Answer Question
+    t: 回答する
 
   - key: general.skip_question.description
     t: Skip question and mark it as completed
@@ -84,10 +84,10 @@ translations:
     t: Unskip question and answer it
 
   - key: years.less_than_one_year
-    t: Less than one year
+    t: 1年未満
 
   - key: years.years
-    t: years
+    t: 年
 
   - key: likert.option.0
     t: Very Unhappy
@@ -108,7 +108,7 @@ translations:
   ###########################################################################
 
   - key: error.duplicate_response
-    t: Sorry, you already have a session in progress for this survey.
+    t: ごめんなさい、このアンケートに関してすでに進行中のセッションがあるようです。
 
   - key: error.report_issue
     t: Report issue
@@ -116,7 +116,7 @@ translations:
   - key: success.data_saved
     t: Data Saved
   - key: success.data_saved.description
-    t: Your data has been saved.
+    t: 保存されました。
 
   ###########################################################################
   # Accounts
@@ -134,9 +134,9 @@ translations:
     t: Your Email
 
   - key: accounts.upgrade_account.action
-    t: Upgrade your account
+    t: アカウントをアップグレードする
   - key: accounts.upgrade_account.description
-    t: Upgrading your account with an email address will let you access your survey response after you end your session.
+    t: セッションが終了した後も自分の回答にアクセスしたい場合はメールアドレスを使用してアカウントをアップグレードしてください。
 
   - key: accounts.continue_as_guest
     t: ゲストとして回答する
@@ -238,44 +238,42 @@ translations:
 
   - key: readinglist.prompt
     t: >
-      You picked “{option}”. If you'd like to learn more about this feature at the end of the survey, you can click the "+" icon above to add it to your **reading list**.
+      あなたは “{option}” を選びました。"+"ボタンをクリックしてリーディングリストに追加すれば、アンケート終了後にこの機能についてもっと詳しく知ることができます。
 
   - key: readinglist.add_to_list
-    t: Add to Your Reading List
+    t: リーディングリストに追加する
 
   - key: readinglist.remove_from_list
-    t: Remove from Reading List
+    t: リーディングリストから削除する
 
   - key: readinglist.added_to_list
-    t: Added “{label}” to your reading list.
+    t: “{label}” をリーディングリストに追加しました。
 
   - key: readinglist.title
-    t: Reading List
+    t: リーディングリスト
 
   - key: readinglist.description
     t: >
-      Save items here using the "+" button, and you'll get a list of links to learn more about them at the end of the survey.
+      "+"ボタンをクリックしてリーディングリストに追加すれば、アンケート終了後にリンクの一覧が表示されます。
 
   - key: readinglist.empty
     t: >
-      You don't have any items in your reading list.
-      Try going back to the survey and adding features or libraries you'd like
-      to learn more about using the "+" button.
+      リーディングリストには項目がありません。アンケートに戻り、詳しく知りたい機能やライブラリの"+"ボタンをクリックして、リーディングリストに追加してみてください。
 
   - key: readinglist.results
     t: >
-      Here are some resources to learn more about the items in your reading list:
+      以下のリンクから、あなたがリーディングリストに追加した項目についてさらに学ぶことができます：
 
   - key: readinglist.homepage_link
-    t: Homepage
+    t: ホームページ
 
   - key: readinglist.receive_copy
     t: >
-      Enter your email to get a copy of your reading list straight in your inbox:
+      リーディングリストをメールで受け取るためには、メールアドレスを入力してください：
   - key: readinglist.send_by_email
-    t: Send
+    t: 送信
   - key: readinglist.email_sent
-    t: Thanks! Your reading list is on its way to your inbox.
+    t: ありがとう！あなたのリーディングリストは、あなたのメールボックスに送られています。
 
   ###########################################################################
   # Score & Knowledge Ranks
@@ -602,7 +600,7 @@ translations:
       JavaScriptはブラウザで動く言語として生まれ、その後Node.jsを使ってサーバでも活躍するようになりました。 
 
 
-      そして2023年、エコシステム全体がそのギャップを埋めるための準備が整ったようにみえます。React Server Componentsのような機能や、Solid、Qwikといったフレームワーク、またNext.jsやSveltekitといったメタフレームワークでは、クライアントに対してコードとデータを提供するためのより良い手段を提供することが、JavaScriptの次なる大きな目標となっています。
+      2023年は、エコシステム全体がそのギャップを橋渡しするための準備を整えたようにみえます。React Server Componentsのような機能や、Solid、Qwikといったフレームワーク、またNext.jsやSveltekitといったメタフレームワークでは、クライアントに対してコードとデータをより良い手段で提供することが、JavaScriptの次なる大きな目標となっています。
 
 
       あるいはTypeScriptと言うべきでしょうか？この時点では、これら二つを切り離すのは難しくなってきています。

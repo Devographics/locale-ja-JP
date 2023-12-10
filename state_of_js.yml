@@ -108,7 +108,7 @@ translations:
   - key: sections.monorepo_tools.title
     t: モノレポのツール
   - key: sections.monorepo_tools.description
-    t: JavaScriptモノレポの管理に使うツール
+    t: モノレポの管理に使うツール
 
   - key: sections.tools_others.title
     t: そのほかのツール
@@ -118,7 +118,7 @@ translations:
   - key: sections.other_tools.title
     t: そのほかのツール
   - key: sections.other_tools.description
-    t: 以下のツールや技術について、普段使っているものにチェックをつけてください
+    t: 各ツールや技術について、普段使っているものにチェックをつけてください
 
   - key: sections.resources_js.title
     t: リソース
@@ -1045,12 +1045,12 @@ translations:
   - key: happiness.state_of_the_web
     t: ウェブ技術の現状に満足していますか？
   - key: happiness.state_of_the_web.question
-    t: How happy are you with the general state of web technologies?
+    t: ウェブ技術全般の現状ついてどれくらい満足していますか？
 
   - key: happiness.state_of_js
     t: JavaScriptの現状に満足していますか？
   - key: happiness.state_of_js.question
-    t: How happy are you with the general state of JavaScript?
+    t: JavaScript全般の現状ついてどれくらい満足していますか？
 
   # Pain Points
 
