@@ -353,11 +353,11 @@ translations:
     t: 使ったことがある
 
   # features (no emoji, short versions)
-  - key: options.features.never_heard.short
+  - key: options.features.never_heard.label.short
     t: 知らない
-  - key: options.features.heard.short
+  - key: options.features.heard.label.short
     t: 知っている
-  - key: options.features.used.short
+  - key: options.features.used.label.short
     t: 使った
 
   # patterns
@@ -1209,9 +1209,8 @@ translations:
     t: 使っているもののうち、上のリストに掲載されていないもの
   - key: tools.happiness
     t: 総合的な満足度
-  - key: tools.happiness.description
-    t: >
-      ここに挙げた選択肢について、現在の満足度合いを1（とても不満）から5（とても満足）の間で表すとどれになりますか？
+  - key: tools.happiness.question
+    t: ここに挙げた選択肢について、現在の満足度合いを1（とても不満）から5（とても満足）の間で表すとどれになりますか？
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1309,6 +1308,12 @@ translations:
     t: このアンケートを知ったきっかけは？
   - key: user_info.email
     t: メールアドレス
+  - key: user_info.email.description
+    t: >
+      アンケートは現在匿名で記入されています。希望する場合は、メールアドレスを入力して、後で自分の回答にアクセスできるようにし、アンケート結果が公開された際に通知を受けることができます。
+  - key: user_info.email.note
+    t: >
+      私たちは個人データを保存しませんので、メールアドレスを入力いただいた後、それを使用して一意の匿名化されたIDを生成し、その後、メールアドレス自体は私たちの記録から削除します。
   - key: user_info.country
     t: 居住国・居住地
   - key: user_info.country.description
