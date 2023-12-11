@@ -1181,7 +1181,7 @@ translations:
   - key: options.source.angular_community
     t: Angularコミュニティ
   - key: options.source.work
-    t: Workplace
+    t: 職場
   - key: options.source.word_of_mouth
     t: 口コミ
   - key: options.source.podcast
