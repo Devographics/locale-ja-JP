@@ -728,11 +728,11 @@ translations:
   - key: options.race_ethnicity.human
     t: ヒューマン
   - key: options.race_ethnicity.slav
-    t: スラブ
+    t: スラブ系
   - key: options.race_ethnicity.north_african
-    t: 北アフリカ
+    t: 北アフリカ系
   - key: options.race_ethnicity.jewish
-    t: ユダヤ
+    t: ユダヤ系
 
   # Race & Ethnicity (short)
 
@@ -1084,9 +1084,9 @@ translations:
   - key: options.employment_status.part_time
     t: パートタイム
   - key: options.employment_status.between_jobs
-    t: 休職中
+    t: 失業中/求職中
   - key: options.employment_status.retired
-    t: 退職済み
+    t: リタイア
 
   # bracket
   - key: options.bracket.round1
