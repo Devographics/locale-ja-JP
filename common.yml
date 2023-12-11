@@ -28,7 +28,7 @@ translations:
     t: >
       これはプレビュー版です。設問が今後変わる可能性があります。また、回答されたデータはすべて、本アンケートの開始時に削除されます。
   - key: general.survey_feedback
-    t: Leave feedback
+    t: フィードバックを送る
 
   - key: general.survey_read_only_back
     t: >
