@@ -297,10 +297,10 @@ translations:
     t: 使用状況
 
   - key: sections.finish.title
-    t: Finish Survey
+    t: アンケートを完了
 
   - key: sections.finish.description
-    t: Finish the survey
+    t: アンケートを完了します
 
   ###########################################################################
   # Options
