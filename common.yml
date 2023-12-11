@@ -876,37 +876,37 @@ translations:
     t: 製造
 
   - key: options.industry_sector.tech_it
-    t: Tech & IT
+    t: テック＆IT
   - key: options.industry_sector.human_resources
-    t: Human Resources
+    t: 人事・人材
   - key: options.industry_sector.sports
-    t: Sports
+    t: スポーツ
   - key: options.industry_sector.gaming
-    t: Gaming
+    t: ゲーム
   - key: options.industry_sector.research
-    t: Research
+    t: 研究
   - key: options.industry_sector.law
-    t: Law
+    t: 法律
   - key: options.industry_sector.non_profit
-    t: Non-Profit
+    t: 非営利
   - key: options.industry_sector.art
-    t: Art
+    t: アート
   - key: options.industry_sector.crypto
     t: Crypto
   - key: options.industry_sector.aerospace
-    t: Aerospace
+    t: 航空宇宙
   - key: options.industry_sector.web3
     t: Web3
   - key: options.industry_sector.iot
     t: IOT
   - key: options.industry_sector.gambling
-    t: Gambling
+    t: ギャンブル
   - key: options.industry_sector.blockchain
-    t: Blockchain
+    t: ブロックチェーン
   - key: options.industry_sector.design
-    t: Design
+    t: デザイン
   - key: options.industry_sector.unemployed
-    t: Unemployed
+    t: 無職
 
   - key: options.industry_sector.recruiting
     t: Recruiting
