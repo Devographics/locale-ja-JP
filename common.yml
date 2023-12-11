@@ -322,19 +322,19 @@ translations:
 
   # features v2
   - key: options.features2.never_heard
-    t: <span class="option-chip option-main option-main-never_heard">Never heard of it/Not sure what it is</option>
+    t: <span class="option-chip option-main option-main-never_heard">知らない / 何なのかわからない</option>
   - key: options.features2.interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Interested</span>
+      <span class="option-chip option-main option-main-heard">知っている</span> » <span class="option-chip option-positive">興味がある</span>
   - key: options.features2.not_interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-negative">Not interested</span>
+      <span class="option-chip option-main option-main-heard">知っている</span> » <span class="option-chip option-negative">興味はない</span>
   - key: options.features2.used_positive
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-positive">Positive experience</span>
+      <span class="option-chip option-main option-main-used">使ったことがある</span> » <span class="option-chip option-positive">良い体験だった</span>
   - key: options.features2.used_negative
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Negative experience</span>
+      <span class="option-chip option-main option-main-used">使ったことがある</span> » <span class="option-chip option-negative">良くない体験だった</span>
 
   # features (short)
   - key: options.features.never_heard.short
