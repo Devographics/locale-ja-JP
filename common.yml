@@ -722,11 +722,11 @@ translations:
     t: この中にはない
 
   - key: options.race_ethnicity.european
-    t: ヨーロピアン
+    t: ヨーロッパ系
   - key: options.race_ethnicity.indian
-    t: インディアン
+    t: インド系
   - key: options.race_ethnicity.human
-    t: ヒューマン
+    t: human
   - key: options.race_ethnicity.slav
     t: スラブ系
   - key: options.race_ethnicity.north_african
