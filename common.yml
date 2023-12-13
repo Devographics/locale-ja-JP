@@ -726,7 +726,7 @@ translations:
   - key: options.race_ethnicity.indian
     t: インド系
   - key: options.race_ethnicity.human
-    t: human
+    t: 人類
   - key: options.race_ethnicity.slav
     t: スラブ系
   - key: options.race_ethnicity.north_african
