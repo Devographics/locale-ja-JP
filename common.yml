@@ -1219,55 +1219,55 @@ translations:
   # age
   - key: user_info.age
     t: 年齢
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: 年齢はいくつですか？
 
   # years of experience
   - key: user_info.years_of_experience
     t: 経験年数
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: この業界で何年ほどの経験がありますか？
 
   # company size
   - key: user_info.company_size
     t: 会社の規模
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: あなたの会社はどれくらいの大きさですか？
 
   # salary ranges
   - key: user_info.yearly_salary
     t: 年収
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: 年収はいくらですか？（米ドル）
 
   # job title
   - key: user_info.job_title
     t: 肩書き
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: 懇親会などでどう自己紹介しますか？
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScriptの習熟度
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: JavaScriptをどれくらい習得していますか？
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSSの習熟度
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: CSSをどれくらい習得していますか？
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: バックエンドの習熟度
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: バックエンド開発をどのくらい習得していますか？
 
   # gender
   - key: user_info.gender
     t: ジェンダー
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       次の選択肢のうち、あなたを表しているものはどれですか。
   - key: user_info.gender.note
@@ -1277,7 +1277,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: 人種・民族
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
   - key: user_info.race_ethnicity.note
@@ -1294,7 +1294,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: 障害の種類
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       次の選択肢のうち、あなたを表しているものはどれですか。当てはまるものすべてを選んでください。
       選択肢の状態は、一時的な障害やけがも含まれます。
@@ -1337,7 +1337,7 @@ translations:
 
   - key: user_info.industry_sector
     t: 業種
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: どの業界で働いていますか？
   - key: user_info.industry_sector.others
     t: そのほかの業種
@@ -1347,18 +1347,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: 高等教育の学位
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: 高等教育を受け、学位を持っていますか？
 
   # employment status
