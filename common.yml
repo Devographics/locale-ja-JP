@@ -1390,7 +1390,7 @@ translations:
 
   - key: tools_others.libraries
     t: ライブラリ
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: いつも使うライブラリは何ですか？
   - key: tools_others.libraries.others
     t: そのほかのライブラリ
@@ -1399,7 +1399,7 @@ translations:
 
   - key: tools_others.text_editors
     t: テキストエディタ
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: いつも使うテキストエディタは何ですか？
   - key: tools_others.text_editors.others
     t: そのほかのテキストエディタ
@@ -1408,7 +1408,7 @@ translations:
 
   - key: tools_others.utilities
     t: ユーティリティ
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: いつも使うユーティリティやツールは何ですか？
   - key: tools_others.utilities.others
     t: そのほかのユーティリティ
@@ -1417,7 +1417,7 @@ translations:
 
   - key: tools_others.browsers
     t: ブラウザー
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: 開発を始めるとき、主に使うブラウザーは何ですか？
   - key: tools_others.browsers.others
     t: そのほかのブラウザー
@@ -1426,7 +1426,7 @@ translations:
 
   - key: tools_others.build_tools
     t: ビルドツール
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: 使っているビルドツールは何ですか？
   - key: tools_others.build_tools.others
     t: そのほかのビルドツール
@@ -1435,7 +1435,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: JavaScript以外の言語
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: プログラミング言語のうち、そのほかに使っているものは何ですか？
   - key: tools_others.non_js_languages.others
     t: そのほかの言語
@@ -1443,7 +1443,7 @@ translations:
     t: そのほかの回答（自由入力欄）。
   - key: tools_others.javascript_flavors
     t: JavaScriptフレーバー
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: JavaScriptにコンパイルする言語
   - key: tools_others.javascript_flavors.others
     t: そのほかのJavaScriptフレーバー

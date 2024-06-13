@@ -309,7 +309,7 @@ translations:
   - key: options.currently_missing_from_js.immutable_data_structures
     t: イミュータブルなデータ構造
   - key: options.currently_missing_from_js.immutable_data_structures.description
-    t: '`Record`や`Tuple`など、より徹底したイミュータブルなデータ構造。'
+    t: "`Record`や`Tuple`など、より徹底したイミュータブルなデータ構造。"
   - key: options.currently_missing_from_js.better_date_management
     t: より良い日付管理
   - key: options.currently_missing_from_js.better_date_management.description
@@ -682,7 +682,7 @@ translations:
 
   - key: tools_others.libraries
     t: ライブラリ
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: 普段どのライブラリを使っていますか？
   - key: tools_others.libraries.others
     t: そのほかのライブラリ
@@ -691,7 +691,7 @@ translations:
 
   - key: tools_others.text_editors
     t: テキストエディタ
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: 普段どのテキストエディタを使っていますか？
   - key: tools_others.text_editors.others
     t: そのほかのテキストエディタ
@@ -700,7 +700,7 @@ translations:
 
   - key: tools_others.utilities
     t: Utilities
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Which utilities or tools do you regularly use?
   - key: tools_others.utilities.others
     t: Other Utilities
@@ -709,7 +709,7 @@ translations:
 
   - key: tools_others.browsers
     t: Browsers
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Which browser(s) do you primarily work in during initial development?
   - key: tools_others.browsers.others
     t: Other Browsers
@@ -718,7 +718,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Build Tools
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Which build tools do you use?
   - key: tools_others.build_tools.others
     t: Other Build Tools
@@ -727,7 +727,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: Non-JavaScript Languages
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: Which other programming languages do you use?
   - key: tools_others.non_js_languages.others
     t: Other Languages
@@ -736,7 +736,7 @@ translations:
 
   - key: tools_others.javascript_flavors
     t: JavaScript Flavors
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: Languages that compile to JavaScript
   - key: tools_others.javascript_flavors.others
     t: Other JavaScript Flavors
@@ -745,7 +745,7 @@ translations:
 
   - key: tools_others.runtimes
     t: JavaScriptランタイム
-  - key: tools_others.runtimes.description
+  - key: tools_others.runtimes.question
     t: いつもどのエンジン・ランタイム・実行環境を使っていますか？
   - key: tools_others.runtimes.others
     t: そのほかのランタイム
@@ -754,7 +754,7 @@ translations:
 
   - key: tools_others.package_registries
     t: パッケージレジストリ
-  - key: tools_others.package_registries.description
+  - key: tools_others.package_registries.question
     t: いつもどのレジストリからパッケージを取得していますか？
   - key: tools_others.package_registries.others
     t: そのほかのパッケージレジストリ
@@ -768,35 +768,35 @@ translations:
 
   - key: tools_others.backend_as_a_service
     t: Backend-as-a-Service Providers
-  - key: tools_others.backend_as_a_service.description
+  - key: tools_others.backend_as_a_service.question
     t: Services that host your data and offer a client API to access it.
   - key: tools_others.backend_as_a_service.others
     t: Other BaaS Providers
 
   - key: tools_others.date_management
     t: Date Management
-  - key: tools_others.date_management.description
+  - key: tools_others.date_management.question
     t: Libraries that help with date and timezone management.
   - key: tools_others.date_management.others
     t: Other Date Management Libraries
 
   - key: tools_others.data_visualization
     t: Data Visualization
-  - key: tools_others.data_visualization.description
+  - key: tools_others.data_visualization.question
     t: Libraries that help with charts and other data visualizations.
   - key: tools_others.data_visualization.others
     t: Other Data Visualization Libraries
 
   - key: tools_others.graphics_animation
     t: グラフィックス＆アニメーション
-  - key: tools_others.graphics_animation.description
+  - key: tools_others.graphics_animation.question
     t: グラフィックスとアニメーションに特化したライブラリ
   - key: tools_others.graphics_animation.others
     t: そのほかのグラフィックス＆アニメーションライブラリ
 
   - key: tools_others.data_fetching
     t: データ取得
-  - key: tools_others.data_fetching.description
+  - key: tools_others.data_fetching.question
     t: データ取得とキャッシュ処理に特化したライブラリ
   - key: tools_others.data_fetching.others
     t: そのほかのデータ取得ライブラリ
@@ -804,7 +804,7 @@ translations:
   - key: other_tools.libraries
     aliasFor: tools_others.libraries
   - key: other_tools.libraries.description
-    aliasFor: tools_others.libraries.description
+    aliasFor: tools_others.libraries.question
   - key: other_tools.libraries.others
     aliasFor: tools_others.libraries.others
   - key: other_tools.libraries.others.description
@@ -813,7 +813,7 @@ translations:
   - key: other_tools.text_editors
     aliasFor: tools_others.text_editors
   - key: other_tools.text_editors.description
-    aliasFor: tools_others.text_editors.description
+    aliasFor: tools_others.text_editors.question
   - key: other_tools.text_editors.others
     aliasFor: tools_others.text_editors.others
   - key: other_tools.text_editors.others.description
@@ -822,7 +822,7 @@ translations:
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.description
+    aliasFor: tools_others.utilities.question
   - key: other_tools.utilities.others
     aliasFor: tools_others.utilities.others
   - key: other_tools.utilities.others.description
@@ -831,7 +831,7 @@ translations:
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.description
+    aliasFor: tools_others.browsers.question
   - key: other_tools.browsers.others
     aliasFor: tools_others.browsers.others
   - key: other_tools.browsers.others.description
@@ -840,7 +840,7 @@ translations:
   - key: other_tools.build_tools
     aliasFor: tools_others.build_tools
   - key: other_tools.build_tools.description
-    aliasFor: tools_others.build_tools.description
+    aliasFor: tools_others.build_tools.question
   - key: other_tools.build_tools.others
     aliasFor: tools_others.build_tools.others
   - key: other_tools.build_tools.others.description
@@ -849,7 +849,7 @@ translations:
   - key: other_tools.non_js_languages
     aliasFor: tools_others.non_js_languages
   - key: other_tools.non_js_languages.description
-    aliasFor: tools_others.non_js_languages.description
+    aliasFor: tools_others.non_js_languages.question
   - key: other_tools.non_js_languages.others
     aliasFor: tools_others.non_js_languages.others
   - key: other_tools.non_js_languages.others.description
@@ -858,7 +858,7 @@ translations:
   - key: other_tools.javascript_flavors
     aliasFor: tools_others.javascript_flavors
   - key: other_tools.javascript_flavors.description
-    aliasFor: tools_others.javascript_flavors.description
+    aliasFor: tools_others.javascript_flavors.question
   - key: other_tools.javascript_flavors.others
     aliasFor: tools_others.javascript_flavors.others
   - key: other_tools.javascript_flavors.others.description
@@ -874,7 +874,7 @@ translations:
   - key: other_tools.runtimes
     aliasFor: tools_others.runtimes
   - key: other_tools.runtimes.description
-    aliasFor: tools_others.runtimes.description
+    aliasFor: tools_others.runtimes.question
   - key: other_tools.runtimes.others
     aliasFor: tools_others.runtimes.others
   - key: other_tools.runtimes.others.description
@@ -883,7 +883,7 @@ translations:
   - key: other_tools.package_registries
     aliasFor: tools_others.package_registries
   - key: other_tools.package_registries.description
-    aliasFor: tools_others.package_registries.description
+    aliasFor: tools_others.package_registries.question
   - key: other_tools.package_registries.others
     aliasFor: tools_others.package_registries.others
   - key: other_tools.package_registries.others.description
@@ -897,35 +897,35 @@ translations:
   - key: other_tools.backend_as_a_service
     aliasFor: tools_others.backend_as_a_service
   - key: other_tools.backend_as_a_service.description
-    aliasFor: tools_others.backend_as_a_service.description
+    aliasFor: tools_others.backend_as_a_service.question
   - key: other_tools.backend_as_a_service.others
     aliasFor: tools_others.backend_as_a_service.others
 
   - key: other_tools.date_management
     aliasFor: tools_others.date_management
   - key: other_tools.date_management.description
-    aliasFor: tools_others.date_management.description
+    aliasFor: tools_others.date_management.question
   - key: other_tools.date_management.others
     aliasFor: tools_others.date_management.others
 
   - key: other_tools.data_visualization
     aliasFor: tools_others.data_visualization
   - key: other_tools.data_visualization.description
-    aliasFor: tools_others.data_visualization.description
+    aliasFor: tools_others.data_visualization.question
   - key: other_tools.data_visualization.others
     aliasFor: tools_others.data_visualization.others
 
   - key: other_tools.graphics_animation
     aliasFor: tools_others.graphics_animation
   - key: other_tools.graphics_animation.description
-    aliasFor: tools_others.graphics_animation.description
+    aliasFor: tools_others.graphics_animation.question
   - key: other_tools.graphics_animation.others
     aliasFor: tools_others.graphics_animation.others
 
   - key: other_tools.data_fetching
     aliasFor: tools_others.data_fetching
   - key: other_tools.data_fetching.description
-    aliasFor: tools_others.data_fetching.description
+    aliasFor: tools_others.data_fetching.question
   - key: other_tools.data_fetching.others
     aliasFor: tools_others.data_fetching.others
 
