@@ -8,9 +8,9 @@ translations:
     t: スタート
 
   - key: page.previous
-    t: '前：'
+    t: "前："
   - key: page.next
-    t: '次：'
+    t: "次："
 
   - key: general.state_of_css_link
     t: State of CSS
@@ -19,7 +19,7 @@ translations:
     t: ホスト：<a href="{link}">Netlify</a>。
 
   - key: general.completion_percentage
-    t: '回答記入率：'
+    t: "回答記入率："
 
   - key: sponsors.thanks
     t: パートナーのサポートに感謝しています！
@@ -148,7 +148,7 @@ translations:
     t: フォーラム
   - key: options.first_steps.view_source
     t: View Source
-  
+
   # other disablities
   - key: options.disability_status_others.adhd
     t: ADHD
@@ -385,7 +385,7 @@ translations:
     t: 利用率の濃度
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        セクションごとに、回答者が**使った**（「また使いたい」と答えた）技術の総数を表しています。一番下のバーは、その上にあるバーの合計になります。
+      セクションごとに、回答者が**使った**（「また使いたい」と答えた）技術の総数を表しています。一番下のバーは、その上にあるバーの合計になります。
 
   - key: blocks.cardinality.max
     t: もっとも目にした回答
@@ -403,7 +403,6 @@ translations:
       - 1年分のデータしかない技術は表示されていません
       - velocityの計算式 = (最も直近の評価 - 最も古い評価) + (最も直前の利用率) - (最も古い利用率)
       - 正のvelocityは、肯定的な評価や利用率が、時間の経過とともに増加していることを表します。
-
 
   # tools quadrant
   - key: blocks.tools_quadrant
@@ -428,23 +427,23 @@ translations:
 
   # tool experience
   - key: blocks.tool_experience
-    t: '{name}の経験年数'
+    t: "{name}の経験年数"
   - key: blocks.tool_experience.description
-    t: '回答者の{name}の経験。'
+    t: "回答者の{name}の経験。"
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
     t: 肯定的か否定的か
   - key: blocks.tools_experience_marimekko.description
     t: |
-        このチャートは回答を肯定的なもの（「学びたい」「また使いたい」）と否定的なもの（「興味がない」「もう使わない」）に分けています。
+      このチャートは回答を肯定的なもの（「学びたい」「また使いたい」）と否定的なもの（「興味がない」「もう使わない」）に分けています。
 
-        棒の太さは、その技術を知っている人の数を表しています。
+      棒の太さは、その技術を知っている人の数を表しています。
 
   # tool tier list
   - key: blocks.tools_tier_list
     t: ライブラリのティアリスト
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       このチャートはライブラリをその満足度（また使いたいと回答したユーザーの％）でランクづけしたものです。注：使ったことのある回答者が全体のの10％に満たない技術は含まれていません。
   - key: blocks.tools_tier_list.bounds
@@ -515,12 +514,12 @@ translations:
   - key: export.export
     t: 出力
   - key: export.title
-    t: '{title}のデータを出力'
+    t: "{title}のデータを出力"
   - key: export.nocsv
     t: ごめんなさい。このデータセットはCSVに出力できません。
   - key: export.graphql
     t: >
-        このクエリーは<a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
+      このクエリーは<a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">公開しているGraphQL API</a>にコピー＆ペーストできます。
   - key: export.export_json
     t: JSONデータを取得
   - key: export.export_graphql
@@ -545,13 +544,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. 「GraphQLクエリー」フィールドのテキストをコピーし、[GraphQL API explorer](https://graphiql.stateofjs.com/)の真ん中のパネルに張りつけます。
+      1. 「GraphQLクエリー」フィールドのテキストをコピーし、[GraphQL API explorer](https://graphiql.stateofjs.com/)の真ん中のパネルに張りつけます。
 
-        2. 左のサイドバーからクエリーに1つ以上の **フィルター**をつけます。このときデータの構造を維持するようにしてください。
+      2. 左のサイドバーからクエリーに1つ以上の **フィルター**をつけます。このときデータの構造を維持するようにしてください。
 
-        3. API explorerのウィンドウ内にある再生（「Execute Query」）ボタンをクリックします。
+      3. API explorerのウィンドウ内にある再生（「Execute Query」）ボタンをクリックします。
 
-        4. 変更したクエリーの結果（`{ data: … }`）を、この上にある「カスタムデータ」フィールドに張りつけて送信してください。
+      4. 変更したクエリーの結果（`{ data: … }`）を、この上にある「カスタムデータ」フィールドに張りつけて送信してください。
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -605,7 +604,7 @@ translations:
     t: 全回答者
   - key: charts.facet_responses
     # todo
-    t: '{count} responses'
+    t: "{count} responses"
 
   - key: charts.axis_legends.years_of_experience
     t: 経験年数
@@ -688,7 +687,6 @@ translations:
   - key: charts.no_answer
     t: 回答なし
 
-
   ###########################################################################
   # Sharing
   ###########################################################################
@@ -700,19 +698,19 @@ translations:
   - key: share.preview
     t: ソーシャルメディアのプレビュー
   - key: share.site.title
-    t: '{siteTitle}の結果を見てみよう'
+    t: "{siteTitle}の結果を見てみよう"
   - key: share.site.twitter_text
-    t: '{siteTitle}の結果を見てみよう {link} {hashTag}'
+    t: "{siteTitle}の結果を見てみよう {link} {hashTag}"
   - key: share.site.subject
-    t: '{siteTitle}の結果'
+    t: "{siteTitle}の結果"
   - key: share.site.body
-    t: '{siteTitle}に関するアンケートの興味深い結果です: {link}'
+    t: "{siteTitle}に関するアンケートの興味深い結果です: {link}"
   - key: share.block.twitter_text
-    t: '{hashtag} {year}: {title} {link}'
+    t: "{hashtag} {year}: {title} {link}"
   - key: share.block.subject
-    t: '{siteTitle}の結果'
+    t: "{siteTitle}の結果"
   - key: share.block.body
-    t: '{siteTitle}に関するアンケートの興味深い結果です ({title}): {link}'
+    t: "{siteTitle}に関するアンケートの興味深い結果です ({title}): {link}"
   - key: share.twitter
     t: Twitterにシェア
   - key: share.facebook
@@ -774,7 +772,6 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-
 
   - key: table.percentages_table
     # todo
@@ -910,10 +907,10 @@ translations:
   - key: sponsor.sponsor_finish
     t: >
       スポンサーになってくださりありがとうございます！1時間ほどで、選んだチャートの横にあなたのアイコンが表示されます。もし表示されない場合は[ご連絡ください](mailto:chartsponsor@stateofjs.com)。
-    
+
   - key: sponsor.sponsored_by
     t: >
-        **{name}** がこのチャートに **${amount}** 出資しました
+      **{name}** がこのチャートに **${amount}** 出資しました
   - key: sponsor.sponsor_button
     t: このチャートのスポンサーになる
 
@@ -922,12 +919,12 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-        アンケートのサポートをお願いします。このチャートに10ドル以上出資すると、あなたのTwitterのアイコンがチャートの横に表示されます！
+      アンケートのサポートをお願いします。このチャートに10ドル以上出資すると、あなたのTwitterのアイコンがチャートの横に表示されます！
   - key: sponsor.chart_id
-    t: 'チャートID: '
+    t: "チャートID: "
 
   - key: sponsor.sponsor_this_chart
-    t: このチャートのスポンサーになる (${baseAmount}+) 
+    t: このチャートのスポンサーになる (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
     t: スポンサーの仕組み
@@ -956,7 +953,6 @@ translations:
   - key: sponsor.faq.usage.description
     t: あなたの寄付はアンケートの管理者への援助になります。また、他のコントリビューター（イラストレーター、アクセシビリティ専門家、ダイバーシティ専門家など）への報酬にも使われます。
 
-
   - key: sponsor.faq.public.title
     t: 寄付は公開されるのでしょうか？
 
@@ -967,7 +963,7 @@ translations:
   #   t: Can I donate on somebody else's behalf?
 
   # - key: sponsor.faq.donation_public.description
-  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
     t: 返金ポリシーはどうなっていますか？
