@@ -412,8 +412,6 @@ translations:
     t: <code>@property</code>
   - key: features.at_layer
     t: <code>@layer</code>
-  - key: features.content_visibility
-    t: <code>content-visibility</code>
   - key: features.marker
     t: <code>::marker</code>疑似要素
 

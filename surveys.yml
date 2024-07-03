@@ -401,7 +401,7 @@ translations:
 
   # JS 2023
 
-  - key: general.js2023.survey_intro
+  - key: general.js2023.survey_intro_not_used
     t: |
       Between Astro, Vite, and Remix, 2022 kicked off a wave of JavaScript change that kept on growing in 2023 with Bun, Svelte 5, Tauri, and many others. 
 
@@ -640,8 +640,7 @@ translations:
   - key: faq.survey_design_js2023
     t: この調査の内容はどのように設計されていますか？
   - key: faq.survey_design_js2023.description
-    t:
-      この調査は「[State of JS 2023 Feedback](https://github.com/Devographics/surveys/issues/224)」を通して、コミュニティからの意見をもとに組み立てられました。
+    t: この調査は「[State of JS 2023 Feedback](https://github.com/Devographics/surveys/issues/224)」を通して、コミュニティからの意見をもとに組み立てられました。
 
   - key: faq.results_released_js2023
     t: 結果はいつ公開されますか？

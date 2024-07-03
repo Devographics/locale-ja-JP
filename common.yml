@@ -1314,10 +1314,7 @@ translations:
   - key: user_info.email.note
     t: >
       私たちは個人データを保存しませんので、メールアドレスを入力いただいた後、それを使用して一意の匿名化されたIDを生成し、その後、メールアドレス自体は私たちの記録から削除します。
-  - key: user_info.country
-    t: 居住国・居住地
-  - key: user_info.country.description
-    t: 住んでいる国はどこですか？
+
   - key: user_info.country
     t: 国または地域
   - key: user_info.country.description
