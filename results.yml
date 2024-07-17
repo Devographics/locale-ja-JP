@@ -700,7 +700,7 @@ translations:
   - key: share.site.title
     t: "{siteTitle}の結果を見てみよう"
   - key: share.site.twitter_text
-    t: "{siteTitle}の結果を見てみよう {link} {hashTag}"
+    t: "{siteTitle}の結果を見てみよう {link} "
   - key: share.site.subject
     t: "{siteTitle}の結果"
   - key: share.site.body
