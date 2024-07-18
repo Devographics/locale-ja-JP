@@ -133,7 +133,7 @@ translations:
   - key: general.leave_issue
     t: 質問やバグ報告は<a href="{link}" target="_blank">issueを立ててください</a>。
   - key: general.leave_issue2
-    aliasFor: homepage.leave_issue
+    t: イシューを残す
   - key: general.emoji_icons
     t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
