@@ -207,13 +207,13 @@ translations:
 
   # forms
   - key: forms.select_option
-    t: Select option
+    t: オプションを選択
   - key: forms.clear_field
-    t: Clear question
+    t: 質問をクリア
   - key: forms.more_options
-    t: Show more…
+    t: もっと表示
   - key: forms.less_options
-    t: Show less
+    t: 少なく表示
 
   # partners & sponsors
   - key: sponsors.with_support_from
