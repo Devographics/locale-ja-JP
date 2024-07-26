@@ -78,10 +78,10 @@ translations:
     t: 回答する
 
   - key: general.skip_question.description
-    t: Skip question and mark it as completed
+    t: 質問をスキップして完了する
 
   - key: general.unskip_question.description
-    t: Unskip question and answer it
+    t: 質問をスキップ解除して回答する
 
   - key: years.less_than_one_year
     t: 1年未満
