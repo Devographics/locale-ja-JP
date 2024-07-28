@@ -640,12 +640,12 @@ translations:
 
   - key: environments.form_factors
     t: 対応デバイス
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: どんなデバイスでテストしているか。
 
   - key: environments.accessibility_features
     t: アクセシビリティ
-  - key: environments.accessibility_features.description
+  - key: environments.accessibility_features.question
     t: どんなアクセシビリティ機能を実装しているか。
   - key: environments.accessibility_features.others
     t: そのほかのアクセシビリティ機能
@@ -654,17 +654,17 @@ translations:
 
   - key: environments.css_for_print
     t: 印刷用スタイル
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: 印刷用スタイルを書いているか。
 
   - key: environments.css_for_email
     t: メールクライアント用CSS
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: メール用のCSSを書いているか。
 
   - key: environments.what_do_you_use_css_for
     t: CSSの利用先
-  - key: environments.what_do_you_use_css_for.description
+  - key: environments.what_do_you_use_css_for.question
     t: どんなプロジェクトでCSSを使っていますか。
   - key: environments.what_do_you_use_css_for.others
     t: そのほかのプロジェクト
