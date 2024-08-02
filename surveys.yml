@@ -107,6 +107,8 @@ translations:
     t: 年
   - key: general.numeric_input.unit.years_old
     t: 歳
+  - key: general.numeric_input.unit.hours
+    t: 時間
 
   ###########################################################################
   # Errors & Messages
