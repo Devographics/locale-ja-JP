@@ -90,15 +90,15 @@ translations:
     t: 年
 
   - key: likert.option.0
-    t: Very Unhappy
+    t: とても不満
   - key: likert.option.1
-    t: Unhappy
+    t: 不満
   - key: likert.option.2
-    t: Neutral
+    t: どちらでもない
   - key: likert.option.3
-    t: Happy
+    t: 満足
   - key: likert.option.4
-    t: Very Happy
+    t: とても満足
 
   - key: general.numeric_input.invalid_input
     t: Please make sure you enter a valid number.
