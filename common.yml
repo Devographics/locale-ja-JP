@@ -892,7 +892,7 @@ translations:
   - key: options.industry_sector.art
     t: アート
   - key: options.industry_sector.crypto
-    t: Crypto
+    t: ブロックチェーン/暗号通貨
   - key: options.industry_sector.aerospace
     t: 航空宇宙
   - key: options.industry_sector.web3
@@ -915,7 +915,7 @@ translations:
   - key: options.industry_sector.business
     t: Business
   - key: options.industry_sector.communication
-    t: Comunication
+    t: Communication
   - key: options.industry_sector.security
     t: Security
 
