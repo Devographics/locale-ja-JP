@@ -920,11 +920,11 @@ translations:
     t: Security
 
   - key: options.industry_sector.ai
-    t: Artificial Intelligence (AI)
+    t: 人工知能 (AI)
   - key: options.industry_sector.advertising
-    t: Advertising
+    t: 広告
   - key: options.industry_sector.cloud_computing
-    t: Cloud Computing
+    t: クラウドコンピューティング
   - key: options.industry_sector.consumer_electronics
     t: Consumer Electronics
   - key: options.industry_sector.food
