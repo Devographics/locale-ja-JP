@@ -131,7 +131,7 @@ translations:
   - key: general.privacy_policy
     t: プライバシーポリシー
   - key: general.leave_issue
-    t: 質問やバグ報告は<a href="{link}" target="_blank">issueを立ててください</a>。
+    t: 質問やバグ報告は<a href="{link}" target="_blank">問題を報告する</a>。
   - key: general.leave_issue2
     t: イシューを残す
   - key: general.emoji_icons
@@ -1291,7 +1291,7 @@ translations:
       次の選択肢のうち、あなたを表しているものはどれですか。
   - key: user_info.gender.note
     t: >
-      多様性に関する情報収集と公開がセンシティブな問題になりうることは承知しています。その上で、このアンケートの包括性や代表性を知り、また向上させるためにデータを収集することが重要と考えています。
+      多様性に関する情報収集と公開がセンシティブな問題になりうることは認識しています。その上で、本アンケートの包括性を維持し、ジェンダーに関する問題の改善のためにはデータが重要と考え、設問に加えています。
 
   # race & ethnicity
   - key: user_info.race_ethnicity
