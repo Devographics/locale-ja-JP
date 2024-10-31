@@ -930,14 +930,14 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: AIツール
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: コードを書くために、普段使っているAIツールはありますか？
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: サービスのホスティング
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: JavaScriptアプリケーションをホスティングするためのに使ったことがあるツールはありますか？
 
   ###########################################################################
