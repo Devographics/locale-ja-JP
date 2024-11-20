@@ -97,7 +97,7 @@ translations:
 
   # credits
   - key: credits.thanks
-    t: スペシャルサンクス
+    t: 本発表に際して協力してくれたメンバー
   - key: credits.contributors
     t: コントリビュータ
   - key: credits.contributors.description
@@ -121,7 +121,7 @@ translations:
   - key: credits.back_end_development
     t: バックエンド開発
   - key: credits.survey_review
-    t: アンケートのレビュー
+    t: 調査結果の集計・検証
 
   # support
   - key: general.support_from
