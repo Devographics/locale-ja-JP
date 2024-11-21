@@ -641,7 +641,7 @@ translations:
   - key: charts.axis_legends.users_percentage_survey
     t: "％の質問回答数"
   - key: charts.axis_legends.users_percentage_question
-    t: "％のアンケート回答数"
+    t: "回答数に占める割合（%）"
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: ベースライン
@@ -744,7 +744,7 @@ translations:
   - key: table.item
     t: 項目
   - key: table.percentage_survey
-    t: "％のアンケート回答数"
+    t: "回答数に占める割合（%）"
   - key: table.percentage_question
     t: "％の質問回答数"
   - key: table.percentage_facet
