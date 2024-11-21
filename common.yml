@@ -131,7 +131,7 @@ translations:
   - key: general.privacy_policy
     t: プライバシーポリシー
   - key: general.leave_issue
-    t: 質問やバグ報告は<a href="{link}" target="_blank">問題を報告する</a>。
+    t: 質問やバグ報告は<a href="{link}" target="_blank">こちらから</a>
   - key: general.leave_issue2
     t: イシューを残す
   - key: general.emoji_icons
@@ -231,9 +231,9 @@ translations:
 
   # other
   - key: general.join_discord
-    t: <a href="{link}">Discord</a>に参加。
+    t: <a href="{link}">Discord</a>に参加
   - key: general.translator_mode
-    t: option/altを押して翻訳モードにする。
+    t: option/altを押して翻訳モードにする
   - key: general.charts_nivo
     t: チャート生成：<a href="{link}">Nivo</a>。
   - key: general.made_by_devographics
