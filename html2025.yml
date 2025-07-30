@@ -1,0 +1,60 @@
+locale: en-US
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: The 2025 edition of the annual survey about the latest trends in the HTML ecosystem.
+
+  - key: general.html2025.survey_intro
+    t: |
+      In 2023, after the State of JS and State of CSS surveys had already been going on for a few years, we realized something was missing: what about the technology that brings it all together?
+
+      After all, HTML now goes beyond tags and attributes, encompassing APIs for dynamic updates, rich embeds, performance hints, templating & components, and more. 
+
+      The first State of HTML, led by web superstar [Lea Verou](https://lea.verou.me/) broke all previous records for a new survey with 21,000 respondents, and introduced new UI paradigms that improved all future surveys. 
+
+      This year, with Lea back at the helm, we added ✨35 new features✨, and introduced two new sections: **Graphics & Multimedia** and **Performance**.
+
+      What's more, as with previous editions, this year's results will be taken in consideration by browser vendors when deciding on their roadmaps, so participating can help shape the future of the web! 
+
+      Are you ready? Get, set, go!
+
+  # old intro
+  # - key: general.html2025.survey_intro
+  #   t: |
+
+  #     Frontend development is the craft of creating good-looking, accessible, and readable websites.
+
+  #     And on top of that it's also the art of architecturing complex apps with hundreds of components, complex state, and advanced data querying and caching.
+
+  #     But it's *also* how you display 3D graphics, read and write to the filesystem, handle security issues, and improve performance.
+
+  #     So with the web platform's ever-growing list of responsibilities, it makes more sense than ever to have this survey dedicated to HTML and all other web platform APIs, now in its third consecutive year.
+
+  #     And to help us find our way through the fog, none other than web superstar [Lea Verou](https://lea.verou.me/) is back at the helm, having helped curate this year's questions–including 31 (!) new web platform features.
+
+  #     And as with previous years, your answers will have a direct impact on the roadmaps of browser vendors. So once again, get ready to fill out this year's State of HTML survey!
+
+  - key: features.features_intro_html2025
+    aliasFor: features.features_intro_html2024
+
+  # - key: general.html2025.survey_intro
+  #   t: |
+  #     This might be the State of HTML, but this survey actually goes far beyond just HTML to encompass all areas of the web platform as a whole – and there is *a lot* to cover!
+
+  #     So as you might expect, designing a survey like this one always involves tough choices. This year, we decided to focus on new and upcoming features to help you stay up to date; as well as areas that browser vendors are most interested in.
+
+  #     This means that your answers might end up having a direct impact on the roadmap of the browser you're using right now. Which is why I'm so excited to open this third edition of the State of HTML survey!
+
+  - key: faq.survey_design_html2025
+    t: How was this survey designed?
+  - key: faq.survey_design_html2025.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/253) involving browser vendors and the web development community.
+
+  - key: faq.results_released_html2025
+    t: When will the results be released?
+  - key: faq.results_released_html2025.description
+    t: The survey will run from July 15 to August 15, 2025, and the survey results will be released around September 15, 2025.
