@@ -541,6 +541,8 @@ translations:
   - key: features.accessibility_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
 
+  # 日本語話者向けの案内:
+  # 現時点では、"障害" という表記はウェブアクセシビリティ基盤委員会(https://waic.jp/knowledge/accessibility/, 2025-07-31 アクセス)の表記に合わせています。
   - key: features.accessibility_disabilities
     t: ユーザーの障害
     aliases:
