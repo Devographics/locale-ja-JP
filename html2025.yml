@@ -1,0 +1,60 @@
+locale: ja-JP
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: HTMLエコシステムの最新トレンドに関する年次調査の2025年版。
+
+  - key: general.html2025.survey_intro
+    t: |
+      2023年、State of JSとState of CSSの調査が数年間続いた後、私たちは何かが欠けていることに気づきました。それらすべてをまとめる技術についてはどうでしょうか？
+
+      結局のところ、HTMLは今やタグや属性を超えて、動的更新、リッチな埋め込み、パフォーマンスヒント、テンプレートとコンポーネント、その他多くのAPIを含んでいます。
+
+      ウェブのスーパースター[Lea Verou](https://lea.verou.me/)が主導した最初のState of HTMLは、21,000人の回答者を得て新しい調査としては過去最高記録を更新し、以後すべての調査を改善する新しいUIパラダイムを導入しました。
+
+      今年は、Leaが再び舵を取り、✨35の新機能✨を追加し、**グラフィックス・マルチメディア**と**パフォーマンス**という2つの新しいセクションを導入しました。
+
+      さらに、これまでの版と同様に、今年の結果はブラウザベンダーがロードマップを決定する際に考慮されるため、参加することでウェブの未来を形作ることができます！
+
+      準備はできましたか？位置について、よーい、スタート！
+
+  # old intro
+  # - key: general.html2025.survey_intro
+  #   t: |
+
+  #     Frontend development is the craft of creating good-looking, accessible, and readable websites.
+
+  #     And on top of that it's also the art of architecturing complex apps with hundreds of components, complex state, and advanced data querying and caching.
+
+  #     But it's *also* how you display 3D graphics, read and write to the filesystem, handle security issues, and improve performance.
+
+  #     So with the web platform's ever-growing list of responsibilities, it makes more sense than ever to have this survey dedicated to HTML and all other web platform APIs, now in its third consecutive year.
+
+  #     And to help us find our way through the fog, none other than web superstar [Lea Verou](https://lea.verou.me/) is back at the helm, having helped curate this year's questions–including 31 (!) new web platform features.
+
+  #     And as with previous years, your answers will have a direct impact on the roadmaps of browser vendors. So once again, get ready to fill out this year's State of HTML survey!
+
+  - key: features.features_intro_html2025
+    aliasFor: features.features_intro_html2024
+
+  # - key: general.html2025.survey_intro
+  #   t: |
+  #     This might be the State of HTML, but this survey actually goes far beyond just HTML to encompass all areas of the web platform as a whole – and there is *a lot* to cover!
+
+  #     So as you might expect, designing a survey like this one always involves tough choices. This year, we decided to focus on new and upcoming features to help you stay up to date; as well as areas that browser vendors are most interested in.
+
+  #     This means that your answers might end up having a direct impact on the roadmap of the browser you're using right now. Which is why I'm so excited to open this third edition of the State of HTML survey!
+
+  - key: faq.survey_design_html2025
+    t: この調査はどのように設計されましたか？
+  - key: faq.survey_design_html2025.description
+    t: >
+      この調査は、ブラウザベンダーとウェブ開発コミュニティが参加した[オープンな設計プロセス](https://github.com/Devographics/surveys/issues/253)の結果として設計されました。
+
+  - key: faq.results_released_html2025
+    t: 結果はいつ公開されますか？
+  - key: faq.results_released_html2025.description
+    t: 調査は2025年7月15日から8月15日まで実施され、調査結果は2025年9月15日頃に公開される予定です。
