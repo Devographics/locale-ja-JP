@@ -196,7 +196,7 @@ translations:
     t: Twitterにシェア
   - key: thanks.share_score_message
     t: >
-      私の #{hashtag} ナレッジスコアは{score}%でした。回答はここから：{shareUrl}
+      私の #{hashtag} ナレッジスコアは{score}pointsでした。回答はここから：{shareUrl}
   # share
   - key: general.share_subject
     t: >
