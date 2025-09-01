@@ -480,6 +480,20 @@ translations:
   - key: options.age.range_more_than_65.short
     t: ">65"
 
+  # age 2
+  - key: options.age.range_under_20
+    t: 20歳未満
+  - key: options.age.range_20_29
+    t: 20-29歳
+  - key: options.age.range_30_39
+    t: 30-39歳
+  - key: options.age.range_40_49
+    t: 40-49歳
+  - key: options.age.range_50_59
+    t: 50-59歳
+  - key: options.age.range_over_60
+    t: 60歳以上
+
   # years of experience
   - key: options.years_of_experience.range_less_than_1
     t: 1年未満
@@ -599,6 +613,19 @@ translations:
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200.short
     t: ">$200k"
+
+  # income_evolution
+  - key: user_info.income_evolution
+    t: 収入の推移 # ChatGPT
+  - key: user_info.income_evolution.question
+    t: 過去12か月間であなたの総収入はどのように変化しましたか？ # ChatGPT
+
+  - key: options.income_evolution.increased
+    t: 増えた # ChatGPT
+  - key: options.income_evolution.stayed_same
+    t: 変わらない # ChatGPT
+  - key: options.income_evolution.decreased
+    t: 減った # ChatGPT
 
   # job titles
   - key: options.job_title.cto
