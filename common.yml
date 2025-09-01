@@ -183,7 +183,7 @@ translations:
     t: クイズスコア
   - key: thanks.score_statistics
     t: >
-      このアンケートで紹介した全 {total} 機能のうち、あなたは {usage_count} 個を使用し、 {awareness_count} 個聞いたことがあります。これは全回答者の上位{knowledgeRankingFromTop}％に位置しています。おめでとうございます！
+      このアンケートで紹介した全 {total} 機能のうち、あなたは {usage_count} 個を使用し、 {awareness_count} 個聞いたことがあります。これは全回答者の上位{knowledgeRankingFromTop}に位置しています。おめでとうございます！
   - key: thanks.score_statistics_noranking
     t: >
       このアンケートで紹介した全 {total} 機能のうち、あなたは {usage_count} 個を使用し、 {awareness_count} 個聞いたことがあります。お疲れ様でした！
@@ -196,7 +196,7 @@ translations:
     t: Twitterにシェア
   - key: thanks.share_score_message
     t: >
-      私の #{hashtag} ナレッジスコアは{score}%でした。回答はここから：{shareUrl}
+      私の #{hashtag} ナレッジスコアは{score}pointsでした。回答はここから：{shareUrl}
   # share
   - key: general.share_subject
     t: >
