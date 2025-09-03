@@ -1273,6 +1273,10 @@ translations:
     t: 経験年数
   - key: user_info.years_of_experience.question
     t: この業界で何年ほどの経験がありますか？
+  - key: user_info.years_of_experience.prompt
+    t: プロフェッショナル、学生、趣味として、など。
+    aliases:
+      - career.years_of_experience.prompt
 
   # company size
   - key: user_info.company_size
