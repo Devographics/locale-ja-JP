@@ -1367,7 +1367,7 @@ translations:
 
   - key: user_info.country
     t: 国または地域
-  - key: user_info.country.description
+  - key: user_info.country.question
     t: いま住んでいる国はどこですか？
 
   - key: user_info.github_username
