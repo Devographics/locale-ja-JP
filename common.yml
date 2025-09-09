@@ -197,6 +197,36 @@ translations:
   - key: thanks.share_score_message
     t: >
       私の #{hashtag} ナレッジスコアは{score}pointsでした。回答はここから：{shareUrl}
+
+  # survey finish page
+
+  - key: finish.copy
+    t: コピー
+  - key: finish.copied
+    t: コピーしました！
+
+  - key: finish.goal_heading
+    t: 目標達成にご協力ください！
+
+  - key: finish.goal_heading.description
+    t: 今年は、より代表性が高く正確なデータにするために、少なくとも **{count} 件のアンケート回答** を集めたいと考えています。
+
+  - key: finish.goal_currently
+    t: >
+      現在：
+
+  - key: finish.goal_responses
+    t: 件の回答
+
+  - key: finish.share_colleagues
+    t: 友人や同僚と共有する
+
+  - key: finish.share_colleagues.description
+    t: Slack、Discord、Teamsなどで共有してください。
+
+  - key: finish.share_social
+    t: 2. SNSで共有する
+
   # share
   - key: general.share_subject
     t: >
