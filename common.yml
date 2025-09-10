@@ -206,7 +206,7 @@ translations:
     t: コピーしました！
 
   - key: finish.goal_heading
-    t: 目標達成にご協力ください！
+    t: アンケートにご協力いただきありがとうございます！ ですが、まだ皆さまのお力が必要です…
 
   - key: finish.goal_heading.description
     t: 今年は、より代表性が高く正確なデータにするために、少なくとも **{count} 件のアンケート回答** を集めたいと考えています。
@@ -214,6 +214,10 @@ translations:
   - key: finish.goal_currently
     t: >
       現在：
+
+  - key: finish.goal_goal
+    t: >
+      目標:
 
   - key: finish.goal_responses
     t: 件の回答
