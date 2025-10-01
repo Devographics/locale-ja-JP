@@ -99,7 +99,7 @@ translations:
   - key: credits.thanks
     t: 本発表に際して協力してくれたメンバー
   - key: credits.contributors
-    t: コントリビュータ
+    t: ご協力いただいた方々
   - key: credits.contributors.description
     t: アンケートの作成にご協力いただいた以下の方々に感謝します。
   - key: credits.accessibility
