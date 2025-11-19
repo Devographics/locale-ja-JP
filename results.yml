@@ -982,3 +982,567 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: \[GitHub](https://github.com/StateOfJS/Monorepo/issues/69) もしくは [Discord](https://discord.gg/tuWRUWVyJs) にお願いします。
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Data Explorer
+  - key: sections.data_explorer.description
+    t: |
+      Dynamically explore the survey's audience by picking two questions, and seeing how
+      respondents are distributed between them.
+
+  - key: hints.data_explorer
+    t: |
+      This is a preview version of our new Data Explorer. If you find any issues or data inconsistencies please [let us know]({issueLink}).
+
+  # heading
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** total respondents)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} Respondents
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Extra Respondents
+  - key: explorer.missing_respondents
+    t: Missing Respondents
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 dot represents {respondentsPerDot} respondents
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 dot represents {percentsPerDot}% of respondents
+  - key: explorer.extra_respondents.tooltip
+    t: Highlighted dots indicate higher-than-expected results.
+  - key: explorer.missing_respondents.tooltip
+    t: Empty dots indicate lower-than-expected results.
+
+  - key: explorer.units_count
+    t: Count
+  - key: explorer.units_percentage
+    t: "% of Row"
+
+  - key: explorer.edit
+    t: Edit Parameters…
+
+  - key: explorer.get_data
+    t: Get Data…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Querying API…
+  - key: explorer.loading.2
+    t: Waiting for a response…
+  - key: explorer.loading.3
+    t: Still working…
+  - key: explorer.loading.4
+    t: Hang on just a little bit longer…
+  - key: explorer.loading.5
+    t: Sorry, this is taking a while. You can try waiting a little longer, or [report an issue]({issueLink}).
+  - key: explorer.timeout
+    t: Timeout
+  - key: explorer.timeout.description
+    t: The API didn't respond in time. Please try again later, or [report an issue]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: Share…
+  - key: explorer.share.title
+    t: Share “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} respondents"
+  - key: explorer.axis_percent
+    t: "{percentCount}% of respondents"
+
+  - key: explorer.x_axis_details
+    t: |
+      Out of all respondents who completed question “{yAxisLabel}”, **{totalCount}** survey respondents picked “{xQuestionLabel}” for “{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** survey respondents picked “{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
+
+  # controls
+  - key: explorer.dots_per_line
+    t: Dots per line
+  - key: explorer.respondents_per_dot
+    t: Respondents per dot
+  - key: explorer.show_cell_counts
+    t: Show cell counts
+  - key: explorer.show_no_answer
+    t: Show “No Answer” cells
+
+  - key: explorer.all_fields
+    t: All fields
+  - key: explorer.select_item
+    t: Select item
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  - key: explorer.count_details.2
+    t: |
+      **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  - key: explorer.count_details.3
+    t: |
+      Applying that percentage to the previous **{xAxisTotal}** respondents figure 
+      gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
+
+  - key: explorer.count_details.4_extra
+    t: |
+      The actual count is **{cellCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+
+  - key: explorer.count_details.4_missing
+    t: |
+      The actual count is **{cellCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage climbs to  **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage drops to  **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### Extra & Missing Respondents
+
+      The chart above aims to identify areas showing higher-than-expected 
+      or lower-than-expected values compared to a calculated baseline. 
+
+      For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
+      you'd expect to find 500 CSS Grid users working in large companies. 
+
+      Any deviation above or below that expected total could potentially indicate an interesting
+      correlation between both variables, and is highlighted on the chart with either colored 
+      dots (for extra respondents above the baseline) or empty dots (for missing respondents).
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: Compare Data
+  - key: filters.customize_chart
+    t: Query Builder…
+  - key: filters.docs
+    t: Documentation
+  - key: filters.compare_chart
+    t: Customize “{chartName}”
+  - key: filters.edit_variant_with_name
+    t: Edit “{name}”
+  - key: filters.edit_name
+    t: "Edit Name"
+  - key: filters.edit_name.description
+    t: "Edit chart variant name:"
+  - key: filters.create_variant
+    t: Create New Variant
+  - key: filters.delete_variant
+    t: Delete Chart
+  - key: filters.delete_variant_confirm
+    t: Delete chart variant “{name}”?
+  - key: filters.edit_variant
+    t: Edit Options…
+  - key: filters.filters.description
+    t: |
+      Define a combination of filters to compare multiple versions of the same chart side-by-side
+  - key: filters.facets.description
+    t: |
+      Pick a variable and use it to further break down each row of a chart into segments.
+  - key: filters.grid_mode
+    t: Filters
+  - key: filters.combined_mode
+    t: Combined
+  - key: filters.facet_mode
+    t: Facets
+  - key: filters.facet
+    t: "Facet:"
+  - key: filters.optional
+    t: (optional)
+  - key: filters.axis1
+    t: Variable 1
+  - key: filters.axis2
+    t: Variable 2
+  - key: filters.axis1.description
+    t: |
+      Pick the main variable you want to analyze (vertical axis).
+  - key: filters.axis2.description
+    t: |
+      Pick another variable to compare the first one to (horizontal axis).
+
+  - key: filters.facet_view
+    t: Segmented bars
+  - key: filters.grid_view
+    t: Side-by-side grid
+
+  - key: filters.series.heading
+    t: Series {index}
+  - key: filters.series.add
+    t: Add Series…
+  - key: filters.series.delete
+    t: Delete Series
+  - key: filters.series.year
+    t: |
+      {year} data
+  - key: filters.series.show_default
+    t: |
+      Show default series
+  - key: filters.series.no_data
+    t: No data
+
+  - key: filters.condition.add
+    t: Add Filter
+  - key: filters.condition.delete
+    t: Delete Filter
+  - key: filters.condition.and
+    t: and
+  - key: filters.operators.eq
+    t: is
+  - key: filters.operators.in
+    t: is one of
+  - key: filters.operators.nin
+    t: is not one of
+  - key: filters.operators.lt
+    t: is lower than
+  - key: filters.operators.gt
+    t: is greater than
+  - key: filters.value.add
+    t: Add Value
+  - key: filters.value.delete
+    t: Delete Value
+
+  - key: filters.legend.default
+    t: Default
+
+  - key: filters.cancel
+    t: Cancel
+  - key: filters.submit
+    t: Update Chart
+  - key: filters.copy_link
+    t: Copy link to filters
+  - key: filters.code
+    t: Filters Code
+  - key: filters.get_code
+    t: Get Code
+  - key: filters.import_code
+    t: Import Code
+  - key: filters.paste_filters_code
+    t: Paste filters code here
+
+  - key: filters.presets.title
+    t: "Presets:"
+  - key: filters.presets.save
+    t: Save current filters as preset…
+  - key: filters.presets.delete
+    t: Delete Preset
+  - key: filters.presets.enter_name
+    t: |
+      Enter a name for your new preset:
+  - key: filters.presets.previous_years
+    t: Previous Years
+  - key: filters.presets.gender
+    t: Gender
+  - key: filters.presets.top_countries
+    t: Top Countries
+  - key: filters.presets.salary_low_high
+    t: |
+      Low vs High Salary
+  - key: filters.presets.experience_low_high
+    t: |
+      Low vs High Experience
+  - key: filters.presets.company_size_low_high
+    t: |
+      Small vs Large Company
+
+  - key: filters.facet.select
+    t: Select a facet…
+
+  - key: filters.by_x
+    t: By {name}
+
+  - key: filters.vs_x
+    t: Vs. {name}
+
+  - key: dataloader.failed_request
+    t: >
+      Oh no! The API request failed with the following message:
+  - key: dataloader.submit_report_prompt
+    t: >
+      Submit a bug report to let us know about this issue, and we'll do our best to
+      fix it:
+  - key: dataloader.submit_issue
+    t: Submit Issue
+
+  # advanced options
+
+  - key: filters.advanced_options
+    t: Advanced Options
+
+  - key: filters.options.cutoff
+    t: Cutoff Threshold
+  - key: filters.options.cutoff.description
+    t: Exclude any value under this threshold from the data
+
+  - key: filters.options.limit
+    t: Limit
+  - key: filters.options.limit.description
+    t: Limit the results to the first n items
+
+  - key: filters.options.showDefaultSeries
+    aliasFor: filters.series.show_default
+  - key: filters.options.showDefaultSeries.description
+    t: Show the default (unfiltered) data series when using Grid mode
+
+  ###########################################################################
+  # Chart Controls
+  ###########################################################################
+
+  - key: charts.group_by
+    t: >
+      Group by:
+  - key: charts.group.experience
+    t: Experience
+  - key: charts.group.sentiment
+    t: Sentiment
+  - key: charts.grouped_by_group
+    t: >
+      Grouped by "**{group}**""
+  - key: charts.group_by_group
+    t: >
+      Group by "**{group}**""
+
+  - key: charts.display_mode
+    t: >
+      Display mode:
+  - key: charts.display_mode.split
+    t: Split View
+  - key: charts.display_mode.stacked
+    t: Stacked View
+
+  - key: charts.order
+    t: >
+      Sort order:
+
+  - key: charts.sort_by
+    t: >
+      Sort by:
+  - key: charts.sort_by_sort
+    t: >
+      Sort by "**{sort}**"
+  - key: charts.sorted_by_sort_order
+    t: >
+      Sorted by "**{sort}**", **{order}**
+  - key: charts.order.asc
+    t: Ascending
+  - key: charts.order.desc
+    t: Descending
+
+  - key: charts.actions.customize
+    aliasFor: filters.customize_chart
+  - key: charts.actions.data
+    t: Get Chart Data
+  - key: charts.actions.share
+    t: Share Chart
+
+  - key: charts.vs
+    t: vs.
+  - key: charts.facet_median
+    t: (median)
+  - key: charts.facet_average
+    t: (average)
+
+  - key: charts.custom_variant
+    t: Variant {index}
+  - key: charts.new_variant_name_prompt
+    t: Enter a short descriptive name for your new chart (e.g. “vs. Income”, “by Gender”, etc.)
+
+  - key: charts.show_all_rows
+    t: Show All
+  - key: charts.show_all_rows.x_hidden
+    t: Show All ({count} hidden)
+
+  - key: charts.metadata.completion
+    t: >
+      **{value}** completion rate (out of {total} survey participants)
+  - key: charts.metadata.respondents
+    t: >
+      **{value}** question respondents
+  - key: charts.metadata.answers
+    t: >
+      **{value}** question answers
+  - key: charts.metadata.average
+    t: >
+      **{value}** mean (average) value
+  - key: charts.metadata.median
+    t: >
+      **{value}** median value
+  - key: charts.metadata.limit
+    t: >
+      Showing the top **{value}** items
+  - key: charts.metadata.cutoff
+    t: >
+      Only showing items with more than **{value}** answers
+  - key: charts.metadata.sort_asc
+    t: >
+      Sorted by **{value}**, **ascending**
+  - key: charts.metadata.sort_desc
+    t: >
+      Sorted by **{value}**, **descending**
+
+  - key: charts.average.marker
+    t: >
+      Average: **{value}**
+
+  - key: charts.median.marker
+    t: >
+      Median: **{value}**
+
+  - key: charts.marker.toggle.average
+    t: Toggle median
+
+  - key: charts.marker.toggle.median
+    t: Toggle average
+
+  - key: charts.filter_by
+    t: >
+      Filter by:
+  - key: charts.all_filters
+    t: All
+  - key: charts.all_filters.description
+    t: Show All
+  - key: charts.filter_by_value
+    t: >
+      Filter by “{value}”
+  - key: charts.filtered_by_value
+    t: >
+      Filtered by “{value}”
+
+  - key: charts.filter_by.sections
+    t: |
+      Category:
+  - key: charts.filter_by.baseline
+    t: |
+      Baseline Status:
+
+  - key: charts.toggle_view
+    t: >
+      Show:
+
+  ###########################################################################
+  # Multi Items Experience Chart
+  ###########################################################################
+
+  - key: charts.multiexp.cell_group_tooltip.experience
+    t: >
+      **{count}** respondents (**{value}%**) answered "**{answer}**"
+
+  - key: charts.multiexp.cell_group_tooltip.sentiment
+    t: >
+      **{count}** respondents (**{value}%**) had a **{answer}** sentiment
+
+  - key: charts.multiexp.cell_tooltip
+    t: >
+      **{count}** respondents (**{value}%**) answered "**{experience}**" and had a **{sentiment}** sentiment
+
+  - key: charts.multiexp.cell_tooltip_neutral
+    t: >
+      **{count}** respondents (**{value}%**) answered "**{experience}**" and did not pick any sentiment
+
+  ###########################################################################
+  # Raw Freeform Answers
+  ###########################################################################
+
+  - key: answers.answers
+    t: Freeform Answers
+  - key: answers.answers_for
+    t: |
+      Answers matching “{name}”
+  - key: answers.answers_for_count
+    t: |
+      {count} answers matching “{name}”
+  - key: answers.description
+    t: |
+      These freeform answers were matched to the **{name}** topic through a combination of
+      automated and manual data processing.
+  - key: answers.report_abuse
+    t: Report this answer
+
+  - key: answers.alphabetical
+    t: Alphabetical Order
+
+  - key: answers.length
+    t: Answer Length
+
+  - key: answers.keyword
+    t: |
+      Keyword:
+
+  - key: answers.keyword_count
+    t: |
+      {count} results
+
+  ###########################################################################
+  # Cardinalities
+  ###########################################################################
+
+  - key: tools.cardinalities
+    t: Number of Items
+  - key: tools.cardinalities.description
+    t: How many items in this category respondents have used.
