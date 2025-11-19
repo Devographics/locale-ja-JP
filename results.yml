@@ -594,6 +594,19 @@ translations:
   - key: chart_units.percentage_survey
     t: "アンケート回答者数（％）"
 
+  - key: chart_units.percentage_bucket
+    t: パーセンテージ
+  - key: chart_units.medianByFacet
+    t: 中央値
+  - key: chart_units.average
+    t: 平均
+
+  - key: chart_units.facetCounts
+    t: カウント
+
+  - key: chart_units.percentilesByFacet
+    t: パーセンタイル
+
   - key: charts.average
     t: 代表値
   - key: charts.mean
@@ -686,6 +699,188 @@ translations:
 
   - key: charts.no_answer
     t: 回答なし
+  - key: charts.no_answer.short
+    t: 回答なし
+
+  - key: charts.no_match
+    t: 一致しない回答
+  - key: charts.no_match.short
+    t: 一致なし
+  - key: charts.no_match.description
+    t: 特定のデータポイントと一致しなかった自由形式の回答
+
+  - key: charts.cutoff_answers
+    t: カットオフされた回答
+  - key: charts.cutoff_answers.short
+    t: カットオフ
+  - key: charts.cutoff_answers.description
+    t: 回答数が {cutoff} 件未満の項目
+
+  - key: charts.other_answers
+    t: その他の回答
+  - key: charts.other_answers.short
+    t: その他
+  - key: charts.other_answers.description
+    t: 上記に含まれないその他の回答
+
+  - key: charts.overlimit_answers
+    t: 表示制限外
+  - key: charts.overlimit_answers.short
+    t: 制限外
+  - key: charts.overlimit_answers.description
+    t: 定義された制限行数の {limit} 行よりも下位の項目
+
+  - key: charts.freeform_data
+    t: 自由記述データ
+  - key: charts.freeform_data.description
+    t: 回答者が自由記述欄に入力した回答
+
+  - key: charts.multiple_data
+    t: 複数選択
+  - key: charts.multiple_data.description
+    t: 回答者がこの質問に対して複数の回答を選択可能でした
+
+  - key: charts.tick.links
+    t: リンク
+
+  - key: charts.resources
+    t: 役立つリンク
+
+  - key: charts.facets_clarification
+    t: >
+      上記のパーセンテージは、各グループに属する回答者全体の数に影響されることにご注意ください。
+
+  - key: charts.average_clarification
+    t: >
+      平均値は、各範囲の中間値を近似的な代表値として計算されていることにご注意ください。
+
+  - key: charts.share
+    t: チャートを共有…
+  - key: charts.export
+    t: データをエクスポート…
+
+  - key: charts.mode
+    t: >
+      モード:
+  - key: charts.view
+    t: >
+      表示:
+
+  - key: charts.no_data
+    t: 申し訳ありませんが、このクエリではデータが見つかりませんでした。
+
+  - key: charts.show_neutral_sentiment
+    t: 中立を表示
+
+  # other bucket
+  - key: charts.other_bucket.previous_edition.percents.positive
+    t: |
+      前回の調査より +{value}% 増加
+  - key: charts.other_bucket.previous_edition.percents.negative
+    t: |
+      前回の調査より -{value}% 減少
+  - key: charts.other_bucket.different_serie.percents.positive
+    t: |
+      左側のチャートより +{value}% 高い
+  - key: charts.other_bucket.different_serie.percents.negative
+    t: |
+      左側のチャートより -{value}% 低い
+  - key: charts.other_bucket.ranks.positive
+    t: |
+      ランクが +{value} 上昇
+  - key: charts.other_bucket.ranks.negative
+    t: |
+      ランクが -{value} 下降
+
+  # subsets filtering
+
+  - key: charts.subsets.presets
+    t: |
+      プリセット:
+
+  - key: charts.subsets.top_items
+    t: 上位項目
+  - key: charts.subsets.top_items.description
+    t: 今年のスコアが最も高かった項目をハイライト
+
+  - key: charts.subsets.bottom_items
+    t: 下位項目
+  - key: charts.subsets.bottom_items.description
+    t: 今年のスコアが最も低かった項目をハイライト
+
+  - key: charts.subsets.largest_increase
+    t: 最大増加
+  - key: charts.subsets.largest_increase.description
+    t: 過去1年間で最も増加が見られた項目をハイライト
+
+  - key: charts.subsets.largest_decrease
+    t: 最大減少
+  - key: charts.subsets.largest_decrease.description
+    t: 過去1年間で最も減少が見られた項目をハイライト
+
+  - key: charts.subsets.sections
+    t: |
+      セクション:
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: コメント
+  - key: comments.comments_for
+    t: “{name}” へのコメント
+  - key: comments.description
+    t: |
+      これらのコメントは、主要な質問の隣にある任意の自由記述欄を通じて、
+      調査の一部として送信されました。
+  - key: comments.report_abuse
+    t: このコメントを報告する
+  - key: comments.share
+    t: コメントを共有
+
+  - key: comments.filter.experience
+    t: "経験: "
+  - key: comments.filter.sentiment
+    t: "センチメント: "
+  - key: comments.filter.all
+    t: すべて
+  - key: comments.filter.clear
+    t: クリア
+
+  - key: comment.like.description
+    t: このコメントに「いいね」する
+
+  - key: comments.filter.show
+    t: フィルタを表示
+  - key: comments.filter.hide
+    t: フィルタを非表示
+
+  - key: comments.filter.by_keyword
+    t: 上位キーワード
+  - key: comments.filter.by_keyword.description
+    t: 言及された上位キーワードに基づいてフィルタリングします。
+  - key: comments.filter.by_token
+    t: その他のトピック
+  - key: comments.filter.by_token.description
+    t: 言及されたその他のトピックに基づいてフィルタリングします。
+  - key: comments.filter.by_search
+    t: 検索
+  - key: comments.filter.by_search.description
+    t: カスタムキーワードを使用して検索します。
+  - key: comments.filter.by_answer
+    t: 選択された回答
+  - key: comments.filter.by_answer.description
+    t: 回答者が選択した回答に基づいてフィルタリングします。
+
+  - key: comments.filter.by_experience
+    t: 経験
+  - key: comments.filter.by_experience.description
+    t: 主要項目に対する回答者の経験に基づいてフィルタリングします。
+  - key: comments.filter.by_sentiment
+    t: センチメント
+  - key: comments.filter.by_sentiment.description
+    t: 主要項目に対する回答者のセンチメントに基づいてフィルタリングします。
 
   ###########################################################################
   # Sharing
@@ -1096,7 +1291,7 @@ translations:
   - key: explorer.all_fields
     t: All fields
   - key: explorer.select_item
-    t: Select item
+    t: アイテムを選択する
 
   # details views
 
@@ -1179,176 +1374,177 @@ translations:
   ###########################################################################
 
   - key: filters.compare_data
-    t: Compare Data
+    t: データを比較
   - key: filters.customize_chart
-    t: Query Builder…
+    t: クエリビルダー…
   - key: filters.docs
-    t: Documentation
+    t: ドキュメント
   - key: filters.compare_chart
-    t: Customize “{chartName}”
+    t: “{chartName}”をカスタマイズ
   - key: filters.edit_variant_with_name
-    t: Edit “{name}”
+    t: “{name}”を編集
   - key: filters.edit_name
-    t: "Edit Name"
+    t: 名前を編集
   - key: filters.edit_name.description
-    t: "Edit chart variant name:"
+    t: チャートバリエーション名を編集：
   - key: filters.create_variant
-    t: Create New Variant
+    t: 新しいバリエーションを作成
   - key: filters.delete_variant
-    t: Delete Chart
+    t: チャートを削除
   - key: filters.delete_variant_confirm
-    t: Delete chart variant “{name}”?
+    t: チャートバリエーション“{name}”を削除しますか？
   - key: filters.edit_variant
-    t: Edit Options…
+    t: オプションを編集…
   - key: filters.filters.description
     t: |
-      Define a combination of filters to compare multiple versions of the same chart side-by-side
+      複数のバージョンのチャートを横並びで比較するためのフィルターの組み合わせを定義します
   - key: filters.facets.description
     t: |
-      Pick a variable and use it to further break down each row of a chart into segments.
+      変数を選び、チャートの各行をさらにセグメントに分割します。
   - key: filters.grid_mode
-    t: Filters
+    t: フィルター
   - key: filters.combined_mode
-    t: Combined
+    t: 組み合わせ
   - key: filters.facet_mode
-    t: Facets
+    t: ファセット
   - key: filters.facet
-    t: "Facet:"
+    t: "ファセット："
   - key: filters.optional
-    t: (optional)
+    t: (任意)
   - key: filters.axis1
-    t: Variable 1
+    t: 変数1
   - key: filters.axis2
-    t: Variable 2
+    t: 変数2
   - key: filters.axis1.description
     t: |
-      Pick the main variable you want to analyze (vertical axis).
+      分析したい主な変数を選択してください（縦軸）。
   - key: filters.axis2.description
     t: |
-      Pick another variable to compare the first one to (horizontal axis).
+      最初の変数と比較したい別の変数を選択してください（横軸）。
 
   - key: filters.facet_view
-    t: Segmented bars
+    t: セグメント化されたバー
   - key: filters.grid_view
-    t: Side-by-side grid
+    t: 横並びグリッド
 
   - key: filters.series.heading
-    t: Series {index}
+    t: シリーズ {index}
   - key: filters.series.add
-    t: Add Series…
+    t: シリーズを追加…
   - key: filters.series.delete
-    t: Delete Series
+    t: シリーズを削除
   - key: filters.series.year
     t: |
-      {year} data
+      {year}のデータ
   - key: filters.series.show_default
     t: |
-      Show default series
+      デフォルトのシリーズを表示
   - key: filters.series.no_data
-    t: No data
+    t: データなし
 
   - key: filters.condition.add
-    t: Add Filter
+    t: フィルターを追加
   - key: filters.condition.delete
-    t: Delete Filter
+    t: フィルターを削除
   - key: filters.condition.and
-    t: and
+    t: かつ
   - key: filters.operators.eq
-    t: is
+    t: である
   - key: filters.operators.in
-    t: is one of
+    t: のいずれか
   - key: filters.operators.nin
-    t: is not one of
+    t: のいずれでもない
   - key: filters.operators.lt
-    t: is lower than
+    t: より小さい
   - key: filters.operators.gt
-    t: is greater than
+    t: より大きい
   - key: filters.value.add
-    t: Add Value
+    t: 値を追加
   - key: filters.value.delete
-    t: Delete Value
+    t: 値を削除
 
   - key: filters.legend.default
-    t: Default
+    t: デフォルト
 
   - key: filters.cancel
-    t: Cancel
+    t: キャンセル
   - key: filters.submit
-    t: Update Chart
+    t: チャートを更新
   - key: filters.copy_link
-    t: Copy link to filters
+    t: フィルターへのリンクをコピー
   - key: filters.code
-    t: Filters Code
+    t: フィルターコード
   - key: filters.get_code
-    t: Get Code
+    t: コードを取得
   - key: filters.import_code
-    t: Import Code
+    t: コードをインポート
   - key: filters.paste_filters_code
-    t: Paste filters code here
+    t: ここにフィルターコードを貼り付け
 
   - key: filters.presets.title
-    t: "Presets:"
+    t: "プリセット："
   - key: filters.presets.save
-    t: Save current filters as preset…
+    t: 現在のフィルターをプリセットとして保存…
   - key: filters.presets.delete
-    t: Delete Preset
+    t: プリセットを削除
   - key: filters.presets.enter_name
     t: |
-      Enter a name for your new preset:
+      新しいプリセットの名前を入力してください：
   - key: filters.presets.previous_years
-    t: Previous Years
+    t: 過去の年
   - key: filters.presets.gender
-    t: Gender
+    t: 性別
   - key: filters.presets.top_countries
-    t: Top Countries
+    t: 上位の国
   - key: filters.presets.salary_low_high
     t: |
-      Low vs High Salary
+      低給与 vs 高給与
   - key: filters.presets.experience_low_high
     t: |
-      Low vs High Experience
+      経験が少ない vs 多い
   - key: filters.presets.company_size_low_high
     t: |
-      Small vs Large Company
+      小規模 vs 大規模企業
 
   - key: filters.facet.select
-    t: Select a facet…
+    t: ファセットを選択…
 
   - key: filters.by_x
-    t: By {name}
+    t: >
+      {name}別
 
   - key: filters.vs_x
-    t: Vs. {name}
+    t: >
+      {name} vs.
 
   - key: dataloader.failed_request
     t: >
-      Oh no! The API request failed with the following message:
+      おっと！APIリクエストが次のメッセージとともに失敗しました：
   - key: dataloader.submit_report_prompt
     t: >
-      Submit a bug report to let us know about this issue, and we'll do our best to
-      fix it:
+      この問題についてバグレポートを提出してください。できる限り早く修正します：
   - key: dataloader.submit_issue
-    t: Submit Issue
+    t: Issueを送信
 
   # advanced options
 
   - key: filters.advanced_options
-    t: Advanced Options
+    t: 詳細オプション
 
   - key: filters.options.cutoff
-    t: Cutoff Threshold
+    t: カットオフ閾値
   - key: filters.options.cutoff.description
-    t: Exclude any value under this threshold from the data
+    t: この閾値未満の値をデータから除外します
 
   - key: filters.options.limit
-    t: Limit
+    t: 上限
   - key: filters.options.limit.description
-    t: Limit the results to the first n items
+    t: 結果を最初のn件に制限します
 
   - key: filters.options.showDefaultSeries
     aliasFor: filters.series.show_default
   - key: filters.options.showDefaultSeries.description
-    t: Show the default (unfiltered) data series when using Grid mode
+    t: グリッドモード使用時にデフォルト（未フィルター）のデータシリーズを表示
 
   ###########################################################################
   # Chart Controls
@@ -1356,193 +1552,182 @@ translations:
 
   - key: charts.group_by
     t: >
-      Group by:
+      グループ化:
   - key: charts.group.experience
-    t: Experience
+    t: 経験
   - key: charts.group.sentiment
-    t: Sentiment
+    t: 感情
   - key: charts.grouped_by_group
     t: >
-      Grouped by "**{group}**""
+      "**{group}**" でグループ化済み
   - key: charts.group_by_group
     t: >
-      Group by "**{group}**""
+      "**{group}**" でグループ化
 
   - key: charts.display_mode
     t: >
-      Display mode:
+      表示モード:
   - key: charts.display_mode.split
-    t: Split View
+    t: 分割ビュー
   - key: charts.display_mode.stacked
-    t: Stacked View
+    t: 積み上げビュー
 
   - key: charts.order
     t: >
-      Sort order:
+      ソート順:
 
   - key: charts.sort_by
     t: >
-      Sort by:
+      ソート基準:
   - key: charts.sort_by_sort
     t: >
-      Sort by "**{sort}**"
+      "**{sort}**" でソート
   - key: charts.sorted_by_sort_order
     t: >
-      Sorted by "**{sort}**", **{order}**
+      "**{sort}**", **{order}** でソート済み
   - key: charts.order.asc
-    t: Ascending
+    t: 昇順
   - key: charts.order.desc
-    t: Descending
+    t: 降順
 
   - key: charts.actions.customize
     aliasFor: filters.customize_chart
   - key: charts.actions.data
-    t: Get Chart Data
+    t: チャートデータを取得
   - key: charts.actions.share
-    t: Share Chart
+    t: チャートを共有
 
   - key: charts.vs
-    t: vs.
+    t: 対
   - key: charts.facet_median
-    t: (median)
+    t: (中央値)
   - key: charts.facet_average
-    t: (average)
+    t: (平均)
 
   - key: charts.custom_variant
-    t: Variant {index}
+    t: バリアント {index}
   - key: charts.new_variant_name_prompt
-    t: Enter a short descriptive name for your new chart (e.g. “vs. Income”, “by Gender”, etc.)
+    t: 新しいチャートの短い説明名を入力してください（例：「収入別」「性別別」など）
 
   - key: charts.show_all_rows
-    t: Show All
+    t: すべて表示
   - key: charts.show_all_rows.x_hidden
-    t: Show All ({count} hidden)
+    t: すべて表示（非表示 {count} 件）
 
   - key: charts.metadata.completion
-    t: >
-      **{value}** completion rate (out of {total} survey participants)
+    t: "**{value}**% の完了率（{total} 名中）"
   - key: charts.metadata.respondents
-    t: >
-      **{value}** question respondents
+    t: "**{value}** 名が回答"
   - key: charts.metadata.answers
-    t: >
-      **{value}** question answers
+    t: "**{value}** 件の回答"
   - key: charts.metadata.average
     t: >
-      **{value}** mean (average) value
+      平均値: **{value}**
   - key: charts.metadata.median
     t: >
-      **{value}** median value
+      中央値: **{value}**
   - key: charts.metadata.limit
     t: >
-      Showing the top **{value}** items
+      上位 **{value}** 件を表示中
   - key: charts.metadata.cutoff
     t: >
-      Only showing items with more than **{value}** answers
+      **{value}** 件以上の回答がある項目のみ表示
   - key: charts.metadata.sort_asc
     t: >
-      Sorted by **{value}**, **ascending**
+      "**{value}**（昇順）で並び替え"
   - key: charts.metadata.sort_desc
     t: >
-      Sorted by **{value}**, **descending**
+      "**{value}**（降順）で並び替え"
 
   - key: charts.average.marker
     t: >
-      Average: **{value}**
+      平均: **{value}**
 
   - key: charts.median.marker
     t: >
-      Median: **{value}**
+      中央値: **{value}**
 
   - key: charts.marker.toggle.average
-    t: Toggle median
-
+    t: 中央値を切り替え
   - key: charts.marker.toggle.median
-    t: Toggle average
+    t: 平均を切り替え
 
   - key: charts.filter_by
     t: >
-      Filter by:
+      フィルター条件:
   - key: charts.all_filters
-    t: All
+    t: すべて
   - key: charts.all_filters.description
-    t: Show All
+    t: すべて表示
   - key: charts.filter_by_value
-    t: >
-      Filter by “{value}”
+    t: “{value}” でフィルター
   - key: charts.filtered_by_value
-    t: >
-      Filtered by “{value}”
+    t: “{value}” でフィルター済み
 
   - key: charts.filter_by.sections
     t: |
-      Category:
+      カテゴリー:
   - key: charts.filter_by.baseline
     t: |
-      Baseline Status:
+      ベースライン状態:
 
   - key: charts.toggle_view
     t: >
-      Show:
+      表示切替:
 
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
 
   - key: charts.multiexp.cell_group_tooltip.experience
-    t: >
-      **{count}** respondents (**{value}%**) answered "**{answer}**"
+    t: "**{count}** 名（**{value}%**）が「**{answer}**」と回答"
 
   - key: charts.multiexp.cell_group_tooltip.sentiment
-    t: >
-      **{count}** respondents (**{value}%**) had a **{answer}** sentiment
+    t: "**{count}** 名（**{value}%**）が **{answer}** の感情を選択"
 
   - key: charts.multiexp.cell_tooltip
-    t: >
-      **{count}** respondents (**{value}%**) answered "**{experience}**" and had a **{sentiment}** sentiment
+    t: "**{count}** 名（**{value}%**）が「**{experience}**」と回答し、感情は **{sentiment}** を選択"
 
   - key: charts.multiexp.cell_tooltip_neutral
-    t: >
-      **{count}** respondents (**{value}%**) answered "**{experience}**" and did not pick any sentiment
+    t: "**{count}** 名（**{value}%**）が「**{experience}**」と回答し、感情は未選択"
 
   ###########################################################################
   # Raw Freeform Answers
   ###########################################################################
 
   - key: answers.answers
-    t: Freeform Answers
+    t: 自由回答
   - key: answers.answers_for
     t: |
-      Answers matching “{name}”
+      「{name}」に一致する回答
   - key: answers.answers_for_count
     t: |
-      {count} answers matching “{name}”
+      「{name}」に一致する {count} 件の回答
   - key: answers.description
     t: |
-      These freeform answers were matched to the **{name}** topic through a combination of
-      automated and manual data processing.
+      これらの自由回答は、自動処理と手動処理を組み合わせて **{name}** トピックに分類されています。
   - key: answers.report_abuse
-    t: Report this answer
+    t: この回答を報告
 
   - key: answers.alphabetical
-    t: Alphabetical Order
+    t: アルファベット順
 
   - key: answers.length
-    t: Answer Length
+    t: 回答の長さ
 
   - key: answers.keyword
     t: |
-      Keyword:
+      キーワード:
 
   - key: answers.keyword_count
     t: |
-      {count} results
+      {count} 件の結果
 
   ###########################################################################
   # Cardinalities
   ###########################################################################
 
   - key: tools.cardinalities
-    t: Number of Items
+    t: 項目数
   - key: tools.cardinalities.description
-    t: How many items in this category respondents have used.
+    t: このカテゴリーで回答者が使用した項目数です。
