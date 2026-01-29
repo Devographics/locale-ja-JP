@@ -22,27 +22,27 @@ translations:
       After a decade of rapid iteration, it seems clear that the ecosystem has stabilized over the last few years. For example, did you know that “newcomer” Svelte is *9 years old*? Which, in JavaScript framework years, is basically ancient!
 
 
-      Instead, the main battle has moved to the realm of meta-frameworks, with Astro making a serious attempt at Next.js's crown – while over in build-tool land, it seems only a matter of time until Vite overtakes webpack. 
+      Instead, the main battle has moved to the realm of meta-frameworks, with Astro making a serious attempt at Next.js's crown – while over in build-tool land, it seems only a matter of time until Vite overtakes webpack.
 
 
-      Or maybe something else entirely will appear out of the Rust ecosystem and suddenly take over, bringing a premature end to our well-deserved era of peace and quiet.  
+      Or maybe something else entirely will appear out of the Rust ecosystem and suddenly take over, bringing a premature end to our well-deserved era of peace and quiet.
 
 
       Whatever happens, one thing's for sure: you can help us figure it all out by taking this year's State of JavaScript survey!
 
   - key: introduction.js2025
     t: >
-      When the long-awaited Nintendo Switch 2 recently came out, it had been eight years since the original Switch. 
+      先日、待望の「Nintendo Switch 2」がついに発売されましたが、初代Switchの登場からは実に8年もの月日が流れていました。
 
 
-      Can you imagine what that must've been like for those poor game developers? Eight long years having to develop for the same platform, with no new APIs, no new capabilities, no new bugs, no new versions that break your build… Those poor souls!
+      その間、ゲーム開発者たちがどれほど過酷な状況に置かれていたか、想像できますか？
+      新しいAPIも、新しい機能も、新しいバグも、ビルドを台無しにするようなOSアップデートもない、同じプラットフォームのために8年間も開発を続けなければならなかったなんて... なんて不憫な！
 
 
-      Thankfully that's something *we* won't ever have to worry about, as the JavaScript gods continue to make sure that each successive year brings its new share of probl… I mean, *innovations*!
+      幸いなことに、 *私たち* はそんな心配をする必要は一切ありません。
+      JavaScriptの神々は、毎年欠かさず新たな問ｄ...おっと、 *イノベーション* を私たちに授けてくださるのですから。
 
-
-      So join me once more to review these survey results and look back at 2025 had in store for us all.
-
+      それでは、今回のアンケート結果を一緒に振り返りながら、2025年が私たちに何をもたらしたのか見ていきましょう。
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -240,7 +240,7 @@ translations:
 
   - key: back_end_frameworks.back_end_frameworks_pain_points.takeaway.js2025
     t: >
-      While **Express* is still widely used *15 years* after its initial release, some are starting to wish the back-end ecosystem would move on to more modern alternatives. 
+      While **Express* is still widely used *15 years* after its initial release, some are starting to wish the back-end ecosystem would move on to more modern alternatives.
 
 
       This is especially true when it comes to providing typesafe, TypeScript-compatible APIs, which is something that venerable framework was never meant to do.
@@ -249,7 +249,7 @@ translations:
 
   - key: testing.testing_ratios.takeaway.js2025
     t: >
-      While **Jest** has long enjoyed a comfortable spot as the most-used testing tool, **Vitest** is climbing the ranks so fast that it wouldn't be surprising to see it overtake it in the upcoming year, especially with Jest's satisfaction ratio trending down. 
+      While **Jest** has long enjoyed a comfortable spot as the most-used testing tool, **Vitest** is climbing the ranks so fast that it wouldn't be surprising to see it overtake it in the upcoming year, especially with Jest's satisfaction ratio trending down.
 
 
       Meanwhile, **Storybook** is an interesting case study in a project trying its best to address its users' frustrations. It's still showing a slight satisfaction loss compared to last year, but the rate of decline has slowed, and things might start looking up soon.
