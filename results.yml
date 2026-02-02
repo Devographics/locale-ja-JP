@@ -579,6 +579,13 @@ translations:
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: 新しいライブラリの評価にあたって、重要とみている点はなんでしょうか？結果は左方の技術が上方の技術に勝ったラウンドの割合を示しています。
 
+  # Reading List
+  - key: features.reading_list
+    t: Reading List
+  - key: features.reading_list.note
+    t: >
+      回答者がアンケートに回答しながら特定のトピックについて詳しく学べる機能「Reading List」に、各項目が追加された回数。
+
   ###########################################################################
   # Charts
   ###########################################################################
