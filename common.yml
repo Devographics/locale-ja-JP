@@ -338,11 +338,11 @@ translations:
 
   # features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> 知らない
+    t: 知らない
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> 知っている
+    t: 知っている
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> 使ったことがある
+    t: 使ったことがある
 
   # features (no emoji)
   - key: options.features.never_heard.label
