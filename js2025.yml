@@ -108,31 +108,31 @@ translations:
   - key: features.js_new_features.takeaway.js2025
     t: >
       While **Temporal** still tops the rankings, excitement is down from last year, which makes sense as it has begun its transition from theoretical proposal to actually being implemented in Firefox.
+      **Temporal** は依然としてランキングのトップに君臨していますが、昨年ほどの盛り上がりは見られません。しかし、これは仕様案という理論上の段階から、Firefoxでの実装という実用化の段階へ移行し始めたことを考えれば、当然の結果と言えるでしょう。
 
   - key: features.top_currently_missing_from_js.takeaway.js2025
     t: >
-      No change in ranking in the top 5, but it's notable to see that interest in **Signals** did drop slightly compared to last year.
+      上位5位の順位に変動はありませんが、 **Signals** への関心が昨年と比べてわずかに低下している点は注目に値します。
 
   - key: features.native_types_proposal.takeaway.js2025
     t: >
-      While 32% of respondents are hoping for in-browser **runtime types** support in JavaScript, if types are ever officially supported it seems much more likely to be through **TypeScript-like type annotations**, which came in at number one.
+      JavaScriptにおける **ランタイムでの型チェック** をブラウザがサポートすることを期待している回答者が32%に上る一方で、もし型が公式にサポートされることになれば、今回1位となったTypeScriptのような型アノテーション（型注釈）という形式が望まれるようです。
 
   - key: features.js_pace_of_change.takeaway.js2025
     t: >
-      This question's aim was to get a rough idea of how well respondents are keeping up with new features, and it shows that most of us struggle to learn about–let alone try out–new language features Hopefully this is something these survey results can help with!
+      この質問の狙いは、回答者が新機能をどの程度把握できているか、その大まかな傾向を掴むことでした。結果から分かったのは、私たちの多くは新しい言語機能について、実際に試す以前に、それを学ぶことにさえ苦労しているという実態です。この調査結果が、そうした状況を改善する助けになると嬉しいです！
 
   - key: features.reading_list.takeaway.js2025
     t: >
-      The **Reading List** lets respondents learn more about specific items post-survey, and this year we tweaked it to support auto-adding items based on survey answers, in addition to letting respondents select items manually.
+      「リーディングリスト」は、回答者がアンケート終了後に特定の項目についてより詳しく学べる機能です。 今年は、回答者が手動で項目を選択できるだけでなく、アンケートの回答内容に基づいて項目を自動追加できるように改良を行いました。
 
-      This change led to a much more library-focused list, compared to previous years which included more features.
+      その結果、例年は他の機能も多く含まれていましたが、今年はよりライブラリに焦点を当てたリストへと進化しました。
 
   - key: libraries.all_tools_experience.takeaway.js2025
     t: >
-      **Vite** has been the most-loved library for a few years now, but it has now overtaken **React** to also become the #2 most-used item, and seems ready to take the top spot next year. 
+      **Vite** はここ数年、最も愛されているライブラリとしての地位を確立してきましたが、今回ついにReactを追い抜き、使用率でも第2位に浮上しました。来年には首位の座を奪う勢いを見せています。
 
-
-      Meanwhile, while **Next.js** is the 13th most-loved project, it's also the 5th most-hated, and generated the most comments overall–which goes to show just how polarizing the framework can be.
+      一方で、Next.jsは13番目に愛されているプロジェクトである一方、5番目に嫌われているプロジェクトでもあり、全プロジェクトで最も多くのコメントが寄せられました。このフレームワークがいかに二極化（賛否両論）され得るかが浮き彫りになりました。
 
   - key: libraries.tools_arrows.takeaway.js2025
     t: >
@@ -147,7 +147,7 @@ translations:
 
   - key: libraries.tools_ratios_over_time.takeaway.js2025
     t: >
-      The prize for largest relative usage increase goes to **Vitest** and **Playwright**, which both gained **14** percentage points year-over-year. 
+      The prize for largest relative usage increase goes to **Vitest** and **Playwright**, which both gained **14** percentage points year-over-year.
 
 
       Meanwhile, **Rolldown** saw a huge increase in name recognition, going from **33%%* to **51%** awareness. And when looking at satisfaction, **Next.js** experienced the largest drop, going from **68%** to **55%**.
@@ -425,7 +425,7 @@ translations:
   - key: picks.my_pick.js2025
     t: "My 2025 Pick: "
   - key: picks.intro
-    t: We asked members of the JavaScript community to share their “pick of the year”
+    t: JavaScriptコミュニティのメンバーに、今年の「イチオシ」を聞いてみました。
 
   - key: picks.aurora_scharff.name
     t: |
@@ -443,7 +443,7 @@ translations:
     t: Tech Educator
   - key: picks.ankita_kulkarni.description
     t: |
-      My pick of the year is Delba Oliveira from the Next.js team. Her work across the ecosystem is remarkable. She has a rare ability to make complex topics feel simple while consistently delivering deeply practical guidance for modern Next.js, React and JS.
+      私が選ぶ今年の一人は、Next.jsチームのDelba Oliveiraです。エコシステム全体における彼女の仕事は目を見張るものがあります。彼女は、複雑なトピックをシンプルに感じさせる稀な能力を持っており、モダンなNext.js、React、およびJSのための深く実践的なガイダンスを一貫して発信し続けています。
 
   - key: picks.shaundai_person.name
     t: |
