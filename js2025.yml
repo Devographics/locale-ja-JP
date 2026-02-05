@@ -523,8 +523,7 @@ translations:
     t: 再び**Vitest**が開発者が最も関心を持っている技術となり、関心度は**{value}**です。
 
   - key: award.most_write_ins_award.comment
-    t: **{value}**件の言及があり、Nodeバージョンマネージャーの**fnm**は、やはりRustで書かれたツールが最高であることを改めて証明しました。
-
+    t: \**{value}**件の言及があり、Nodeバージョンマネージャーの**fnm**は、やはりRustで書かれたツールが最高であることを改めて証明しました。
 
   - key: award.most_commented_tool_award.comment
     t: 回答者から**{value}**件のコメントがあることからも分かる通り、**Next.js** は間違いなく人々の関心を集める存在となっています。
