@@ -136,28 +136,27 @@ translations:
 
   - key: libraries.tools_arrows.takeaway.js2025
     t: >
-      JavaScript libraries commonly display a "boomerang" pattern over time: boosted by early positivity (line goes right), usage increases (line shoots up), but users then get confronted with more edge cases and real-world issues, and opinions can become more negative (line veers left).
+      JavaScriptのライブラリには、時間の経過とともに「ブーメラン」のような軌跡を描く共通のパターンが見られます。 最初は好意的な評価に後押しされて注目を集め（グラフの線が右へ伸び）、利用者が急増します（線が上へ跳ね上がる）。 しかし、普及が進むにつれてエッジケースや現実的な課題に直面するようになり、次第にネガティブな意見が増え始めます（線が左へと逸れていく）。
 
 
-      This means any project that moves to the right (such as **Vue.js**) or even just stays vertical (such as **Astro**) is worth paying attention to!
+      つまり、（Vue.jsのように）右肩上がりのプロジェクトや、（Astroのように）勢いを維持しているプロジェクトは、注目すべきということです！
 
   - key: libraries.tier_list.takeaway.js2025
     t: >
-      By having a satisfaction ratio above 90%, **Hono** and **Bun** make a well-deserved entrance into the S-tier this year.
+      満足度90％以上を記録した **Hono** と **Bun** は、文句なしの評価で今年見事S-tier入りを果たしました。
 
   - key: libraries.tools_ratios_over_time.takeaway.js2025
     t: >
-      The prize for largest relative usage increase goes to **Vitest** and **Playwright**, which both gained **14** percentage points year-over-year.
+      利用率が前年比で最も大きく伸びたのは **Vitest** と **Playwright** で、どちらも昨年から **14** ポイント上昇しました。
+
+      その一方、Rolldownは認知度が **33%** から **51%** へと大幅に上昇し、一躍その名が知れ渡る結果となりました。満足度に目を向けると、Next.jsが最も大きく数値を落とし、 **68%** から **55%** へと下落しました。
 
 
-      Meanwhile, **Rolldown** saw a huge increase in name recognition, going from **33%%* to **51%** awareness. And when looking at satisfaction, **Next.js** experienced the largest drop, going from **68%** to **55%**.
-
-
-      Finally, it's also interesting to see that both **Preact** and **React** fare much better among respondents who have actually used them than those who have merely heard about the libraries (as shown in the Appreciation tab).
+      最後に、 **Preact** と **React** の両方において、「聞いたことがあるだけの人」よりも「実際に利用したことがある人」の間で評価が格段に高いことも、興味深い点です（これは「Appreciation（高く評価）」タブの結果に表れています）。
 
   - key: libraries.scatterplot_overview.takeaway.js2025
     t: >
-      With this year's inclusion of back-end frameworks, **Express** has joined **Vite**, **React**, and **Jest** in the coveted top-right quadrant. But **Vue.js**, **Storybook**, and **Vitest** are not far behind!
+      今年はバックエンドフレームワークも調査対象に加わったことで、 **Express** が **Vite** や **React** 、 **Jest** と並び、誰もが羨む「右上のクアドラント（リーダー領域）」入りを果たしました。しかし、**Vue.jsやStorybook、Vitestもすぐ後ろに迫っています！
 
   # front_end_frameworks
 
@@ -185,7 +184,7 @@ translations:
 
   - key: front_end_frameworks.front_end_frameworks_pain_points.takeaway.js2025
     t: >
-      Being the dominant framework also means **React** tops the list of things front-end developers are struggling with. 
+      Being the dominant framework also means **React** tops the list of things front-end developers are struggling with.
 
 
       Other recurring issues include poor performance, state management, and just the sheer complexity of the modern front-end ecosystem.
@@ -216,7 +215,7 @@ translations:
 
   - key: meta_frameworks.front_end_frameworks_pain_points.takeaway.js2025
     t: >
-      By their nature, meta-frameworks straddle the gap between client and server, which leads to a lot of complex issues. 
+      By their nature, meta-frameworks straddle the gap between client and server, which leads to a lot of complex issues.
 
 
       And while **Next.js** offers quite a few ways to address those issues, the downside of all that power is that its learning curve and overall developer experience can sometimes suffer.
@@ -452,7 +451,7 @@ translations:
     t: Senior Software Engineer at Netflix
   - key: picks.shaundai_person.description
     t: |
-      My pick is Bree Hall, she's been doing great work and we're lucky to have her as part of the community.
+      私のイチオシはBree Hallです。彼女は素晴らしい活動をしており、彼女がコミュニティの一員でいてくれることを私たちは幸運に思っています。
 
   - key: picks.sam_selikoff.name
     t: |
