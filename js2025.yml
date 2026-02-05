@@ -58,15 +58,15 @@ translations:
       filling out the survey should take around 15-20 minutes.
 
   - key: faq.survey_design_js2025
-    t: How was this survey designed?
+    t: このアンケートはどのように設計されたのですか?
   - key: faq.survey_design_js2025.description
     t: >
-      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/307) involving browser vendors and the web development community.
+      このアンケートは、ブラウザベンダーやウェブ開発コミュニティが参加した[オープンな設計プロセス](https://github.com/Devographics/surveys/issues/307)の結果として設計されました。
 
   - key: faq.results_released_js2025
-    t: When will the results be released?
+    t: 結果はいつ公開されますか？
   - key: faq.results_released_js2025.description
-    t: The survey will run from October 1 to November 1, 2025, and the survey results will be released shortly after.
+    t: アンケートは2025年10月1日から11月1日まで実施され、その後間もなく結果が公開されます。
 
   ###########################################################################
   # Overview
@@ -74,31 +74,31 @@ translations:
 
   - key: overview_1_frontend_fatigue.js2025
     t: |
-      Front-end Frameworks
+      フロントエンドフレームワーク
 
   - key: overview_2_whats_next.js2025
     t: |
-      Meta Frameworks
+      メタフレームワーク
 
   - key: overview_3_back_in_business.js2025
     t: |
-      Back-end Frameworks
+      バックエンドフレームワーク
 
   - key: overview_4_build_it.js2025
     t: |
-      Build Tools
+      ビルドツール
 
   - key: overview_5_static_typing.js2025
     t: |
-      Static Typing
+      静的型付け
 
   - key: overview_6_other_languages.js2025
     t: |
-      Other Languages
+      その他の言語
 
   - key: overview_7_conclusion.js2025
     t: |
-      ### Now Open
+      ### 受付中
       ## State of React 2025
 
   ###########################################################################
