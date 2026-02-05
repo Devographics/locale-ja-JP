@@ -225,25 +225,25 @@ translations:
 
   - key: back_end_frameworks.back_end_frameworks_ratios.takeaway.js2025
     t: >
-      After three years of absence from the survey, it was high time we checked back on back-end frameworks. And no surprise here, **Express** is still the leader in terms of usage, even if **Next** is progressing at a nice clip.
+      3年ぶりに調査を再開するにあたり、バックエンドフレームワークの現状を改めて確認すべき時期が来ていました。結果は予想通り、**Express**がいまだに使用率で首位を維持していますが、**Next.js**もかなりの勢いで追い上げています。
 
 
-      But things are more interesting when switching to the Satisfactiont tab, where the top three projects (**Hono**, **Nitro**, and **ElysiaJS**) are all new entrants, making this once of the most exciting categories to watch in years to come.
+      しかし、「満足度(Satisfaction）」タブに切り替えると、状況はさらに面白くなります。上位3つのプロジェクト（**Hono** 、 **Nitro** 、 **ElysiaJS**）はすべて初登場の勢力であり、このカテゴリーは今後数年間で最も目が離せない、エキサイティングな分野の一つとなっています。
 
   - key: back_end_frameworks.back_end_frameworks_others.takeaway.js2025
     t: >
-      **oRPC** offers typesafe APIs, which is a big selling point compared to traditional back-end solutions created before the TypeScript sea change.
+      **oRPC**は型安全なAPIを提供します。これは、TypeScriptによる大きな変革が起こる前に作られた従来のバックエンドソリューションと比較した際、非常に大きな強みとなります。
 
   - key: back_end_frameworks.back_end_frameworks_cardinalities.takeaway.js2025
     t: >
-      Respondents tend to use relatively few back-end frameworks, which might be why **Express** remains so dominant: once you've picked a back-end, you're unlikely to go out of your way to try out new options.
+      回答者は使用するバックエンドフレームワークを比較的少数に絞る傾向があります。 **Express** がいまだに圧倒的なシェアを誇っているのは、それが理由かもしれません。一度バックエンドを決めてしまうと、わざわざ他の新しい選択肢を試そうとはしなくなるからです。
 
   - key: back_end_frameworks.back_end_frameworks_pain_points.takeaway.js2025
     t: >
-      While **Express* is still widely used *15 years* after its initial release, some are starting to wish the back-end ecosystem would move on to more modern alternatives.
+      Expressは最初のリリースから15年が経った今でも広く使われていますが、バックエンドのエコシステムがよりモダンな代替ツールへと移行することを望む声も出始めています。
 
 
-      This is especially true when it comes to providing typesafe, TypeScript-compatible APIs, which is something that venerable framework was never meant to do.
+      型安全でTypeScriptと互換性のあるAPIを提供する場合、その傾向は特に顕著になります。そもそもその古くからあるフレームワークは、そうした用途を想定して設計されていなかったからです。
 
   # testing
 
