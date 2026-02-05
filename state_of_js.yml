@@ -625,12 +625,12 @@ translations:
   # testing
 
   - key: tools.testing_happiness
-    t: テストの満足度
+    t: テストツールの満足度
   - key: tools.testing_happiness.question
     t: テストツールの現状にどのくらい満足していますか？
 
   - key: tools.testing_pain_points
-    t: テストのつらいところ
+    t: テストツールのつらいところ
   - key: tools.testing_pain_points.question
     t: テストツールを使うときに、つらいと感じるところは何ですか？
 

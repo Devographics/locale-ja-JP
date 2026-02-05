@@ -249,32 +249,32 @@ translations:
 
   - key: testing.testing_ratios.takeaway.js2025
     t: >
-      While **Jest** has long enjoyed a comfortable spot as the most-used testing tool, **Vitest** is climbing the ranks so fast that it wouldn't be surprising to see it overtake it in the upcoming year, especially with Jest's satisfaction ratio trending down.
+      **Jest**は長らく最も使われているテストツールとして不動の地位を築いてきましたが、現在**Vitest**が猛烈な勢いで追い上げています。Jestの満足度が低下傾向にあることを考えると、来年にも**Vitest**が首位の座を奪ったとしても不思議ではありません。
 
 
-      Meanwhile, **Storybook** is an interesting case study in a project trying its best to address its users' frustrations. It's still showing a slight satisfaction loss compared to last year, but the rate of decline has slowed, and things might start looking up soon.
+      一方で、ユーザーの不満を解消しようと最善を尽くしているプロジェクトとして、 **Storybook** は興味深い事例と言えるでしょう。満足度は昨年と比較して依然としてわずかに低下していますが、その下落ペースは鈍化しており、近いうちに状況は好転し始めるかもしれません。
 
   - key: testing.testing_others.takeaway.js2025
     t: >
-      While **Deno**'s test runner wasn't included in the survey's main options, it did come first in freeform mentions.
+      **Deno**のテストランナーは、調査の主要な選択肢には含まれていなかったものの、自由記述欄での言及数では第1位となりました。
 
   - key: testing.testing_cardinalities.takeaway.js2025
     t: >
-      While other categories so far have hovered around 1-2 tools used, when it comes to testing respondents averaged a whopping **4.4**, a sign that people may still be looking for that perfect test runner, and that things are far from settled in this area.
+      これまでの他のカテゴリーでは、使用されているツールは平均1〜2個程度にとどまっていました。しかしテストに関しては、回答の平均はなんと「**4.4**個」に達しています。これは、多くの人がまだ理想的なテストランナーを模索しており、この分野が依然としてまだ決着がついていない状態にあることを示唆しています。
 
   - key: testing.testing_happiness.takeaway.js2025
     t: >
-      Happiness remains stable, with a slight uptick over the past three years.
+      幸福度は安定して推移しており、ここ3年間はわずかに上昇傾向にあります。
 
   - key: testing.testing_pain_points.takeaway.js2025
     t: >
-      **Mocking** remains a major pain point for developers, with **configuration** and setup not far behind.
+      **モック**は依然として開発者にとっての大きな悩みの種であり、**設定**やセットアップ(環境構築)の難しさがそれに次いでいます。
 
   # build_tools
 
   - key: build_tools.build_tools_ratios.takeaway.js2025
     t: >
-      I really thought this would be the year **Vite** finally overtakes **webpack** to claim the spot of most-used build tools, but it looks like this might have to wait one more year. 
+      I really thought this would be the year **Vite** finally overtakes **webpack** to claim the spot of most-used build tools, but it looks like this might have to wait one more year.
 
 
       **Turbopack** is also showing a lot of progress in terms of usage, no doubt benefiting from being bundled with Next.js. That being said, similar to Next.js its satisfaction ratio is quite worrying.
@@ -497,7 +497,7 @@ translations:
     t: Creator, [BestOfJS](https://bestofjs.org/)
   - key: picks.michael_rambeau.description
     t: |
-      I didn't know about SST just a year ago, but I started using it for a new work project and it's been fanstastic! It really deserves more exposure.
+      わずか1年前まではSSTのことを全く知りませんでしたが、仕事の新しいプロジェクトで使い始めてみたところ、これが本当に素晴らしいんです！もっと多くの人に知られるべきツールだと思います。
 
   - key: picks.adam_argyle.name
     t: |
