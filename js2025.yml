@@ -354,43 +354,43 @@ translations:
 
   - key: usage.js_ts_balance.takeaway.js2025
     t: >
-      The proportion of developers who write the entirety of their code in TypeScript keeps increasing, and may soon represent a majority of respondents.
+      すべてのコードをTypeScriptで書く開発者の割合は増え続けており、間もなく回答者の過半数を占めるかもしれません。
 
   - key: usage.compiled_code_balance.takeaway.js2025
     t: >
-      A natural consequence of writing typed code (at least today) is depending on a build step, which is the case for the vast majority of us.
+      型を定義してコードを書く以上、（少なくとも現状では）、ビルドステップに依存することになり、私たち開発者の大半がそのように開発を行っています。
 
   - key: usage.build_step_advantages.takeaway.js2025
     t: >
-      If we *did* want to envision a build-less future, the first step would no doubt be native type support in JavaScript.
+      もし私たちがビルド不要の未来を思い描きたいのであれば、間違いなく最初の第一歩はJavaScriptにおけるネイティブな型のサポートになるでしょう。
 
   - key: usage.ai_generated_code_balance.takeaway.js2025
     t: >
-      While respondents do not yet produce a majority of their code with AI, the balance is quickly shifting, with code being the result of AI output increasing from 20% to 29% year-over-year.
+      回答者たちが作成するコードの大半がAIによるものという段階にはまだ至っていませんが、、その割合は急速に変化しており、AIが出力したコードの割合は前年比で20%から29%に増加しています。
 
   - key: usage.what_do_you_use_js_for.takeaway.js2025
     t: >
-      Despite the ever-growing number of use cases for JavaScript, front-end develeopment remains the most common reason to use the language for now.
+      JavaScriptのユースケースは増え続けていますが、今のところ依然としてフロントエンド開発がこの言語を利用する最も一般的な理由となっています。
 
   - key: usage.industry_sector.takeaway.js2025
     t: >
-      Given the survey's focus on upcoming trends and early-stage features, it makes sense that its largest audience block would be developers building tools and products for other programmers.
+      このアンケートが今後のトレンドや初期段階の機能に焦点を当てていることを考えると、回答者の最大勢力が「他のプログラマー向けにツールや製品を開発しているデベロッパー」であるという結果は、非常に理にかなっています。
 
   - key: usage.js_app_patterns.takeaway.js2025
     t: >
-      Modern JavaScript frameworks may now support a whole range of various rendering modes, but it turns out the simplest ones remain the most popular to this day.
+      モダンなJavaScriptフレームワークはさまざまなレンダリングモードをサポートしていますが、最もシンプルなものが今日でも最も人気があることがわかります。
 
   - key: usage.top_js_pain_points.takeaway.js2025
     t: >
-      We now have pretty much all the tools we need; the challenge is to know how to use them right.
+      必要なツールはほぼすべて揃いました。これからの課題は、それらをいかに正しく使いこなすかです。
 
   - key: usage.state_of_the_web_happiness.takeaway.js2025
     t: >
-      Happiness is once again stable.
+      満足度は再び安定しています。
 
   - key: usage.state_of_js_happiness.takeaway.js2025
     t: >
-      Happiness levels remain constant once again.
+      満足度のレベルは再び一定を保っています。
 
   # resources
 
