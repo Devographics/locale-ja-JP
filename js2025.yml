@@ -305,50 +305,50 @@ translations:
 
   - key: other_tools.libraries.takeaway.js2025
     t: >
-      **Zod** saw a lot of growth year-over-year. And since many of the libraries featured here focus on date management, it'll be interesting to see how this chart evovles as **Temporal** becomes better-supported across browsers.
+      **Zod**は前年比で大きく成長しました。また、ここで取り上げられているライブラリの多くが日付管理に焦点を当てているため、**Temporal**がブラウザ全体でより広くサポートされるようになるにつれて、このチャートがどのように進化していくかは興味深いところです。
 
   - key: other_tools.graphics_animation.takeaway.js2025
     t: >
-      **Chart.js** was a write-in result last year, and being included as an official option this survey rocketed it all the way up to first place.
+      **Chart.js**は昨年自由記述による回答でしたが、今回のアンケートで公式の選択肢に含まれたことで、一気に首位に躍り出ました。
 
   - key: other_tools.utilities.takeaway.js2025
     t: >
-      Every self-respecting JavaScript developer these days seems to be using **ESLint** and **Prettier**.
+      最近のプロ意識のあるJavaScript開発者なら、誰もが当たり前のように **ESLint** と **Prettier** を使っているようです。
 
   - key: other_tools.runtimes.takeaway.js2025
     t: >
-      **Node.js** and browsers taking the top spots isn't a big shock, but **Bun**'s third place is a nice sign of the project's growth.
+      **Node.js**とブラウザがトップの座を占めているのは驚くことではありませんが、**Bun**が3位に入ったことは、このプロジェクトの成長を示す良い兆候です。
 
   - key: other_tools.hosting.takeaway.js2025
     t: >
-      Despite the company's sometimes-polarizing reputation, **Vercel** has done a pretty amazing job of establishing itself as a serious hosting option, second only to **AWS**.
+      **Vercel**は評判が時に二分されることもありますが、**AWS**に次ぐ本格的なホスティングの選択肢としての地位を確立しており、実に見事な成果を上げています。
 
   - key: other_tools.edge_runtimes.takeaway.js2025
     t: >
-      While **Cloudflare** was fifth in the hosting chart, it ranks just below **AWS Lambda** here, making it a serious contender in both spaces.
+      **Cloudflare**はホスティングのチャートでは5位でしたが、ここでは**AWS Lambda**のすぐ下にランクインしており、両方の分野で有力な競合となっています。
 
   - key: other_tools.text_editors.takeaway.js2025
     t: >
-      **VS Code** has long dominated the text editor ranks, but **Cursor** has somehow managed to outpace every other competitor thanks to its promise of AI-powered coding.
+      テキストエディタ界では長らく **VS Code** が圧倒的なシェアを誇ってきましたが、**Cursor** は「AI駆動のコーディング支援」という強みを武器に、他の競合を追い越し、瞬く間にその地位を脅かす存在となりました。
 
   - key: other_tools.mobile_desktop.takeaway.js2025
     t: >
-      **React Native** takes the lead here, but **Expo** and **Tauri** are also worth keeping an eye on!
+      **React Native**がここではリードしていますが、**Expo**と**Tauri**も注目に値します！
 
   - key: other_tools.monorepo_tools.takeaway.js2025
     t: >
-      **pnpm** is the clear leader in the monorepo category.
+      **pnpm**はモノレポのカテゴリーで明確なリーダーです。
 
   - key: other_tools.non_js_languages.takeaway.js2025
     t: >
-      When we're not writing JavaScript, most of us turn to **Python** and **PHP**.
+      JavaScriptを書いていないとき、私たちの多くは**Python**と**PHP**に目を向けています。
 
   - key: other_tools.non_js_languages_features_top_features.takeaway.js2025
     t: >
-      This year we also asked respondents which *features* they would like to see adopted in JavaScript, while also specifying the language that feature came from.
+      今年は、JavaScriptに採用してほしい *機能* について回答者に尋ねると同時に、その機能のインスピレーション元となった言語についても指定してもらいました。
 
 
-      The second tab shows which languages appeared most frequently. And while **Rust** was only the 7th-most used language in the previous “Non-JavaScript Languages” chart, it came in first here, a testament to its outsized influenced on the JavaScript ecosystem.
+      2つ目のタブは、どの言語が最も頻繁に登場したかを示しています。前回の「JavaScript以外の言語」チャートでは7位だった **Rust** が、ここでは1位に輝きました。これは、JavaScriptのエコシステムに対してRustがいかに絶大な影響を与えているかを証明しています。
 
   # usage
 
