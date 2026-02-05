@@ -396,27 +396,27 @@ translations:
 
   - key: resources.courses.takeaway.js2025
     t: >
-      It's always interesting to see how independent developers such as **Wes Bos** and **Fireship** have managed to leverage their following into competing with much larger entities such as **Udemy** or **O'Reily**.
+      **Wes Bos**や**Fireship**のような独立した開発者が、自身のフォロワーを活用して**Udemy**や**O'Reilly**といったはるかに大きな企業と対等に渡り合っていることは、常に興味深いことです。
 
   - key: resources.newsletters.takeaway.js2025
     t: >
-      Newsletters lack the built-in sharing mechanisms of social media, so growing them can be quite tough. This explains why incumbents that have been around for a long time such as **JavaScript Weekly** and **CSS-Tricks** are still at the top of the rankings.
+      ニュースレターにはソーシャルメディアのようなシェア機能が組み込まれていないため、読者を増やすのは非常に困難です。これが、**JavaScript Weekly**や**CSS-Tricks**のような長い間存在している老舗がランキングのトップに君臨し続けている理由です。
 
   - key: resources.podcasts.takeaway.js2025
     t: >
-      As the line between podcasts and video content becomes ever-blurrier, **Syntax** still maintains their spot as respondents' favorite programming-related audio source.
+      ポッドキャストと動画コンテンツの境界線がますます曖昧になる中、**Syntax**は回答者のお気に入りのプログラミング関連オーディオソースとしての地位を維持しています。
 
   - key: resources.video_creators.takeaway.js2025
     t: >
-      While these rankings can be very dependent on whether video creators shared the survey with their own audience or not, **Fireship**, **Theo**, and **The Primeagen** seem firmly entranched as the top three figures of programming YouTube.
+      これらのランキングは、動画クリエイターが自身の視聴者にアンケートを共有したかどうかに大きく左右される可能性がありますが、**Fireship**、**Theo**、**The Primeagen**は、プログラミングYouTubeのトップ3として確固たる地位を築いているようです。
 
   - key: resources.people.takeaway.js2025
     t: >
-      While **Midudev** has his own large video presence and other “famous” developers are associated with successful open-source projects, it's worth noting that **Josh Comeau**'s well-deserved success comes down almost entirely to the quality of his excellent blog, a throwback to a more old-school way of creating instructional content online.
+      **Midudev**氏が動画配信で圧倒的なプレゼンスを持ち、他にも多くの有名開発者たちが成功したオープンソースプロジェクトを通じてその名を知られている一方で、**Josh Comeau**氏の成功は特筆に値します。 彼が正当な評価を得て成功を収めた最大の理由は、ひとえに自身のブログのクオリティの高さにあります。 これは、オンライン教育コンテンツの作り方としては、むしろ古典的な方法への回帰とも言えます。
 
   - key: resources.other_surveys.takeaway.js2025
     t: >
-      While filling out too many online surveys can do doubt lead to the dreaded “survey fatigue” (talk to your doctor!), when consumed in moderation they can still be a great tool to learn about the ecosystem.
+      オンラインアンケートを記入しすぎると、恐ろしい「アンケート疲れ」を引き起こす可能性がありますが(ご心配な方は医師に相談してください！）、適度な頻度であれば、エコシステムについて学ぶための素晴らしいツールとなります。
 
   ###########################################################################
   # Picks
