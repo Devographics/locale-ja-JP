@@ -274,32 +274,32 @@ translations:
 
   - key: build_tools.build_tools_ratios.takeaway.js2025
     t: >
-      I really thought this would be the year **Vite** finally overtakes **webpack** to claim the spot of most-used build tools, but it looks like this might have to wait one more year.
+      今年こそ**Vite**が**webpack**を追い抜いて最も使われているビルドツールの座を手にすると本当に思っていたのですが、それはもう1年待たなければならないようです。
 
 
-      **Turbopack** is also showing a lot of progress in terms of usage, no doubt benefiting from being bundled with Next.js. That being said, similar to Next.js its satisfaction ratio is quite worrying.
+      **Turbopack**も使用率で大きな進展を見せており、Next.jsにバンドルされていることから恩恵を受けていることは間違いありません。しかし、Next.jsと同様に、その満足度の低さは気がかりです。
 
 
-      **Rolldown** on the other hand has gained satisfaction, and also comes first in terms of interest.
+      一方で**Rolldown**は満足度を高めており、関心度でも首位に立っています。
 
 
-      Finally, **Bun** is doing quite well across all categories, which is quite an achievement for such a new and ambitious project.
+      最後に、**Bun**はすべてのカテゴリーで非常に良い成績を収めており、これは非常に新しく野心的なプロジェクトとしては素晴らしい成果です。
 
   - key: build_tools.build_tools_others.takeaway.js2025
     t: >
-      Once again respondents mentioned **Deno**, making a strong case to include it in the main survey options in 2026.
+      今回も回答者は**Deno**に言及しており、2026年にはアンケートの主要な選択肢に含めるべき強い根拠となっています。
 
   - key: build_tools.build_tools_cardinalities.takeaway.js2025
     t: >
-      Similar to testing tools, respondents have been trying out quite a few different build tools. It remains to be seen if **Vite** will make this a thing of the past.
+      テストツールと同様に、回答者は実に様々なビルドツールを試してきました。**Vite**がこれを過去のものにするかどうかは、今後の展開次第です。
 
   - key: build_tools.build_tools_happiness.takeaway.js2025
     t: >
-      Build tools happiness remains stable.
+      ビルドツールに対する満足度は安定して推移しています。
 
   - key: build_tools.build_tools_pain_points.takeaway.js2025
     t: >
-      While Vite has certainly made things better, **configuration** and setup remain the most pressing issue when it comes to build tools.
+      Viteが確実に状況を改善したとはいえ、**設定**やセットアップは依然としてビルドツールにおける最も差し迫った課題です。
 
     # other_tools
 
