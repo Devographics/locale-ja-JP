@@ -429,12 +429,12 @@ translations:
 
   - key: picks.aurora_scharff.name
     t: |
-      Talk: Next.js at the speed of Bun
+      トーク：Next.js at the speed of Bun
   - key: picks.aurora_scharff.bio
     t: Web Developer
   - key: picks.aurora_scharff.description
     t: |
-      My pick is Lydia Hallie's talk at Next.js Conf about Bun. They're working on super exciting things, and shes the best at explaining advanced topics :)
+      私のイチオシは、Next.js ConfでのLydia HallieによるBunについてのトークです。今最高にエキサイティングなことに取り組んでおり、彼女に高度なトピックを解説させたら右に出る者はいませんね :)
 
   - key: picks.ankita_kulkarni.name
     t: |
@@ -470,7 +470,7 @@ translations:
     t: Devographics surveys creator
   - key: picks.sacha_greif.description
     t: |
-      Kit's site is an awesome showcase of projects combining beautiful visuals, great functionality, and amazing content especially around [TypeScript](https://types.kitlangton.com/) and the [Effect](https://www.effect.institute/) library.
+      Kitのサイトは、美しいビジュアルと優れた機能性、そして素晴らしいコンテンツが見事に融合したプロジェクトのショーケースです。特に[TypeScript](https://types.kitlangton.com/)や[Effect](https://www.effect.institute/)ライブラリに関する内容は必見です。
 
   - key: picks.declan_chidlow.name
     t: |
@@ -488,7 +488,7 @@ translations:
     t: Reknowned candle-maker and karaoke professional
   - key: picks.jenn_schiffer.description
     t: |
-      I think the atproto dev community deserves a spotlight - one of the official SDKs is TypeScript! Also shout-out to [Jason Lengstorf](https://jason.energy/) and everyone else involved in [this](https://bsky.app/profile/codetv.dev/post/3lzgoi3nzh223).
+      atprotoの開発者コミュニティはスポットライトを浴びるべきだと思います - 公式SDKの一つがTypeScriptなのも素晴らしいです！また、[Jason Lengstorf](https://jason.energy/)をはじめ[こちら](https://bsky.app/profile/codetv.dev/post/3lzgoi3nzh223)に関わっているすべての人に感謝します。
 
   - key: picks.michael_rambeau.name
     t: |
@@ -506,7 +506,7 @@ translations:
     t: Co-host, The CSS Podcast
   - key: picks.adam_argyle.description
     t: |
-      Observable lets you build interactive documents treating each block as a function that yields something. It's all async, super capable, fun as hell to make stuff in, and powers [Nerdy Notebook](http://nerdy.dev/notebook).
+      Observableを使用すると、各ブロックを何かを生成する関数として扱うことで、インタラクティブなドキュメントを構築できます。すべてが非同期で、非常に高機能。ものづくりが最高に楽しくなるツールで、[Nerdy Notebook](http://nerdy.dev/notebook)の基盤にもなっています。
 
   ###########################################################################
   # Awards
