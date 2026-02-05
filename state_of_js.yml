@@ -603,7 +603,7 @@ translations:
   - key: tools.front_end_frameworks_happiness
     t: フロントエンドフレームワークの満足度
   - key: tools.front_end_frameworks_happiness.question
-    t: フロントエンドフレームワークの現状にどのくらい満足していますか？
+    t: フロントエンド・フレームワークの現状について、あなたの満足度はどのくらいですか？1（非常に不満）から5（非常に満足）の5段階で教えてください。
 
   - key: tools.front_end_frameworks_pain_points
     t: フロントエンドフレームワークのつらいところ
@@ -625,12 +625,12 @@ translations:
   # testing
 
   - key: tools.testing_happiness
-    t: テストの満足度
+    t: テストツールの満足度
   - key: tools.testing_happiness.question
     t: テストツールの現状にどのくらい満足していますか？
 
   - key: tools.testing_pain_points
-    t: テストのつらいところ
+    t: テストツールのつらいところ
   - key: tools.testing_pain_points.question
     t: テストツールを使うときに、つらいと感じるところは何ですか？
 
@@ -1121,3 +1121,40 @@ translations:
     t: JavaScriptの最初の勉強方法
   - key: resources.first_steps_js.description
     t: 最初にJavaScriptを学び始めたとき、どの方法で学びましたか。
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## 「State of JavaScript」オリジナルTシャツで、調査活動を応援してください
+
+      画質の悪さ、かさばるカセット、そして巻き戻しの手間... VHS時代を恋しく思うものはあまりありません。 ただ、当時のVHSテープのパッケージを彩っていた、あの素晴らしい90年代のビジュアルだけは別です。
+
+      今、才能あふれる Christopher Kirk-Nielsen 氏の協力により、JavaScriptへの愛を表現しながら、同時にレトロの素晴らしさを楽しむことができます！
+  - key: tshirt.about
+    t: About the T-shirt
+
+  - key: tshirt.description
+    t: |
+      高品質で非常に柔らかいトライブレンド生地を使用した、スリムフィットのTシャツです。プリントは提携先のCotton Bureau社が手掛けています。
+
+  - key: tshirt.getit
+    t: Get It
+
+  - key: tshirt.price
+    t: USD $32 + shipping
+
+  - key: tshirt.designer.heading
+    t: デザイナー
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      フランス出身で現在はアメリカを拠点に活動している Chris は、素晴らしいフロントエンドエンジニアであるだけでなく、レトロなビジュアルを得意とする才能豊かなイラストレーターでもあります。 [彼が手がけた他のTシャツデザイン]((https://chriskirknielsen.com/designs)も、ぜひあわせてチェックしてみてください！

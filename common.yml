@@ -343,6 +343,9 @@ translations:
   # Options
   ###########################################################################
 
+  - key: options.experience.title
+    t: 経験
+
   # other answer
   - key: options.other
     t: その他
@@ -375,11 +378,11 @@ translations:
 
   # features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> 知らない
+    t: 知らない
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> 知っている
+    t: 知っている
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> 使ったことがある
+    t: 使ったことがある
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -396,6 +399,68 @@ translations:
     t: 知っている
   - key: options.features.used.label.short
     t: 使った
+
+  # sentiments
+
+  - key: options.sentiment.title
+    t: 所感
+
+  - key: options.sentiment.positive.label
+    t: 肯定的
+  - key: options.sentiment.neutral.label
+    t: 中立
+  - key: options.sentiment.negative.label
+    t: 否定的
+
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.label.short
+    t: 肯定的
+  - key: options.sentiment.neutral.label.short
+    t: 中立
+  - key: options.sentiment.negative.label.short
+    t: 否定的
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.description
+    t: その技術について詳しく知りたい、あるいは今後も継続して利用したいと考えている回答者。
+  - key: options.sentiment.neutral.description
+    t: その技術に対して、肯定・否定のどちらの感情も示さなかった回答者
+  - key: options.sentiment.negative.description
+    t: その技術についてこれ以上学ぶ意欲がない、あるいは、実際に使用して否定的な印象を抱いた回答者。
 
   # patterns
   - key: options.patterns.use_never
