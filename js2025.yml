@@ -162,63 +162,64 @@ translations:
 
   - key: front_end_frameworks.front_end_frameworks_ratios.takeaway.js2025
     t: >
-      For all the talk of the front-end ecosystem being in constant turmoil, things have been remarkably stable over the past year, with no change in usage rankings apart from **Alpine.js** and **HTMX** switching places.
+      フロントエンドのエコシステムは常に混乱状態にあるとよく言われますが、ここ1年は驚くほど安定していました。利用率のランキングを見ても、 **Alpine.js** と **HTMX** の順位が入れ替わった以外、変化は全く見られませんでした。
 
 
-      The same is true when looking at satisfaction, with the exception of **Qwik** continuing to lose ranks.
+      満足度に関しても同様の傾向が見られますが、順位を落とし続けている **Qwik** だけは例外です。
 
 
-      Another place where that lack of new hype is apparent is the Interest tab, with no framework apart from **Solid** and **Preact** gaining ground since last year.
+      新たな話題性が欠けていることは「関心(Interest）」タブにも顕著に表れており、昨年から勢いを増しているフレームワークは **Solid** と **Preact** 以外にはありません。
 
   - key: front_end_frameworks.front_end_frameworks_others.takeaway.js2025
     t: >
-      Setting aside **Astro**, which doesn't quite belong to the front-end framework category, and **Ember**, which has been around for a while now, the most exciting new entrant here has to be **Ripple**, taking on the tough job of being the new kind on the front-end block.
+      フロントエンドフレームワークというカテゴリーとは少し異なる **Astro** や、すでに長い歴史を持つ **Ember** はさておき、今この分野で最も注目すべき新人は **Ripple** でしょう。フロントエンド界の新星という困難な役割に真っ向から挑んでいます。
 
   - key: front_end_frameworks.front_end_frameworks_cardinalities.takeaway.js2025
     t: >
-      The average respondent has only used **2.6** different front-end frameworks over their career, again showing that the image of the burned-out web developer jumping from framework to framework on a monthly basis isn't quite accurate anymore.
+      回答者がこれまでのキャリアで経験したフロントエンドフレームワークは平均わずか **2.6個** でした。この結果からも、ウェブ開発者が毎月のように新しいフレームワークを渡り歩き、疲弊しているという世間のイメージは、もはや実態とは異なることが分かります。
 
   - key: front_end_frameworks.front_end_frameworks_happiness.takeaway.js2025
     t: >
-      While in slight decline, front-end happiness has been remarkably stable over the years.
+      フロントエンド開発における満足度はわずかに低下傾向にあるものの、長年にわたり驚くほど安定しています。
 
   - key: front_end_frameworks.front_end_frameworks_pain_points.takeaway.js2025
     t: >
-      Being the dominant framework also means **React** tops the list of things front-end developers are struggling with.
+      Reactは主流のフレームワークであるがゆえに、フロントエンド開発者が最も苦戦している技術の筆頭でもあります。
 
 
-      Other recurring issues include poor performance, state management, and just the sheer complexity of the modern front-end ecosystem.
+      その他の慢性的な課題としては、パフォーマンスの低下や状態管理、そして現代のフロントエンドエコシステムが抱える圧倒的な複雑さなどが挙げられます。
 
   # meta_frameworks
 
   - key: meta_frameworks.meta_frameworks_ratios.takeaway.js2025
     t: >
-      **Next.js** keeps on gaining ground and dominating the meta-framework category, yet paradoxically, it's also losing satisfaction at the exact same time. This is not a good sign, as its satisfaction ratio now has a **39%** gap with leader **Astro**.
+      **Next.js**は勢力を拡大し続け、メタフレームワークというカテゴリーで圧倒的なシェアを誇っています。しかし逆説的に、その普及とは裏腹に満足度は低下の一途をたどっています。首位の**Astro**との満足度スコアの差は**39%**にまで広がっており、Next.jsにとって決して良い兆候ではありません。
 
 
-      And one look at the Awareness chart is enough to see how dangerous of a competitor Astro really is, going from virtually unknown to serious contender in the span of just a few years.
+      知名度(Awareness)の推移チャートを一目見れば、Astroがいかに恐ろしい競合であるかは明らかです。わずか数年のうちに、ほとんど無名の状態から有力なライバルへと一気に駆け上がったのです。
 
   - key: meta_frameworks.meta_frameworks_others.takeaway.js2025
     t: >
-      Many respondents questioned the absence of **TanStack Start** from the options offered in the survey. The reason is simply that at survey launch, the framework wasn't out of beta yet!
+      調査の選択肢に **TanStack Start** が含まれていないことについて、多くの回答者から疑問の声が寄せられました。その理由は単純で、調査を開始した時点では、このフレームワークがまだベータ版を脱していなかったからです。
 
 
-      Thankfully respondents were able to rectify this omission by mentioning the project in the “other meta-frameworks” field, a clear signal that TanStack Start is going to make a very strong entrance in next year's ”official” rankings.
+      幸いなことに、回答者たちが「その他のメタフレームワーク」欄でこのプロジェクトに言及してくれたおかげで、記載漏れを補うことができました。これは、TanStack Startが来年の「公式(official)」ランキングで非常に力強いデビューを飾るであろうことを明確に示唆しています。
 
   - key: meta_frameworks.meta_frameworks_cardinalities.takeaway.js2025
     t: >
-      Respondents haven't used that many different meta-frameworks, which is to be expected in a category still dominated by just one or two solutions.
+      回答者が利用したことのあるメタフレームワークの種類はそれほど多くありません。しかし、1つか2つの主要なソリューションが市場を独占している現状では、これは予想通りの結果と言えます。
 
   - key: meta_frameworks.meta_frameworks_happiness.takeaway.js2025
     t: >
-      It will be interesting to see if diminishing satisfaction with Next.js eventually translates into diminishing happiness overall, but so far at least that doesn't seem to be the case.
+      Next.jsに対する満足度の低下が、最終的に（開発環境）全体の幸福度の低下につながるのかどうかは興味深いところですが、少なくとも今のところはそのような傾向は見られません。
 
   - key: meta_frameworks.front_end_frameworks_pain_points.takeaway.js2025
     t: >
       By their nature, meta-frameworks straddle the gap between client and server, which leads to a lot of complex issues.
+      メタフレームワークはその性質上、クライアントとサーバーの境界をまたぐため、多くの複雑な問題を引き起こす要因となっています。
 
 
-      And while **Next.js** offers quite a few ways to address those issues, the downside of all that power is that its learning curve and overall developer experience can sometimes suffer.
+      **Next.js** にはこうした課題を解決する手段が数多く用意されていますが、多機能ゆえの欠点として、学習コストの高さや、開発体験（DX）が損なわれてしまう側面もあります。
 
   # back_end_frameworks
 
@@ -460,7 +461,7 @@ translations:
     t: Next.js team
   - key: picks.sam_selikoff.description
     t: |
-      Server Components extend the capabilities of server-rendered React by allowing you send not only inert HTML to the browser, but also data structures (objects, arrays, dates, maps), Promises (even recursive ones), new React trees (and their source code), and Server Function references. It's a serialization format, and Dan's RSC Explorer really helps you understand that.
+      Server Componentsは、サーバーサイドでレンダリングされるReactの機能をさらに拡張します。 単に静的なHTMLをブラウザに送るだけでなく、オブジェクトや配列、日付、Mapといったデータ構造をはじめ、Promise（再帰的なものも含む）、新しいReactツリー（とそのソースコード）、さらにはSever Functionの参照までも送信できるようになります。 これは一つのシリアライズ形式であり、Dan氏の「RSC Explorer」を使うと、その仕組みが非常によく理解できるはずです。
 
   - key: picks.sacha_greif.name
     t: |
@@ -478,7 +479,7 @@ translations:
     t: Front-end developer, designer, writer
   - key: picks.declan_chidlow.description
     t: |
-      Describing itself as “a concise dialect of JavaScript expressions”, Web Origami is a project that hit its stride in 2025. It offers a remarkably intuitive way to transform data, build websites, and call JavaScript directly from the shell. It connects expressions and paths to enable powerful, intuitive data manipulation.
+      Web Origamiは、自らを「JavaScript式の簡潔な方言」と定義するプロジェクトで、2025年に入り本格的な普及期を迎えました。 このプロジェクトは、データの変換やウェブサイトの構築、さらにはシェルからのJavaScript呼び出しを驚くほど直感的な方法で実現します。 「式(expression）」と「パス(path）」を巧みにつなぎ合わせることで、強力かつ直感的なデータ操作を可能にしています。
 
   - key: picks.jenn_schiffer.name
     t: |

@@ -603,7 +603,7 @@ translations:
   - key: tools.front_end_frameworks_happiness
     t: フロントエンドフレームワークの満足度
   - key: tools.front_end_frameworks_happiness.question
-    t: フロントエンドフレームワークの現状にどのくらい満足していますか？
+    t: フロントエンド・フレームワークの現状について、あなたの満足度はどのくらいですか？1（非常に不満）から5（非常に満足）の5段階で教えてください。
 
   - key: tools.front_end_frameworks_pain_points
     t: フロントエンドフレームワークのつらいところ
