@@ -540,27 +540,29 @@ translations:
 
   - key: conclusion.js2025.daniel_roe
     t: |
-      <span class="first-line">TypeScript has won.</span>
+      <span class="first-line">TypeScriptの勝利。</span>
 
-      Not as a bundler &ndash; but as a language. Deno and Bun (have) supported it for a long time. And now, type stripping means you can write it natively in stable Node.js versions. If types as comments makes it, you'll even be able to write in the browser.
+      バンドラーとしてではなく &ndash; 言語として。DenoとBunは長い間サポートしてきました。そして今、Type Strippingにより、安定版のNode.jsバージョンでネイティブに記述できるようになりました。「Types as Comments（コメントとしての型定義）」が実現すれば、ブラウザで直接記述することさえ可能になります。
 
-      …and the day of Vite has come. This year, we saw Vite downloads surpass webpack's. And alongside it, Vitest usage has surged upwards. It seems like a good time to opt in to the new Vite toolchain, and 2026 promises to be the year that happens &ndash; with the stable release of Rolldown to power a new, faster Vite, as well as the promise of an all-in-one 'Vite+'.
+      そしてついにViteの時代が到来しました。今年、Viteのダウンロード数がwebpackを上回りました。それと同時に、Vitestの使用率も急上昇しています。新しいViteツールチェーンを採用する良いタイミングのようで、2026年は、Viteがさらなる進化を遂げる年になりそうです。 - より高速なViteを実現する「Rolldown」の安定版リリースに加え、すべてを一つに統合した「Vite+」の登場も期待されています。
 
-      Our tools are better than ever. Yet the existential question we are all asking is quite different: what about AI?
+      私たちの開発ツールは、かつてないほど進化を遂げました。しかし、いま私たちが直面している本質的な問いは、それとは別のところにあります。「AIをどう捉えるべきか」という問題です。
 
-      AI is poised to change how we consume documentation, write code, make architectural choices, and more. Companies are betting everything on new patterns of development. For the vast majority of us, coding agents are changing how we interface with our code.
+      AIは、ドキュメントの読み方、コードの書き方、アーキテクチャの選定など、あらゆるプロセスを変えようとしています。多くの企業が新たな開発パターンにすべてを賭けており、大多数のエンジニアにとっても、コーディングエージェントの登場によってコードとの向き合い方が変わりつつあります。
 
-      Is that a good thing?
+      果たして、これは良い変化なのでしょうか？
 
-      Apparently by the end of 2025, just under 30% of code was AI-generated. Cursor and Zed are surging in popularity, even if they are far from dethroning VSCode as the most-used IDE. And agent-based approaches, like Claude, Gemini and Copilot are growing quickly.
+      統計によれば、2025年末までに生成されるコードの約30%がAIによるものになるようです。CursorやZedといったエディタが急速に支持を広げており（もっとも、シェア首位のVSCodeを脅かすまでには至っていませんが）、Claude、Gemini、Copilotといったエージェントベースのアプローチも目覚ましい成長を遂げています。
 
-      For those of us who are developers, knowing what 'good' looks like will be more important than ever, whatever tools we use. Keeping on top of new language features will be more important. As will knowing what libraries to build on, rather than vibe coding everything from scratch.
 
-      It's already possible to spin up a new project in a day &ndash; or migrate an existing project easily. That's a challenge for framework and library authors. We need to make sure our tools continue to serve developers. We can't count on inertia.
 
-      And that's a reason for all users to be optimistic.
+      私たち開発者にとって、どんなツールを使うにせよ、「何が良いコードなのか」を見極める能力はこれまで以上に重要になるでしょう。言語の新しい機能を常に把握しておくことも欠かせません。また、その場の雰囲気でゼロから書き上げるVibe Codingに頼るのではなく、どのライブラリを基盤に据えるべきかを知る知識も求められます。
 
-      Let's see what 2026 brings. I'm hoping it will be faster tools, better developer experience, and the power of technology acting as a force multiplier to augment our own agency and choices.
+      今や、わずか1日で新しいプロジェクトを立ち上げたり、既存のプロジェクトを簡単に移行したりすることが可能です。これはフレームワークやライブラリの作者にとって大きな挑戦です。ツールが開発者の役に立ち続けるためには、過去の慣習や惰性に甘んじることはできません。
+
+      しかし、この状況はすべてのユーザーにとって、楽観視できる理由でもあります。
+
+      2026年がどのような年になるか見守りましょう。より高速なツール、より優れた開発体験、そしてテクノロジーの力が私たちの主体性や選択肢を広げるレバレッジとして機能する未来を、私は確信しています。
 
   - key: conclusion.js2025.daniel_roe.bio
     t: Open source maintainer and founder, leading the Nuxt core team.
