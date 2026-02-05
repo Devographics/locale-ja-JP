@@ -514,25 +514,26 @@ translations:
 
   - key: award.tool_usage_delta_award.comment
     t: |
-      **Vitest** and **Playwright** both gained **{value}** usage among respondents.
+      **Vitest**と**Playwright**は、いずれも回答者の間で**{value}**の使用率の増加を記録しました。
 
   - key: award.tool_satisfaction_award.comment
-    t: Vite takes the top spot, with **{value}** of users having a positive opinion about it.
+    t: Viteがトップの座を獲得し、ユーザーの**{value}**がそれに対して肯定的な意見を持っています。
 
   - key: award.tool_interest_award.comment
-    t: Once again **Vitest** is the technology developers are most interested in, with a **{value}** interest ratio.
+    t: 再び**Vitest**が開発者が最も関心を持っている技術となり、関心度は**{value}**です。
 
   - key: award.most_write_ins_award.comment
-    t: With **{value}** mentions, Node version manager **fnm** proves once again that everything is better when written in Rust.
+    t: **{value}**件の言及があり、Nodeバージョンマネージャーの**fnm**は、やはりRustで書かれたツールが最高であることを改めて証明しました。
+
 
   - key: award.most_commented_tool_award.comment
-    t: With **{value}** comments from respondents, **Next.js** is certainly not leaving people indifferent.
+    t: 回答者から**{value}**件のコメントがあることからも分かる通り、**Next.js** は間違いなく人々の関心を集める存在となっています。
 
   - key: award.most_loved_tool_award.comment
-    t: With **{value}** of all developers having a positive opinion of it, Vite once more gets the prize for most-loved technology!
+    t: 全開発者の**{value}**がこれに対して肯定的な意見を持っており、Viteは再び最も愛されている技術として栄冠を手にしました！
 
   - key: award.feature_adoption_delta_award.comment
-    t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+    t: 2022年に**{value}**の進展があり、**top-level await**は急速にJavaScriptに欠かせない重要な要素となりました。
   ###########################################################################
   # Conclusion
   ###########################################################################
