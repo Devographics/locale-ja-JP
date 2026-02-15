@@ -1,11 +1,12 @@
-locale: en-US
+locale: ja-JP
 translations:
   ###########################################################################
   # General
   ###########################################################################
 
   - key: general.results.description
-    t: The 2025 edition of the annual survey about the latest trends in the React ecosystem.
+    t: |
+      Reactエコシステムの最新トレンドを調査する、2025年版の年次アンケートです。
 
   ###########################################################################
   # Introduction
@@ -13,47 +14,47 @@ translations:
 
   - key: general.react2025.survey_intro
     t: |
-      Given that it originally came out of a company whose motto was “move fast and break things”, it's ironic that React's approach could be summarized as “slow and steady”.
+      「素早く動き、破壊せよ（Move fast and break things）」をモットーとする企業から生まれたことを考えると、Reactが取ってきたアプローチが、実は「着実かつ慎重（Slow and steady）」と要約できるのは皮肉なものです。
 
-      The React team has done a remarkable job of evolving the framework into its current modern state, progressively introducing innovations like Server Components and then letting the community adopt them (or not!) at its own pace.
+      Reactチームは、このフレームワークを現在のモダンな姿へと進化させる上で、素晴らしい手腕を発揮してきました。Server Componentsのような革新的な機能を段階的に導入し、それをコミュニティが自分たちのペースで採用するか否かを委ねてきたのです。
 
-      This year, it's time for the long-awaited Compiler to make its official debut. And things are also moving on the administrative front, with the recently-introduced [React foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation).
+      そして今年、ついに待望の「React Compiler」が正式デビューを迎えます。また、運営面でも動きがあり、先日「[React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation)」が設立されました。
 
-      So whether you're on the cutting edge of new React features, or adopting innovations at a slower pace, join us once again to figure out where React is going by taking this year's State of React survey!
+      新機能をいち早く取り入れている方も、自分のペースでじっくりと導入を進めている方も、ぜひ今年の「State of React」アンケートに参加してください。Reactがこれからどこへ向かおうとしているのか、共に解き明かしましょう！
 
   - key: features.features_intro.react2025
     t: |
-      Welcome to the survey! This first part is all about sharing your experience with various React features:
+      アンケートへようこそ! 最初のパートでは、さまざまなReactの機能についてのあなたの経験を共有していただきます:
 
 
-      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+      - **聞いたことがない**: これを初めて見た、またはそれについて聞いたことはあるが何をするものか全くわからない。
 
-      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+      - **聞いたことがある**: これについて読んだり学んだりしたことはあるが、まだ実際には使用していない。
 
-      - **Used it**: you've used this at least once, even if it was just to play around. 
+      - **使用したことがある**: たとえ試しに使っただけであっても、少なくとも一度は使用したことがある。
 
 
-      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+      ちなみに、もし選択した内容についてもっと詳しく伝えたい場合は、小さな吹き出しアイコンをクリックしてください!
 
   - key: tools.tools_intro.react2025
     t: |
-      This next part of the survey is all about the various libraries and frameworks that make up the React ecosystem.
+      次のパートは、Reactエコシステムを構成するさまざまなライブラリやフレームワークについてです。
 
   - key: introduction.react2025
     t: |
-      <span class="first-letter">Y</span>ear after year, React bucks the trend of the ever-changing web development landscape by subbornly refusing to become obsolete, and evolving with the times–or sometimes even ahead of them. 
+      <span class="first-letter">年</span>々絶えず変化するWeb開発の世界において、Reactは時代遅れになることを頑なに拒み、時代とともに、あるいは時代を先取りして進化を続けています。
 
 
-      And with generative AI's reliance on existing codebases in order to spew out new code, could React become even more entrenched and effectively become the first “forever framework”?
+      生成AIが既存のコードベースを学習して新たなコードを出力するという仕組みを考えると、Reactの存在感はさらに強まり、事実上、史上初の「永遠のフレームワーク」になる可能性すらあるのではないでしょうか。
 
 
-      We won't know the answer to that question for a while, so until then the best we can do is to keep putting out surveys like this one to track where the ecosystem is going. 
+      その答えが出るまでにはまだ時間がかかりそうです。それまでの間、私たちにできる最善のことは、こうした調査を継続し、エコシステムの動向を追い続けることだと考えています。
 
 
-      And even though this edition had lower participation due to running late in the year, it still provided some interesting insights, and I can't wait for you to check them out!
+      今回は実施時期が年末にずれ込んだため、例年に比べて回答者数は少なくなりましたが、それでも興味深い知見が数多く得られました。ぜひその結果をご覧いただければと思います！
 
 
-      *Please note that this in an unofficial survey unaffiliated with Meta, Vercel, the React team, or the React foundation.*
+      ※この調査は非公式のものであり、Meta社、Vercel社、Reactチーム、およびReact Foundationとは一切関係がありません。
 
 
       <span class="conclusion__byline">– Sacha Greif</span>
@@ -63,15 +64,18 @@ translations:
   ###########################################################################
 
   - key: faq.survey_design_react2025
-    t: How was this survey designed?
+    t: |
+      このアンケートはどのように設計されましたか?
   - key: faq.survey_design_react2025.description
     t: >
-      The survey was designed with input from the community through an [open feedback thread](https://github.com/Devographics/surveys/issues/262).
+      このアンケートは、[オープンなフィードバックスレッド](https://github.com/Devographics/surveys/issues/262)を通じてコミュニティからの意見を取り入れて設計されました。
 
   - key: faq.results_released_react2025
-    t: When will the results be released?
+    t: |
+      結果はいつ公開されますか?
   - key: faq.results_released_react2025.description
-    t: The survey will run from October 25 to November 25, and the survey results will be released shortly after that.
+    t: |
+      アンケートは10月25日から11月25日まで実施され、アンケート結果はその後すぐに公開されます。
 
   ###########################################################################
   # Takeaways
@@ -79,266 +83,261 @@ translations:
 
   - key: features.all_features.takeaway.react2025
     t: |
-      While there aren't any major surprises here, it's interesting to note that **Server Components** and **Server Functions** are the third and fourth most disliked features respectively, which is troubling for a set of new APIs that was supposed to pave the way towards React's next big evolution towards a more complete full-stack framework.
+      特に大きな驚きはありませんが、興味深いのは**Server Components**と**Server Functions**がそれぞれ3番目と4番目に嫌われている機能であることです。これは、Reactがより完全なフルスタックフレームワークへと次の大きな飛躍を支えるはずだった新しいAPI群にとって、懸念すべき状況です。
 
   - key: features.main_apis_ratios.takeaway.react2025
     t: |
-      React is a mature library, and that translates into fairly predictable usage curves for its main APIs.
+      Reactは成熟したライブラリであり、その主要なAPIの利用動向はのかなり予想しやすいものになっています。
 
   - key: features.hooks_ratios.takeaway.react2025
     t: |
-      When it comes to hooks, [useId](https://react.dev/reference/react/useId) has been gaining adoption quickly. And while [useEffect](https://react.dev/reference/react/useEffect) is still one of the most-used hooks APIs, it's also the one with the lowest satifaction ratio, confirming many developers' issues with the hook's finicky reactivity model.
+      hooksに関しては、[useId](https://react.dev/reference/react/useId)が急速に採用されてきています。また、[useEffect](https://react.dev/reference/react/useEffect)は依然として最も使用されているhooks APIの1つですが、満足度の比率が最低水準であり、多くの開発者が useEffect の扱いにくいリアクティブモデルに苦労しているという実態を改めて浮き彫りにしています。
 
   - key: features.new_apis_ratios.takeaway.react2025
     t: |
-      While **Server Components** and **Server Functions** are both slowly growing in popularity, [Suspense](https://react.dev/reference/react/Suspense) is the new feature with the highest adoption rate. 
+      **Server Components**と**Server Functions**はどちらも徐々に人気を高めていますが、[Suspense](https://react.dev/reference/react/Suspense)は最も高い採用率を持つ新機能です。
 
 
-      It also boasts a high satisfaction ratio, which sadly isn't the case for the aforementioned server APIs.
-
+      また、Suspenseは満足度も非常に高くなっています。残念ながら、先述したサーバー関連のAPIについては、まだそこまでの満足度には至っていません。
   - key: features.main_apis_pain_points.takeaway.react2025
     t: |
-      `forwardRef` has long been the bane of React developers, which is why seeing it [deprecated in React 19](https://react.dev/blog/2024/12/05/react-19#ref-as-a-prop) was such welcome news.
+      `forwardRef`は長い間React開発者の悩みの種でしたが、それが[React 19で非推奨になった](https://react.dev/blog/2024/12/05/react-19#ref-as-a-prop)ことは、まさに待望のニュースでした。
     aliases:
       - react_pain_points.main_apis_pain_points.takeaway.react2025
 
   - key: features.hooks_pain_points.takeaway.react2025
     t: |
-      Once again, React developers are coming through loud and clear with their annoyance at `useEffect`.
+      再び、Reactを使う開発者は`useEffect`に対する不満をはっきりと明確に示しています。
     aliases:
       - react_pain_points.hooks_pain_points.takeaway.react2025
 
   - key: features.new_apis_pain_points.takeaway.react2025
     t: |
-      As foreshadowed by previous charts, respondents have their fair share of gripes with **Server Components**.
+      以前のグラフで示唆されていたように、回答者は**Server Components**に対してかなりの不満を持っています。
     aliases:
       - react_pain_points.new_apis_pain_points.takeaway.react2025
 
   - key: features.reading_list.takeaway.react2025
     t: |
-      The `<ViewTransition>` API may still only be available in React Canary, but it's already generating a lot of curiosity among respondents, along with `<Profiler>`.
+      `<ViewTransition>` APIはまだReact Canaryでのみ利用可能ですが、`<Profiler>`とともに、すでに回答者の間で多くの関心を集めています。
 
   - key: libraries.all_libraries.takeaway.react2025
     t: |
-      **TanStack Query** garnered the most positive opinions overall, with **TanStack Start** not too far behind after **Zustand**, **shadcn/ui**, and **create-vite**.
+      **TanStack Query**は全体的に最も肯定的な意見を集め、**Zustand**、**shadcn/ui**、**create-vite**に続いて**TanStack Start**がそれほど遠くない位置にいます。
 
-      And echoing recent results from the [State of JavaScript survey](https://2025.stateofjs.com/en-US/libraries/), **Next.js** was the most commented-on library here as well.
+
+      そして、最近の [State of JavaScriptアンケート](https://2025.stateofjs.com/en-US/libraries/)の結果と同様、**Next.js**はここでも最もコメントされたライブラリでした。
 
   - key: libraries.tools_ratios_over_time.takeaway.react2025
     t: |
-      **shadcn/ui** stands out as the project with the fastest rise in usage, going from 20% to 56% in two years.
+      **shadcn/ui**は、2年間で20%から56%へと急上昇しており、今最も勢いのあるプロジェクトとして際立っています。
 
-      Meanwhile, **TanStack Start** made big waves despite being a relatively new project, going from 55% to 81% awareness in just one year!
+      一方、**TanStack Start**は比較的新しいプロジェクトであるにもかかわらず、わずか1年で認知度が55%から81%と、大きな波を起こしました!
 
   - key: component_libraries.component_libraries_ratios.takeaway.react2025
     t: |
-      While **MUI** (a.k.a. Material UI) is still number one in terms of usage, **shadcn/ui** is growing fast and on the verge of overtaking it for the top spot.
+      **MUI**（別名Material UI）は使用率では依然としてトップですが、**shadcn/ui**も急速に成長しており、トップの座を奪おうとしています。
 
   - key: component_libraries.component_libraries_cardinalities.takeaway.react2025
     t: |
-      A big proportion of users don't use any component library at all–while at the same time, those who *do* use one are likely to have tried out multiple options. This suggests the space isn't quite settled yet, and that there's still room for new entrants to make their mark.
+      ユーザーの大部分はコンポーネントライブラリを全く使用していません。一方で、使用している人は複数のオプションを試している傾向があります。これは、この分野は勢力図がかたまっていなく、新規参入者が存在感を示す余地がまだあることを示唆しています。
 
   - key: component_libraries.component_libraries_others.takeaway.react2025
     t: |
-      **Base UI** is another entrant in the very competitive space of headless UI libraries–in other words UI libraries that provide component behavior, but leave styling up to you. And with many **Radix** veterans as part of the team, it's definitely worth checking out if that's what you're after.
+      **Base UI**は、非常に競争の激しいヘッドレスUIライブラリ分野への新たな参入者です。ヘッドレスUIとは、コンポーネントの挙動のみを提供し、スタイリングについては開発者に委ねるライブラリのことです。そして、開発チームには多くの**Radix**のベテランがいるため、この種のライブラリを求めているのであれば間違いなくチェックする価値があります。
 
   - key: component_libraries.animation_libraries.takeaway.react2025
     t: |
-      Not every project needs fancy animations, but for those who do **Motion** has established itself as a serious option.
+      すべてのプロジェクトが派手なアニメーションを必要とするわけではありませんが、必要とする人にとって**Motion**は有力な選択肢として確立されています。
 
   - key: component_libraries.data_visualization_libraries.takeaway.react2025
     t: |
-      Despite not being a React-specific chart library, **Chart.js** still tops the rankings. 
+      React専用のチャートライブラリではないにもかかわらず、**Chart.js**は依然としてランキングのトップにいます。
 
 
-      Want to guess what library *we* use for the charts you see here? Trick question, they're all hand-coded from scratch!
+      ここにあるチャートに何のライブラリを使っているか、当ててみますか？実はこれ、ひっかけ問題なんです。全部一から手でコーディングして作ったものなんですよ！
 
   - key: component_libraries.form_libraries.takeaway.react2025
     t: |
-      Nobody likes dealing with forms, but when you can't help it **React Hook Forms** at least makes the whole thing a lot less painful.
+      フォームの扱いが好きな人はいませんが、避けられない場合、**React Hook Forms**を使うことで苦痛をはるかにやわらげてくれます。
 
   - key: component_libraries.react_form_patterns.takeaway.react2025
     t: |
-      The debate between controlled and uncontrolled form components isn't really one. Respondents mainly switch between either pattern; but if they need to pick then controlled forms are the clear winner.
+      制御されたフォームコンポーネントと制御されていないフォームコンポーネントをめぐる議論は、実際には議論にすらなっていません。多くの回答者は状況に応じて両方のパターンを使い分けていますが、選択する必要がある場合、制御されたフォームの方が圧倒的に支持されています。
 
   - key: component_libraries.css_tools.takeaway.react2025
     t: |
-      CSS-in-JS had its 15 minutes of fame, but the appearance of **Tailwind**, as well as the huge improvements in CSS itself in the last couple years, have put a big dent in its popularity.
+      CSS-in-JSは15分間は世界的な有名人でしたが、**Tailwind**の登場と、ここ数年でのCSS自体の大幅な改善により、その人気に大きな打撃を与えました。
 
   - key: component_libraries.component_libraries_pain_points.takeaway.react2025
     t: |
-      Developers seem to have a love/hate relationship with **Tailwind**, with some citing it as a pain point while others see it as the answer to their UI troubles.
+      開発者は**Tailwind**と愛憎の関係にあるようで、一部の人はそれを問題点として挙げている一方で、UI開発の悩みを一掃してくれる救世主だと考える人もいます。
 
   - key: state_management.state_management_ratios.takeaway.react2025
     t: |
-      **Redux** and its successor **Redux Toolkit** have long been the most widespread state management solutions, but **Zustand** is gaining ground fast. And since it's also the most popular in terms of user satisfaction, it's fair to say it should be considered the leader in this category.
+      **Redux**とその後継である**Redux Toolkit**は長い間最も広く使われている状態管理ソリューションでしたが、**Zustand**は急速に勢力を伸ばしています。ユーザー満足度の面でもトップクラスの人気を誇っていることを踏まえれば、今やZustandはこの分野における実質的なリーダーであると言っても過言ではないでしょう。
 
   - key: state_management.state_management_cardinalities.takeaway.react2025
     t: |
-      Many respondents do not use state management tools at all, showing that first-party APIs like `useState` or `useContext` can often be sufficient to get the job done.
+      多くの回答者は状態管理ツールを全く使用しておらず、`useState`や`useContext`のようなファーストパーティのAPIが、やりたいことを行うのに十分であることが多いことを示しています。
 
   - key: state_management.state_management_others.takeaway.react2025
     t: |
-      While **TanStack Query** may be perceive as a data-querying library, the fact that it can also handle state management makes it a great addition to the category.
+      **TanStack Query**はデータクエリライブラリとして認識されているかもしれませんが、状態管理も処理できるという事実により、このカテゴリーにおいても優れたツールといえます。
 
   - key: state_management.state_management_pain_points.takeaway.react2025
     t: |
-      A good state management solutions must find a precarious balance: too limited, and it won't offer enough power to be adopted. Too complex, and developer experience will suffer.
+      優れた状態管理ソリューションには、絶妙なバランス感覚が求められます。機能が限定的すぎれば、実用性に欠け採用されることはありません。逆に複雑すぎれば、開発体験を損なうことになります。
 
   - key: data_loading.data_loading_ratios.takeaway.react2025
     t: |
-      **TanStack Query** may not yet be the most widespread data-loading library yet, but the fact that it's climbing fast while boasting the top satisfaction ratio make it an easy pick.
+      **TanStack Query**は、データフェッチ用ライブラリとしてまだ最大手とは言えないかもしれませんが、急速にシェアを伸ばしており、かつ満足度でもトップを誇っているという事実は、これを選択肢に入れる十分な理由になります。
 
   - key: data_loading.data_loading_cardinalities.takeaway.react2025.takeaway.react2025
     t: |
-      Similar to state management, many respondents do not (yet) see the need to involve dedicated libraries when it comes to data loading.
+      状態管理と同様に、多くの回答者はデータローディングに関して専用のライブラリを使用する必要性を(まだ)感じていません。
 
   - key: data_loading.data_loading_others.takeaway.react2025
     t: |
-      The native `fetch` function can still do the job in a pinch!
+      標準の`fetch`関数だけでもいざという時に十分に対応できます！
 
   - key: data_loading.data_loading_pain_points.takeaway.react2025
     t: |
-      Caching is one of those things that *sounds* simple (just update the cache when something changes, right?), but always ends up quite tricky to master in practice. And it's certainly a concern when it comes to loading and managing data on the client.
+      キャッシュは「何かが変わった時にキャッシュを更新すればいいだけ」と、一見単純に聞こえますが、実際に使いこなそうとすると常に難しさがつきまとうものです。クライアントサイドでのデータローディングや管理に関しては、たしかな懸念事項です。
 
   - key: back_end_infrastructure.meta_frameworks_ratios.takeaway.react2025
     t: |
-      **TanStack Start** had barely been launched in 2024, and had just come out of beta in 2025, yet the framework is already gaining ground, building on the success of **TanStack Query** in the Data Loading category.
+      **TanStack Start**は2024年に産声を上げ、2025年にベータ版から脱したばかりですが、データローディングカテゴリーでの**TanStack Query**の成功を基盤として、すでに勢力を伸ばしています。
 
 
-      Said success will likely come at the expense of **Next.js**, which might remain the category leader for now, but has been experiencing a dangerous drop in satsifaction over the past couple years.
+      その成功は、おそらく**Next.js**の犠牲の上に成り立つでしょう。Next.jsは今のところカテゴリーのリーダーの地位を維持していますが、ここ数年間で満足度が危険なレベルまで低下しています。
 
   - key: back_end_infrastructure.meta_frameworks_ratios.note.react2025
     t: |
-      We decided to add **React Router** to the chart since its [framework mode](https://reactrouter.com/start/modes) means it can now be used stand-alone as a meta-framework. 
+      **React Router**の[framework mode](https://reactrouter.com/start/modes)により、メタフレームワークとして単独で使用できるようになったため、チャートに追加することにしました。
 
 
-      But the fact that **Remix** is also on the chart is admittedly quite confusing, and will have to be reconsidered for the survey's next edition.
+      しかし、**Remix**もチャートに載っているというのは、正直なところ非常に混乱を招くものであり、次回のアンケートでは再考する必要があります。
 
   - key: back_end_infrastructure.back_end_infrastructure_cardinalities.takeaway.react2025
     t: |
-      Once again many respondents are eschewing this entire category altogether.
+      再び、回答者の多くがこのカテゴリー自体を完全に避けるという結果になりました。
 
   - key: back_end_infrastructure.meta_frameworks_others.takeaway.react2025
     t: |
-      **TanStack Router** is rouding out the TanStack trio with yet another nice showing here.
+      **TanStack Router**は、ここでもまた素晴らしい成績を収めて、TanStackトリオを完成させています。
 
   - key: back_end_infrastructure.build_tools.takeaway.react2025
     t: |
-      For the first time in a “State of…” survey, **Vite** has dethroned **Webpack** as the number one build tool!
+      「State of…」アンケートで初めて、**Vite**が**Webpack**を抜いてナンバーワンのビルドツールとなりました!
 
   - key: back_end_infrastructure.hosting.takeaway.react2025
     t: |
-      **Vercel** has done a remarkable job of beating the much larger **AWS**, at least among React users. Yet **Cloudflare** has been making serious moves towards the hosting market, and may soon come for both.
+      **Vercel**は、少なくともReactユーザーの間では、巨大企業である**AWS**を相手に見事な快進撃を続けています。しかし、ここへきて**Cloudflare**がホスティング市場への本格的な動きを見せており、近い将来、両者の脅威となるかもしれません。
 
   - key: back_end_infrastructure.other_services.takeaway.react2025
     t: |
-      In addition to being a great error-tracking service, **Sentry** has also ensured a large marketshare through marketing moves such as acquiring the [Syntax](https://syntax.fm/) podcast.
+      **Sentry**は優れたエラートラッキングサービスであるだけでなく、ポッドキャスト「[Syntax](https://syntax.fm/)」の買収といったマーケティング戦略を展開することで、市場での大きなシェアを確立しています。
 
   - key: back_end_infrastructure.backend_language.takeaway.react2025
     t: |
-      Even though Node.js has been around for quite a while now, it used to be the case that the back-end was pretty much up for grabs when it came to languages. But the tide has turned, and today it just makes sense to write full-stack JavaScript apps, especially when able to share types and code between both sides.
+      Node.jsが登場してからかなりの年月が経ちましたが、かつてバックエンドの開発言語といえば、さまざまな選択肢が乱立している状態でした。 しかし、今やその潮流は変わり、フロントエンドとバックエンドの間で型定義やコードを共有できるという利点を考えれば、現在、フルスタックなJavaScriptアプリを開発するのは非常に理にかなった選択と言えるでしょう。
 
   - key: back_end_infrastructure.back_end_infrastructure_pain_points.takeaway.react2025
     t: |
-      Speaking of, ensuring **end-to-end typesafety** is actually the biggest obstacle respondents still struggle with on the back-end.
+      そういえば、回答者がバックエンドでまだ苦労している最大の障害は、実は、**エンドツーエンドの型安全性**を確保することです。
 
   - key: tools.testing.takeaway.react2025
     t: |
-      While **Vitest** is on the verge of establishing itself as the top testing solution for React, for now **Jest** is still number one.
+      **Vitest**がReactのトップテストソリューションとしての地位を確立しようとしていますが、今のところ**Jest**が依然ナンバーワンです。
 
   - key: tools.renderers.takeaway.react2025
     t: |
-      React may first and foremost be a web development library, but this chart is a nice reminder that it can actually be used in a lot more different contexts!
+      Reactは何よりもまずWeb開発ライブラリですが、このチャートをみると、実ははるかに多くの異なるコンテキストで使用できることを改めて実感させられます！
 
   - key: tools.validation.takeaway.react2025
     t: |
-      “Do you use a validation library?” ”Yup, **Zod**, it's a joy to use” “…wait, so which one do you use again?”
+      「バリデーションライブラリを使っていますか？」「うん、**Zod**だよ、最高に使いやすいんだ」「…待って、何使ってるって？」
 
   - key: tools.auth.takeaway.react2025
     t: |
-      **Auth0** is notable in that it relies on a third-party service to handle auth for you, and that ease of use seems to have pushed it at the top of the rankings.
+      **Auth0**はサードパーティのサービスに認証を任せられる点が大きな特徴です。その使いやすさがランキングのトップに押し上げたようです。
 
   - key: tools.mobile_development.takeaway.react2025
     t: |
-      **React Native** is still going strong and **Expo** just builds on top of that success to offer even more possibilities.
+      **React Native**は依然として好調で、**Expo**はその成功を土台として、さらに多くの可能性を切り拓いています。
 
   - key: usage.what_do_you_use_react_for.takeaway.react2025
     t: |
-      It won't come as any surprise that most respondents still use React to build **web apps**. But the chart also shows that **design systems** are now an integral part of the web development process.
+      ほとんどの回答者が依然としてReactを使用して**Webアプリ**を構築していることに驚きはないでしょう。しかし、この図は**デザインシステム**が今やWeb開発プロセスの不可欠な部分であることも示しています。
 
   - key: usage.react_version.takeaway.react2025
     t: |
-      While survey respondents tend to be more plugged in than the community at large, it's still notable to see that so many of them had already upgraded to React 19.
+      アンケート回答者はコミュニティ全体よりも情報に敏感な傾向がありますが、それでも多くの人がすでにReact 19にアップグレードしていることは注目に値します。
 
   - key: usage.js_app_patterns.takeaway.react2025
     t: |
-      While modern frameworks like Next.js offer granular rendering as one of their key selling points, it's important to note that most respondents still rely on the big three rendering patterns (SPA, SSR, and SSG).
+      Next.jsのような最新のフレームワークは、きめ細かなレンダリングを主な売りにしていますが 、ほとんどの回答者が依然として3大レンダリングパターン(SPA、SSR、SSG)に依存しているという点には注意が必要です。
 
   - key: usage.new_features.takeaway.react2025
     t: |
-      Most of us are excited for the **React Compiler**, which promises to improve performance without requiring any major effort on our part. 
+      私たちの多くは**React Compiler**に期待しています。私たちが大きな努力をせずともパフォーマンスが向上することを約束してくれています。
 
-
-      Conversely, although **Server Components** can also help make web apps more performant, the fact that their roll-out has at times involved quite a few headaches for developers–combined with the feature already being a few years old at this point–explains the relative lack of excitement around them.
+      その一方で、**Server Components**もWebアプリのパフォーマンス向上に寄与する存在ではありますが、その導入過程で開発者が度々多くの困難に直面してきたことも事実です。 登場からすでに数年が経過しているという背景もあり、現在の開発コミュニティにおける期待感は、かつてほど高まっていないのが現状です。
 
   - key: react_pain_points.usage_pain_points.takeaway.react2025
     t: |
-      When it comes to performance, React has always adopted a bit of a “chef's choice” approach: just trust the framework to know best, and don't worry about managing every re-render.
+      パフォーマンスに関して、Reactは常に少し「シェフのおまかせ」アプローチを採用してきました。つまり、一つ一つの再レンダリングを細かく制御しようとせず、フレームワークに任せるのが一番だと信頼しましょう。
 
-
-      Yet developers can quickly run into frustrating situations when they *do* need more granular control. So we can only hope the new [React Compiler](https://react.dev/learn/react-compiler) will help alleviate some of those pain points.
+      しかし、開発者がより細かい制御を*必要とする*場合、たちまちイライラする状況に直面します。それゆえに、新しい[React Compiler](https://react.dev/learn/react-compiler)がこれらの問題点を軽減してくれることを願うばかりです。
 
   - key: usage.meta_involvement_opinion.takeaway.react2025
     t: |
-      Few tech companies have generated more drama throughout their history than Meta. Yet that hasn't translated in a negative view of the company's stewardship of React, with most respondents viewing the company in a neutral or positive way.
+      Meta社ほど、その歴史の中で数多のドラマを生み出してきたテック企業は稀でしょう。しかし、それがReactの運営に対する不信感に繋がっているかと言えばそうではなく、回答者の多くは同社の管理体制を中立的、あるいは肯定的に捉えています。
 
   - key: usage.vercel_involvement_opinion.takeaway.react2025
     t: |
-      This isn't quite true when it comes to Vercel, the other big player in the React ecosystem. 
+      Reactエコシステムのもう一つの大きなプレーヤーであるVercelに関しては、これは必ずしも当てはまりません。
 
-
-      While the majority is still neutral, negative opinions do outweigh positive ones, with respondents citing lock-in fears, a push for unwanted features, and the founder's controversial political stances as motivations for their negative outlook.
+      依然として過半数は中立的な立場をとっていますが、否定的な意見が肯定的なものを上回っており、その背景には、ロックインへの懸念、不要な機能の押し付け、そして創業者の政治的立場をめぐる物議などが、ネガティブな見方をする要因として挙げられています。
 
   - key: usage.react_foundation_involvement_opinion.takeaway.react2025
     t: |
-      In contrast to either Meta or Vercel, sentiment about the recently-announced [React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation) is overwhelmingly positive, indicating that the community welcomes this move towards more open and neutral governance.
+      MetaやVercelに対する反応とは対照的に、先日発表された[React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation)への世論は圧倒的に好意的であり、よりオープンで中立的なガバナンスへの移行をコミュニティが心から歓迎していることの表れだと言えるでしょう。
 
   - key: usage.state_of_react.takeaway.react2025
     t: |
-      While a slight downward trend in overall happiness can be observed, it's far too early to conclude whether it's something to worry about or just a blip in the data. You'll have to tune back in next year to find out!
+      幸福度全体にわずかな低下傾向が見られますが、これが懸念すべき事態なのか、あるいは単なる一時的な数値の変動に過ぎないのかを判断するには時期尚早です。その答えについては、来年の報告をお待ちください！
 
   - key: resources.learning_methods.takeaway.react2025
     t: |
-      The new React docs are even better than the original, and that quality explains why they remain the best way to learn React.
+      新しいReactドキュメントは旧版よりもさらに優れており、その品質の高さが、Reactを学ぶ最良の方法であり続けている理由たりえています。
 
-
-      But more and more, instead of consulting documentation directly, developers rely on AI tools to interface with it, a situation that is [already having unintended impacts](https://www.leanware.co/insights/tailwind-ai-crisis) on some projects.
+      しかし最近では、ドキュメントを直接参照する代わりに、AIツールを介して情報を得る開発者が増えています。こうした状況は、一部のプロジェクトにおいて[すでに予期せぬ影響](https://www.leanware.co/insights/tailwind-ai-crisis)を及ぼし始めています。
 
   - key: resources.blogs_news_magazines.takeaway.react2025
     t: |
-      Sebastien Lorber's **This Week in React** gained two ranks since last survey to establish itself as the definitive React news source!
+      Sebastien Lorber氏の**This Week in React**は、前回のアンケートから2ランク上昇し、Reactニュースソースの決定版としての地位を確立しました!
 
   - key: resources.courses.takeaway.react2025
     t: |
-      Despite larger entities like **Udemy** and **Frontend Masters** (who is a sponsor of this survey) topping the rankings, it's nice to see that individual teachers such as **Wes Bos** and Josh Comeau (with **The Joy of React**) can still make their mark.
+      **Udemy**や**Frontend Masters**(この調査のスポンサーです)のような大きな組織がランキングのトップにいるにもかかわらず、**Wes Bos**氏やJosh Comeau氏(**The Joy of React**)のような個人講師が今なお確かな存在感を示しているのは喜ばしいことです。
 
   - key: resources.podcasts.takeaway.react2025
     t: |
-      As usual, **Syntax** reigns supreme in podcast-land. Yet many respondents don't listen to programming podcasts at all, possibly due to the growing popularity of YouTube developer content.
+      ポッドキャスト界隈では、例のごとく、**Syntax**が圧倒的な人気を誇っています。一方で、全くプログラミング系のポッドキャストを聴かないという回答者も多く、これはYouTubeの開発者向けコンテンツの人気が高まっている影響かもしれません。
 
   - key: resources.video_creators.takeaway.react2025
     t: |
-      Thanks to frequent uploads covering all aspects of web development and AI news,**Theo** has managed to pull ahead and solidify his lead.
+      ウェブ開発全般から最新のAIニュースまで網羅した頻繁な投稿により、**Theo**は他を突き放し、その首位の座を確固たるものにしました。
 
   - key: resources.people.takeaway.react2025
     t: |
-      In the age of omnipresent video content, it's nice to see that developers who opt for more traditional communication methods are still able to build a following.
+      動画コンテンツがどこにでも溢れている今の時代に、より伝統的なコミュニケーション方法を選択する開発者がまだフォロワーを構築できることは素晴らしいことです。
 
   - key: resources.other_surveys.takeaway.react2025
     t: |
-      Given that the “State of…” surveys share a common mailing list, it makes sense that there's also a lot of overlap in their audiences.
-
+      「State of…」シリーズのアンケートは共通のメーリングリストを使用しているため、回答者層が大幅に重複しているのも納得がいきます。
   # - key: xxx.takeaway.react2025
   #   t: |
 
@@ -355,37 +354,38 @@ translations:
   - key: conclusion.react2025.aurora_scharff
     t: |
 
-      <span class="first-line">2025 was a big year for React.</span>
+      <span class="first-line">2025年はReactにとって激動の年でした。</span>
 
 
-      React 19 shipped in late 2024, and a lot of people were afraid React would be leaving the client behind. [Create-React-App was finally sunset](https://react.dev/blog/2025/02/14/sunsetting-create-react-app) in February after community pressure when it broke in React 19. By May, [Remix announced](https://remix.run/blog/wake-up-remix) that Remix 3 was moving away from React. Meanwhile [Dan Abramov](https://overreacted.io/) returned to bless us with his React Server Components blog posts and [RSC Explorer](https://rscexplorer.dev/), explaining the purpose behind RSCs and how they actually worked. 
+      React 19は2024年後半にリリースされ、多くの人々はReactがクライアントサイドを置き去りにするのではないかと不安を抱きました。コミュニティからの強い要望もあり、React 19での不具合をきっかけに、2月にはついに[Create-React-Appは廃止されました](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)。5月には、[Remix 3がReactから離脱することが発表され](https://remix.run/blog/wake-up-remix)大きな波紋を呼びました。 その一方で、[Dan Abramov](https://overreacted.io/)氏がReact Server Components（RSC）に関するブログ記事や[RSC Explorer](https://rscexplorer.dev/)を携わって戻り、RSCの真の目的や仕組みを改めて丁寧に紐解いてくれました。
 
 
-      Yet the question remained: where is React going?
+      しかし、疑問は残りました。Reactはどこへ向かっているのでしょうか。
 
 
-      React Conf in October answered that. The [React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation) was announced to give React a home beyond any single company. [Compiler 1.0](https://react.dev/blog/2025/10/07/react-compiler-1) went stable so we can stop littering our code with `useMemo` and `useCallback`. React 19.2 shipped with `useEffectEvent` and `<Activity>`; while `<ViewTransition>` in React Canary is making smooth animations accessible to the rest of us. 
+      10月に開催されたReact Confで、その答えが示されました。 まず、Reactが特定の企業に依存せず、自律したコミュニティとして発展し続けるための拠点として「[React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation)」の設立が発表されました。 技術面では「[Compiler 1.0](https://react.dev/blog/2025/10/07/react-compiler-1)」が安定版となり、これからは `useMemo` や `useCallback` でコードを埋め尽くす必要がなくなります。 また、React 19.2では `useEffectEvent` や `<Activity>` が導入され、React Canaryの `<ViewTransition>` によって、誰もが手軽に滑らかなアニメーションを実装できるようになりました。
 
 
-      [Ricky Hanlon's async demo](https://www.youtube.com/watch?v=B_2E96URooA) brought together everything the team had been working on for years, and the [Async React Working Group](https://github.com/reactwg/async-react/discussions) is helping libraries catch up with the patterns. Clearly, client-side React isn't going anywhere.
+      Ricky Hanlon氏による[非同期レンダリングのデモ](https://www.youtube.com/watch?v=B_2E96URooA)は、チームが長年取り組んできた成果の集大成でした。 また、[Async React Working Group](https://github.com/reactwg/async-react/discussions)を通じて、周辺ライブラリもこれらの新しいパターンへの対応を進めています。 こうした動きを見れば、クライアントサイドのReactがどこかへ行ってしまうことがないことは明らかです。
 
 
-      After all, SPAs still outnumber SSR apps in production, with TanStack Query remaining the default for async state management, and TanStack Start emerging as a promising client-first alternative to Next.js. As an example, [T3 Chat recently migrated](https://x.com/theo/status/1997406196660400228) to leverage its SPA behaviors. 
+      結局のところ、実運用されているアプリケーションでは依然としてSSRよりもSPAの方が主流です。非同期の状態管理にはTanStack Queryがデファクトとして使われ続けていますし、TanStack StartはNext.jsに対する有望なクライアントファーストの代替手段として台頭しています。 例えば[T3 Chatの最近の移行事例](https://x.com/theo/status/1997406196660400228)でも、SPAならではの挙動を最大限に活かすための構成が採用されています。
 
 
-      Opinions on server-side are more divided, with the growing list of directives (`"use cache"`, `"use workflow"`) sparking debate and [great memes](https://x.com/DavidKPiano/status/1981470720166154567), while the [December CVE](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components) reminded us RSCs are still maturing. On the server-first side, Next.js introduced [Cache Components](https://nextjs.org/docs/app/getting-started/cache-components) as an entirely new approach and [RedwoodSDK](https://rwsdk.com/) went all-in on RSC.
+      サーバーサイドに関する意見は分かれています。`"use cache"` や `"use workflow"` といったディレクティブが次々と増えていることが議論を呼び、[秀逸なミーム](https://x.com/DavidKPiano/status/1981470720166154567)も生まれています。その一方で、[12月に報告されたCVE](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components)は、RSCがまだ発展途上であることを改めて印象付けました。 サーバーファーストの動きとしては、Next.jsが全く新しいアプローチとして[Cache Components](https://nextjs.org/docs/app/getting-started/cache-components)を導入し、[RedwoodSDK](https://rwsdk.com/)はRSCを全面的に採用する道を選んでいます。
 
 
-      React has also become the default output when you prompt for UI. Andrej Karpathy coined ["vibe coding"](https://x.com/karpathy/status/1886192184808149383) in February, and tools like [v0](https://v0.app/), [Cursor](https://cursor.com/), [Lovable](https://lovable.dev/), and [Bolt.new](https://bolt.new/) made it a reality, empowering anyone to build apps and bring their visions to life with [shadcn/ui](https://ui.shadcn.com/) as the go-to. 
+      Reactは、UIのプロンプトを出すときのデフォルトの出力にもなりました。Andrej Karpathy氏は2月に["vibe coding"](https://x.com/karpathy/status/1886192184808149383)という言葉を提唱し、[v0](https://v0.app/)、[Cursor](https://cursor.com/)、[Lovable](https://lovable.dev/)、[Bolt.new](https://bolt.new/)などのツールがそれを現実にし、誰もがアプリを構築し、[shadcn/ui](https://ui.shadcn.com/)を活用することで自分のアイディアを形にすることができるようになりました。
 
 
-      It's a lot to keep up with, but [Theo Browne](https://www.youtube.com/@t3dotgg) pivoted to AI and somehow covers it all to his ever-growing audience, and thankfully [This Week in React](https://thisweekinreact.com/) keeps landing in our inboxes. 
+      追いつくのは大変ですが、[Theo Browne](https://www.youtube.com/@t3dotgg)氏は活動の軸をAIに転換し、どういうわけかそのすべてを増え続ける視聴者に伝えています。そして、ありがたいことに[This Week in React](https://thisweekinreact.com/)は私たちのメールボックスに届き続けています。
 
 
-      So even though 2025 had its share of chaos, React is still in a great place. I'm excited to ship faster than ever, and as someone in developer education, curious how AI reshapes the way we learn. Can't wait to see what's next!
+      2025年はそれなりに混乱もありましたが、Reactは依然として素晴らしい状態にあります。これまで以上のスピードで開発を進められることにワクワクしていますし、開発者教育に携わる身としては、AIが学習のあり方をどう変えていくのか非常に興味深いです。これからの展開が楽しみでなりません！
 
   - key: conclusion.react2025.aurora_scharff.bio
-    t: React Certification Lead at [certificates.dev](https://certificates.dev/), React & Next.js Educator
+    t:
+      [certificates.dev](https://certificates.dev/)のReact認定リーダー、React & Next.jsの講師
 
   ###########################################################################
   # About
@@ -393,48 +393,50 @@ translations:
 
   - key: about.content.react2025
     t: |
-      The 2025 State of React survey ran from November 19, 2025 to January 13, 2026, and collected 3,760 responses. The results were published on February 15, 2025. The survey is run by [Devographics](https://devographics.com/). 
+      2025年のState of Reactアンケートは、2025年11月19日から2026年1月13日まで実施され、3,760件の回答を得ました。結果は2025年2月15日に公開されました。このアンケートは[Devographics](https://devographics.com/)によって運営されています。
 
-      The State of React logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      State of ReactのロゴとTシャツは[Christopher Kirk-Nielsen](http://chriskirknielsen.com/)氏によってデザインされました。
 
-      ### Survey Goals
+      ### アンケートのゴール
 
-      This survey was created to identify upcoming trends in the React ecosystem in order to help developers make technological choices. 
+      このアンケートは、Reactエコシステムにおける今後のトレンドを明らかにし、開発者の皆さまが技術選定を行う際の判断をサポートすることを目的として作成されました。
 
-      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why features or technologies may sometimes be omitted even if they are currently widespread 
+      そのため、このアンケートは、流行を分析することよりも、今後数年間に訪れる変化を予測することに重点を置いています。現在広く普及している機能や技術であっても、調査対象から除外している場合があるのはこのためです。
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire React ecosystem. 
+      また、この結果はあくまで**開発者コミュニティの特定の一部を切り取ったもの**として捉えるべきであり、Reactエコシステム全体を代表するものではありません。
 
-      ### Survey Design
+      ### アンケートの設計
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues/262). 
+      今回のアンケートは、昨年度の調査内容をベースにしつつ、[GitHub上](https://github.com/Devographics/surveys/issues/262)でアンケートの概要について議論を行うオープンフィードバック期間を設けて設計されました。
 
-      All survey questions were optional. 
+      すべてのアンケートの質問は任意回答項目でした。
 
-      ### Survey Audience
+      ### アンケートの対象者
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      このアンケートはオンラインで一般公開され、回答者の絞り込みや選別は一切行われませんでした。回答者は主に、過去のアンケート協力者（専用のメーリングリストで通知）と、SNS経由のユーザーで構成されています。
 
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the Metadat section's "Sources" chart. 
+      なお、各フレームワークやライブラリなどの運営側が、利用者に対して調査への回答を呼びかけることは制限されていません。実際に、バナー広告やツイートなどを通じて積極的に周知を行ったケースもあります。トラフィックソースの詳細な内訳については、Metadataセクションにある「Sources」チャートをご確認ください。
 
-      ### Project Funding
+      ### プロジェクトの資金調達
 
-      Funding from this project comes from a variety of sources:
+      このプロジェクトの資金は、さまざまなソースから得られています:
 
-      - **T-shirt sales**. 
+      - **Tシャツの販売**。
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **スポンサーリンク**: 各ページの下部にある推奨リソースへのリンクは、パートナーの[Frontend Masters](https://frontendmasters.com/)によって提供されています。
 
-      - **Direct Funding**: this year, [Google](https://www.google.com/), [GitNation](https://gitnation.com/), [Algolia](https://www.algolia.com/), [Storyblok](https://www.storyblok.com/), [JetBrains](https://www.jetbrains.com/webstorm/) and [TokyoDev](https://www.tokyodev.com/) funded my work on the surveys. 
+      - **直接的な資金提供**: 今年、[Google](https://www.google.com/)、[GitNation](https://gitnation.com/)、[Algolia](https://www.algolia.com/)、[Storyblok](https://www.storyblok.com/)、[JetBrains](https://www.jetbrains.com/webstorm/)、[TokyoDev](https://www.tokyodev.com/)からこの調査活動に対する資金援助をいただきました。
 
-      Any contribution or sponsorship is greatly appreciated. We would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      皆様からのご支援やスポンサーシップを心よりお待ちしております。特に、Webエコシステムにおいて中心的な役割を担うブラウザベンダーの皆様とは、ぜひ密接な協力体制を築いていきたいと考えています。
 
       ### Technical Overview
+      ### 技術的な概観
 
       You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
+      アンケートがどのように実施されているかについての詳細な技術的概要は、[こちら](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a)で確認できます。
 
       **Note: This is *not* an official React survey, and the survey team is not affiliated with Meta, Vercel, or the React team.**
+      **注: これはReactの*公式アンケートではありません*。また、調査チームはMeta社、Vercel社、およびReactチームとは関係がありません。**
 
       ### Special Thanks
-
-      Special thanks to Paul McMahon, Marc Grabanski, and Sébastien Lorber.
+      Paul McMahon氏、Marc Grabanski氏、Sébastien Lorber氏に心より感謝申し上げます。
