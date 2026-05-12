@@ -229,7 +229,7 @@ translations:
     t: Slack、Discord、Teamsなどで共有してください。
 
   - key: finish.share_social
-    t: 2. SNSで共有する
+    t: SNSで共有する
 
   # share
   - key: general.share_subject
