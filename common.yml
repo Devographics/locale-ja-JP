@@ -749,6 +749,81 @@ translations:
   - key: options.job_title.back_end_dev
     t: バックエンドデベロッパー・エンジニア
 
+  # work_areas
+  - key: user_info.work_areas
+    t: 担当分野
+  - key: user_info.work_areas.question
+    t: あなたが日常的に携わっているソフトウェア開発の分野をすべて選んでください。
+
+  - key: options.work_areas.web_dev
+    t: Web開発
+  - key: options.work_areas.native_dev
+    t: ネイティブアプリ開発
+  - key: options.work_areas.infrastructure
+    t: インフラ
+  - key: options.work_areas.data_ai
+    t: データ／AI
+  - key: options.work_areas.management
+    t: マネジメント
+  - key: options.work_areas.other
+    t: その他
+
+  - key: options.work_areas.front_end
+    t: フロントエンド開発
+  - key: options.work_areas.front_end_js
+    t: フロントエンド開発（JS/TS）
+  - key: options.work_areas.front_end_css
+    t: フロントエンド開発（CSS）
+  - key: options.work_areas.back_end
+    t: バックエンド開発
+  - key: options.work_areas.mobile
+    t: モバイルアプリ開発
+  - key: options.work_areas.desktop
+    t: デスクトップアプリ開発
+  - key: options.work_areas.devops
+    t: DevOps
+  - key: options.work_areas.qa_testing
+    t: 品質保証（QA）
+  - key: options.work_areas.sre
+    t: サイト信頼性エンジニアリング（SRE）
+  - key: options.work_areas.platform_engineering
+    t: プラットフォームエンジニアリング
+  - key: options.work_areas.data_engineering
+    t: データエンジニアリング・データ処理
+  - key: options.work_areas.ai_llm
+    t: AI／LLMアプリケーション開発
+  - key: options.work_areas.machine_learning
+    t: 機械学習
+  - key: options.work_areas.security
+    t: セキュリティ
+  - key: options.work_areas.performance
+    t: パフォーマンス最適化
+  - key: options.work_areas.embedded_software
+    t: 組み込みソフトウェア
+  - key: options.work_areas.game_development
+    t: ゲーム開発
+  - key: options.work_areas.systems_design
+    t: システム設計・アーキテクチャ
+  - key: options.work_areas.devrel
+    t: デベロッパーリレーションズ（DevRel）
+  - key: options.work_areas.tooling
+    t: 開発ツール
+  - key: options.work_areas.cloud
+    t: クラウドインフラ
+  - key: options.work_areas.accessibility
+    t: アクセシビリティテスト
+
+  - key: options.work_areas.people_management
+    t: ピープルマネジメント
+  - key: options.work_areas.technical_leadership
+    t: 技術リーダーシップ
+  - key: options.work_areas.project_management
+    t: プロジェクトマネジメント
+  - key: options.work_areas.product_management
+    t: プロダクトマネジメント
+  - key: options.work_areas.hiring_interviewing
+    t: 採用・面接
+
   # JavaScript proficiency
   - key: options.javascript_proficiency.0
     t: JavaScriptをまったく書けない
@@ -1055,17 +1130,17 @@ translations:
   - key: options.industry_sector.cloud_computing
     t: クラウドコンピューティング
   - key: options.industry_sector.consumer_electronics
-    t: Consumer Electronics
+    t: 家電
   - key: options.industry_sector.food
-    t: Food
+    t: 食品
   - key: options.industry_sector.hospitality_tourism
-    t: Hospitality / Tourism
+    t: 宿泊・観光
   - key: options.industry_sector.fashion
-    t: Fashion
+    t: ファッション
   - key: options.industry_sector.robotics
-    t: Robotics
+    t: ロボティクス
   - key: options.industry_sector.saas
-    t: SaaS (Software as a Service)
+    t: SaaS（Software as a Service）
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
