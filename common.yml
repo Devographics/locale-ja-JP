@@ -824,6 +824,30 @@ translations:
   - key: options.work_areas.hiring_interviewing
     t: 採用・面接
 
+  - key: options.work_areas.design
+    t: デザイン
+  - key: options.work_areas.product_design
+    t: プロダクトデザイン
+  - key: options.work_areas.ui_ux_design
+    t: UI/UXデザイン
+  - key: options.work_areas.user_research
+    t: ユーザーリサーチ
+  - key: options.work_areas.design_systems
+    t: デザインシステム
+
+  - key: options.work_areas.quality_assurance
+    t: 品質保証
+  - key: options.work_areas.manual_testing
+    t: 手動テスト
+  - key: options.work_areas.test_automation
+    t: テスト自動化
+  - key: options.work_areas.performance_testing
+    t: パフォーマンステスト
+  - key: options.work_areas.accessibility_testing
+    t: アクセシビリティテスト
+  - key: options.work_areas.quality_engineering
+    t: 品質エンジニアリング
+
   # JavaScript proficiency
   - key: options.javascript_proficiency.0
     t: JavaScriptをまったく書けない
