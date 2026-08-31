@@ -233,6 +233,52 @@ translations:
   - key: experience.tell_us_more_no_value
     t: "You didn't pick any response. Tell us why:"
 
+  - key: user_info.gender.snowball_sampling
+    t: >
+      ### このアンケートをより多くの女性に広めるのにご協力ください！
+
+
+      このアンケートへの女性の参加を増やしたいと考えています。そのための方法の一つとして、「[スノーボール・サンプリング](https://github.com/Devographics/surveys/issues/258)」と呼ばれる手法を試しています。具体的には、あなたのような女性回答者の方に、このアンケートのリンクを他の女性開発者にも共有していただくというものです。
+
+
+      ご協力いただける場合は、以下の特別な共有リンクをご利用ください。このリンクを使っていただくことで、この取り組みの効果を追跡することができます。
+
+  # survey finish page
+
+  - key: finish.copy
+    t: コピー
+  - key: finish.copied
+    t: コピーしました！
+
+  - key: finish.goal_heading
+    t: アンケートにご協力いただきありがとうございます！ ですが、まだ皆さまのお力が必要です…
+
+  - key: finish.goal_heading.description
+    t: 今年は、より代表性が高く正確なデータにするために、少なくとも **{count} 件のアンケート回答** を集めたいと考えています。
+
+  - key: finish.goal_currently
+    t: >
+      現在：
+
+  - key: finish.goal_goal
+    t: >
+      目標:
+
+  - key: finish.goal_responses
+    t: 件の回答
+
+  - key: finish.share_colleagues
+    t: 友人や同僚と共有する
+
+  - key: finish.share_colleagues.description
+    t: Slack、Discord、Teamsなどで共有してください。
+
+  - key: finish.share_social
+    t: SNSで共有する
+
+  - key: finish.review_reading_list
+    t: 読書リストを確認する
+
   ###########################################################################
   # Response
   ###########################################################################
